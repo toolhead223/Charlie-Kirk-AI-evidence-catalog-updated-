@@ -1,0 +1,2 @@
+@keyframes ellipsesAnimation{0%,30.43%{content:"."}34.78%,65.21%{content:".."}69.56%,to{content:"..."}}.ellipsesAnimation:after{content:".";display:inline-block;width:10px;animation:ellipsesAnimation 2.3s ease-in-out infinite}
+/*# sourceMappingURL=a13215ddde93a48f.css.map*/

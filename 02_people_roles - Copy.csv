@@ -1,0 +1,43 @@
+﻿Name,Type,Case Role / Relationship,Verified Relationship Summary,Case Connection Verified?,Pre-shooting Contact / Crossover Found,Role Source URL,Name Collision Risk
+Tyler James Robinson,Person,Accused defendant,Surveillance testimony reportedly shows he spoke with unidentified TPUSA representatives on campus the morning of the shooting; no verified earlier personal contact with Kirk/Shapiro or named security member established.,Yes,No named security contact established,https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/,High for short-name variant; low for full name
+Lance Twiggs,Person,Robinson roommate/partner; later witness,"No verified pre-shooting meeting/communication with Kirk, Shapiro, or named security team found.",Yes,None verified,,Low
+Charlie Kirk,Person,Victim; TPUSA founder,Central case figure.,Yes,N/A,https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/,Low
+Ben Shapiro,Person,Public commentator; comparison target,No verified Tyler/Lance contact or security-team crossover found so far.,No direct case role,None verified,,Low
+Hunter Kozak,Person,Asked final question immediately before shot,Prior attendance at a Kirk/TPUSA summit reported; no evidence this alone implies personal relationship.,Yes,Crossed broader TPUSA event environment,https://www.washingtonpost.com/nation/2025/09/11/student-describes-moment-charlie-kirk-was-shot/,Low
+George Zinn,Person,"Initially detained, later cleared of shooting tie",Official DPS confirms detention/release.,Yes,At scene / immediate aftermath,https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/,Medium
+Zachariah Qureshi,Person,Second person detained and released,Official DPS says no current ties to shooting.,Yes,At/near scene,https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/,Low
+Brian Harpole,Person,Kirk security chief,Named by KSL account of emergency response/transport.,Yes,Direct security team,https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629,Low
+Dan Flood,Person,TPUSA security director,Named by KSL account.,Yes,Direct security team,https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629,Medium
+Justin Davis,Person,Trained emergency driver,Named by KSL account.,Yes,Direct security/transport team,https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629,High
+Rick Cutler,Person,Private security operator,Named by KSL account.,Yes,Direct security team,https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629,Medium
+Frank Turek,Person,Kirk associate present during emergency transport,Named by KSL account; not primarily security.,Yes,Immediate entourage,https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629,Low
+Jeffrey Long,Person,UVU Police Chief,UVU police leadership; campus police provided event officers.,Yes,Law enforcement/event security,https://www.uvu.edu/news/2024/12/uvu-chief-of-police-jeffrey-long-2024.html,Medium
+Chris Bagley,Person,UVU police officer / later witness,Reported as event officer/witness in later proceedings.,Yes,Law enforcement/event security,,High
+Beau Mason,Person,Utah DPS Commissioner,"DPS co-led incident; appointment announced June 19, effective July 17.",Yes,Law enforcement leadership,https://dps.utah.gov/press-releases/media-advisory-utah-department-of-public-safety-announces-retirement-of-commissioner-jess-l-anderson-and-appointment-of-new-commissioner/,Low
+Mehtab D. Syed,Person,Former FBI Salt Lake City SAC,"Official FBI source confirms she was SAC June 6, 2025.",Yes,Predecessor FBI leadership,https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/fbi-salt-lake-city-remarks-at-press-conference-on-search-for-sawade-birdinground,Low
+Robert Bohls,Person,FBI Salt Lake City SAC,Official FBI source confirms he co-led investigation on shooting day.,Yes,Law enforcement leadership,https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/remarks-by-sac-robert-bohls-at-press-conference-regarding-shooting-at-utah-valley-university,Low
+Mike Smith,Person,Utah County Sheriff,Utah County Sheriff's Office was among agencies participating.,Yes,Law enforcement leadership,https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/,High
+David Hull,Person,Utah DPS/SBI investigator,Later reconstructed surveillance timeline in court.,Yes,Investigator,,High
+Brian Davis,Person,Utah SBI investigator,Later investigation/probable cause work.,Yes,Investigator,,High
+Jennifer Faumuina,Person,Utah SBI / evidence-related witness,Later forensic/evidence testimony.,Yes,Investigator/evidence,,Low
+Nate Brooksby,Person,Washington County Sheriff,Connected to Robinson surrender.,Yes,Law enforcement / surrender,,Low
+Deirdre Amaro,Person,Utah chief medical examiner,"Appointment publicly announced May 9, 2024; began in-person July 1.",Yes,Medical examiner,https://dhhs.utah.gov/featured-news/utah-department-of-health-and-human-services-dhhs-welcomes-new-medical-examiner/,Low
+Tony F. Graf,Person,Fourth District judge; later presided over Robinson case,"Appointment was public May 2, 2025.",Yes,Judiciary,https://senate.utah.gov/utah-senate-requests-public-comment-on-4th-district-appointee/,Low
+Robert Lunnen,Person,Fourth District judge whose retirement created vacancy,"Retirement/vacancy public April 10, 2025.",Yes,Judiciary,https://governor.utah.gov/press-release/nominees-announced-for-fourth-district-court-vacancy-2/,Low
+Kathryn 'Kathy' Nester,Person,Later lead defense attorney,Case role was post-shooting.,Yes,Defense,,Low
+Jeffrey S. Gray,Person,Utah County Attorney / prosecution leadership,Case prosecution role.,Yes,Prosecution,,High for 'Jeff Gray'
+Chad Grunander,Person,Prosecution team,Named in case materials.,Yes,Prosecution,,Medium
+Ryan McBride,Person,Prosecution team,Named in case materials.,Yes,Prosecution,,High
+Lauren Hunt,Person,Prosecution team,Named in case materials.,Yes,Prosecution,,High
+Christopher Ballard,Person,Prosecution team,Named in case materials.,Yes,Prosecution,,High
+Andrew Kolvet,Person,TPUSA/Kirk associate,No convincing pre-event Trends anomaly in current record.,Yes,TPUSA associate,,Low
+David Engelhardt,Person,TPUSA board/associate,No convincing pre-event Trends anomaly in current record.,Yes,TPUSA associate,,Medium
+Jeb Jacobi,Person,UVU/TPUSA event participant/witness,"Useful control: genuinely case-related, no convincing pre-event anomaly found.",Yes,Witness/event participant,,Low
+Skyler Baird,Person,Eyewitness,Useful control / methodological example.,Yes,Witness,,Low
+Shaner Broderick,Person,Case-adjacent witness/neighborhood account,Connection is weaker than direct witnesses.,Partly,Case-adjacent,,Low
+Phil Lyman,Person,Utah political figure / case-adjacent reporting,Connection requires careful contextualization.,Unclear,Case-adjacent,,Medium
+Josh Hammer,Person,Political commentator / Kirk associate,Public figure; baseline search interest expected.,Yes,Associate/public commentator,,Medium
+Jeremy Boreing,Person,Daily Wire co-founder / Shapiro associate,No verified Tyler/Lance contact; control candidate.,No direct case role,None found,,Low
+Matt Walsh,Person,Daily Wire personality / Shapiro associate,No verified Tyler/Lance contact; control candidate.,No direct case role,None found,,Low
+Michael Knowles,Person,Daily Wire personality / Shapiro associate,No verified Tyler/Lance contact; control candidate.,No direct case role,None found,,Low
+Andrew Klavan,Person,Daily Wire personality / Shapiro associate,No verified Tyler/Lance contact; control candidate.,No direct case role,None found,,Low

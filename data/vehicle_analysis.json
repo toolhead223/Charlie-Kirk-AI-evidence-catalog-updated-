@@ -1,0 +1,75 @@
+{
+  "title": "Dodge Challenger Vehicle Analysis",
+  "summary": "Analysis of multiple Dodge Challengers seen at UVU on September 10, 2025. The prosecution presents surveillance footage as showing Tyler Robinson's vehicle, but comparison reveals potential discrepancies suggesting more than one Challenger was present.",
+  "robinsons_confirmed_vehicle": {
+    "description": "Dark gray/charcoal Dodge Challenger, 2008-2014 generation",
+    "wheels": "Full chrome 5-spoke wheels with distinctive polished finish",
+    "front_plate": "No visible front license plate bracket",
+    "appearance": "Clean, stock appearance",
+    "source": "Driveway photograph (confirmed by investigation)"
+  },
+  "surveillance_vehicles": [
+    {
+      "id": "surv_1",
+      "source": "Surveillance footage (yellow box comparison collage - left side)",
+      "color": "Dark-colored, difficult to determine precisely due to low-light/resolution",
+      "wheels": "Cannot confirm as matching chrome 5-spokes - proportions and reflections appear different",
+      "front_bumper": "Different lower grille/fascia configuration visible in yellow-box highlighted area",
+      "rear": "Taillights visible, bumper/diffuser proportions warrant scrutiny"
+    },
+    {
+      "id": "surv_2",
+      "source": "Comparison collage - right side reference",
+      "color": "Gray/silver",
+      "wheels": "Silver/machined-face wheels - DIFFERENT style from confirmed vehicle's full chrome",
+      "notes": "Used as prosecution reference but wheel style doesn't match Robinson's confirmed car"
+    },
+    {
+      "id": "fox_news_photo",
+      "source": "Fox News Digital photograph",
+      "color": "Dark gray/charcoal",
+      "wheels": "Chrome/polished multi-spoke wheels",
+      "notes": "Appears similar to driveway photo but angle and lighting make precise comparison difficult"
+    }
+  ],
+  "key_discrepancies": [
+    {
+      "category": "Wheels",
+      "detail": "Robinson's confirmed car has full chrome wheels. Some comparison images show machined-face or different spoke-pattern wheels. This is one of the most reliable distinguishing features between Challenger trims."
+    },
+    {
+      "category": "Front fascia",
+      "detail": "Lower front bumper area varies between images. Different trim levels (SE, SXT, R/T, SRT) have noticeably different front bumper designs, fog light surrounds, and grille inserts."
+    },
+    {
+      "category": "Color variations",
+      "detail": "At least two different shades of gray/dark appear across surveillance footage. One closer to Tungsten Metallic, another could be Granite Crystal or darker. Low-light surveillance makes this harder but tones don't consistently match."
+    },
+    {
+      "category": "Hood profile",
+      "detail": "Some Challengers have functional or decorative hood scoops depending on trim. Surveillance resolution too low to confirm, but hood profiles aren't obviously identical across all shots."
+    }
+  ],
+  "person_comparison": {
+    "surveillance_black_shirt": {
+      "clothing": "Black long-sleeve shirt with eagle/American flag graphic",
+      "accessories": "Dark cap, sunglasses, black backpack, Converse-style sneakers",
+      "build": "Lean"
+    },
+    "surveillance_red_shirt": {
+      "clothing": "Maroon/red t-shirt, shorts",
+      "accessories": "Cap, sunglasses",
+      "distinguishing": "Appears to have compression sleeve or brace on one leg - verifiable detail",
+      "note": "When not cropped or compressed, proportions could reasonably be a different person"
+    },
+    "distortion_concern": "Surveillance cameras use wide-angle lenses that distort proportions. Compressing or cropping further changes apparent body proportions, face shape, and build. Can create false visual similarity that wouldn't hold up under proper aspect-ratio comparison."
+  },
+  "conclusion": "At least 2-3 different Challenger configurations appear across the images based on wheel styles, front fascia details, and possible color differences. A university parking lot could easily have multiple Challengers of this generation. Proper forensic image analysis preserving original aspect ratios would be needed for definitive comparison.",
+  "recommendations": [
+    "Obtain original NVR footage files with native resolution and aspect ratio",
+    "Compare VIN-specific features if any are visible (wheel bolt pattern, specific trim badges)",
+    "Document every Challenger registration in UVU parking records for Sept 10",
+    "Compare license plate visibility across all footage",
+    "Forensic image analyst should determine original aspect ratios before identification comparison"
+  ]
+}

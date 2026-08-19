@@ -1,0 +1,66 @@
+[
+  {
+    "Methodology / Rule": "Scope",
+    "Definition / Application": "Chronological database of all case-related Google Trends findings discussed so far, 2024-01-01 through 2025-09-09. Snapshot reviewed 2026-08-11."
+  },
+  {
+    "Methodology / Rule": "Shooting date used",
+    "Definition / Application": "2025-09-10. Days Before Shooting is calculated from each row's END date."
+  },
+  {
+    "Methodology / Rule": "Evidence Grade A",
+    "Definition / Application": "Primary Google Trends CSV/export or reproducible exact Google Trends settings captured directly. Current case-specific anomaly count: 0."
+  },
+  {
+    "Methodology / Rule": "Evidence Grade B",
+    "Definition / Application": "Archived secondary reproduction/video/screenshot/transcript preserving a specific query + geography + date, sometimes score."
+  },
+  {
+    "Methodology / Rule": "Evidence Grade C",
+    "Definition / Application": "Tertiary/reposted screenshot compilation with specific query + geography + date, but weak provenance or transcription risk."
+  },
+  {
+    "Methodology / Rule": "Evidence Grade D",
+    "Definition / Application": "Vague, conflicting, incomplete, or insufficiently preserved claim."
+  },
+  {
+    "Methodology / Rule": "Google Trends limitation",
+    "Definition / Application": "Google Trends uses a sample of searches; data is anonymized, aggregated, and normalized to 0\u2013100. Same score across regions does not mean same number of searches."
+  },
+  {
+    "Methodology / Rule": "Regional interpretation",
+    "Definition / Application": "A region indicates relative interest attributed to that geography. It does NOT expose an IP address, person, agency, government, or organization."
+  },
+  {
+    "Methodology / Rule": "Low-volume caution",
+    "Definition / Application": "Niche terms may have too little volume for stable graphs. Treat one-off obscure-name spikes as hypotheses until independently reproduced/exported."
+  },
+  {
+    "Methodology / Rule": "Exact term vs topic",
+    "Definition / Application": "Literal search-term runs must be distinguished from Topics. Full names, short names, and compound queries must be tested separately."
+  },
+  {
+    "Methodology / Rule": "Name collisions",
+    "Definition / Application": "Common names need qualifiers and matched controls."
+  },
+  {
+    "Methodology / Rule": "Public identifiability",
+    "Definition / Application": "A pre-event search is less surprising if the relevant role was already publicly announced."
+  },
+  {
+    "Methodology / Rule": "Control strategy",
+    "Definition / Application": "Compare case subjects with case-related people who show no anomaly and with similarly obscure unrelated names matched by public profile."
+  },
+  {
+    "Methodology / Rule": "Minimum statistical test",
+    "Definition / Application": "Compare anomaly frequency per person-query-day across case subjects vs controls; stratify by name rarity, public profile, geography, query type, and date-window length."
+  },
+  {
+    "Methodology / Rule": "Primary-data target",
+    "Definition / Application": "For future results save exact Explore URL/settings, download CSV, capture screenshot, timestamp, geography level, search type, category, and date range."
+  },
+  {
+    "Methodology / Rule": "Interpretive rule",
+    "Definition / Application": "Do not infer foreknowledge, conspiracy, government involvement, or a specific searcher from a Trends spike alone."
+  }
+]

@@ -1,0 +1,322 @@
+{
+  "case": {
+    "caption": "State of Utah v. Tyler James Robinson",
+    "court": "Fourth Judicial District Court, Provo, Utah County",
+    "case_number": "251403576",
+    "judge": "Tony F. Graf Jr.",
+    "defense": "Kathryn 'Kathy' Nester",
+    "prosecution": "Utah County Attorney's Office \u2014 Jeffrey S. Gray, Chad Grunander, Ryan McBride, Lauren Hunt, Christopher Ballard",
+    "records_access": "https://www.utcourts.gov/en/court-records-publications/records/court-records.html",
+    "document_repository": "https://www.documentcloud.org/projects/224251-charlie-kirk-murder-case-and-tyler-robinson/"
+  },
+  "events": [
+    {
+      "date": "2024-05-09",
+      "track": "institutional",
+      "title": "Deirdre Amaro named Utah chief medical examiner",
+      "detail": "Utah DHHS publicly announced the appointment; she began in person July 1, 2024.",
+      "provenance": "official",
+      "source": "https://dhhs.utah.gov/featured-news/utah-department-of-health-and-human-services-dhhs-welcomes-new-medical-examiner/",
+      "why_listed": "The claim set alleges a March 21, 2024 search for her name. This entry fixes when the appointment actually became public."
+    },
+    {
+      "date": "2024-12-01",
+      "track": "institutional",
+      "title": "Jeffrey Long serving as UVU Police Chief",
+      "detail": "UVU published a profile of Long as chief of police.",
+      "provenance": "official",
+      "source": "https://www.uvu.edu/news/2024/12/uvu-chief-of-police-jeffrey-long-2024.html"
+    },
+    {
+      "date": "2025-04-10",
+      "track": "institutional",
+      "title": "Judge Robert Lunnen's retirement creates a Fourth District vacancy",
+      "detail": "Utah Governor's office publicly announced the vacancy and nominees.",
+      "provenance": "official",
+      "source": "https://governor.utah.gov/press-release/nominees-announced-for-fourth-district-court-vacancy-2/"
+    },
+    {
+      "date": "2025-05-02",
+      "track": "institutional",
+      "title": "Tony F. Graf's Fourth District appointment becomes public",
+      "detail": "Utah Senate requested public comment on the appointee.",
+      "provenance": "official",
+      "source": "https://senate.utah.gov/utah-senate-requests-public-comment-on-4th-district-appointee/",
+      "why_listed": "Graf later presided over this case. His appointment was public four months before the shooting \u2014 he was a sitting Fourth District judge, and Fourth District covers Utah County."
+    },
+    {
+      "date": "2025-05-02",
+      "track": "institutional",
+      "title": "Kirk writes privately to Netanyahu about losing Gen Z",
+      "detail": "Charlie Kirk sent a letter to Benjamin Netanyahu that was strongly pro-Israel but sharply critical of Israel's communications strategy. He warned that Israel was rapidly losing younger American conservatives, that pro-Israel messaging was failing, and that declining opinion would eventually mean declining U.S. political and military support. He proposed a communications strategy.",
+      "provenance": "reported",
+      "source": "https://nypost.com/2025/09/29/us-news/charlie-kirk-wrote-of-his-deep-love-for-israel-in-letter-to-netanyahu/",
+      "why_listed": "Josh Hammer later stated he was given access to this letter months in advance: 'I was given access to this letter a few months ago. I read it at that time.' The letter does NOT show Kirk abandoning Israel \u2014 that reading overstates it. What it does show is that Kirk considered the problem urgent enough to warn a head of government directly."
+    },
+    {
+      "date": "2025-06-06",
+      "track": "institutional",
+      "title": "Mehtab D. Syed serving as FBI Salt Lake City SAC",
+      "detail": "FBI Salt Lake City press materials confirm Syed as SAC on this date.",
+      "provenance": "official",
+      "source": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/fbi-salt-lake-city-remarks-at-press-conference-on-search-for-sawade-birdinground"
+    },
+    {
+      "date": "2025-06-19",
+      "track": "institutional",
+      "title": "Beau Mason's appointment as Utah DPS Commissioner announced",
+      "detail": "Announced June 19, 2025; effective July 17, 2025.",
+      "provenance": "official",
+      "source": "https://dps.utah.gov/press-releases/media-advisory-utah-department-of-public-safety-announces-retirement-of-commissioner-jess-l-anderson-and-appointment-of-new-commissioner/",
+      "why_listed": "Mason's name appears in the claim set. His appointment was public nearly three months before the shooting."
+    },
+    {
+      "date": "2025-09-08",
+      "track": "institutional",
+      "title": "Kirk privately says donor pressure is pushing him to 'leave the pro-Israel cause'",
+      "detail": "In a private WhatsApp group, Kirk complained that a donor providing roughly $2 million per year had withdrawn support because TPUSA would not cancel Tucker Carlson. He wrote that he felt bullied and that donor pressure was pushing him toward leaving the pro-Israel cause. TPUSA spokesman Andrew Kolvet subsequently confirmed the messages were authentic. Josh Hammer was in that chat.",
+      "provenance": "reported",
+      "source": "https://www.timesofisrael.com/",
+      "why_listed": "Two days before the shooting. The New York Times reportedly identified the departing donor as Robert Shillman \u2014 who separately underwrites the fellowship program Hammer joined in January 2026. See the Network tab for the full chronology. This establishes an influence environment; it does not connect to Robinson.",
+      "flag": "context"
+    },
+    {
+      "date": "2025-09-09",
+      "track": "institutional",
+      "title": "Kirk's final Israel-strategy Zoom \u2014 Hammer and Wolicki participate",
+      "detail": "The night before the shooting, Kirk held an approximately hour-long Israel-focused Zoom call. Rabbi Pesach Wolicki described it as preparation for Israel-related challenges Kirk expected on his campus tour. Josh Hammer confirmed his own participation: 'I was also part of this meeting the night before the assassination.' Wolicki later said the meeting had been scheduled for weeks and that Kirk himself initiated it.",
+      "provenance": "reported",
+      "source": "https://nypost.com/2025/09/13/us-news/charlie-kirk-and-rabbi-pal-talked-hours-before-his-death/",
+      "why_listed": "The confirmed participants are Kirk, Hammer and Wolicki. Additional participants exist but are not publicly verified. That the call was pre-scheduled weakens an 'emergency meeting' reading but strengthens a different point: Hammer and Wolicki were part of an established Israel-advice channel available to Kirk. The complete attendee list and invitation metadata remain high-value unobtained records.",
+      "flag": "context"
+    },
+    {
+      "date": "2025-09-10",
+      "track": "investigation",
+      "title": "FBI co-leads investigation \u2014 SAC Robert Bohls",
+      "detail": "FBI Salt Lake City SAC Robert Bohls addressed the investigation publicly on the day of the shooting.",
+      "provenance": "official",
+      "source": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/remarks-by-sac-robert-bohls-at-press-conference-regarding-shooting-at-utah-valley-university"
+    },
+    {
+      "date": "2025-09-10",
+      "time": "aftermath",
+      "track": "day_of",
+      "title": "George Zinn and Zachariah Qureshi detained, both cleared",
+      "detail": "Utah DPS confirms both detentions and releases, stating no ties to the shooting. Detention-and-release is routine in a mass-casualty scene response.",
+      "provenance": "official",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+      "why_listed": "Both names recur in circulating claim sets as evidence of a cover-up. The official record states they were cleared."
+    },
+    {
+      "date": "2025-09-10",
+      "time": "immediately after",
+      "track": "day_of",
+      "title": "Emergency response and transport",
+      "detail": "Security chief Brian Harpole, TPUSA security director Dan Flood, driver Justin Davis, operator Rick Cutler, and associate Frank Turek named in the response account.",
+      "provenance": "reported",
+      "source": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629"
+    },
+    {
+      "date": "2025-09-10",
+      "time": "over the day",
+      "track": "day_of",
+      "title": "Surveillance places Robinson on campus four separate times",
+      "detail": "Investigators presented hundreds of hours of security video showing Robinson on the UVU campus four times on Sept. 10 \u2014 twice before the shooting, during the shooting, and into the early hours of Sept. 11. Video depicted a man on the Losee Center roof crouching, crawling to the corner, then standing to flee after the shot.",
+      "provenance": "reported",
+      "source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/",
+      "why_listed": "This is the surveillance reconstruction, presented in open court and subject to cross-examination."
+    },
+    {
+      "date": "2025-09-10",
+      "time": "~12:23",
+      "track": "day_of",
+      "title": "Charlie Kirk fatally shot at Utah Valley University",
+      "detail": "Kirk was shot during a public event at UVU. Hunter Kozak had asked the final question immediately before the shot.",
+      "provenance": "official",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+      "secondary_source": "https://www.washingtonpost.com/nation/2025/09/11/student-describes-moment-charlie-kirk-was-shot/"
+    },
+    {
+      "date": "2025-09-11",
+      "track": "investigation",
+      "title": "Alleged confession to a family member/acquaintance",
+      "detail": "Reported in the probable cause affidavit as part of the chain leading to identification.",
+      "provenance": "official",
+      "source": "https://media.deseret.com/media/misc/pdf/dn/news/RobinsonPC.pdf"
+    },
+    {
+      "date": "2025-09-12",
+      "track": "legal",
+      "title": "Probable cause affidavit filed",
+      "detail": "Authored by investigator Brian Davis of the Utah Department of Public Safety / State Bureau of Investigation. Cites confession to roommate, presence on campus, DNA on the rifle, and admissions about hiding the weapon.",
+      "provenance": "official",
+      "source": "https://media.deseret.com/media/misc/pdf/dn/news/RobinsonPC.pdf",
+      "why_listed": "The foundational charging document. Brian Davis appears in the claim dataset as a matched CONTROL \u2014 the control who wrote the affidavit."
+    },
+    {
+      "date": "2025-09-12",
+      "track": "investigation",
+      "title": "Search warrants executed",
+      "detail": "Warrants covered DNA sample, computers, ammunition, the residence at 3419 South River Road Unit 73 in St. George, plus Discord accounts and Verizon location data. Warrant returns describe a handwritten letter and Discord messages.",
+      "provenance": "reported",
+      "source": "https://andreaburkhart.substack.com/p/tyler-robinson-search-warrant-affidavits",
+      "secondary_source": "https://www.ksl.com/article/51481672/tyler-killed-charlie-search-warrants-detail-messages-allegedly-sent-after-kirk-killing",
+      "why_listed": "IMPORTANT for the claim set: the River Road address entered the public record through these September 2025 warrant filings. Any Trends screenshot dated after this point reflects post-disclosure public interest, not foreknowledge."
+    },
+    {
+      "date": "2025-09-12",
+      "time": "~04:00",
+      "track": "legal",
+      "title": "Robinson arrested in Washington County",
+      "detail": "Arrest connected to Washington County Sheriff's office. Utah County announced the arrest Sept. 13.",
+      "provenance": "official",
+      "source": "https://www.utahcounty.gov/news/416/arrest-of-tyler-james-robinson-potential-charges"
+    },
+    {
+      "date": "2025-09-16",
+      "track": "legal",
+      "title": "Charges filed \u2014 10 counts, death penalty sought",
+      "detail": "Aggravated murder (capital), felony discharge of a firearm causing serious bodily injury, two counts obstruction of justice, two counts witness tampering, and others. Case number 251403576 assigned. Utah County Attorney announced intent to seek the death penalty.",
+      "provenance": "official",
+      "source": "https://atty.utahcounty.gov/cms/uploads/TJR_Information_49872215e3.pdf",
+      "secondary_source": "https://www.npr.org/2025/09/16/nx-s1-5542545/utah-files-murder-charges-against-tyler-robinson"
+    },
+    {
+      "date": "2025-12-11",
+      "track": "legal",
+      "title": "First in-person hearing \u2014 media access",
+      "detail": "Hearing addressed press access to proceedings and filings.",
+      "provenance": "reported",
+      "source": "https://www.stgeorgeutah.com/news/judge-denies-request-to-seal-filings-in-tyler-robinson-case-weighing-media-access/"
+    },
+    {
+      "date": "2026-01",
+      "track": "legal",
+      "title": "Motions regarding prosecutor conflicts",
+      "detail": "Pretrial motion practice concerning asserted conflicts on the prosecution team.",
+      "provenance": "reported",
+      "source": "https://www.documentcloud.org/projects/224251-charlie-kirk-murder-case-and-tyler-robinson/"
+    },
+    {
+      "date": "2026-01-07",
+      "track": "institutional",
+      "title": "Josh Hammer announces he has become a Shillman Fellow",
+      "detail": "Hammer publicly announced his appointment as a Shillman Fellow at the David Horowitz Freedom Center. The Center states its Shillman journalism fellowships are 'underwritten by board member Dr. Robert Shillman' \u2014 the same donor reportedly identified as TPUSA's departed $2M/year contributor.",
+      "provenance": "reported",
+      "source": "https://www.horowitzfreedomcenter.org/",
+      "why_listed": "Recorded because the sequence is testable, not because it demonstrates wrongdoing. The unresolved question is WHEN the fellowship was negotiated or offered relative to the September 2025 donor dispute \u2014 not the January 2026 announcement date. No evidence was found that Shillman personally selected or instructed Hammer.",
+      "flag": "context"
+    },
+    {
+      "date": "2026-03-10",
+      "track": "institutional",
+      "title": "Erika Kirk appointed to U.S. Air Force Academy Board of Visitors",
+      "detail": "President Trump appointed Erika Kirk to the U.S. Air Force Academy Board of Visitors \u2014 the seat previously held by Charlie Kirk, who had been appointed in March 2025. Under Title 10 the Board examines Academy morale, discipline, curriculum, instruction, physical equipment, fiscal affairs and academic methods.",
+      "provenance": "reported",
+      "source": "https://www.theguardian.com/us-news/2026/mar/10/trump-erika-kirk-air-force-academy",
+      "why_listed": "A substantive statutory oversight appointment rather than an honorary title, and a documented Charlie \u2192 Erika institutional succession. She is a civilian overseer, not military personnel."
+    },
+    {
+      "date": "2026-06",
+      "track": "legal",
+      "title": "A prosecutor found in civil contempt over publicity violations",
+      "detail": "A finding of civil contempt against a prosecutor for violating the court's publicity restrictions.",
+      "provenance": "reported",
+      "source": "https://www.documentcloud.org/projects/224251-charlie-kirk-murder-case-and-tyler-robinson/",
+      "why_listed": "A DOCUMENTED instance of misconduct in this case \u2014 sanctioned by the court. It concerns pretrial publicity, not evidence tampering. Included because the record should be reported as it is, favorable or not."
+    },
+    {
+      "date": "2026-07-06",
+      "track": "legal",
+      "title": "Five-day preliminary hearing opens before Judge Tony F. Graf Jr.",
+      "detail": "Fourth District Courthouse, Provo. 14 public seats, first-come first-served. Electronic devices barred from the courtroom absent authorization.",
+      "provenance": "official",
+      "source": "https://legacy.utcourts.gov/utc/news/2026/07/06/public-information-regarding-the-tyler-robinson-preliminary-hearing/"
+    },
+    {
+      "date": "2026-07-06",
+      "track": "evidence",
+      "title": "DNA evidence presented",
+      "detail": "Forensic experts testified DNA on the rifle, screwdriver, and towel matched Robinson's profile \u2014 stated as 30 quintillion times more likely to be his than an unrelated individual's.",
+      "provenance": "reported",
+      "source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/"
+    },
+    {
+      "date": "2026-07-09",
+      "track": "evidence",
+      "title": "Handwritten note displayed, then pulled after three seconds",
+      "detail": "A note allegedly left for Lance Twiggs reading \"I had the opportunity to take out Charlie Kirk, and I took it\" was briefly visible. Judge Graf ruled the display violated the court's orders and subsequently barred media from broadcasting any evidence shown in court.",
+      "provenance": "reported",
+      "source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/",
+      "secondary_source": "https://www.heraldextra.com/news/2026/jul/10/tyler-robinsons-five-day-preliminary-hearing-concludes-final-arguments-set-for-sept-1/",
+      "why_listed": "Directly relevant to evidence-handling questions: the court restricted PUBLICATION of exhibits. Restriction ran against the media, not against the defense \u2014 Nester had full access."
+    },
+    {
+      "date": "2026-07-09",
+      "track": "evidence",
+      "title": "DEFENSE CHALLENGE \u2014 bodycam gap on the roof",
+      "detail": "Body camera footage from investigator Christopher Bagley contained gaps; his battery died while he was investigating the Losee Center roof.",
+      "provenance": "reported",
+      "source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/",
+      "why_listed": "A REAL, documented evidence gap \u2014 raised by the defense in open court. Bagley also appears in the claim dataset as a matched control.",
+      "flag": "defense_challenge"
+    },
+    {
+      "date": "2026-07-09",
+      "track": "evidence",
+      "title": "DEFENSE CHALLENGE \u2014 unfingerprinted holster, other-shooter theory",
+      "detail": "Kathryn Nester questioned whether investigators adequately ruled out other shooters, citing a discovered pistol holster that was never fingerprinted and a legally carried concealed weapon found on campus.",
+      "provenance": "reported",
+      "source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/",
+      "why_listed": "The alternative-shooter question WAS raised \u2014 through counsel, on the record, with specific physical evidence. This is what a genuine version of that inquiry looks like.",
+      "flag": "defense_challenge"
+    },
+    {
+      "date": "2026-07-09",
+      "track": "evidence",
+      "title": "DEFENSE CHALLENGE \u2014 limits of forensic certainty",
+      "detail": "Defense called two ATF witnesses on DNA reliability. ATF DNA Section Chief Caitlin Oliver testified: \"With forensic evidence, it's impossible to state with 100% certainty anything.\"",
+      "provenance": "reported",
+      "source": "https://www.heraldextra.com/news/2026/jul/10/tyler-robinsons-five-day-preliminary-hearing-concludes-final-arguments-set-for-sept-1/",
+      "flag": "defense_challenge"
+    },
+    {
+      "date": "2026-07-09",
+      "track": "evidence",
+      "title": "Enhanced surveillance compilation \u2014 disclosed and litigated",
+      "detail": "Judge Graf permitted an enhanced security-footage compilation for courtroom viewing but withheld it from media access. Three assassination videos were shown on monitors only, not to the gallery.",
+      "provenance": "reported",
+      "source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/",
+      "why_listed": "DIRECTLY ANSWERS the image-processing question: enhancement was used, and it was disclosed to the court and to defense counsel and ruled on in open proceedings. The restriction governed public broadcast, not disclosure to the defense. No concealed alteration appears in the record.",
+      "flag": "key"
+    },
+    {
+      "date": "2026-07-10",
+      "track": "legal",
+      "title": "Preliminary hearing concludes",
+      "detail": "Defense spent much of the week contesting admission of evidence on hearsay, public-access, and fair-trial grounds.",
+      "provenance": "reported",
+      "source": "https://www.heraldextra.com/news/2026/jul/10/tyler-robinsons-five-day-preliminary-hearing-concludes-final-arguments-set-for-sept-1/"
+    },
+    {
+      "date": "2026-09-01",
+      "track": "legal",
+      "title": "Final arguments on probable cause \u2014 REPORTING CONFLICTS",
+      "detail": "Herald Extra reports the court reconvenes Sept. 1, 2026 for final arguments and a ruling. Deseret News reports Graf granted the defense's request to proceed on WRITTEN BRIEFS instead of oral argument, with decisions due late July to mid-August 2026. These accounts disagree.",
+      "provenance": "disputed",
+      "source": "https://www.heraldextra.com/news/2026/jul/10/tyler-robinsons-five-day-preliminary-hearing-concludes-final-arguments-set-for-sept-1/",
+      "secondary_source": "https://www.deseret.com/politics/2026/07/10/tyler-robinson-preliminary-hearing-charlie-kirk-assassination-utah-court/",
+      "why_listed": "A genuine, checkable date discrepancy in the public reporting \u2014 resolvable against the docket via Utah Court Xchange (case 251403576). This is what a real timeline inconsistency looks like: two outlets summarizing an evolving schedule, not evidence of concealment.",
+      "flag": "discrepancy"
+    }
+  ],
+  "provenance_legend": {
+    "official": "Government or court primary source, or a filed court document",
+    "reported": "Named, credible news outlet reporting on the proceedings",
+    "disputed": "Outlets conflict \u2014 shown as an open question, resolvable against the docket",
+    "unverified": "Secondary/tertiary compilation only \u2014 not treated as fact"
+  },
+  "claim_overlay_note": "The Google Trends claim set asserts search activity for several of these names at dates PRIOR to their public appointment or involvement. Those claims are catalogued in the Claims Tracker tab with their evidence grades \u2014 none are Grade A. They are deliberately NOT plotted on this timeline, because this timeline contains only events with documentary sourcing.",
+  "evidence_handling_summary": "On the question of whether evidence was altered and concealed from the court or defense: the public record shows the opposite pattern. Image enhancement WAS used \u2014 an enhanced surveillance compilation \u2014 and it was disclosed, litigated, and ruled on in open court. The restrictions Judge Graf imposed limited MEDIA BROADCAST of exhibits, not defense access. Meanwhile the defense did surface real evidentiary problems on the record: a bodycam gap when an investigator's battery died on the roof, a pistol holster never fingerprinted, and the inherent limits of forensic certainty. That is the adversarial process working, and it is where genuine evidence problems in this case actually live."
+}

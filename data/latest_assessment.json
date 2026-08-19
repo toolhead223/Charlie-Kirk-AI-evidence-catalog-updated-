@@ -1,0 +1,254 @@
+{
+  "overall_assessment": {
+    "conclusion": "The public evidence continues to make it substantially more likely than not that Tyler Robinson was the person on the roof who fired the shot that killed Charlie Kirk. That conclusion has held up under sustained, specific testing rather than eroding under it.",
+    "supporting_note": "Since the previous assessment, this app has specifically tested — not just noted the existence of — a wide range of alternative and conspiratorial explanations, and each one has either been refuted by primary data or conceded by its own originator to lack evidence: the '12 Israeli cell phones' claim (Owens herself conceded no direct evidence, Aug 14, 2026), the HADES/ATHENA spy-plane-over-Utah-Lake claim (this app's own primary ADS-B extraction places the aircraft 144 miles away in Idaho at the moment of the shooting), Discord's own denial that the widely-circulated 'rifle drop point' planning narrative ever existed on its platform, and Joe Kent's Iran-war-motive hint (explicitly a hint rather than an accusation, offered by a source under an independent FBI leak investigation, with a timeline that doesn't fit — the war he ties it to began 5.5 months after Kirk's death). At the same time, real and specific documentary problems have accumulated that did not exist in the record on Aug 12: the confession note is quoted in two tenses that mean opposite things and the physical original no longer exists; the recovered rifle is described as a 'Mauser Model 98' in the charging documents and press but as a 'Mauser model 90' in the ATF's own unsealed forensic lab report for the identical serial number; three named sources (Sheriff Brooksby, the probable cause affidavit, CBS's federal sources) give three different accounts of which agency took custody of Robinson at his surrender; and no spent shell casing was recovered from the rooftop firing position. None of these individually undermines the identity case, which rests on convergent DNA, surveillance, and attributed-statement evidence (Robinson has entered no plea and has never confessed in court) — but they mean several of the state's specific narrative details are less clean than the headline conclusion suggests. The government's motive narrative remains the weakest-supported element. A dedicated ranked-hypothesis analysis (see Deep Dives) finds a relationship-mediated grievance over Kirk's anti-LGBTQ rhetoric best supported at 45-65% confidence — Robinson's own words to Twiggs ('I had enough of his hatred') are the strongest evidence for it — but a defense filing stating that searches of his apartment, computers, and phone produced no additional political-motive evidence beyond that one exchange remains unrebutted, and the Washington Post's 21-interview investigation found a heterogeneous, largely apolitical six-year online history rather than a radicalized one. No evidence sufficient to conclude that Josh Hammer, TPUSA insiders, Israeli interests, a donor network, or a U.S./foreign intelligence service arranged the assassination has been found after deliberately and repeatedly looking for the missing operational bridge — across the original network analysis and every subsequent specific claim tested since.",
+    "confidence_shooter": "78-92%",
+    "confidence_alone_at_scene": "78-90%",
+    "confidence_self_directed": "80-90%",
+    "confidence_ideological_motive": "45-68%",
+    "confidence_conspiracy": "0-5%",
+    "confidence_security_failure": "96-99%",
+    "date": "2026-08-17",
+    "scope_note": "This assessment now sits alongside 35 logged contradictions, 25 deep-dive investigations, an imported third-party statement-conflict audit (79 statements, 22 conflicts, 9 ground-truth benchmarks), and a 5-minute-resolution master chronology (Sept 9-12, 2025). See the Contradictions, Deep Dives, and Statement Ledger tabs for full sourcing on every figure cited here."
+  },
+  "evidence_streams": [
+    {
+      "stream": "Surveillance",
+      "detail": "Footage presented in court allegedly traces a person associated by investigators with Robinson through multiple campus appearances, onto the roof, into the firing position and away immediately after the shot.",
+      "weakness": "The actual rooftop footage is not facially definitive — the lead investigator conceded it contains no distinguishing facial features. Some witnesses initially thought the rooftop figure was a security officer doing overwatch."
+    },
+    {
+      "stream": "Vehicle, clothing and shoes",
+      "detail": "Prosecutors combined the broader surveillance sequence with vehicle identification, clothing and shoes, and movement patterns.",
+      "weakness": ""
+    },
+    {
+      "stream": "The recovered rifle",
+      "detail": "Recovered along the escape route in a wooded area, wrapped in a towel. An older .30-06 Mauser.",
+      "weakness": "The fatal-projectile comparison to this rifle was inconclusive — see genuine_anomalies."
+    },
+    {
+      "stream": "DNA evidence",
+      "detail": "Government analysts testified to DNA linking Robinson to the suspected weapon and related items. ATF forensic biologist Caitlin Oliver's analysis reportedly strongly supported Robinson as the major DNA contributor on multiple items.",
+      "weakness": "The defense exposed possibilities including mixtures and secondary transfer, and challenged the methodology, while prosecutors characterized their overall forensic case as overwhelming."
+    },
+    {
+      "stream": "The alleged note",
+      "detail": "Referenced in the charging materials.",
+      "weakness": ""
+    },
+    {
+      "stream": "Contemporaneous communications",
+      "detail": "Alleged messages discussing the rifle, its drop location, engraved ammunition, and efforts to retrieve it.",
+      "weakness": "If trial authentication establishes Robinson authored those messages contemporaneously, that is much more probative than a later generalized confession — authentication has not yet been established at trial."
+    },
+    {
+      "stream": "Alleged admissions to multiple people",
+      "detail": "Reported admissions beyond the roommate testimony, referenced in the broader charging and testimonial record.",
+      "weakness": ""
+    },
+    {
+      "stream": "Former roommate testimony",
+      "detail": "According to a recorded interview played in court, Robinson allegedly admitted the shooting in messages and then, when asked face-to-face the following morning, confirmed it and expressed regret. Especially difficult to explain under a pure-framing theory.",
+      "weakness": "The roommate received immunity for cooperation, which matters when evaluating credibility — but this testimony exists alongside, not instead of, the physical and surveillance evidence."
+    }
+  ],
+  "genuine_anomalies": [
+    {
+      "title": "Bullet fragment comparison INCONCLUSIVE (cause now documented)",
+      "finding": "ATF firearms examiner Samantha Carner, of the ATF forensic laboratory in Washington, testified that comparison of the bullet jacket fragment recovered at autopsy with the suspected murder rifle produced neither sufficient agreement nor sufficient disagreement to reach a conclusion, and explicitly declined to characterise the result as anything stronger. It entered public view through a defence motion of March 27, 2026 seeking to vacate or delay the preliminary hearing.",
+      "why_it_matters": "In a textbook sniper prosecution the rifle-to-fatal-bullet linkage would be among the cleanest evidence. Here it is absent, which raises the evidentiary weight carried by the rifle's provenance, the casing, the DNA and the communications. Two corrections now attach. First, inconclusive is not exclusion: Carner testified she could not say the fragment came from another weapon, and fact-checkers have specifically corrected the 'didn't match' framing of the defence filing. Second, and newly documented, the inconclusive result has an expected physical cause rather than being unexplained — the projectile struck bone and broke apart, and the pathologist recovered fragments rather than an intact bullet. That is what a modern expanding hunting round is designed to do, and a jacket that fragments against bone loses the continuous rifling engraving toolmark comparison requires. The outcome is predicted by the round type, not anomalous. The stronger physical link also remains intact: the spent casing was positively identified to the rifle by firing pin impression. The gap is real — no direct weapon-to-victim link exists — but it is no longer strange.",
+      "status": "Established in sworn testimony; cause of the inconclusive result now documented"
+    },
+    {
+      "title": "DNA evidence has mixture / secondary transfer questions",
+      "finding": "Government analysts testified to DNA linking Robinson to the suspected weapon and related items, while the defense exposed possibilities such as mixtures and secondary transfer and challenged the underlying methodology.",
+      "why_it_matters": "Stronger than the ballistics evidence but not perfectly simple; prosecutors characterized their overall forensic case as overwhelming while the defense contested it.",
+      "status": "Contested at hearing"
+    },
+    {
+      "title": "Empty pistol holster at the scene — not collected, not fingerprinted",
+      "finding": "An empty pistol holster was left at the scene. A responding officer noticed it but did not collect it, and could not say whether it had ever been fingerprinted.",
+      "why_it_matters": "Given Utah's permissive firearm laws it may have belonged to an attendee and ultimately mean nothing. But failing to preserve an unexplained firearm-related object at an assassination scene is legitimately poor evidence handling.",
+      "status": "Established"
+    },
+    {
+      "title": "Enhanced surveillance compilation excluded by Judge Graf",
+      "finding": "Prosecutors initially attempted to introduce a compiled surveillance version containing zooms and circles identifying individuals. Judge Tony Graf excluded that version and required them to return with the alterations removed.",
+      "why_it_matters": "Not evidence the underlying surveillance was fabricated — if anything, the judge catching it demonstrates the adversarial process functioning. But it establishes a rule for anyone analyzing footage: distinguish original camera files from annotated/transcoded derivatives.",
+      "status": "Court ruling"
+    },
+    {
+      "title": "Doorbell camera witness: thought person was bald, three people in vehicle",
+      "finding": "A doorbell-camera owner thought a person was bald and that three people were in a vehicle, while the prosecution presentation described Robinson's vehicle with one individual exiting.",
+      "why_it_matters": "Deserves preservation rather than being explained away, although eyewitness impressions from low-quality surveillance are not unusual and conflicts of this kind are common.",
+      "status": "Reported testimony"
+    },
+    {
+      "title": "Prosecutor Christopher Ballard found in civil contempt",
+      "finding": "A judge found prosecutor Christopher Ballard in civil contempt for violating court restrictions by publicly expressing Robinson's presumed guilt, while controversy over the inconclusive bullet examination was underway. The judge imposed corrective measures but declined the defense's request to bar prosecutors from seeking the death penalty.",
+      "why_it_matters": "A genuine prosecutorial misconduct finding by a court — not conspiracy speculation, a formal judicial finding of a violation.",
+      "status": "Court finding"
+    },
+    {
+      "title": "Searches of apartment/computers/phone failed to produce additional political-motive evidence",
+      "finding": "The prosecution portrays the assassination as politically motivated, pointing to an alleged message about having had 'enough of [Kirk's] hatred.' A defense filing says searches of Robinson's apartment, computers and phone failed to produce additional evidence establishing that political motive beyond that statement.",
+      "why_it_matters": "'Robinson probably shot Kirk' is substantially better supported than 'we fully understand why Robinson shot Kirk.' A personal grievance, LGBTQ-related resentment, or political motivation generally are all plausible, but the tidy ideological profile presented publicly immediately after the arrest remains inadequately demonstrated.",
+      "status": "Open — the largest gap in the state's narrative"
+    },
+    {
+      "title": "Washington Post: 21 people interviewed, no violent radicalization perceived",
+      "finding": "The Washington Post interviewed 21 people who knew Robinson and reviewed years of communications, finding a much messier picture than the immediate 'radical-left assassin' characterization: friends generally had not perceived violent radicalization, his politics had often been heterogeneous or anti-partisan, and there was no publicly known manifesto.",
+      "why_it_matters": "Yet prosecutors allege he criticized Kirk before the event and later said he began planning about a week beforehand. This gap between the simple public narrative and the underlying digital-trail evidence is a place to keep digging aggressively.",
+      "status": "Open"
+    },
+    {
+      "title": "The confession note exists in two tenses that mean opposite things, and the original no longer exists",
+      "finding": "The note is quoted in mainstream reporting both as past tense ('I had the opportunity to take out Charlie Kirk, and I took it') and future tense ('...and I'm going to take it') — a confession versus a statement of premeditation. Twiggs found it, photographed it, and the physical original was subsequently destroyed (partially burned); two images briefly appeared on the court livestream despite a judge's order barring their display.",
+      "why_it_matters": "The document underpinning the note evidence survives only as a photograph taken by the same witness who then received use immunity and was never cross-examined live. Discord's own denial that the separately-circulated 'rifle drop point' planning narrative was ever on its platform (attributing it instead to Twiggs paraphrasing the note to a friend) may explain the tense discrepancy — a retelling and the original note plausibly read differently — but that explanation has not been confirmed by any party.",
+      "status": "Open — see Deep Dives: 'The Note and the Discord Messages'"
+    },
+    {
+      "title": "The rifle's model number conflicts between the charging documents and the ATF's own lab report",
+      "finding": "The affidavit, DA Jeff Gray, FBI statements, and nearly all press describe the weapon as a 'Mauser Model 98.' The ATF's own forensic lab report (Sept 17, 2025, unsealed April 2026) lists the identical serial number (8863) against a 'Mauser model 90.'",
+      "why_it_matters": "This is not a secondary-source transcription error — it's a conflict between the state's public description and the ATF's own paperwork for the same physical, serial-numbered weapon, and it has gone unremarked in mainstream coverage despite the unsealed report being public since April.",
+      "status": "Unresolved — see Deep Dives: 'Rifle Description, Ownership, and Chain-of-Custody Discrepancies'"
+    },
+    {
+      "title": "No spent shell casing was recovered from the rooftop firing position",
+      "finding": "Officer Tyler Bagley testified under cross-examination that he 'never recovered a spent shell casing from the roof' and could not identify the rooftop figure's face, clothing, or distinguishing features. The spent cartridge was instead found in the rifle's chamber.",
+      "why_it_matters": "Not suspicious by itself — a bolt-action rifle retains the spent case until manually cycled — but it removes the cleanest possible physical link between the roof and the rifle, and cartridge-case comparison is generally more individualizing than the bullet comparison the public record actually centers on (which was INCONCLUSIVE).",
+      "status": "Established in sworn testimony"
+    },
+    {
+      "title": "Three named-source accounts disagree on which agency took custody of Robinson at surrender",
+      "finding": "Sheriff Brooksby describes WCSO detectives taking custody after a retired-detective family friend drove Robinson in. The probable cause affidavit and ABC News describe U.S. Marshals taking custody via a youth-pastor/task-force-officer intermediary. CBS's federal sources call the same intermediary a 'court security officer.'",
+      "why_it_matters": "Compounds the previously-logged Miranda-timing and arrival-time discrepancies (Brooksby's 'just before 9 PM' vs. a search warrant's '2226 hours') into a broader pattern: no single, internally consistent, named-source account of the surrender exists in the public record.",
+      "status": "Unresolved — see Deep Dives: 'Surrender Custody Chain'"
+    },
+    {
+      "title": "There is no confession, and this app previously implied otherwise",
+      "finding": "Robinson has entered no plea, has never admitted the offence in court, and did not testify at the preliminary hearing. The incriminating material — texts to Lance Twiggs, a note found under a keyboard, a Discord post — is attributed to him rather than authenticated as his. No handwriting comparison against a verified exemplar has been reported for the note, whose physical original was destroyed. No digital-forensics witness testified to metadata, device-to-account linkage, or message-level timestamps; an investigator read the content into the record. Twiggs' account that Robinson verbally affirmed what he had said was given under limited use immunity. The one provenance strength is that Discord supplied the surrender message to authorities directly rather than via screenshot. Earlier revisions of this assessment described the identity case as resting partly on “confession evidence,” which overstated what the record establishes; the phrasing has been corrected.",
+      "status": "Corrected"
+    }
+  ],
+  "security_failure": {
+    "title": "The UVU security situation is the strangest institutional aspect",
+    "lede": "This is where suspicion remains highest — not necessarily of conspiracy, but of institutional failure so bad that it understandably produces conspiracy theories.",
+    "facts": [
+      "Approximately 3,000 people attended an open-air appearance by a nationally prominent and routinely threatened political figure.",
+      "UVU deployed six officers.",
+      "No bag screening and no metal detectors.",
+      "No drone was used to monitor surrounding rooftops.",
+      "No coordination with outside law enforcement to secure the event.",
+      "The courtyard was ringed by elevated buildings offering obvious firing positions."
+    ],
+    "harpole_claim": "Kirk's security chief Brian Harpole later publicly displayed what he said were communications showing that his team had specifically discussed rooftop security with UVU police beforehand. The Salt Lake Tribune reported his allegation that assurances had been given that the roofs would be addressed. If authenticated, this moves the failure from oversight to a specific unmet assurance.",
+    "counterweight": "Reporting indicates the student organization's event paperwork badly understated the nature and risk of the event, indicating that controversial subjects were not expected, and that UVU policies themselves gave inadequate guidance for evaluating high-risk speakers.",
+    "accounting_status": "UVU's independent security review, announced shortly after the killing, still has not provided the public accounting that would resolve many of these questions.",
+    "conclusion": "If future evidence changes the overall view of this case, the security-planning records are one of the places it would be expected to come from.",
+    "butler_comparison": {
+      "title": "The Butler control case",
+      "body": "On July 13, 2024, a shooter was allowed onto an obvious elevated firing position overlooking a Donald Trump rally despite one of the largest protective organizations on Earth being involved. The subsequent bipartisan House investigation concluded the attack was preventable, identified failures across advance planning, execution and leadership, and specifically identified the failure to secure the known high-risk AGR building and grounds. More recent DHS inspector-general work likewise found inadequate coordination around the AGR roof.",
+      "why_it_matters": "This destroys one otherwise tempting argument: 'nobody could accidentally leave such an obvious rooftop unsecured.' Unfortunately, yes they can. If the Secret Service ecosystem can do it around a presidential candidate after extensive advance planning, a lightly staffed university police operation certainly can. Therefore UVU's rooftop failure is extraordinary evidence of negligence. It is not, by itself, extraordinary evidence of deliberate facilitation."
+    }
+  },
+  "network_analysis": {
+    "title": "Josh Hammer, Israel, TPUSA insiders and the donor dispute",
+    "real_struggle": "There was a real struggle occurring around Kirk before his death that shouldn't be rewritten out of history. Kirk had been wrestling with Israel, Tucker Carlson and pressure from major donors.",
+    "hammer": "Josh Hammer possessed some private information about Kirk's thinking; Hammer and Pesach Wolicki participated in an Israel-related conversation with Kirk shortly before his death (referenced elsewhere as occurring around September 9). Hammer's subsequent public representations of Kirk's Israel position also look cleaner and more categorical than Kirk's own complicated private comments suggest.",
+    "kolvet": "Andrew Kolvet has an older professional connection to a Jerusalem-centered Christian-Zionist advocacy organization (Friends-of-Zion PR work), in addition to his role as TPUSA spokesperson and executive producer of The Charlie Kirk Show.",
+    "other_edges": "Blake Neff has an unusual Marine Corps War College wargaming background; Ben Shapiro/Daily Wire occupy an important overlapping political/media network. These are legitimate network edges, not evidence of wrongdoing.",
+    "missing_bridge": "No credible public record ties Robinson before September 10 to Hammer, Kolvet, Shapiro, Neff, Wolicki, Shillman, Erika Kirk, Israeli officials, the IDF, Mossad, TPUSA leadership, or a known large donor through communications, money, travel, employment or logistical assistance. Nothing presented publicly at the preliminary hearing has supplied such a bridge. The defense has suggested investigators insufficiently examined whether someone else could have been involved, but has not produced a competing perpetrator theory. Since this conclusion was first written, three additional specific claims purporting to supply that bridge have each been tested directly and found wanting: a claimed detection of Israeli-registered phones at UVU (the claim's own originator conceded in an August 14, 2026 debate she has no direct evidence), a claimed military ISR aircraft loitering over Utah Lake at the moment of the shooting (this app's own primary ADS-B trace places that aircraft 144 miles away in Idaho at the time), and a former NCTC Director's on-record hint at Israeli involvement tied to the 2026 Iran war (offered as a question rather than an accusation, from a source under an independent federal leak investigation, referencing a war that began 5.5 months after Kirk's death).",
+    "conclusion": "The evidentiary arrow currently stops before conspiracy.",
+    "standard_applied": "The same standard the HSCA itself applied to JFK-era associations: association is insufficient; conspiracy requires knowing assistance or agreement toward the criminal objective. That is the standard applied to Hammer, Kolvet, Shillman, Shapiro, Wolicki, Neff, or anyone else around Kirk."
+  },
+  "what_would_change_conclusion": [
+    "Authenticated location data placing Robinson somewhere incompatible with the surveillance reconstruction.",
+    "Proof the alleged admissions were not authored by him.",
+    "A fatal-projectile examination EXCLUDING — rather than merely failing to identify — the recovered rifle.",
+    "Forensic evidence establishing another firing direction or another weapon.",
+    "Authenticated pre-shooting communications or payments linking Robinson to another actor.",
+    "Evidence that someone deliberately ordered the vulnerable roof left unprotected.",
+    "Evidence that somebody had specific advance knowledge of the planned attack that could not reasonably be explained by coincidence."
+  ],
+  "k9_rifle_search": {
+    "claim": "Dogs searched area first without finding rifle, FBI later found it",
+    "background": "The FBI announced on September 11 that the rifle had been recovered in a wooded area along the shooter's apparent escape route — an older .30-06 Mauser wrapped in a towel. At the July 2026 preliminary hearing, former Utah SBI agent David Hull testified that surveillance showed Robinson entering that wooded area twice and that investigators subsequently recovered the rifle there. A more specific story now circulating alleges local officers performed a line search without finding it, K9s then searched without finding it, and only after federal agents directed another search of the same area did junior local officers find it. That allegation was found reproduced on an investigative website which itself labels it uncorroborated and notes its underlying list provides no officer name, report number, timestamp, K9 record, or primary source.",
+    "current_verification": "LOW/UNRESOLVED",
+    "importance_if_verified": "HIGH",
+    "ordinary_explanations": true,
+    "ordinary_explanations_detail": "Dogs are not infallible, and whether a dog should have detected the rifle depends on its specialty — a patrol/tracking dog searching for a fleeing human performs a fundamentally different task from an explosives/firearms-detection dog trained to alert on gunpowder odor. Dense vegetation, wind, handler direction, search boundaries, and the rifle being wrapped in a towel all matter. Humans routinely miss objects during initial searches. There is also a real distinction between 'the FBI searched the area' and 'the area had previously been searched' — multiple agencies were operating there.",
+    "planting_implication_if_strongest_version_proven": "VERY HIGH",
+    "what_would_resolve": [
+      "K9 handler report",
+      "K9 certification/specialty",
+      "GPS/search track",
+      "bodycam",
+      "search-team logs",
+      "scene perimeter log",
+      "exact rifle coordinates",
+      "first-recovery timestamp"
+    ],
+    "note": "Because the fatal projectile examination did not conclusively identify the recovered rifle as the weapon that fired the fatal projectile, the provenance of that rifle matters considerably more than it would with a pristine ballistic match — which raises the evidentiary value of resolving this anomaly."
+  },
+  "google_trends_assessment": {
+    "title": "Assessing the pre-shooting Google Trends / Israel anomaly claims",
+    "context": "Some circulated analyses claim pre-September 10, 2025 Israeli Google Trends interest not merely in Charlie Kirk, but in names such as Tyler Robinson, Lance Twiggs, Brian Harpole, Deirdre Amaro, Hunter Kozak, Robert Bohls, and locations/organizations later connected to the case.",
+    "ranking_most_to_least_likely": [
+      {
+        "rank": 1,
+        "explanation": "Google Trends statistical noise + normalization",
+        "detail": "Google explicitly warns that low-volume terms can produce random one-off spikes from statistical noise and says those spikes should not be interpreted as evidence that individual searches actually occurred. Trends is based on a sample, not the entire Google search database."
+      },
+      {
+        "rank": 2,
+        "explanation": "Post-hoc searching / the 'look-elsewhere' effect",
+        "detail": "Investigators began with hundreds of names, places, buildings, doctors, security personnel, law-enforcement officials, judges, aircraft, etc., after knowing the case. Searching enough combinations of terms x countries x dates will produce some apparently remarkable pre-event matches by chance; the unusual-looking matches get published while the hundreds of terms producing nothing are rarely shown."
+      },
+      {
+        "rank": 3,
+        "explanation": "The numbers are being misinterpreted",
+        "detail": "Reports of '94 searches' or '100 searches' for a name misstate what Google Trends values mean. Explore values are normalized relative-interest scores from 0-100, with 100 representing the peak within that query — not a count of 100 searches."
+      },
+      {
+        "rank": 4,
+        "explanation": "Unrelated people/entities with the same name",
+        "detail": "Google Trends records the query string or categorized topic, not the searcher's intended identity, and aggregates/categorizes search activity. This explanation weakens for highly distinctive combinations such as an uncommon full name plus a specific obscure Utah facility."
+      },
+      {
+        "rank": 5,
+        "explanation": "Geographic attribution does not mean 'Israeli intelligence IP addresses'",
+        "detail": "The publicly available Trends interface reports aggregated geographical interest; it does not provide a list of IP addresses or identify individual searchers. 'Israel' means the Trends geographic bucket, not verified Mossad workstations; VPN exits are one possible confound."
+      },
+      {
+        "rank": 6,
+        "explanation": "Real but innocent Israeli searches",
+        "detail": "Journalists, cybersecurity researchers, security professionals, political researchers, Israelis connected to American conservative organizations, expatriate Americans, and other niche users can create a surprisingly large relative score for an obscure term, because Trends divides searches by total search activity in the geographic/time bucket before scaling."
+      },
+      {
+        "rank": 7,
+        "explanation": "Automated/irregular search activity",
+        "detail": "Google acknowledges that automated or other irregular searches can occasionally survive its filtering and appear in Trends — relevant when dozens of obscure terms behave strangely."
+      },
+      {
+        "rank": 8,
+        "explanation": "Actual pre-event foreknowledge",
+        "detail": "Possible in principle, but currently unsupported. Not assigned zero probability — if several genuinely unique people with no publicly discoverable relationship before September 10 repeatedly appeared from the same geography in reproducible, high-enough-volume data, in a meaningful chronological sequence, that would be a legitimate investigative anomaly. The public Trends evidence found so far does not establish that."
+      }
+    ],
+    "central_distinction": "'Google Trends produced a historical point associated with Israel' is not equivalent to 'someone in Israel searched this name before the murder.' Low-volume one-off historical spikes can literally be statistical noise rather than actual search behavior.",
+    "worth_further_investigation": "The reported claims aren't limited to 'Charlie Kirk' or 'Utah Valley University' — researchers allege earlier Israel results involving Tyler Robinson and Lance Twiggs, Brian Harpole, medical personnel, FBI personnel, judges, Hunter Kozak, UVU buildings, and other later-relevant entities. A genuine, independently verified cluster like that would be far more interesting statistically than one isolated spike.",
+    "what_would_change_assessment": [
+      "Original CSV exports made before the controversy, rather than screenshots generated afterward.",
+      "Repeated exports/API pulls returning essentially the same dates/geographies.",
+      "A control study: run several hundred similarly obscure Utah names unrelated to the shooting and see how frequently Israel/DC/random countries produce historical spikes.",
+      "Exact quoted query strings rather than broad Google 'Topics.'",
+      "Evidence that the same terms appear in another independent search dataset.",
+      "A chronological sequence that makes operational sense (e.g., location → security employee → hospital → named physician → suspect) rather than scattered dates.",
+      "Actual search volumes sufficiently large to overwhelm Google's statistical-noise problem.",
+      "Subpoenaed or authenticated Google records establishing genuine queries, timestamps and geography — categorically different evidence from Google Trends."
+    ],
+    "control_study_recommendation": "Take every claimed pre-shooting Google Trends anomaly connected to the Kirk case (Israel, Washington DC, Alabama, Utah, etc.), build a master table, and statistically test it against hundreds of matched control names and places unrelated to the shooting. That would show whether the Kirk dataset is genuinely extraordinary or whether Google Trends routinely produces apparent 'foreknowledge' patterns when searching backward through obscure terms — far more probative than arguing from individual screenshots."
+  }
+}

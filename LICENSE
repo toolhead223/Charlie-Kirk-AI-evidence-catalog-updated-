@@ -1,28 +1,27 @@
-# License — Research Content & Data
+MIT License
 
-The research content and data files in this repository — everything under `data/*.json` (the deep dives, timeline, contested claims, network graph, assessment, and all other case content), plus `GRAMA_REQUESTS.md` — are licensed under:
+Copyright (c) 2026 [Your name or GitHub username here]
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This is separate from the [MIT-licensed](LICENSE) code (`index.html`, `app.js`, `styles.css`, `scripts/*.py`).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## What this means in plain language
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-You are free to:
+---
 
-- **Share** — copy and redistribute this material in any medium or format
-- **Adapt** — remix, transform, and build upon it, for any purpose, including commercially
-
-Under the following term:
-
-- **Attribution** — You must give appropriate credit, provide a link to this license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the original author endorses you or your use.
-
-No additional restrictions — you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-This is a human-readable summary of (and not a substitute for) the full license text: **https://creativecommons.org/licenses/by/4.0/legalcode**
-
-## A few things worth noting
-
-- **This project's own analysis and write-ups** (the deep-dive text, ratings, and assessments) are original work covered by this license. **Facts themselves are not copyrightable** — the underlying events, court records, and public statements this project describes remain what they are regardless of license.
-- **Third-party material referenced or quoted within this project** (news excerpts, court documents, video transcript passages, the satellite imagery used in the Scene Simulation tab) is **not** covered by this license and remains subject to its original source's rights and terms. The satellite basemap specifically requires its own attribution: *Esri, Maxar, Earthstar Geographics*. If you reuse or republish this project's content, you're responsible for handling any embedded third-party material appropriately on your own end.
-- Court filings and other government records referenced in this project are generally public records in their own right, independent of this license.
+This license covers the code in this repository: index.html, app.js,
+styles.css, and the Python scripts in scripts/. It does NOT cover the
+research content and data files described below — see LICENSE-DATA.md.

@@ -1,0 +1,285 @@
+{
+  "window": {
+    "start": "2025-09-08 12:23 MDT",
+    "shooting": "2025-09-10 12:23 MDT",
+    "end": "2025-09-12 12:23 MDT",
+    "note": "Window is exactly 48 hours before and 48 hours after the shooting. Times are MDT (UTC-6) where a source gives a time; dates only are shown where no time is documented."
+  },
+  "confidence_legend": {
+    "official": "Court record, official statement, or sworn testimony",
+    "reported": "Named credible reporting",
+    "self_reported": "The person's own public statement \u2014 not independently verified",
+    "disputed": "Contested \u2014 see the Contested Claims tab for the full adjudication"
+  },
+  "people": [
+    {
+      "name": "Tyler James Robinson",
+      "role": "Defendant",
+      "coverage_note": "The best-documented movements in the window, from surveillance and testimony presented at the preliminary hearing.",
+      "entries": [
+        {
+          "when": "2025-09-10 ~12:23",
+          "event": "Shot fired from a rooftop firing position; escapes over the roof and into a wooded area, entering it twice per surveillance.",
+          "confidence": "official"
+        },
+        {
+          "when": "2025-09-10, over the day",
+          "event": "Surveillance testimony places Robinson on the UVU campus four separate times before the shooting.",
+          "confidence": "official"
+        },
+        {
+          "when": "2025-09-11 ~00:30",
+          "event": "Stopped by an officer at a campus checkpoint while driving away. The officer became suspicious and wrote down a partial plate number later matched to Robinson's vehicle. The officer's identity is not publicly established.",
+          "confidence": "official"
+        },
+        {
+          "when": "2025-09-11, morning",
+          "event": "Alleged confession to former roommate Lance Twiggs, per Twiggs's recorded interview: Robinson allegedly admitted the shooting in messages, then confirmed it face-to-face and expressed regret when asked directly.",
+          "confidence": "disputed"
+        },
+        {
+          "when": "2025-09-11, ~21:23 (approx.)",
+          "event": "Surrendered to authorities \u2014 reported as approximately 33 hours after the shooting. Exact time and circumstances of surrender are addressed in the Court Record Timeline tab.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Charlie Kirk",
+      "role": "Victim",
+      "coverage_note": "Detailed for the two days before the shooting because of the Israel/donor dispute research thread; the day of the shooting is covered in the main Court Record Timeline.",
+      "entries": [
+        {
+          "when": "2025-09-08",
+          "event": "Privately writes in a WhatsApp group that a ~$2M/year donor has withdrawn support over Tucker Carlson, that he feels bullied, and that donor pressure is pushing him toward leaving the pro-Israel cause. Josh Hammer was in this chat.",
+          "confidence": "reported"
+        },
+        {
+          "when": "2025-09-09 (contested)",
+          "event": "A message attributed to Andrew Kolvet later characterized Kirk's September 9 as: woke beside Erika, went to the office with Charlie [sic \u2014 see note], woke Charlie from a nap before a Fox appearance, went to dinner. See the Contested Claims tab \u2014 this account was offered as an Erika alibi and has documented problems, including the 'office all day' claim being imprecise.",
+          "confidence": "disputed"
+        },
+        {
+          "when": "2025-09-09, night",
+          "event": "Approximately hour-long Israel-strategy Zoom call with Josh Hammer and Rabbi Pesach Wolicki, preparing to defend Israel to Gen Z audiences on the campus tour. Wolicki says the meeting had been scheduled for weeks and that Kirk initiated it.",
+          "confidence": "reported"
+        },
+        {
+          "when": "2025-09-10 ~12:23",
+          "event": "Fatally shot at UVU, roughly 20 minutes into the event, while seated at his 'Prove Me Wrong' table. Full sequence in the Court Record Timeline and Assessment tabs.",
+          "confidence": "official"
+        },
+        {
+          "when": "2025-09-10, shortly before the event",
+          "event": "Posted to X (and shared to Instagram) about the Iryna Zarutska murder case: 'If we want things to change, it's 100% necessary to politicize the senseless murder of Iryna Zarutska because it was politics that allowed a savage monster with 14 priors to be free on the streets to kill her.' This is his last known post before taking the stage.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Erika Kirk",
+      "role": "Widow; TPUSA CEO",
+      "coverage_note": "Her whereabouts on September 8 specifically are the subject of an unresolved public dispute \u2014 see the Contested Claims tab for the full Fort Huachuca adjudication. This entry states only what is documented, not what either side alleges.",
+      "entries": [
+        {
+          "when": "2025-09-08, evening",
+          "event": "Mitch Snow has alleged he saw her at the Candlewood Suites near Fort Huachuca, AZ this evening. This allegation is UNPROVEN \u2014 see Contested Claims tab dispute D1.",
+          "confidence": "disputed"
+        },
+        {
+          "when": "2025-09-09, 08:33 (claimed)",
+          "event": "A photograph later supplied by Andrew Kolvet to YouTuber Gary Melton was captioned as proof she was with her kids at this time. On examination, she does not appear to be visible in the photo, and one of the two children shown was later said by Melton not to be her son. See Contested Claims tab dispute D1 for the full breakdown.",
+          "confidence": "disputed"
+        },
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Notified by Mikey McCoy that Charlie had been shot, with instructions to get the children and security.",
+          "confidence": "reported"
+        },
+        {
+          "when": "2025-09-12 (exact time not publicly pinned down; near or at the edge of this 48h window)",
+          "event": "Delivered her first public remarks since the shooting, in a livestreamed address standing beside Charlie's empty podcast chair: 'If you thought that my husband's mission was powerful before, you have no idea.' Confirmed the American Comeback Tour would continue, with the next stop September 18 at Colorado State University.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Lance Twiggs",
+      "role": "Robinson's former roommate; immunized witness",
+      "coverage_note": "No dated public record locates him at a specific place or time in this window outside the alleged confession exchange with Robinson.",
+      "entries": [
+        {
+          "when": "2025-09-11, morning (approx.)",
+          "event": "Per his own recorded interview (admitted at the preliminary hearing as hearsay, not live testimony), Robinson allegedly confirmed the shooting to him face-to-face and expressed regret, after earlier admitting it in messages. Twiggs's own statement says he had no advance knowledge and never heard Robinson discuss Kirk.",
+          "confidence": "disputed"
+        }
+      ]
+    },
+    {
+      "name": "Brian Harpole",
+      "role": "Head of Kirk's tour security",
+      "coverage_note": "Documented for the immediate aftermath only; no dated record locates him before the shooting in this window.",
+      "entries": [
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Rode in the evacuation SUV to Timpanogos Regional Hospital, positioned near Kirk's legs, per Frank Turek's account.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Dan Flood",
+      "role": "TPUSA security director",
+      "coverage_note": "Documented for the immediate aftermath only; no dated record locates him before the shooting in this window.",
+      "entries": [
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Rode in the evacuation SUV handling navigation, per Frank Turek's account.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Frank Turek",
+      "role": "Christian apologist; family friend",
+      "coverage_note": "",
+      "entries": [
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Present at UVU; immediately joined the evacuation SUV, entering from the rear, and rode to Timpanogos Regional Hospital with Kirk and the security/operations group.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Justin Davis",
+      "role": "Reported evacuation driver",
+      "coverage_note": "Identity confidence is lower than Harpole/Flood \u2014 see the Verified Case Map for the collision-risk flag.",
+      "entries": [
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Reportedly drove the evacuation SUV, per secondary identification of the 'Justin' Turek described.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Rick Cutler",
+      "role": "Reported evacuation/security group member",
+      "coverage_note": "Identity confidence is lower than Harpole/Flood \u2014 see the Verified Case Map for the collision-risk flag.",
+      "entries": [
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Reportedly held Kirk's head during the hospital transport, per secondary identification of the 'Rick' Turek described.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Mikey (Michael) McCoy",
+      "role": "Kirk's former assistant / TPUSA chief of staff",
+      "coverage_note": "No dated record locates him before the shooting in this window; his one documented action in this window is the notification call.",
+      "entries": [
+        {
+          "when": "2025-09-10, immediately after ~12:23",
+          "event": "Called Erika Kirk to tell her Charlie had been shot, and to get the children and security \u2014 establishing him as part of the immediate crisis communications chain.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Josh Hammer",
+      "role": "Senior Counsel, Article III Project; Shillman Fellow",
+      "coverage_note": "Well-documented for September 8-9 due to his own public statements about the WhatsApp chat and the final Israel Zoom; nothing dated locates him after the shooting within this window.",
+      "entries": [
+        {
+          "when": "2025-09-08",
+          "event": "Present in Kirk's private WhatsApp group when Kirk wrote about donor pressure and losing the ~$2M/year donor. Authenticity of the messages was later confirmed by Andrew Kolvet.",
+          "confidence": "reported"
+        },
+        {
+          "when": "2025-09-09, evening",
+          "event": "Reposted an old Trump-era comment about public executions. Hammer has stated this concerned the contemporaneous Iryna Zarutska murder case, not Kirk. See the Network tab's Hammer claim-by-claim table for the full evidentiary weighing of this post.",
+          "confidence": "disputed"
+        },
+        {
+          "when": "2025-09-09, night",
+          "event": "Participated in Kirk's final Israel-strategy Zoom call alongside Rabbi Pesach Wolicki. Confirmed by Hammer himself: 'I was also part of this meeting the night before the assassination.'",
+          "confidence": "self_reported"
+        },
+        {
+          "when": "2025-09-09, ~11:36, ~11:40, ~13:29, ~21:59",
+          "event": "Multiple ordinary posts recovered from X search indexing across the day \u2014 used to establish that his day was not unusually quiet or unusually active around a single post.",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "Pesach Wolicki",
+      "role": "Rabbi; Israel365 Action",
+      "coverage_note": "No dated record locates him after the shooting within this window.",
+      "entries": [
+        {
+          "when": "2025-09-09, night",
+          "event": "Held an approximately hour-long Zoom call with Kirk, describing it as preparation for Israel-related challenges Kirk expected on the campus tour. Says the meeting had been on the schedule for weeks and that Kirk initiated it.",
+          "confidence": "self_reported"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Kolvet",
+      "role": "TPUSA spokesperson; Charlie Kirk Show executive producer",
+      "coverage_note": "No dated record locates him before the shooting in this window. His other documented actions (confirming the WhatsApp messages, supplying the Melton photo) occurred in the weeks and months afterward, outside this window, and are covered in the Network and Contested Claims tabs.",
+      "entries": [
+        {
+          "when": "2025-09-10, ~23:38",
+          "event": "Posted a public tribute on X: 'Charlie was a hero, a fighter, and an American legend. I will miss him dearly for the rest of my life. I saw it up close on a daily basis, and he was truly good, loyal, and kind.'",
+          "confidence": "reported"
+        }
+      ]
+    },
+    {
+      "name": "George Zinn",
+      "role": "Bystander; briefly detained",
+      "coverage_note": "",
+      "entries": [
+        {
+          "when": "2025-09-10, aftermath",
+          "event": "Detained at the scene, later cleared of any tie to the shooting.",
+          "confidence": "official"
+        }
+      ]
+    },
+    {
+      "name": "Zachariah Qureshi",
+      "role": "Bystander; briefly detained",
+      "coverage_note": "",
+      "entries": [
+        {
+          "when": "2025-09-10, aftermath",
+          "event": "Detained at the scene, later cleared of any tie to the shooting.",
+          "confidence": "official"
+        }
+      ]
+    },
+    {
+      "name": "Ben Shapiro",
+      "role": "Daily Wire founder",
+      "coverage_note": "No public record locates him at a specific place or time anywhere in this 48-hour window.",
+      "entries": []
+    },
+    {
+      "name": "Blake Neff",
+      "role": "Charlie Kirk Show writer/producer",
+      "coverage_note": "No public record locates him at a specific place or time anywhere in this 48-hour window.",
+      "entries": []
+    },
+    {
+      "name": "Victor Marx",
+      "role": "Founder, All Things Possible Ministries",
+      "coverage_note": "No public record locates him at a specific place or time anywhere in this 48-hour window.",
+      "entries": []
+    }
+  ],
+  "methodology": "Built by pulling every dated or timed fact already established elsewhere in this app \u2014 the Court Record Timeline, the Network tab, the Contested Claims tab \u2014 that falls inside the 48-hour window, and attributing it to the specific person it concerns. No new research was conducted to fill gaps; where a person has no dated activity in this window in the public record already assembled here, that is stated explicitly rather than left implicit. An empty timeline is not exculpatory or incriminating \u2014 it means nobody has yet placed that person at a specific time and place in this window, which is itself the fact worth recording."
+}

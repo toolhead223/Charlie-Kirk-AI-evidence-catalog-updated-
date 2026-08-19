@@ -1,0 +1,123 @@
+{
+  "intro": "A gap in an ADS-B track is the most misread signal in open-source flight analysis. Six different causes produce a visually IDENTICAL gap. Select each one below \u2014 the track never changes.",
+  "causes": [
+    {
+      "id": "terrain",
+      "label": "Terrain masking",
+      "short": "Mountains blocked the signal",
+      "frequency": "Extremely common",
+      "detail": "ADS-B broadcasts on 1090 MHz \u2014 line-of-sight only. Terrain between the aircraft and a ground receiver blocks reception completely. Provo sits in a valley ringed by the Wasatch Range, with peaks over 11,000 ft. An aircraft descending into that valley routinely drops off distant receivers and reappears on the far side.",
+      "what_the_aircraft_did": "Nothing. It broadcast continuously the entire time.",
+      "how_to_rule_out": "Check the terrain profile between the aircraft's position and the nearest receivers. Cross-reference a second data source with different ground-station geometry.",
+      "visual_hint": "terrain"
+    },
+    {
+      "id": "receiver",
+      "label": "Receiver coverage gap",
+      "short": "Nobody was listening",
+      "frequency": "Extremely common",
+      "detail": "ADSBExchange, FlightRadar24 and OpenSky depend on volunteer-operated ground stations. Coverage is dense over metros and thin everywhere else. No receiver in range means no data recorded \u2014 even though the aircraft was transmitting normally the whole time.",
+      "what_the_aircraft_did": "Nothing. The gap is in the observation network, not the aircraft.",
+      "how_to_rule_out": "Check the feeder/receiver coverage map for that area and altitude. Low-altitude coverage is far sparser than high-altitude coverage almost everywhere.",
+      "visual_hint": "receiver"
+    },
+    {
+      "id": "ladd",
+      "label": "FAA LADD program",
+      "short": "Owner requested suppression",
+      "frequency": "Thousands of aircraft enrolled",
+      "detail": "LADD \u2014 Limiting Aircraft Data Displayed \u2014 is an FAA program that lets registered owners request their aircraft be withheld from public data feeds. It is entirely legal, entirely routine, and used heavily by corporate and private operators for ordinary commercial-privacy and personal-security reasons.",
+      "what_the_aircraft_did": "Nothing unusual. The data was filtered before it reached public display.",
+      "how_to_rule_out": "LADD enrollment is administrative, not per-flight. If an aircraft is enrolled, it is consistently absent \u2014 not absent only during an interesting window.",
+      "visual_hint": "ladd"
+    },
+    {
+      "id": "pia",
+      "label": "Privacy ICAO Address (PIA)",
+      "short": "The aircraft changed its ID",
+      "frequency": "Common for private operators",
+      "detail": "PIA lets a US-registered aircraft broadcast a rotating temporary ICAO address instead of its permanent one. On a tracking site the original track appears to end, and an apparently different aircraft appears. This is a documented FAA privacy program, not evasion.",
+      "what_the_aircraft_did": "Broadcast continuously \u2014 under a different identifier.",
+      "how_to_rule_out": "Look for a new track originating at the same position/altitude/heading at the same moment. PIA handoffs are usually obvious once you know to look for continuity rather than identity.",
+      "visual_hint": "pia"
+    },
+    {
+      "id": "military",
+      "label": "Not on civil ADS-B at all",
+      "short": "Never was visible",
+      "frequency": "All military, much government",
+      "detail": "Military aircraft commonly operate Mode 5 / encrypted IFF and do not appear on civil ADS-B feeds under any circumstances. Some government aircraft are similarly absent. This is not something toggled during a flight \u2014 those aircraft were never in the public dataset.",
+      "what_the_aircraft_did": "Nothing. It was never in the civil feed to begin with.",
+      "how_to_rule_out": "If an aircraft is claimed to have 'gone dark,' check whether it ever appeared in civil data. Absence throughout is a different claim than a mid-flight disappearance.",
+      "visual_hint": "military"
+    },
+    {
+      "id": "actual",
+      "label": "Transponder genuinely switched off",
+      "short": "The claim being made",
+      "frequency": "Rare",
+      "detail": "Operating without a transponder in controlled airspace violates FAA regulations and would draw ATC attention immediately \u2014 controllers would lose the target and query the aircraft. It is the least likely explanation for a public-feed gap and the hardest to establish, because every explanation above produces the exact same visual.",
+      "what_the_aircraft_did": "Switched off the transponder \u2014 which is what would need to be PROVEN, not assumed.",
+      "how_to_rule_out": "You cannot establish this from a public-feed gap alone. It requires ATC records, radar data, or FAA enforcement action \u2014 none of which are visible on a tracking website.",
+      "visual_hint": "actual"
+    }
+  ],
+  "registry_check": {
+    "title": "Verify a tail number yourself",
+    "why": "Claims about aircraft ownership are checkable in about thirty seconds, and in circulating aviation claims they are frequently just wrong. Registration data is public, free, and authoritative \u2014 there is no reason to take anyone's word for who owns an aircraft.",
+    "steps": [
+      {
+        "step": "FAA N-Number Inquiry",
+        "url": "https://registry.faa.gov/aircraftinquiry/",
+        "what_you_get": "Registered owner name and address, aircraft make/model/year, airworthiness status, registration dates."
+      },
+      {
+        "step": "FAA releasable aircraft database (bulk)",
+        "url": "https://registry.faa.gov/database/ReleasableAircraft.zip",
+        "what_you_get": "The full US civil registry as downloadable CSV files. Lets you check ownership claims in bulk rather than one at a time."
+      },
+      {
+        "step": "OpenSky Network",
+        "url": "https://opensky-network.org/",
+        "what_you_get": "Historical ADS-B data for research use. Free accounts have limits; broader historical access requires an academic/research agreement."
+      }
+    ],
+    "caveats": [
+      "An LLC-registered owner is the NORM, not a red flag. Most private aircraft are LLC-held for liability and tax reasons.",
+      "A registration address is often a registered-agent or management-company address, not the beneficial owner's home.",
+      "Registry data reflects the CURRENT registration. Ownership at an earlier date requires the registration history, not the current record.",
+      "A tail number can be reassigned. Confirm the registration was in effect on the date in question."
+    ],
+    "example": "Tail number N888KG appears in your source dataset, sourced to a podcast transcript. That is a checkable claim: look it up in the FAA registry and see whether the ownership matches what was asserted, and whether the registration was current on the relevant date. Run the check before treating the claim as established either way."
+  },
+  "base_rates": {
+    "title": "Base rates \u2014 why 'I found an aircraft' carries no information",
+    "facts": [
+      {
+        "stat": "~45,000",
+        "label": "flights per day in US airspace"
+      },
+      {
+        "stat": "~5,400",
+        "label": "aircraft airborne over the US at peak moments"
+      },
+      {
+        "stat": "20 min",
+        "label": "from Provo to Salt Lake City International, a Delta hub"
+      },
+      {
+        "stat": "1",
+        "label": "flight school operating at Provo Municipal, generating repetitive local traffic"
+      }
+    ],
+    "the_problem": "Search any 24-hour window near any US location and you will find private jets, LLC-registered aircraft, government aircraft, orbiting tracks, and coverage dropouts. These are the background state of the airspace. Without a hypothesis fixed BEFORE the search and a matched control window, finding them tells you only that you looked.",
+    "the_causation_problem": "On September 10, 2025 there was a mass-casualty shooting and Charlie Kirk was transported for emergency care. Law enforcement aircraft responding, medevac activity, and news helicopters are all CAUSED BY the event. Aircraft orbiting after a shooting is a response signature. Reading it as a foreknowledge signature inverts the causation \u2014 the event explains the aircraft, not the other way around.",
+    "what_would_actually_be_evidence": [
+      "An aircraft whose track is anomalous relative to a matched control window \u2014 same location, same aircraft type, comparable days.",
+      "Ownership established from the FAA registry AS OF the relevant date, not asserted.",
+      "A coverage gap that persists after terrain, receiver geometry, LADD and PIA have each been checked and excluded.",
+      "Corroboration from a second, independent data source with different ground-station geometry.",
+      "Some connection to the case that does not depend on the aircraft's presence being suspicious in the first place."
+    ]
+  }
+}

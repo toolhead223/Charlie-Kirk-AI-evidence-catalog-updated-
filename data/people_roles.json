@@ -1,0 +1,502 @@
+[
+  {
+    "Name": "Tyler James Robinson",
+    "Type": "Person",
+    "Case Role / Relationship": "Accused defendant",
+    "Verified Relationship Summary": "Surveillance testimony reportedly shows he spoke with unidentified TPUSA representatives on campus the morning of the shooting; no verified earlier personal contact with Kirk/Shapiro or named security member established.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "No named security contact established",
+    "Role Source URL": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+    "Name Collision Risk": "High for short-name variant; low for full name"
+  },
+  {
+    "Name": "Lance Twiggs",
+    "Type": "Person",
+    "Case Role / Relationship": "Robinson roommate/partner; later witness",
+    "Verified Relationship Summary": "No verified pre-shooting meeting/communication with Kirk, Shapiro, or named security team found.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None verified",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Charlie Kirk",
+    "Type": "Person",
+    "Case Role / Relationship": "Victim; TPUSA founder",
+    "Verified Relationship Summary": "Central case figure.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "N/A",
+    "Role Source URL": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Ben Shapiro",
+    "Type": "Person",
+    "Case Role / Relationship": "Public commentator; comparison target",
+    "Verified Relationship Summary": "No verified Tyler/Lance contact or security-team crossover found so far.",
+    "Case Connection Verified?": "No direct case role",
+    "Pre-shooting Contact / Crossover Found": "None verified",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Hunter Kozak",
+    "Type": "Person",
+    "Case Role / Relationship": "Asked final question immediately before shot",
+    "Verified Relationship Summary": "Prior attendance at a Kirk/TPUSA summit reported; no evidence this alone implies personal relationship.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Crossed broader TPUSA event environment",
+    "Role Source URL": "https://www.washingtonpost.com/nation/2025/09/11/student-describes-moment-charlie-kirk-was-shot/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "George Zinn",
+    "Type": "Person",
+    "Case Role / Relationship": "Initially detained, later cleared of shooting tie",
+    "Verified Relationship Summary": "Official DPS confirms detention/release.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "At scene / immediate aftermath",
+    "Role Source URL": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Zachariah Qureshi",
+    "Type": "Person",
+    "Case Role / Relationship": "Second person detained and released",
+    "Verified Relationship Summary": "Official DPS says no current ties to shooting.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "At/near scene",
+    "Role Source URL": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Brian Harpole",
+    "Type": "Person",
+    "Case Role / Relationship": "Kirk security chief",
+    "Verified Relationship Summary": "HEAD OF SECURITY for Kirk's American Comeback Tour. Publicly displayed what he said were communications showing his team discussed ROOFTOP SECURITY with UVU police beforehand, alleging assurances were given. Has sued Candace Owens and Mitch Snow for defamation.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Direct security team",
+    "Role Source URL": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Dan Flood",
+    "Type": "Person",
+    "Case Role / Relationship": "TPUSA security director",
+    "Verified Relationship Summary": "TURNING POINT USA SECURITY DIRECTOR (upgraded from traveling aide). Rode in the evacuation SUV handling navigation. Potentially knows who controlled event security, how UVU/TPUSA divided responsibilities, and whether elevated positions were discussed in advance.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Direct security team",
+    "Role Source URL": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Justin Davis",
+    "Type": "Person",
+    "Case Role / Relationship": "Trained emergency driver",
+    "Verified Relationship Summary": "Named by KSL account.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Direct security/transport team",
+    "Role Source URL": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Rick Cutler",
+    "Type": "Person",
+    "Case Role / Relationship": "Private security operator",
+    "Verified Relationship Summary": "Named by KSL account.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Direct security team",
+    "Role Source URL": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Frank Turek",
+    "Type": "Person",
+    "Case Role / Relationship": "Kirk associate present during emergency transport",
+    "Verified Relationship Summary": "Named by KSL account; not primarily security.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Immediate entourage",
+    "Role Source URL": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Jeffrey Long",
+    "Type": "Person",
+    "Case Role / Relationship": "UVU Police Chief",
+    "Verified Relationship Summary": "UVU police leadership; campus police provided event officers.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Law enforcement/event security",
+    "Role Source URL": "https://www.uvu.edu/news/2024/12/uvu-chief-of-police-jeffrey-long-2024.html",
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Chris Bagley",
+    "Type": "Person",
+    "Case Role / Relationship": "UVU police officer / later witness",
+    "Verified Relationship Summary": "Reported as event officer/witness in later proceedings.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Law enforcement/event security",
+    "Role Source URL": null,
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Beau Mason",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah DPS Commissioner",
+    "Verified Relationship Summary": "DPS co-led incident; appointment announced June 19, effective July 17.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Law enforcement leadership",
+    "Role Source URL": "https://dps.utah.gov/press-releases/media-advisory-utah-department-of-public-safety-announces-retirement-of-commissioner-jess-l-anderson-and-appointment-of-new-commissioner/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Mehtab D. Syed",
+    "Type": "Person",
+    "Case Role / Relationship": "Former FBI Salt Lake City SAC",
+    "Verified Relationship Summary": "Official FBI source confirms she was SAC June 6, 2025.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Predecessor FBI leadership",
+    "Role Source URL": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/fbi-salt-lake-city-remarks-at-press-conference-on-search-for-sawade-birdinground",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Robert Bohls",
+    "Type": "Person",
+    "Case Role / Relationship": "FBI Salt Lake City SAC",
+    "Verified Relationship Summary": "Official FBI source confirms he co-led investigation on shooting day.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Law enforcement leadership",
+    "Role Source URL": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/remarks-by-sac-robert-bohls-at-press-conference-regarding-shooting-at-utah-valley-university",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Mike Smith",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah County Sheriff",
+    "Verified Relationship Summary": "Utah County Sheriff's Office was among agencies participating.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Law enforcement leadership",
+    "Role Source URL": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "David Hull",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah DPS/SBI investigator",
+    "Verified Relationship Summary": "LEAD INVESTIGATOR for the Utah State Bureau of Investigation (not a generic investigator). Testified to the surveillance reconstruction, the wooded-area entries preceding the rifle recovery, and the 12:30 a.m. September 11 campus checkpoint stop of Robinson.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Investigator",
+    "Role Source URL": null,
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Brian Davis",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah SBI investigator",
+    "Verified Relationship Summary": "CO-LEAD INVESTIGATOR in the Kirk shooting (upgraded from generic 'SBI investigator'). Testified he was sent to St. George after Robinson surrendered and described surveillance obtained from the Washington County Sheriff's Office.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Investigator",
+    "Role Source URL": null,
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Jennifer Faumuina",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah SBI / evidence-related witness",
+    "Verified Relationship Summary": "Utah DPS/SBI SERGEANT who oversaw evidence collection at UVU on September 10 and handled FBI DNA-report evidence involving the towel and screwdriver.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Investigator/evidence",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Nate Brooksby",
+    "Type": "Person",
+    "Case Role / Relationship": "Washington County Sheriff",
+    "Verified Relationship Summary": "Connected to Robinson surrender.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Law enforcement / surrender",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Deirdre Amaro",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah chief medical examiner",
+    "Verified Relationship Summary": "Appointment publicly announced May 9, 2024; began in-person July 1.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Medical examiner",
+    "Role Source URL": "https://dhhs.utah.gov/featured-news/utah-department-of-health-and-human-services-dhhs-welcomes-new-medical-examiner/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Tony F. Graf Jr.",
+    "Type": "Person",
+    "Case Role / Relationship": "Fourth District judge; later presided over Robinson case",
+    "Verified Relationship Summary": "Appointment was public May 2, 2025.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Judiciary",
+    "Role Source URL": "https://senate.utah.gov/utah-senate-requests-public-comment-on-4th-district-appointee/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Robert Lunnen",
+    "Type": "Person",
+    "Case Role / Relationship": "Fourth District judge whose retirement created vacancy",
+    "Verified Relationship Summary": "Retirement/vacancy public April 10, 2025.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Judiciary",
+    "Role Source URL": "https://governor.utah.gov/press-release/nominees-announced-for-fourth-district-court-vacancy-2/",
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Kathryn 'Kathy' Nester",
+    "Type": "Person",
+    "Case Role / Relationship": "Later lead defense attorney",
+    "Verified Relationship Summary": "Case role was post-shooting.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Defense",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Jeffrey S. Gray",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah County Attorney / prosecution leadership",
+    "Verified Relationship Summary": "Case prosecution role.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Prosecution",
+    "Role Source URL": null,
+    "Name Collision Risk": "High for 'Jeff Gray'"
+  },
+  {
+    "Name": "Chad Grunander",
+    "Type": "Person",
+    "Case Role / Relationship": "Prosecution team",
+    "Verified Relationship Summary": "Named in case materials.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Prosecution",
+    "Role Source URL": null,
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Ryan McBride",
+    "Type": "Person",
+    "Case Role / Relationship": "Prosecution team",
+    "Verified Relationship Summary": "Named in case materials.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Prosecution",
+    "Role Source URL": null,
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Lauren Hunt",
+    "Type": "Person",
+    "Case Role / Relationship": "Prosecution team",
+    "Verified Relationship Summary": "Named in case materials.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Prosecution",
+    "Role Source URL": null,
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Christopher Ballard",
+    "Type": "Person",
+    "Case Role / Relationship": "Prosecution team",
+    "Verified Relationship Summary": "Named in case materials.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Prosecution",
+    "Role Source URL": null,
+    "Name Collision Risk": "High"
+  },
+  {
+    "Name": "Andrew Kolvet",
+    "Type": "Person",
+    "Case Role / Relationship": "TPUSA/Kirk associate",
+    "Verified Relationship Summary": "No convincing pre-event Trends anomaly in current record.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "TPUSA associate",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "David Engelhardt",
+    "Type": "Person",
+    "Case Role / Relationship": "TPUSA board/associate",
+    "Verified Relationship Summary": "No convincing pre-event Trends anomaly in current record.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "TPUSA associate",
+    "Role Source URL": null,
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Jeb Jacobi",
+    "Type": "Person",
+    "Case Role / Relationship": "UVU/TPUSA event participant/witness",
+    "Verified Relationship Summary": "Useful control: genuinely case-related, no convincing pre-event anomaly found.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Witness/event participant",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Skyler Baird",
+    "Type": "Person",
+    "Case Role / Relationship": "Eyewitness",
+    "Verified Relationship Summary": "Useful control / methodological example.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Witness",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Shaner Broderick",
+    "Type": "Person",
+    "Case Role / Relationship": "Case-adjacent witness/neighborhood account",
+    "Verified Relationship Summary": "Connection is weaker than direct witnesses.",
+    "Case Connection Verified?": "Partly",
+    "Pre-shooting Contact / Crossover Found": "Case-adjacent",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Phil Lyman",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah political figure / case-adjacent reporting",
+    "Verified Relationship Summary": "Connection requires careful contextualization.",
+    "Case Connection Verified?": "Unclear",
+    "Pre-shooting Contact / Crossover Found": "Case-adjacent",
+    "Role Source URL": null,
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Josh Hammer",
+    "Type": "Person",
+    "Case Role / Relationship": "Political commentator / Kirk associate",
+    "Verified Relationship Summary": "Public figure; baseline search interest expected.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "Associate/public commentator",
+    "Role Source URL": null,
+    "Name Collision Risk": "Medium"
+  },
+  {
+    "Name": "Jeremy Boreing",
+    "Type": "Person",
+    "Case Role / Relationship": "Daily Wire co-founder / Shapiro associate",
+    "Verified Relationship Summary": "No verified Tyler/Lance contact; control candidate.",
+    "Case Connection Verified?": "No direct case role",
+    "Pre-shooting Contact / Crossover Found": "None found",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Matt Walsh",
+    "Type": "Person",
+    "Case Role / Relationship": "Daily Wire personality / Shapiro associate",
+    "Verified Relationship Summary": "No verified Tyler/Lance contact; control candidate.",
+    "Case Connection Verified?": "No direct case role",
+    "Pre-shooting Contact / Crossover Found": "None found",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Michael Knowles",
+    "Type": "Person",
+    "Case Role / Relationship": "Daily Wire personality / Shapiro associate",
+    "Verified Relationship Summary": "No verified Tyler/Lance contact; control candidate.",
+    "Case Connection Verified?": "No direct case role",
+    "Pre-shooting Contact / Crossover Found": "None found",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Andrew Klavan",
+    "Type": "Person",
+    "Case Role / Relationship": "Daily Wire personality / Shapiro associate",
+    "Verified Relationship Summary": "No verified Tyler/Lance contact; control candidate.",
+    "Case Connection Verified?": "No direct case role",
+    "Pre-shooting Contact / Crossover Found": "None found",
+    "Role Source URL": null,
+    "Name Collision Risk": "Low"
+  },
+  {
+    "Name": "Amanda Bakker",
+    "Type": "Person",
+    "Case Role / Relationship": "FBI forensic examiner, Quantico",
+    "Verified Relationship Summary": "Authored FBI DNA testing involving the screwdriver and towel recovered near the alleged firing position. Robinson's defense called her and questioned her for roughly three hours about the DNA analysis. Publicly identified July 7, 2026.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None \u2014 post-shooting forensic role only",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "Low \u2014 distinctive full name"
+  },
+  {
+    "Name": "Caitlin Oliver",
+    "Type": "Person",
+    "Case Role / Relationship": "ATF forensic biologist",
+    "Verified Relationship Summary": "Testified July 10, 2026 about DNA testing on the rifle and ammunition. AP reports her analysis strongly supported Robinson as the major DNA contributor on multiple items.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None \u2014 post-shooting forensic role only",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "Low \u2014 relatively uncommon full name"
+  },
+  {
+    "Name": "Samantha Karner",
+    "Type": "Person",
+    "Case Role / Relationship": "ATF firearms/forensic examiner",
+    "Verified Relationship Summary": "Publicly identified July 10, 2026 during testimony concerning ballistics analysis of the bullet fragment recovered from Kirk. She testified the firearm comparison result should be characterized as INCONCLUSIVE and rejected stronger characterizations. This is the single most consequential forensic testimony in the hearing.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None \u2014 post-shooting forensic role only",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "Low \u2014 distinctive full name"
+  },
+  {
+    "Name": "Michael Burt",
+    "Type": "Person",
+    "Case Role / Relationship": "Robinson defense attorney",
+    "Verified Relationship Summary": "Conducted the extensive cross-examination of FBI examiner Amanda Bakker on July 7, 2026 and later challenged the ballistics evidence.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None established",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "HIGH \u2014 common name. Use 'Michael Burt Tyler Robinson' or 'Michael Burt Utah attorney'"
+  },
+  {
+    "Name": "Richard Novak",
+    "Type": "Person",
+    "Case Role / Relationship": "Robinson defense attorney",
+    "Verified Relationship Summary": "Challenged the relevance of David Engelhardt's TPUSA statement and cross-examined ATF forensic biologist Caitlin Oliver during the July 7-10, 2026 hearing.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None established",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "Medium \u2014 some reporting renders the surname 'Novack'; test both spellings"
+  },
+  {
+    "Name": "Jeffrey Neiman",
+    "Type": "Person",
+    "Case Role / Relationship": "Attorney representing the Kirk family",
+    "Verified Relationship Summary": "Formally represented Erika Kirk and Kirk's parents in disputes over access to preliminary-hearing exhibits, July 8-10, 2026, and successfully pushed for the family to see enhanced surveillance evidence.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None established",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "Medium \u2014 search both 'Jeff Neiman' and 'Jeffrey Neiman'"
+  },
+  {
+    "Name": "Chris Palmer",
+    "Type": "Person",
+    "Case Role / Relationship": "Utah State Courts Court Security Director",
+    "Verified Relationship Summary": "Newly identified security-related official. Responsible for courthouse security procedures during the high-profile hearing; publicly discussed rules protecting the Kirk and Robinson families. Identified July 10, 2026.",
+    "Case Connection Verified?": "Yes",
+    "Pre-shooting Contact / Crossover Found": "None \u2014 court security role, post-shooting",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "HIGH \u2014 very common name. Use 'Chris Palmer Utah Courts'"
+  },
+  {
+    "Name": "UNIDENTIFIED \u2014 campus checkpoint officer",
+    "Type": "Person",
+    "Case Role / Relationship": "IDENTITY TO RECOVER \u2014 high priority",
+    "Verified Relationship Summary": "David Hull testified that at approximately 12:30 a.m. on September 11, 2025, an officer at a campus checkpoint STOPPED Robinson as he was driving away. The officer reportedly became suspicious and wrote down a partial plate number later matched to Robinson's vehicle. The officer's name was not given in available reporting. This person had direct contact with Robinson only hours after the shooting.",
+    "Case Connection Verified?": "Yes \u2014 testimony establishes the contact; identity unrecovered",
+    "Pre-shooting Contact / Crossover Found": "Post-shooting direct contact with the defendant",
+    "Role Source URL": "https://apnews.com/",
+    "Name Collision Risk": "N/A \u2014 identity unknown"
+  }
+]

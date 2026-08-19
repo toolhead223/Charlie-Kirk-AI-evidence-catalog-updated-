@@ -1,0 +1,403 @@
+{
+  "source_note": {
+    "site": "CharlieFiles.com",
+    "url": "https://publish.obsidian.md/charliefiles/Home",
+    "fetched": "2026-08-12",
+    "description": "A third-party documentation project examining claims surrounding the September 10, 2025 shooting and the case against Tyler James Robinson. It organizes ~34 circulating claims into five categories (ballistics, scene/investigation, suspect/process, media manipulation, motive/Israel/security), plus an evidence index, people index, and full hearing transcripts.",
+    "how_this_tab_uses_it": "Claims are logged here as an EXTERNAL cross-reference, not this app's own finding. Where CharlieFiles' verdict can be checked against data already in this app \u2014 the ADS-B archive, the Network tab, the Assessment tab's anomaly list \u2014 that cross-check is shown explicitly, including where the two sources DISAGREE. Disagreement is preserved, not silently resolved."
+  },
+  "verdicts": {
+    "false": {
+      "label": "FALSE",
+      "color": "#e05252",
+      "desc": "The claim is contradicted by the cited evidence."
+    },
+    "misleading": {
+      "label": "MISLEADING",
+      "color": "#e09a52",
+      "desc": "Contains a true element but the overall claim distorts it."
+    },
+    "unsupported": {
+      "label": "UNSUPPORTED",
+      "color": "#9a6ee0",
+      "desc": "No evidence found for the claim; absence of proof, not proof of absence."
+    },
+    "partly_true_open": {
+      "label": "PARTLY TRUE / OPEN",
+      "color": "#e8b84b",
+      "desc": "A real kernel exists; the stronger inference built on it does not."
+    },
+    "true_context": {
+      "label": "TRUE, BUT CONTEXT MATTERS",
+      "color": "#52c7c1",
+      "desc": "The core fact checks out; what it's claimed to prove does not follow."
+    }
+  },
+  "claims": [
+    {
+      "id": "CF-A1",
+      "category": "Ballistics / shooting mechanics",
+      "title": "The microphone exploded (not a gunshot)",
+      "claim": "Kirk's microphone or a device on him exploded, rather than a gunshot.",
+      "verdict": "false",
+      "for": [
+        "Low-quality video of the incident",
+        "A visible bulge on Kirk's shirt, misinterpreted as a hidden device"
+      ],
+      "against": [
+        "The medical examiner (Dr. Guajardo) certified cause of death as a gunshot wound to the neck, per the search-warrant affidavit",
+        "A .30-06 Mauser rifle was recovered with engraved casings",
+        "A bullet-jacket fragment was recovered during Kirk's autopsy",
+        "A responding officer testified he recognized gunfire and found a prone sniper position",
+        "No device, residue, or blast findings exist anywhere in the record",
+        "The 'bulge' was Kirk's microphone rig, not a hidden device"
+      ],
+      "sources": [
+        "Search Warrant Affidavit (ME finding)",
+        "The Information and Charges",
+        "Affidavit of Probable Cause",
+        "Preliminary Hearing Day 1 Transcript"
+      ]
+    },
+    {
+      "id": "CF-A2",
+      "category": "Scene & investigation",
+      "title": "A bullet on the other roof (second shooter)",
+      "claim": "A bullet found on a different rooftop implies a second shot or an alternate firing position.",
+      "verdict": "partly_true_open",
+      "for": [
+        "Day 1: the defense raised the question of a bullet found on another roof, implying an alternative firing position",
+        "Initial uncertainty about the round's caliber and location left the theory unrefuted"
+      ],
+      "against": [
+        "Day 2: Agent Hull explained it as an ejected cartridge from an officer who had cycled his rifle",
+        "Day 3: Agent Schneider's findings identified it as a .223-caliber round on the Computer Science Building roof",
+        "The .223 caliber differs from the murder weapon, a .30-06 Mauser",
+        "It was a live, unfired round with no line of sight to the victim \u2014 consistent with a responding officer's dropped ammunition"
+      ],
+      "sources": [
+        "Preliminary Hearing Days 1\u20133 (July 6\u20138, 2026) \u2014 Officers Bagley, Hull, Agent Davis relaying Schneider's findings"
+      ],
+      "note": "The round now has an innocent explanation on record, but reveals a genuine chain-of-custody gap rather than evidence of a second shooter."
+    },
+    {
+      "id": "CF-B1",
+      "category": "Scene & investigation",
+      "title": "The scene was paved over",
+      "claim": "UVU or police paved over/resurfaced the shooting site to destroy or hide evidence; some versions claim Tyler Robinson's father's company did the paving.",
+      "verdict": "misleading",
+      "for": [
+        "UVU crews visibly removed grass from the Sorensen Center courtyard around September 15, 2025 and covered it with pavers/concrete",
+        "The paving occurred on an emergency, no-bid contract ($6,090.52, ordered 9/11)",
+        "The contractor's identity remains undisclosed by UVU, citing a safety exemption",
+        "The lead investigator was not consulted about the courtyard alterations"
+      ],
+      "against": [
+        "Critical physical evidence \u2014 shoe impressions, forearm imprint, palm print \u2014 was collected from the ROOFTOP, not the courtyard",
+        "The rifle and ammunition were recovered in a wooded area, not the courtyard",
+        "The FBI released the crime scene by approximately September 12, 2025, before paving began",
+        "The lead agent stated he only learned of the paving 'because it was in the news'",
+        "No documentation links Matt Robinson or his company to the paving work; Matt Robinson cooperated with investigators in identifying his son"
+      ],
+      "timeline": [
+        {
+          "date": "2025-09-10",
+          "event": "Shooting occurs"
+        },
+        {
+          "date": "2025-09-11 to 2025-09-14",
+          "event": "Campus closed; evidence collected from roof and woods"
+        },
+        {
+          "date": "2025-09-12 (approx.)",
+          "event": "FBI releases scene back to UVU"
+        },
+        {
+          "date": "2025-09-13 to 2025-09-16",
+          "event": "Paver installation completed"
+        },
+        {
+          "date": "2025-09-15",
+          "event": "Campus reopens"
+        }
+      ],
+      "sources": [
+        "Preliminary Hearing Day 2 testimony",
+        "FBI press releases on trace evidence location",
+        "UVU GRAMA records (obtained by Judicial Watch)",
+        "KSL and KUTV news coverage"
+      ]
+    },
+    {
+      "id": "CF-C1",
+      "category": "Suspect & process",
+      "title": "Lance Twiggs was more involved",
+      "claim": "Robinson's roommate Lance Twiggs, who received immunity and whose recorded interview was admitted without live cross-examination, was more involved than the State admits \u2014 stronger versions claim he was an intended patsy, 'handler,' or federal asset who set Robinson up.",
+      "verdict": "partly_true_open",
+      "verdict_note": "The involvement kernel is PARTLY TRUE and OPEN; the 'handler / federal-asset / set-up' inference is UNSUPPORTED.",
+      "for": [
+        "Twiggs's DNA appears as an assumed contributor on the rifle towel and screwdriver from the sniper perch",
+        "He received immunity and escaped live cross-examination at the preliminary hearing",
+        "His recorded interview was admitted as hearsay rather than live testimony, leaving credibility untested"
+      ],
+      "against": [
+        "Twiggs represents only the minor DNA contributor (~5% on towel, ~11% on screwdriver); Robinson is ~89\u201395%",
+        "Software DNA analysis found Twiggs 'uninformative' with a likelihood ratio of 1, resting only on visual analyst judgment",
+        "His own statement shows no advance knowledge \u2014 he said he never heard Robinson talk about Charlie Kirk",
+        "No evidence in the record supports 'federal asset,' 'handler,' or set-up claims"
+      ],
+      "sources": [
+        "Preliminary hearing transcripts, Days 2\u20134 (July 7\u20139, 2026)"
+      ]
+    },
+    {
+      "id": "CF-D1",
+      "category": "Motive, Israel & security",
+      "title": "Kirk was leaving the pro-Israel cause",
+      "claim": "Shortly before his death, Kirk wrote in a private group chat that he had 'no choice but to leave the pro-Israel cause'; Candace Owens revealed the messages and TPUSA confirmed they were authentic.",
+      "verdict": "true_context",
+      "verdict_note": "TRUE that the message exists and TPUSA confirmed it \u2014 UNSUPPORTED as evidence of an assassination motive.",
+      "for": [
+        "TPUSA spokesman Andrew Kolvet confirmed authenticity on Kirk's show in early October 2025: 'I actually am really excited that the truth is out there'",
+        "Screenshots were released by Candace Owens in October 2025 from a private WhatsApp group",
+        "Josh Hammer (Newsweek) confirmed his own participation in the thread",
+        "The $2 million donor was identified by the New York Times as Robert Shillman"
+      ],
+      "against": [
+        "No law-enforcement body has alleged a pro-Israel or foreign motive in connection with the shooting",
+        "Robinson is charged as the sole shooter with no documented connection to the donor dispute",
+        "The '48 hours before' timing is Owens's characterization, not independently confirmed",
+        "TPUSA characterized Kirk's actual position as 'complicated and nuanced' \u2014 broadly pro-Israel despite objecting to specific donor pressure"
+      ],
+      "sources": [
+        "JTA (Oct. 10, 2025)",
+        "Newsweek",
+        "Haaretz (Oct. 11, 2025)"
+      ],
+      "app_cross_reference": "This matches the Network tab's Shillman/Hammer chronology and the Sept. 8, 2025 WhatsApp timeline entry already in this app, sourced independently. The two accounts corroborate each other on the core facts and diverge only on how much weight the donor dispute deserves as a motive theory \u2014 where this app agrees with CharlieFiles that it is UNSUPPORTED as such."
+    },
+    {
+      "id": "CF-D2",
+      "category": "Motive, Israel & security",
+      "title": "Netanyahu read Kirk's letter and selectively quoted it",
+      "claim": "Netanyahu publicly quoted and characterized Kirk as pro-Israel shortly after his death, despite Kirk privately telling his team he was leaving the pro-Israel cause.",
+      "verdict": "true_context",
+      "verdict_note": "TRUE that Netanyahu quoted the letter and called Kirk pro-Israel. The 'selective quoting' critique is PARTLY TRUE.",
+      "for": [
+        "Sept. 11, 2025 (Fox News): Netanyahu called Kirk 'a once-in-a-generation figure' and quoted his letter",
+        "Sept. 18, 2025 (X video): Netanyahu again quoted the letter while denying Israeli involvement",
+        "The May 2, 2025 letter contained genuine pro-Israel affirmations"
+      ],
+      "against": [
+        "Netanyahu omitted Kirk's private warnings that Israel was 'losing support even in conservative circles' and needed a communications intervention",
+        "When the full 7-page letter was published, it showed Kirk held both pro-Israel views AND internal criticism simultaneously"
+      ],
+      "sources": [
+        "Fox News \u2014 Netanyahu tribute",
+        "JTA \u2014 Netanyahu denies Israeli involvement",
+        "Newsweek \u2014 full letter text",
+        "JTA \u2014 Kirk's '5-alarm fire' PR warning"
+      ]
+    },
+    {
+      "id": "CF-D3",
+      "category": "Motive, Israel & security",
+      "title": "Kirk's security detail was Israeli / ex-Mossad",
+      "claim": "Kirk's personal security detail at UVU was staffed by Israelis or former Mossad/IDF operatives.",
+      "verdict": "false",
+      "for": [
+        "AI-generated speculation and blog posts \u2014 one blog explicitly admits it is only surmising, with no Kirk quote attached",
+        "AI chatbot replies cited as 'proof' that, on inspection, do not actually name a single Israeli on the team"
+      ],
+      "against": [
+        "All named security personnel have U.S. backgrounds: Brian Harpole (Dallas-Fort Worth police officer, 14 years), Dan Flood (U.S. Marine, 1997\u20132003), Justin Davis (prior private security), Greg Shaffer (20-year FBI agent)",
+        "Harpole stated on the record: 'We have no ties to Israel or Mossad or any other one. We're Americans, period.'",
+        "Former Mossad director Yossi Cohen publicly denied any Mossad involvement",
+        "No source names a single Israeli or ex-Mossad/IDF individual on the team"
+      ],
+      "sources": [
+        "Shawn Ryan Show #254 (Nov. 17, 2025) \u2014 Harpole's direct denial",
+        "Crossroads Report \u2014 documented team backgrounds",
+        "Brian Harpole's defamation lawsuit against Candace Owens"
+      ],
+      "app_cross_reference": "Corroborates the Network tab's Dan Flood and Brian Harpole entries, which independently establish Flood as TPUSA's security director and Harpole as tour security chief with no foreign-service background found."
+    },
+    {
+      "id": "CF-D4",
+      "category": "Motive, Israel & security",
+      "title": "Erika Kirk and the security team",
+      "claim": "Erika Kirk promoted, hired, or was tied to a security team/company, often linked to alleged Israeli-intelligence connections.",
+      "verdict": "unsupported",
+      "verdict_note": "UNSUPPORTED regarding a security firm tie; the broader Israeli-intelligence claims are FALSE / debunked.",
+      "for": [],
+      "against": [
+        "No documented evidence connects Erika Kirk to Rockhouse/Integrity Security Solutions",
+        "That firm's ties run to Charlie Kirk/TPUSA operations and Brian Harpole, not to Erika",
+        "She follows recommendations from her personal protective detail \u2014 standard practice for a high-profile widow, including canceling a University of Georgia event over threats the Secret Service found unsubstantiated",
+        "No records link her to Israeli entities",
+        "A diplomatic mix-up occurred when the Israeli Government Press Office announced a posthumous award; TPUSA declined to participate"
+      ],
+      "sources": [
+        "CNN (Dec. 16, 2025) \u2014 Candace Owens declined to retract Israel-related claims after meeting Kirk",
+        "AOL \u2014 reporting on Kirk deferring to her security team's recommendations"
+      ]
+    },
+    {
+      "id": "CF-E1",
+      "category": "Scene & investigation",
+      "title": "Others had foreknowledge",
+      "claim": "Other individuals possessed advance knowledge of the attack, evidenced by social media posts predicting it and warning Kirk away from UVU \u2014 suggesting organized conspiracy rather than a lone actor.",
+      "verdict": "partly_true_open",
+      "verdict_note": "Partly True (authenticated pre-shooting posts exist and were investigated) / Unsupported (they do not establish coordinated foreknowledge). The specific 'warning Kirk away' post is not documented as it circulates.",
+      "for": [
+        "Authenticated archived posts preceded the shooting: a Sept. 3 post joking about Kirk being shot on Sept. 10, and an Aug. 6 post stating 'september 10th will be a very interesting day' followed by 'I plead the fifth'",
+        "An account appearing linked to the shooter's roommate posted 'WE FUCKING DID IT' after Kirk's death",
+        "A TikTok posted the night before said: '\u2026does not know what's coming tomorrow\u2026 This isn't a threat. It's a promise.'",
+        "The FBI examined posts from at least seven accounts; Director Patel confirmed investigation into the 'possibility of accomplices'"
+      ],
+      "against": [
+        "No source connects any poster to Robinson",
+        "The Washington Free Beacon stated the posts 'do not establish that any individuals knew or conspired'",
+        "September 10 was publicly announced in advance; date-specific posts reflect pre-existing hostility plus coincidence",
+        "The specific 'warning Kirk not to go to UVU' post is a paraphrase mutation, not an authenticated discrete post",
+        "Officials maintain Robinson acted alone",
+        "Separate claims of 'media foreknowledge' \u2014 a misdated NYT headline, a rabbi's letter typo \u2014 are false"
+      ],
+      "sources": [
+        "Washington Free Beacon (authenticated screenshots' origin)",
+        "CNN / Daniel Dale (debunking misdating artifacts)",
+        "Washington Examiner (Joe Kent's claims)"
+      ]
+    },
+    {
+      "id": "CF-E2",
+      "category": "Scene & investigation",
+      "title": "Security knew it was coming",
+      "claim": "Kirk's security team had advance knowledge of the shooting threat and either showed no surprise, or used hand signals to signal it beforehand.",
+      "verdict": "unsupported",
+      "verdict_note": "UNSUPPORTED overall; the specific 'hand signal' claim is FALSE.",
+      "for": [
+        "Slow-motion video readings of ambiguous gestures",
+        "A guard appearing not to flinch",
+        "Real security failures that occurred that day"
+      ],
+      "against": [
+        "Brian Harpole (security chief) stated the team uses comms devices, not hand signals, and there was no advance signal",
+        "The 'Chrissy' incident circulating online was a staffer handing out mints",
+        "'Gibby' was reaching back to fix a radio that had come loose",
+        "The FBI confirmed there wasn't a key exchange \u2014 'nothing got exchanged'",
+        "The 'didn't flinch' reading is unfalsifiable from ambiguous footage",
+        "Real security failures reflect negligence, not complicity or foreknowledge"
+      ],
+      "sources": [
+        "Shawn Ryan Show interview with Brian Harpole (2025-11-17)",
+        "WION news report on hand signals",
+        "Salt Lake Tribune security chief coverage",
+        "AP investigation on UVU police deployment gaps",
+        "Greg Shaffer (prior security director) commentary"
+      ],
+      "app_cross_reference": "Directly overlaps with the UVU security posture already logged as Official Conduct entry C13 and the Assessment tab's security section. Both sources agree: negligence, not complicity, is what the record supports."
+    },
+    {
+      "id": "CF-C2",
+      "category": "Suspect & process",
+      "title": "Robinson texted from custody",
+      "claim": "Robinson sent text messages after he was already in police custody \u2014 suggesting the messages were planted or the timeline is fabricated.",
+      "verdict": "unsupported",
+      "verdict_note": "UNSUPPORTED \u2014 but the underlying gap that allows the claim to be made is real and unresolved, not a settled negative.",
+      "for": [
+        "Court filings released the Discord/text messages without precise timestamps, creating genuine ambiguity",
+        "That gap allows speculation about post-arrest messaging and is a legitimate cross-examination opportunity \u2014 nobody has produced a timestamp proving the messages predate surrender either"
+      ],
+      "against": [
+        "No sourced evidence supports any message timestamped after the approximately 9:00 PM surrender",
+        "An incriminating Discord message \u2014 stating he was 'surrendering through a sheriff friend in a few moments' \u2014 necessarily predates the surrender itself",
+        "The Discord message thread begins at 7:57 PM, over an hour before the 9:00 PM surrender, with no message documented after it",
+        "The absence of published timestamps does not itself prove messages originated from custody \u2014 an evidentiary gap cuts both ways"
+      ],
+      "timeline": [
+        {
+          "date": "2025-09-11, 19:57",
+          "event": "Discord messages begin"
+        },
+        {
+          "date": "2025-09-11, ~21:00",
+          "event": "Surrender occurs"
+        },
+        {
+          "date": "2025-09-11, after 21:00",
+          "event": "No messages documented"
+        }
+      ],
+      "sources": [
+        "Preliminary Hearing Day 1 Transcript",
+        "KUTV reporting on missing surrender footage",
+        "CharlieFiles.com analysis"
+      ],
+      "app_cross_reference": "Cross-checked against the Cellebrite/Discord-subpoena extraction detail already surfaced in this app's research: two independent sources (a phone extraction via RCFL Salt Lake City, and a separate Discord server subpoena for the account 'tylerikum') corroborate the same message content. Neither independent source has a publicly released precise timestamp log, which is exactly the gap this claim exploits. If either extraction's raw timestamp log were released, this claim would become trivially resolvable in either direction."
+    }
+  ],
+  "aircraft_claims": [
+    {
+      "id": "CF-PLANE-1",
+      "tail": "N888KG",
+      "title": "N888KG 'transponder shutoff / fled the scene' theory",
+      "verdict": "false",
+      "evidence_against": [
+        "The ADS-B signal gap was a reception dead zone (terrain plus few receivers near Page, AZ) \u2014 not a transponder shutdown",
+        "Owner Derek Maxfield stated the flight carried two pilots and no passengers, and called the theory 'inaccurate, false and without any credible basis'",
+        "FBI Director Kash Patel and DOT Secretary Sean Duffy confirmed FAA radar tracked the aircraft and the flight matched its filed flight plan"
+      ],
+      "sources": [
+        "FBI Director Kash Patel (verified X post, Sept. 21, 2025)",
+        "DOT Secretary Sean Duffy",
+        "Lead Stories fact-check"
+      ],
+      "app_cross_reference": "This CORROBORATES this app's own ADS-B archive scan of N888KG (AC3C75): the trace shows a ~1h18m coverage gap during the southbound leg over rural southern Utah, consistent with the documented sparse-receiver explanation and NOT with a transponder shutoff. Independent confirmation from two different methods \u2014 a raw archive re-scan here, and named officials' statements at CharlieFiles \u2014 landing on the same explanation is a meaningful convergence."
+    },
+    {
+      "id": "CF-PLANE-2",
+      "tail": "SU-BND / SU-BTT",
+      "title": "Egyptian Air Force plane \u2014 '73 location overlaps' with Erika Kirk",
+      "verdict": "false",
+      "evidence_against": [
+        "The Egyptian plane (SU-BTT) departed Provo roughly 7 a.m. \u2014 hours before the 12:23 p.m. shooting",
+        "Candace Owens reportedly misread UTC as 'Utah time' in her timing analysis",
+        "An independent review of the '73 overlaps' surveillance claim found approximately 66% of the plane-location claims wrong, in some cases placing the aircraft on a different continent",
+        "Erika Kirk publicly told Owens to stop; even Alex Jones/Infowars published a debunk"
+      ],
+      "sources": [
+        "CBC debunk of the flight-tracking claims"
+      ],
+      "app_cross_reference": "PARTIAL AGREEMENT, ONE DISCREPANCY WORTH FLAGGING. This app's own ADS-B archive scan found SU-BND (not SU-BTT) parked on the ground at PVU from 10:06 AM to 2:30 PM MDT \u2014 meaning it WAS present during the shooting, which CharlieFiles' summary does not address (it addresses SU-BTT's early morning departure only). Both aircraft are confirmed Government of Egypt/Egyptian Air Force. The '73 overlaps' surveillance claim and its ~66% error rate is new information not previously in this app and is added here. Neither source establishes any connection between the Egyptian aircraft and the shooting \u2014 the FBI has stated it ruled the connection out."
+    },
+    {
+      "id": "CF-PLANE-3",
+      "tail": "N1098L / callsign 'AXLE10'",
+      "title": "'HADES spy plane' theory",
+      "verdict": "misleading",
+      "evidence_against": [
+        "Flight data reportedly shows a routine El Paso \u2192 Kalispell, MT training run, arriving approximately 10:38 AM MDT \u2014 not over Utah at 12:23 PM",
+        "Aviation-OSINT analysts found no credible evidence and labeled the theory an 'information attack'"
+      ],
+      "sources": [
+        "Aviation-OSINT analyst assessment (per CharlieFiles.com)"
+      ],
+      "app_cross_reference": "GENUINE UNRESOLVED DISCREPANCY \u2014 flagged rather than resolved. This app's own adsb.lol archive scan of N1098L (ICAO A0299E, Bombardier Global 6000/6500, registered to Lasai Aviation II LLC) shows 832 Utah trace points and 123 Provo-area points, with the aircraft's LAST Utah position recorded at approximately 1:06 PM MDT at 37,000 ft over south-central Utah (39.73\u00b0N, -110.20\u00b0W) \u2014 well after the shooting, and inconsistent with a 10:38 AM Montana arrival ending its presence in this region. This does not confirm any 'spy plane' theory; a large-cabin business jet transiting Utah airspace on an El Paso\u2013Kalispell routing is unremarkable, and the CharlieFiles summary may describe a different flight leg than the one captured in this app's raw archive extraction, or the two data sources may simply disagree on timing. This is exactly the kind of claim that should be checked against the primary adsb.lol trace file directly rather than adjudicated from a secondary summary on either side \u2014 flagged here as OPEN, not resolved in either direction."
+    },
+    {
+      "id": "CF-PLANE-4",
+      "tail": "N/A",
+      "title": "Open airspace / no TFR was in effect",
+      "verdict": "partly_true_open",
+      "verdict_note": "Partly True (kernel) / Unsupported (inference).",
+      "evidence_against": [
+        "No evidence anyone escaped by air \u2014 Robinson fled on the ground and surrendered roughly 33 hours later",
+        "Temporary Flight Restrictions (TFRs) are not automatic for ground shootings"
+      ],
+      "sources": [],
+      "app_cross_reference": "Consistent with this app's own finding that no aircraft in the archive shows a flight profile suggesting use as an escape vehicle."
+    }
+  ],
+  "methodology_note": "CharlieFiles.com states its own verdicts are 'provisional snapshots' given information asymmetry, litigation fog, and dynamic evidence \u2014 the same posture this app takes toward its own claims tracker. Nothing here should be read as more final than that. Where this app's own primary-source work (the ADS-B archive extraction, court-record timeline, or Network tab) overlaps with a CharlieFiles claim, that cross-reference is shown explicitly, including the one case (N1098L) where the two do not currently agree."
+}

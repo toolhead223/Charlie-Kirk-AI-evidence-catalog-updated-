@@ -1,0 +1,2384 @@
+{
+  "pvu_area_stays": [
+    {
+      "reg": "N435SG",
+      "type": "PC12",
+      "owner": "DENALI ONE HOLDINGS LLC",
+      "duration_min": 32.0,
+      "lat": 40.226,
+      "lon": -111.728,
+      "land_ts": 19733.84
+    },
+    {
+      "reg": "N40JD",
+      "type": "PRM1",
+      "owner": "NUP AVIATION LLC",
+      "duration_min": 43.1,
+      "lat": 40.227,
+      "lon": -111.729,
+      "land_ts": 73755.12
+    },
+    {
+      "reg": "N350AM",
+      "type": "AS50",
+      "owner": "AIR METHODS LLC",
+      "duration_min": 10.9,
+      "lat": 40.231,
+      "lon": -111.729,
+      "land_ts": 55296.74
+    },
+    {
+      "reg": "N560TW",
+      "type": "C56X",
+      "owner": "T W LEWIS-AVIATION LLC",
+      "duration_min": 19.9,
+      "lat": 40.211,
+      "lon": -111.714,
+      "land_ts": 58033.47
+    },
+    {
+      "reg": "N315NG",
+      "type": "PC12",
+      "owner": "CLASSIC NA LLC",
+      "duration_min": 78.5,
+      "lat": 40.225,
+      "lon": -111.728,
+      "land_ts": 20494.77
+    },
+    {
+      "reg": "N774SK",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 62.0,
+      "lat": 40.211,
+      "lon": -111.714,
+      "land_ts": 68597.32
+    },
+    {
+      "reg": "N155TV",
+      "type": "B06",
+      "owner": "U S HELICOPTERS INC",
+      "duration_min": 64.7,
+      "lat": 40.22,
+      "lon": -111.72,
+      "land_ts": 77109.47
+    },
+    {
+      "reg": "N801CB",
+      "type": "C560",
+      "owner": "BAUGH AVIATION SERVICES LLC",
+      "duration_min": 24.6,
+      "lat": 40.222,
+      "lon": -111.725,
+      "land_ts": 3311.02
+    },
+    {
+      "reg": "N888KG",
+      "type": "CL30",
+      "owner": "N888KG LLC",
+      "duration_min": 0.9,
+      "lat": 40.25,
+      "lon": -111.75,
+      "land_ts": 75856.34
+    },
+    {
+      "reg": "N339RW",
+      "type": "SW3",
+      "owner": "MAUNA HELE LLC",
+      "duration_min": 20.7,
+      "lat": 40.219,
+      "lon": -111.72,
+      "land_ts": 74382.73
+    },
+    {
+      "reg": "N339RW",
+      "type": "SW3",
+      "owner": "MAUNA HELE LLC",
+      "duration_min": 6.5,
+      "lat": 40.22,
+      "lon": -111.72,
+      "land_ts": 75648.13
+    },
+    {
+      "reg": "N755QS",
+      "type": "CL35",
+      "owner": "NETJETS SALES INC, AJS AVIATION LLC, BOYNTON TRAIL LLC, BRIGHT E",
+      "duration_min": 79.6,
+      "lat": 40.225,
+      "lon": -111.727,
+      "land_ts": 65698.62
+    },
+    {
+      "reg": "N102DZ",
+      "type": "GLF5",
+      "owner": "GV 555 LLC",
+      "duration_min": 39.6,
+      "lat": 40.224,
+      "lon": -111.727,
+      "land_ts": 77443.92
+    },
+    {
+      "reg": "N250NV",
+      "type": "A320",
+      "owner": "SUNRISE ASSET MANAGEMENT LLC",
+      "duration_min": 79.7,
+      "lat": 40.219,
+      "lon": -111.723,
+      "land_ts": 63263.35
+    },
+    {
+      "reg": "N377KH",
+      "type": "P28A",
+      "owner": "GENERATION INVESTMENTS LLC",
+      "duration_min": 6.8,
+      "lat": 40.228,
+      "lon": -111.73,
+      "land_ts": 56732.14
+    },
+    {
+      "reg": "N377KH",
+      "type": "P28A",
+      "owner": "GENERATION INVESTMENTS LLC",
+      "duration_min": 63.0,
+      "lat": 40.223,
+      "lon": -111.725,
+      "land_ts": 60520.23
+    }
+  ],
+  "elsewhere_utah_stays": [
+    {
+      "reg": "N658CA",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 86.6,
+      "lat": 40.793,
+      "lon": -111.997,
+      "land_ts": 50810.72
+    },
+    {
+      "reg": "N658CA",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 6.3,
+      "lat": 40.788,
+      "lon": -111.981,
+      "land_ts": 70118.19
+    },
+    {
+      "reg": "N658CA",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 84.9,
+      "lat": 40.792,
+      "lon": -111.989,
+      "land_ts": 79315.1
+    },
+    {
+      "reg": "N444BU",
+      "type": "R44",
+      "owner": "HELIFUN EXPEDITIONS LLC",
+      "duration_min": 0.9,
+      "lat": 40.148,
+      "lon": -111.674,
+      "land_ts": 59917.3
+    },
+    {
+      "reg": "N3255H",
+      "type": "R44",
+      "owner": "ALBA LEASING SERVICES LLC",
+      "duration_min": 0.4,
+      "lat": 40.072,
+      "lon": -111.819,
+      "land_ts": 70167.68
+    },
+    {
+      "reg": "N3255H",
+      "type": "R44",
+      "owner": "ALBA LEASING SERVICES LLC",
+      "duration_min": 0.6,
+      "lat": 40.081,
+      "lon": -111.864,
+      "land_ts": 70826.77
+    },
+    {
+      "reg": "N3255H",
+      "type": "R44",
+      "owner": "ALBA LEASING SERVICES LLC",
+      "duration_min": 0.6,
+      "lat": 40.081,
+      "lon": -111.864,
+      "land_ts": 71135.88
+    },
+    {
+      "reg": "N3255H",
+      "type": "R44",
+      "owner": "ALBA LEASING SERVICES LLC",
+      "duration_min": 1.0,
+      "lat": 40.08,
+      "lon": -111.864,
+      "land_ts": 71380.01
+    },
+    {
+      "reg": "N3255H",
+      "type": "R44",
+      "owner": "ALBA LEASING SERVICES LLC",
+      "duration_min": 0.2,
+      "lat": 40.081,
+      "lon": -111.864,
+      "land_ts": 71802.55
+    },
+    {
+      "reg": "N3255H",
+      "type": "R44",
+      "owner": "ALBA LEASING SERVICES LLC",
+      "duration_min": 0.3,
+      "lat": 40.081,
+      "lon": -111.864,
+      "land_ts": 72000.56
+    },
+    {
+      "reg": "N7328J",
+      "type": "P28A",
+      "owner": "NIGHTLINE AIR LLC",
+      "duration_min": 1.1,
+      "lat": 40.621,
+      "lon": -111.994,
+      "land_ts": 52410.1
+    },
+    {
+      "reg": "N7328J",
+      "type": "P28A",
+      "owner": "NIGHTLINE AIR LLC",
+      "duration_min": 24.4,
+      "lat": 40.617,
+      "lon": -111.995,
+      "land_ts": 52523.86
+    },
+    {
+      "reg": "N7328J",
+      "type": "P28A",
+      "owner": "NIGHTLINE AIR LLC",
+      "duration_min": 0.4,
+      "lat": 40.619,
+      "lon": -111.995,
+      "land_ts": 58069.0
+    },
+    {
+      "reg": "N7328J",
+      "type": "P28A",
+      "owner": "NIGHTLINE AIR LLC",
+      "duration_min": 5.3,
+      "lat": 40.627,
+      "lon": -111.995,
+      "land_ts": 85413.92
+    },
+    {
+      "reg": "N7328J",
+      "type": "P28A",
+      "owner": "NIGHTLINE AIR LLC",
+      "duration_min": 0.0,
+      "lat": 40.75,
+      "lon": -112.149,
+      "land_ts": 86235.09
+    },
+    {
+      "reg": "N280WC",
+      "type": "G280",
+      "owner": "WILLLIAMS COMPANIES INC",
+      "duration_min": 0.5,
+      "lat": 40.798,
+      "lon": -111.962,
+      "land_ts": 75425.62
+    },
+    {
+      "reg": "N336NW",
+      "type": "A320",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 71.0,
+      "lat": 40.787,
+      "lon": -111.986,
+      "land_ts": 5496.47
+    },
+    {
+      "reg": "N310DU",
+      "type": "BCS3",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 89.7,
+      "lat": 40.791,
+      "lon": -111.975,
+      "land_ts": 46091.1
+    },
+    {
+      "reg": "N318NB",
+      "type": "A319",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 89.6,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 51647.37
+    },
+    {
+      "reg": "N321NB",
+      "type": "A319",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 74.2,
+      "lat": 40.792,
+      "lon": -111.975,
+      "land_ts": 9518.32
+    },
+    {
+      "reg": "N451QS",
+      "type": "E55P",
+      "owner": "BRENNAN FLORIDA HOLDING CO LLC, MUELLER DAVID R, DDK 806 LLC, BU",
+      "duration_min": 78.8,
+      "lat": 40.792,
+      "lon": -111.962,
+      "land_ts": 46879.62
+    },
+    {
+      "reg": "N273SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 80.4,
+      "lat": 40.791,
+      "lon": -111.976,
+      "land_ts": 5251.81
+    },
+    {
+      "reg": "N273SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 59.3,
+      "lat": 40.792,
+      "lon": -111.989,
+      "land_ts": 75973.47
+    },
+    {
+      "reg": "N435SG",
+      "type": "PC12",
+      "owner": "DENALI ONE HOLDINGS LLC",
+      "duration_min": 39.1,
+      "lat": 40.802,
+      "lon": -111.976,
+      "land_ts": 50888.46
+    },
+    {
+      "reg": "N831DN",
+      "type": "B739",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 84.2,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 55756.82
+    },
+    {
+      "reg": "N25XM",
+      "type": "PC12",
+      "owner": "MCCLUER AVIATION LLC, CSE LLC, WBF MANAGEMENT LLC, BLAKE L SARTI",
+      "duration_min": 36.6,
+      "lat": 40.146,
+      "lon": -111.669,
+      "land_ts": 64560.74
+    },
+    {
+      "reg": "N667QX",
+      "type": "E75L",
+      "owner": "HORIZON AIR INDUSTRIES INC",
+      "duration_min": 4.5,
+      "lat": 40.788,
+      "lon": -111.98,
+      "land_ts": 77935.03
+    },
+    {
+      "reg": "N350AM",
+      "type": "AS50",
+      "owner": "AIR METHODS LLC",
+      "duration_min": 39.5,
+      "lat": 40.686,
+      "lon": -111.857,
+      "land_ts": 51906.96
+    },
+    {
+      "reg": "N298SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 52.7,
+      "lat": 40.791,
+      "lon": -111.976,
+      "land_ts": 5978.16
+    },
+    {
+      "reg": "N313SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 71.2,
+      "lat": 40.788,
+      "lon": -111.985,
+      "land_ts": 72552.47
+    },
+    {
+      "reg": "N257SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 72.6,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 52080.02
+    },
+    {
+      "reg": "N257SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 56.1,
+      "lat": 40.787,
+      "lon": -111.975,
+      "land_ts": 69879.86
+    },
+    {
+      "reg": "N948PA",
+      "type": "DV20",
+      "owner": "N948PA LLC",
+      "duration_min": 69.2,
+      "lat": 40.148,
+      "lon": -111.673,
+      "land_ts": 55873.08
+    },
+    {
+      "reg": "N3771K",
+      "type": "B738",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 80.4,
+      "lat": 40.777,
+      "lon": -111.965,
+      "land_ts": 77513.84
+    },
+    {
+      "reg": "N324SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 69.6,
+      "lat": 40.788,
+      "lon": -111.997,
+      "land_ts": 46548.32
+    },
+    {
+      "reg": "N324SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 70.6,
+      "lat": 40.786,
+      "lon": -111.994,
+      "land_ts": 66357.56
+    },
+    {
+      "reg": "N283VC",
+      "type": "PC12",
+      "owner": "SUNRIDGE AVIATION LLC",
+      "duration_min": 44.9,
+      "lat": 40.777,
+      "lon": -111.961,
+      "land_ts": 14803.01
+    },
+    {
+      "reg": "N263SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 75.3,
+      "lat": 40.777,
+      "lon": -111.965,
+      "land_ts": 57501.87
+    },
+    {
+      "reg": "N263SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 60.3,
+      "lat": 40.784,
+      "lon": -111.995,
+      "land_ts": 77024.28
+    },
+    {
+      "reg": "N366CA",
+      "type": "P28A",
+      "owner": "CAVORITE AVIATION LLC",
+      "duration_min": 52.4,
+      "lat": 40.623,
+      "lon": -111.993,
+      "land_ts": 53198.45
+    },
+    {
+      "reg": "N366CA",
+      "type": "P28A",
+      "owner": "CAVORITE AVIATION LLC",
+      "duration_min": 0.4,
+      "lat": 40.623,
+      "lon": -111.993,
+      "land_ts": 57346.84
+    },
+    {
+      "reg": "N550DN",
+      "type": "A21N",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 0.0,
+      "lat": 40.797,
+      "lon": -111.998,
+      "land_ts": 77914.47
+    },
+    {
+      "reg": "N74GN",
+      "type": "R22",
+      "owner": "STUCKEY CONNECTIONS LLC",
+      "duration_min": 1.7,
+      "lat": 41.233,
+      "lon": -112.268,
+      "land_ts": 74185.01
+    },
+    {
+      "reg": "N269SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 80.4,
+      "lat": 40.787,
+      "lon": -111.975,
+      "land_ts": 46326.49
+    },
+    {
+      "reg": "N269SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 62.8,
+      "lat": 40.792,
+      "lon": -111.976,
+      "land_ts": 64080.62
+    },
+    {
+      "reg": "N301SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 7.6,
+      "lat": 40.789,
+      "lon": -111.994,
+      "land_ts": 60874.54
+    },
+    {
+      "reg": "N301SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 63.3,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 72825.92
+    },
+    {
+      "reg": "N640TC",
+      "type": "P28A",
+      "owner": "WINGSLEASING LLC",
+      "duration_min": 73.2,
+      "lat": 40.623,
+      "lon": -111.993,
+      "land_ts": 53263.39
+    },
+    {
+      "reg": "N318DU",
+      "type": "BCS3",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 89.8,
+      "lat": 40.792,
+      "lon": -111.976,
+      "land_ts": 80400.96
+    },
+    {
+      "reg": "N319SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 6.5,
+      "lat": 40.787,
+      "lon": -111.98,
+      "land_ts": 11004.63
+    },
+    {
+      "reg": "N319SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 76.8,
+      "lat": 40.777,
+      "lon": -111.965,
+      "land_ts": 56472.25
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 2.4,
+      "lat": 40.612,
+      "lon": -111.993,
+      "land_ts": 537.21
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 1.7,
+      "lat": 40.625,
+      "lon": -111.995,
+      "land_ts": 894.91
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.1,
+      "lat": 40.621,
+      "lon": -111.995,
+      "land_ts": 1302.79
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.2,
+      "lat": 40.617,
+      "lon": -111.994,
+      "land_ts": 1354.82
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.8,
+      "lat": 40.613,
+      "lon": -111.993,
+      "land_ts": 1409.09
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.2,
+      "lat": 40.622,
+      "lon": -111.995,
+      "land_ts": 1741.58
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.4,
+      "lat": 40.617,
+      "lon": -111.994,
+      "land_ts": 1798.87
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.7,
+      "lat": 40.613,
+      "lon": -111.993,
+      "land_ts": 1869.37
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.1,
+      "lat": 40.622,
+      "lon": -111.995,
+      "land_ts": 2113.1
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 17.9,
+      "lat": 40.618,
+      "lon": -111.996,
+      "land_ts": 61537.71
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 2.4,
+      "lat": 40.618,
+      "lon": -111.996,
+      "land_ts": 62641.5
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 0.7,
+      "lat": 40.618,
+      "lon": -111.996,
+      "land_ts": 62789.03
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 19.1,
+      "lat": 40.618,
+      "lon": -111.996,
+      "land_ts": 62854.19
+    },
+    {
+      "reg": "N846XW",
+      "type": "GAZL",
+      "owner": "PERKY AIR LLC",
+      "duration_min": 2.8,
+      "lat": 40.618,
+      "lon": -111.996,
+      "land_ts": 64006.9
+    },
+    {
+      "reg": "N438QS",
+      "type": "E55P",
+      "owner": "NETJETS SALES INC, COFFIN & SHAWVER LLC, TRUAX DOUGLAS, FRED B B",
+      "duration_min": 49.9,
+      "lat": 41.197,
+      "lon": -112.015,
+      "land_ts": 52590.29
+    },
+    {
+      "reg": "N549UW",
+      "type": "A321",
+      "owner": "AMERICAN AIRLINES INC",
+      "duration_min": 81.2,
+      "lat": 40.786,
+      "lon": -111.997,
+      "land_ts": 68602.78
+    },
+    {
+      "reg": "N376DN",
+      "type": "A321",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 87.6,
+      "lat": 40.781,
+      "lon": -111.962,
+      "land_ts": 57248.54
+    },
+    {
+      "reg": "N24706",
+      "type": "B737",
+      "owner": "UNITED AIRLINES INC",
+      "duration_min": 64.1,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 78870.38
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 0.2,
+      "lat": 40.512,
+      "lon": -111.72,
+      "land_ts": 68631.46
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 0.1,
+      "lat": 40.51,
+      "lon": -111.715,
+      "land_ts": 68861.32
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 0.0,
+      "lat": 40.509,
+      "lon": -111.729,
+      "land_ts": 69050.29
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 2.0,
+      "lat": 40.509,
+      "lon": -111.73,
+      "land_ts": 69093.76
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 0.1,
+      "lat": 40.501,
+      "lon": -111.725,
+      "land_ts": 69484.47
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 1.9,
+      "lat": 40.501,
+      "lon": -111.725,
+      "land_ts": 69511.77
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 1.5,
+      "lat": 40.501,
+      "lon": -111.725,
+      "land_ts": 69816.52
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 0.4,
+      "lat": 40.478,
+      "lon": -111.755,
+      "land_ts": 83249.21
+    },
+    {
+      "reg": "N350MW",
+      "type": "AS50",
+      "owner": "MOUNTAIN WEST HELICOPTERS LLC",
+      "duration_min": 23.9,
+      "lat": 40.478,
+      "lon": -111.755,
+      "land_ts": 83320.26
+    },
+    {
+      "reg": "N563FX",
+      "type": "CL35",
+      "owner": "KRUCIAL TRANSPORTATION LLC",
+      "duration_min": 59.8,
+      "lat": 41.797,
+      "lon": -111.848,
+      "land_ts": 65585.72
+    },
+    {
+      "reg": "N280SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 80.8,
+      "lat": 40.786,
+      "lon": -111.997,
+      "land_ts": 75807.49
+    },
+    {
+      "reg": "N154BF",
+      "type": "CRUZ",
+      "owner": "SKYWEST LEASING INC",
+      "duration_min": 6.8,
+      "lat": 40.143,
+      "lon": -111.664,
+      "land_ts": 65956.16
+    },
+    {
+      "reg": "N908PA",
+      "type": "DV20",
+      "owner": "N908PA LLC",
+      "duration_min": 2.5,
+      "lat": 40.138,
+      "lon": -111.66,
+      "land_ts": 55691.48
+    },
+    {
+      "reg": "N908PA",
+      "type": "DV20",
+      "owner": "N908PA LLC",
+      "duration_min": 8.1,
+      "lat": 40.15,
+      "lon": -111.676,
+      "land_ts": 55925.5
+    },
+    {
+      "reg": "N908PA",
+      "type": "DV20",
+      "owner": "N908PA LLC",
+      "duration_min": 3.0,
+      "lat": 40.143,
+      "lon": -111.666,
+      "land_ts": 72170.52
+    },
+    {
+      "reg": "N111RZ",
+      "type": "CL60",
+      "owner": "METROPOLITAN TELECOMMUNICATIONS CORP OF DE LLC",
+      "duration_min": 2.6,
+      "lat": 40.797,
+      "lon": -111.96,
+      "land_ts": 73616.29
+    },
+    {
+      "reg": "N47MW",
+      "type": "E550",
+      "owner": "NEXTERA ENERGY EQUIPMENT LEASING LLC",
+      "duration_min": 5.4,
+      "lat": 40.792,
+      "lon": -111.962,
+      "land_ts": 81279.52
+    },
+    {
+      "reg": "N875DN",
+      "type": "B739",
+      "owner": "DELTA AIR LINES INC, DEPT 595 AIRCRAFT REGISTRATIONS",
+      "duration_min": 82.2,
+      "lat": 40.791,
+      "lon": -111.975,
+      "land_ts": 45047.35
+    },
+    {
+      "reg": "N360NW",
+      "type": "A320",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 80.3,
+      "lat": 40.786,
+      "lon": -111.997,
+      "land_ts": 73057.43
+    },
+    {
+      "reg": "N234BZ",
+      "type": "E135",
+      "owner": "RVR AIR CHARTER LLC",
+      "duration_min": 4.3,
+      "lat": 40.794,
+      "lon": -111.96,
+      "land_ts": 64070.31
+    },
+    {
+      "reg": "N557PC",
+      "type": "PC12",
+      "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE",
+      "duration_min": 4.5,
+      "lat": 40.792,
+      "lon": -111.96,
+      "land_ts": 85271.59
+    },
+    {
+      "reg": "N844DN",
+      "type": "B739",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 80.1,
+      "lat": 40.787,
+      "lon": -111.997,
+      "land_ts": 7863.37
+    },
+    {
+      "reg": "N136SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 76.4,
+      "lat": 40.791,
+      "lon": -111.976,
+      "land_ts": 63155.86
+    },
+    {
+      "reg": "N209HA",
+      "type": "A21N",
+      "owner": "WILMINGTON TRUST CO TRUSTEE",
+      "duration_min": 0.0,
+      "lat": 40.802,
+      "lon": -111.976,
+      "land_ts": 47806.9
+    },
+    {
+      "reg": "N209HA",
+      "type": "A21N",
+      "owner": "WILMINGTON TRUST CO TRUSTEE",
+      "duration_min": 0.0,
+      "lat": 40.802,
+      "lon": -111.976,
+      "land_ts": 47807.55
+    },
+    {
+      "reg": "N644AS",
+      "type": "B737",
+      "owner": "ALASKA AIRLINES INC",
+      "duration_min": 76.5,
+      "lat": 40.787,
+      "lon": -111.975,
+      "land_ts": 66618.56
+    },
+    {
+      "reg": "N477KR",
+      "type": "PC12",
+      "owner": "ORCHARD ELMS LLC",
+      "duration_min": 45.4,
+      "lat": 41.198,
+      "lon": -112.007,
+      "land_ts": 58900.51
+    },
+    {
+      "reg": "N274SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 66.2,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 57703.78
+    },
+    {
+      "reg": "N274SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 9.7,
+      "lat": 40.784,
+      "lon": -111.993,
+      "land_ts": 78354.34
+    },
+    {
+      "reg": "N713EV",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 62.0,
+      "lat": 40.79,
+      "lon": -111.975,
+      "land_ts": 45758.57
+    },
+    {
+      "reg": "N713EV",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 67.1,
+      "lat": 40.794,
+      "lon": -111.998,
+      "land_ts": 59161.1
+    },
+    {
+      "reg": "N282SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 70.0,
+      "lat": 40.777,
+      "lon": -111.965,
+      "land_ts": 79345.24
+    },
+    {
+      "reg": "N503SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 66.0,
+      "lat": 40.789,
+      "lon": -111.994,
+      "land_ts": 81149.16
+    },
+    {
+      "reg": "N836TB",
+      "type": "C82S",
+      "owner": "EAST OF NOWHERE AVIATION LLC",
+      "duration_min": 54.4,
+      "lat": 40.139,
+      "lon": -111.66,
+      "land_ts": 71649.45
+    },
+    {
+      "reg": "N305SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 89.1,
+      "lat": 40.788,
+      "lon": -111.995,
+      "land_ts": 51817.19
+    },
+    {
+      "reg": "N358NB",
+      "type": "A319",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 0.0,
+      "lat": 40.802,
+      "lon": -111.976,
+      "land_ts": 69650.7
+    },
+    {
+      "reg": "N267DW",
+      "type": "CL60",
+      "owner": "1055145 LLC, WLBX LLC",
+      "duration_min": 3.1,
+      "lat": 40.797,
+      "lon": -111.96,
+      "land_ts": 70713.32
+    },
+    {
+      "reg": "N787FE",
+      "type": "C208",
+      "owner": "FEDERAL EXPRESS CORP",
+      "duration_min": 12.5,
+      "lat": 40.806,
+      "lon": -111.985,
+      "land_ts": 47154.71
+    },
+    {
+      "reg": "N16YW",
+      "type": "C25B",
+      "owner": "JAG LEASING LLC",
+      "duration_min": 48.3,
+      "lat": 41.198,
+      "lon": -112.015,
+      "land_ts": 75949.51
+    },
+    {
+      "reg": "N75198",
+      "type": "P28A",
+      "owner": "85 ALPHA INC",
+      "duration_min": 0.1,
+      "lat": 41.176,
+      "lon": -112.027,
+      "land_ts": 539.99
+    },
+    {
+      "reg": "N75198",
+      "type": "P28A",
+      "owner": "85 ALPHA INC",
+      "duration_min": 19.8,
+      "lat": 41.197,
+      "lon": -112.015,
+      "land_ts": 633.81
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 1.4,
+      "lat": 40.62,
+      "lon": -111.994,
+      "land_ts": 75876.36
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 1.3,
+      "lat": 40.62,
+      "lon": -111.994,
+      "land_ts": 76026.38
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 75.2,
+      "lat": 40.621,
+      "lon": -111.997,
+      "land_ts": 76125.67
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 0.3,
+      "lat": 40.62,
+      "lon": -111.994,
+      "land_ts": 80668.12
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 0.0,
+      "lat": 40.62,
+      "lon": -111.995,
+      "land_ts": 80705.07
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 21.2,
+      "lat": 40.621,
+      "lon": -111.997,
+      "land_ts": 80729.35
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 0.2,
+      "lat": 40.62,
+      "lon": -111.994,
+      "land_ts": 82026.8
+    },
+    {
+      "reg": "N832DH",
+      "type": "UH1",
+      "owner": "SKYHOP LLC",
+      "duration_min": 0.1,
+      "lat": 40.62,
+      "lon": -111.994,
+      "land_ts": 82074.48
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.791,
+      "lon": -111.96,
+      "land_ts": 61446.49
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.2,
+      "lat": 40.792,
+      "lon": -111.96,
+      "land_ts": 61459.55
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.1,
+      "lat": 40.793,
+      "lon": -111.96,
+      "land_ts": 61469.49
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.794,
+      "lon": -111.96,
+      "land_ts": 61473.48
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.1,
+      "lat": 40.794,
+      "lon": -111.96,
+      "land_ts": 61475.39
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.795,
+      "lon": -111.96,
+      "land_ts": 61485.38
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.1,
+      "lat": 40.795,
+      "lon": -111.96,
+      "land_ts": 61489.31
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.798,
+      "lon": -111.96,
+      "land_ts": 61516.07
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.798,
+      "lon": -111.96,
+      "land_ts": 61517.11
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.798,
+      "lon": -111.96,
+      "land_ts": 61519.08
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 1.2,
+      "lat": 40.798,
+      "lon": -111.96,
+      "land_ts": 61519.95
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61593.51
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61598.66
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61603.84
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61608.97
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61614.21
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61649.17
+    },
+    {
+      "reg": "N956PC",
+      "type": "PC12",
+      "owner": "AEROSHARE 2 LLC",
+      "duration_min": 0.0,
+      "lat": 40.799,
+      "lon": -111.96,
+      "land_ts": 61664.18
+    },
+    {
+      "reg": "N541SF",
+      "type": "CRUZ",
+      "owner": "EPIC AVIATION LEASING LLC",
+      "duration_min": 0.0,
+      "lat": 41.203,
+      "lon": -112.404,
+      "land_ts": 59007.67
+    },
+    {
+      "reg": "N532DN",
+      "type": "A21N",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 82.3,
+      "lat": 40.789,
+      "lon": -111.997,
+      "land_ts": 18494.67
+    },
+    {
+      "reg": "N705FE",
+      "type": "AT75",
+      "owner": "FEDERAL EXPRESS CORP",
+      "duration_min": 0.0,
+      "lat": 40.801,
+      "lon": -111.976,
+      "land_ts": 842.82
+    },
+    {
+      "reg": "N335NW",
+      "type": "A320",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 8.9,
+      "lat": 40.787,
+      "lon": -111.985,
+      "land_ts": 61497.89
+    },
+    {
+      "reg": "N825TJ",
+      "type": "R44",
+      "owner": "TAKEFLIGHT LLC",
+      "duration_min": 2.7,
+      "lat": 40.848,
+      "lon": -112.466,
+      "land_ts": 53940.46
+    },
+    {
+      "reg": "N825TJ",
+      "type": "R44",
+      "owner": "TAKEFLIGHT LLC",
+      "duration_min": 0.3,
+      "lat": 40.623,
+      "lon": -111.995,
+      "land_ts": 56065.33
+    },
+    {
+      "reg": "N825TJ",
+      "type": "R44",
+      "owner": "TAKEFLIGHT LLC",
+      "duration_min": 0.2,
+      "lat": 40.621,
+      "lon": -111.995,
+      "land_ts": 56104.08
+    },
+    {
+      "reg": "N132DU",
+      "type": "BCS1",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 82.0,
+      "lat": 40.786,
+      "lon": -111.997,
+      "land_ts": 54173.74
+    },
+    {
+      "reg": "N132DU",
+      "type": "BCS1",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 85.8,
+      "lat": 40.785,
+      "lon": -111.994,
+      "land_ts": 71539.29
+    },
+    {
+      "reg": "N167DC",
+      "type": "DV20",
+      "owner": "JC AVIATION LLC",
+      "duration_min": 58.7,
+      "lat": 40.147,
+      "lon": -111.671,
+      "land_ts": 59018.1
+    },
+    {
+      "reg": "N338NW",
+      "type": "A320",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 80.6,
+      "lat": 40.788,
+      "lon": -111.984,
+      "land_ts": 80134.93
+    },
+    {
+      "reg": "N620UX",
+      "type": "E75L",
+      "owner": "UNITED AIRLINES INC",
+      "duration_min": 7.3,
+      "lat": 40.788,
+      "lon": -111.981,
+      "land_ts": 71683.03
+    },
+    {
+      "reg": "N523UW",
+      "type": "A321",
+      "owner": "AMERICAN AIRLINES INC",
+      "duration_min": 0.0,
+      "lat": 40.792,
+      "lon": -111.997,
+      "land_ts": 4901.79
+    },
+    {
+      "reg": "N354NW",
+      "type": "A320",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 72.6,
+      "lat": 40.788,
+      "lon": -111.996,
+      "land_ts": 47602.98
+    },
+    {
+      "reg": "N354NW",
+      "type": "A320",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 75.0,
+      "lat": 40.786,
+      "lon": -111.975,
+      "land_ts": 67177.14
+    },
+    {
+      "reg": "N324SC",
+      "type": "PC12",
+      "owner": "N324SC LLC",
+      "duration_min": 49.2,
+      "lat": 41.196,
+      "lon": -112.015,
+      "land_ts": 47895.64
+    },
+    {
+      "reg": "N245JP",
+      "type": "DV20",
+      "owner": "N245JP AIRCRAFT LEASING LLC",
+      "duration_min": 0.6,
+      "lat": 40.148,
+      "lon": -111.671,
+      "land_ts": 55975.14
+    },
+    {
+      "reg": "N150NN",
+      "type": "A321",
+      "owner": "AMERICAN AIRLINES INC",
+      "duration_min": 78.5,
+      "lat": 40.786,
+      "lon": -111.997,
+      "land_ts": 76647.45
+    },
+    {
+      "reg": "N717EV",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 64.9,
+      "lat": 40.791,
+      "lon": -111.976,
+      "land_ts": 80130.69
+    },
+    {
+      "reg": "N37700",
+      "type": "B738",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 88.9,
+      "lat": 40.789,
+      "lon": -111.975,
+      "land_ts": 66935.48
+    },
+    {
+      "reg": "N40588",
+      "type": "PA27",
+      "owner": "DELAWARE TRUST CO TRUSTEE",
+      "duration_min": 37.1,
+      "lat": 41.197,
+      "lon": -112.015,
+      "land_ts": 1488.24
+    },
+    {
+      "reg": "N40588",
+      "type": "PA27",
+      "owner": "DELAWARE TRUST CO TRUSTEE",
+      "duration_min": 25.4,
+      "lat": 41.195,
+      "lon": -112.005,
+      "land_ts": 3718.13
+    },
+    {
+      "reg": "N663QX",
+      "type": "E75L",
+      "owner": "HORIZON AIR INDUSTRIES INC",
+      "duration_min": 57.0,
+      "lat": 40.778,
+      "lon": -111.966,
+      "land_ts": 56942.23
+    },
+    {
+      "reg": "N413UH",
+      "type": "B407",
+      "owner": "METRO AVIATION INC",
+      "duration_min": 71.2,
+      "lat": 40.772,
+      "lon": -111.837,
+      "land_ts": 73129.05
+    },
+    {
+      "reg": "N124BF",
+      "type": "CRUZ",
+      "owner": "SKYWEST LEASING INC",
+      "duration_min": 0.0,
+      "lat": 41.2,
+      "lon": -112.267,
+      "land_ts": 59281.76
+    },
+    {
+      "reg": "N291SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 84.3,
+      "lat": 40.792,
+      "lon": -111.992,
+      "land_ts": 51502.78
+    },
+    {
+      "reg": "N291SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 65.2,
+      "lat": 40.788,
+      "lon": -111.977,
+      "land_ts": 67114.73
+    },
+    {
+      "reg": "N300SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 0.0,
+      "lat": 40.806,
+      "lon": -111.977,
+      "land_ts": 77314.81
+    },
+    {
+      "reg": "N3751B",
+      "type": "B738",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 75.2,
+      "lat": 40.788,
+      "lon": -111.997,
+      "land_ts": 12627.81
+    },
+    {
+      "reg": "N3751B",
+      "type": "B738",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 86.3,
+      "lat": 40.789,
+      "lon": -111.997,
+      "land_ts": 50607.73
+    },
+    {
+      "reg": "N278SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 68.5,
+      "lat": 40.786,
+      "lon": -111.997,
+      "land_ts": 6914.18
+    },
+    {
+      "reg": "N80VM",
+      "type": "C25B",
+      "owner": "SJ AVIATION PARTNERS II LLC",
+      "duration_min": 2.4,
+      "lat": 40.797,
+      "lon": -111.96,
+      "land_ts": 79211.53
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 4.1,
+      "lat": 39.994,
+      "lon": -111.778,
+      "land_ts": 55900.22
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.4,
+      "lat": 40.003,
+      "lon": -111.868,
+      "land_ts": 56191.41
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.5,
+      "lat": 40.063,
+      "lon": -111.874,
+      "land_ts": 56309.55
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.5,
+      "lat": 40.221,
+      "lon": -112.025,
+      "land_ts": 56852.51
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.3,
+      "lat": 40.111,
+      "lon": -111.963,
+      "land_ts": 57300.2
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.5,
+      "lat": 40.167,
+      "lon": -111.618,
+      "land_ts": 58098.17
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.17,
+      "lon": -111.667,
+      "land_ts": 58212.38
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 3.3,
+      "lat": 40.17,
+      "lon": -111.667,
+      "land_ts": 58212.87
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.142,
+      "lon": -111.664,
+      "land_ts": 58409.75
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 2.8,
+      "lat": 40.166,
+      "lon": -111.668,
+      "land_ts": 58588.14
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 3.0,
+      "lat": 40.171,
+      "lon": -111.671,
+      "land_ts": 58946.55
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.139,
+      "lon": -111.659,
+      "land_ts": 59133.17
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 2.6,
+      "lat": 40.166,
+      "lon": -111.667,
+      "land_ts": 59293.12
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.14,
+      "lon": -111.66,
+      "land_ts": 59452.65
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 80.3,
+      "lat": 40.167,
+      "lon": -111.671,
+      "land_ts": 59621.38
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 1.7,
+      "lat": 40.12,
+      "lon": -111.653,
+      "land_ts": 66917.03
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.149,
+      "lon": -111.674,
+      "land_ts": 67022.77
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.3,
+      "lat": 40.135,
+      "lon": -111.654,
+      "land_ts": 67224.69
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.142,
+      "lon": -111.663,
+      "land_ts": 67249.09
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.5,
+      "lat": 40.13,
+      "lon": -111.652,
+      "land_ts": 67445.6
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.141,
+      "lon": -111.662,
+      "land_ts": 67482.94
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.0,
+      "lat": 40.13,
+      "lon": -111.656,
+      "land_ts": 67685.99
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.5,
+      "lat": 40.135,
+      "lon": -111.654,
+      "land_ts": 67698.88
+    },
+    {
+      "reg": "N47869",
+      "type": "P28R",
+      "owner": "N47869 LLC",
+      "duration_min": 0.1,
+      "lat": 40.144,
+      "lon": -111.666,
+      "land_ts": 67732.03
+    },
+    {
+      "reg": "N3027S",
+      "type": "P28A",
+      "owner": "MOUNTAIN VALLEY INVESTMENT PROPERTIES LLC",
+      "duration_min": 6.2,
+      "lat": 41.201,
+      "lon": -112.014,
+      "land_ts": 51189.62
+    },
+    {
+      "reg": "N3027S",
+      "type": "P28A",
+      "owner": "MOUNTAIN VALLEY INVESTMENT PROPERTIES LLC",
+      "duration_min": 0.7,
+      "lat": 41.2,
+      "lon": -112.015,
+      "land_ts": 51851.8
+    },
+    {
+      "reg": "N3027S",
+      "type": "P28A",
+      "owner": "MOUNTAIN VALLEY INVESTMENT PROPERTIES LLC",
+      "duration_min": 61.4,
+      "lat": 41.201,
+      "lon": -112.015,
+      "land_ts": 52187.62
+    },
+    {
+      "reg": "N3027S",
+      "type": "P28A",
+      "owner": "MOUNTAIN VALLEY INVESTMENT PROPERTIES LLC",
+      "duration_min": 0.7,
+      "lat": 41.202,
+      "lon": -112.015,
+      "land_ts": 58267.64
+    },
+    {
+      "reg": "N3027S",
+      "type": "P28A",
+      "owner": "MOUNTAIN VALLEY INVESTMENT PROPERTIES LLC",
+      "duration_min": 0.6,
+      "lat": 41.203,
+      "lon": -112.015,
+      "land_ts": 58653.71
+    },
+    {
+      "reg": "N3027S",
+      "type": "P28A",
+      "owner": "MOUNTAIN VALLEY INVESTMENT PROPERTIES LLC",
+      "duration_min": 0.6,
+      "lat": 41.203,
+      "lon": -112.015,
+      "land_ts": 58993.78
+    },
+    {
+      "reg": "N88078",
+      "type": "CH7B",
+      "owner": "KHM INVESTMENTS INC",
+      "duration_min": 5.2,
+      "lat": 40.139,
+      "lon": -111.66,
+      "land_ts": 65966.54
+    },
+    {
+      "reg": "N597RB",
+      "type": "GALX",
+      "owner": "BAUGH AVIATION SERVICES LLC",
+      "duration_min": 52.2,
+      "lat": 41.795,
+      "lon": -111.848,
+      "land_ts": 70670.93
+    },
+    {
+      "reg": "N815UA",
+      "type": "A319",
+      "owner": "UNITED AIRLINES INC",
+      "duration_min": 78.7,
+      "lat": 40.788,
+      "lon": -111.996,
+      "land_ts": 77753.04
+    },
+    {
+      "reg": "N247KD",
+      "type": "EC30",
+      "owner": "130H LLC",
+      "duration_min": 17.1,
+      "lat": 40.121,
+      "lon": -111.56,
+      "land_ts": 75398.6
+    },
+    {
+      "reg": "N369UP",
+      "type": "B763",
+      "owner": "C C & E I LLC",
+      "duration_min": 4.7,
+      "lat": 40.793,
+      "lon": -111.975,
+      "land_ts": 38831.61
+    },
+    {
+      "reg": "N369UP",
+      "type": "B763",
+      "owner": "C C & E I LLC",
+      "duration_min": 7.4,
+      "lat": 40.802,
+      "lon": -111.981,
+      "land_ts": 46284.71
+    },
+    {
+      "reg": "N255SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 80.3,
+      "lat": 40.787,
+      "lon": -111.975,
+      "land_ts": 81209.1
+    },
+    {
+      "reg": "N241SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 68.5,
+      "lat": 40.787,
+      "lon": -111.994,
+      "land_ts": 58311.58
+    },
+    {
+      "reg": "N241SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 57.0,
+      "lat": 40.787,
+      "lon": -111.98,
+      "land_ts": 73559.82
+    },
+    {
+      "reg": "N284SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 65.3,
+      "lat": 40.787,
+      "lon": -111.975,
+      "land_ts": 6367.34
+    },
+    {
+      "reg": "N284SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 77.9,
+      "lat": 40.791,
+      "lon": -111.992,
+      "land_ts": 56065.13
+    },
+    {
+      "reg": "N284SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 8.9,
+      "lat": 40.787,
+      "lon": -111.98,
+      "land_ts": 77437.82
+    },
+    {
+      "reg": "N507DZ",
+      "type": "A21N",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 87.5,
+      "lat": 40.792,
+      "lon": -111.975,
+      "land_ts": 75010.41
+    },
+    {
+      "reg": "N427RM",
+      "type": "P28A",
+      "owner": "WINGSLEASING LLC",
+      "duration_min": 74.3,
+      "lat": 40.622,
+      "lon": -111.993,
+      "land_ts": 69535.2
+    },
+    {
+      "reg": "N427RM",
+      "type": "P28A",
+      "owner": "WINGSLEASING LLC",
+      "duration_min": 4.1,
+      "lat": 40.62,
+      "lon": -111.993,
+      "land_ts": 74548.81
+    },
+    {
+      "reg": "N265AK",
+      "type": "B739",
+      "owner": "ALASKA AIRLINES INC",
+      "duration_min": 75.1,
+      "lat": 40.787,
+      "lon": -111.996,
+      "land_ts": 73548.3
+    },
+    {
+      "reg": "N265AK",
+      "type": "B739",
+      "owner": "ALASKA AIRLINES INC",
+      "duration_min": 0.0,
+      "lat": 40.801,
+      "lon": -111.976,
+      "land_ts": 78053.73
+    },
+    {
+      "reg": "N358MB",
+      "type": "PC12",
+      "owner": "NRS LEASING LLC",
+      "duration_min": 24.5,
+      "lat": 40.148,
+      "lon": -111.672,
+      "land_ts": 52123.6
+    },
+    {
+      "reg": "N889PS",
+      "type": "C25B",
+      "owner": "DESOTO AVIATION INC",
+      "duration_min": 1.7,
+      "lat": 40.797,
+      "lon": -111.96,
+      "land_ts": 3128.61
+    },
+    {
+      "reg": "N655QX",
+      "type": "E75L",
+      "owner": "HORIZON AIR INDUSTRIES INC",
+      "duration_min": 6.5,
+      "lat": 40.787,
+      "lon": -111.98,
+      "land_ts": 6623.15
+    },
+    {
+      "reg": "N465FX",
+      "type": "GLF4",
+      "owner": "ALEXANDER ANTHONY, DISCOVERY LAND CONSOLIDATED LLC, NAFTA TOOLS ",
+      "duration_min": 2.2,
+      "lat": 40.799,
+      "lon": -111.962,
+      "land_ts": 77267.64
+    },
+    {
+      "reg": "N244SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 77.1,
+      "lat": 40.789,
+      "lon": -111.997,
+      "land_ts": 46404.86
+    },
+    {
+      "reg": "N244SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 86.2,
+      "lat": 40.787,
+      "lon": -111.975,
+      "land_ts": 65446.62
+    },
+    {
+      "reg": "N244SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 64.9,
+      "lat": 40.79,
+      "lon": -111.976,
+      "land_ts": 81016.47
+    },
+    {
+      "reg": "N104DU",
+      "type": "BCS1",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 85.2,
+      "lat": 40.788,
+      "lon": -111.995,
+      "land_ts": 5339.56
+    },
+    {
+      "reg": "N102DZ",
+      "type": "GLF5",
+      "owner": "GV 555 LLC",
+      "duration_min": 2.1,
+      "lat": 40.792,
+      "lon": -111.96,
+      "land_ts": 68320.05
+    },
+    {
+      "reg": "N281NN",
+      "type": "E75L",
+      "owner": "AMERICAN AIRLINES INC",
+      "duration_min": 80.7,
+      "lat": 40.79,
+      "lon": -111.977,
+      "land_ts": 62514.53
+    },
+    {
+      "reg": "N281NN",
+      "type": "E75L",
+      "owner": "AMERICAN AIRLINES INC",
+      "duration_min": 0.0,
+      "lat": 40.806,
+      "lon": -111.977,
+      "land_ts": 67358.24
+    },
+    {
+      "reg": "N281SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 7.6,
+      "lat": 40.788,
+      "lon": -111.981,
+      "land_ts": 9121.99
+    },
+    {
+      "reg": "N281SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 72.8,
+      "lat": 40.792,
+      "lon": -111.983,
+      "land_ts": 52346.47
+    },
+    {
+      "reg": "N281SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 4.7,
+      "lat": 40.793,
+      "lon": -111.982,
+      "land_ts": 75878.87
+    },
+    {
+      "reg": "N591DT",
+      "type": "A21N",
+      "owner": "DELTA AIR LINES INC",
+      "duration_min": 0.0,
+      "lat": 40.804,
+      "lon": -111.977,
+      "land_ts": 58425.31
+    },
+    {
+      "reg": "N277SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 79.2,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 50923.36
+    },
+    {
+      "reg": "N971WC",
+      "type": "P28A",
+      "owner": "CAVORITE AVIATION LLC",
+      "duration_min": 62.0,
+      "lat": 40.621,
+      "lon": -111.993,
+      "land_ts": 52550.67
+    },
+    {
+      "reg": "N8145V",
+      "type": "P28A",
+      "owner": "ASCEND AVIATION LLC",
+      "duration_min": 5.6,
+      "lat": 40.865,
+      "lon": -111.928,
+      "land_ts": 49231.53
+    },
+    {
+      "reg": "N8145V",
+      "type": "P28A",
+      "owner": "ASCEND AVIATION LLC",
+      "duration_min": 5.5,
+      "lat": 40.867,
+      "lon": -111.928,
+      "land_ts": 50092.28
+    },
+    {
+      "reg": "N8145V",
+      "type": "P28A",
+      "owner": "ASCEND AVIATION LLC",
+      "duration_min": 7.7,
+      "lat": 40.867,
+      "lon": -111.928,
+      "land_ts": 51937.11
+    },
+    {
+      "reg": "N8145V",
+      "type": "P28A",
+      "owner": "ASCEND AVIATION LLC",
+      "duration_min": 11.7,
+      "lat": 40.867,
+      "lon": -111.928,
+      "land_ts": 52982.9
+    },
+    {
+      "reg": "N313V",
+      "type": "CL30",
+      "owner": "CLYDE COMPANIES INC",
+      "duration_min": 4.1,
+      "lat": 40.792,
+      "lon": -111.96,
+      "land_ts": 9006.26
+    },
+    {
+      "reg": "N247SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 80.3,
+      "lat": 40.793,
+      "lon": -111.998,
+      "land_ts": 5055.69
+    },
+    {
+      "reg": "N768SK",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 1.0,
+      "lat": 40.132,
+      "lon": -111.55,
+      "land_ts": 44430.82
+    },
+    {
+      "reg": "N913AK",
+      "type": "B39M",
+      "owner": "ALASKA AIRLINES INC",
+      "duration_min": 69.7,
+      "lat": 40.79,
+      "lon": -111.975,
+      "land_ts": 1617.22
+    },
+    {
+      "reg": "N268SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 68.5,
+      "lat": 40.778,
+      "lon": -111.965,
+      "land_ts": 76651.55
+    },
+    {
+      "reg": "N803SD",
+      "type": "C25B",
+      "owner": "CAPITAL CITY JET CENTER INC",
+      "duration_min": 50.7,
+      "lat": 41.786,
+      "lon": -111.849,
+      "land_ts": 58057.75
+    },
+    {
+      "reg": "N310SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 5.7,
+      "lat": 40.788,
+      "lon": -111.981,
+      "land_ts": 13233.0
+    },
+    {
+      "reg": "N310SY",
+      "type": "E75L",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 1.2,
+      "lat": 40.807,
+      "lon": -111.979,
+      "land_ts": 79595.46
+    },
+    {
+      "reg": "N782SK",
+      "type": "CRJ7",
+      "owner": "SKYWEST AIRLINES INC",
+      "duration_min": 2.3,
+      "lat": 40.807,
+      "lon": -111.997,
+      "land_ts": 85222.1
+    },
+    {
+      "reg": "N238VM",
+      "type": "PC12",
+      "owner": "GUARDIAN FLIGHT LLC",
+      "duration_min": 1.2,
+      "lat": 41.192,
+      "lon": -112.011,
+      "land_ts": 67440.14
+    },
+    {
+      "reg": "N238VM",
+      "type": "PC12",
+      "owner": "GUARDIAN FLIGHT LLC",
+      "duration_min": 13.9,
+      "lat": 41.192,
+      "lon": -112.011,
+      "land_ts": 67587.54
+    },
+    {
+      "reg": "N238VM",
+      "type": "PC12",
+      "owner": "GUARDIAN FLIGHT LLC",
+      "duration_min": 10.7,
+      "lat": 41.192,
+      "lon": -112.01,
+      "land_ts": 76641.84
+    }
+  ],
+  "scanned": 74405,
+  "utah_aircraft_checked": 2618
+}

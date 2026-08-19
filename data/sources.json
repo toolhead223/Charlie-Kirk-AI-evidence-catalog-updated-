@@ -1,0 +1,218 @@
+[
+  {
+    "Source ID": "S01",
+    "Source": "Google Trends FAQ",
+    "Source Type": "Primary methodology",
+    "Reliability Tier": "A",
+    "URL": "https://support.google.com/trends/answer/4365533?hl=en",
+    "Supports": "Sampling, anonymization, aggregation, normalization, irregular activity cautions",
+    "Cautions": "Authoritative for interpreting Trends; does not validate case-specific screenshots."
+  },
+  {
+    "Source ID": "S02",
+    "Source": "Google Trends region help",
+    "Source Type": "Primary methodology",
+    "Reliability Tier": "A",
+    "URL": "https://support.google.com/trends/answer/4355212?hl=en",
+    "Supports": "Regional interest is relative to total searches in time/location",
+    "Cautions": "Authoritative methodology."
+  },
+  {
+    "Source ID": "S03",
+    "Source": "Google Trends term vs topic help",
+    "Source Type": "Primary methodology",
+    "Reliability Tier": "A",
+    "URL": "https://support.google.com/trends/answer/17309543",
+    "Supports": "Exact search term vs broader topic distinction",
+    "Cautions": "Important for reproducing literal-name queries."
+  },
+  {
+    "Source ID": "S04",
+    "Source": "Google Trends export/citation help",
+    "Source Type": "Primary methodology",
+    "Reliability Tier": "A",
+    "URL": "https://support.google.com/trends/answer/4365538?hl=en",
+    "Supports": "How screenshots/exports should be cited",
+    "Cautions": "Use for future primary capture."
+  },
+  {
+    "Source ID": "S05",
+    "Source": "Metacast transcript \u2014 Conspiracy Files",
+    "Source Type": "Secondary transcript",
+    "Reliability Tier": "B",
+    "URL": "https://metacast.app/podcast/the-conspiracy-files/gE8JvITE/charlie-kirk-and-the-egyptian-planes-coincidence-or-conspiracy/k7OdQSsy",
+    "Supports": "Specific dates/scores for Lance, Zinn, Tyler full name, Nester, hospital, Losee, N888KG",
+    "Cautions": "Summarizes another researcher; not original Google export."
+  },
+  {
+    "Source ID": "S06",
+    "Source": "Project Constitution Thread Reader",
+    "Source Type": "Secondary archived post",
+    "Reliability Tier": "B",
+    "URL": "https://threadreaderapp.com/thread/1977628589966143593.html",
+    "Supports": "Hunter Kozak, Beau Mason, Syed, Bohls, medical cluster claims",
+    "Cautions": "Conspiratorial framing; dates/screenshots are leads, not conclusions."
+  },
+  {
+    "Source ID": "S07",
+    "Source": "Sam Parker medical Trends thread",
+    "Source Type": "Secondary archived post",
+    "Reliability Tier": "B",
+    "URL": "https://threadreaderapp.com/thread/1976792903105269763.html",
+    "Supports": "Hospital, Amaro, physician dates",
+    "Cautions": "Original export absent."
+  },
+  {
+    "Source ID": "S08",
+    "Source": "Sam Parker 2024 Trends archive",
+    "Source Type": "Secondary archived post",
+    "Reliability Tier": "B",
+    "URL": "https://threadreaderapp.com/thread/1978928064257233131.html",
+    "Supports": "Amaro Mar.21, Kirk May.10, Hammer May.17 2024",
+    "Cautions": "Original export absent."
+  },
+  {
+    "Source ID": "S09",
+    "Source": "Sam Parker judges thread",
+    "Source Type": "Secondary archived post",
+    "Reliability Tier": "B",
+    "URL": "https://threadreaderapp.com/thread/1980062269112512513.html",
+    "Supports": "Lunnen May.15 and Graf July.26 Israel claims",
+    "Cautions": "Original export absent."
+  },
+  {
+    "Source ID": "S10",
+    "Source": "24vids \u2014 Tyler/Lance Trends clip",
+    "Source Type": "Secondary video mirror",
+    "Reliability Tier": "B",
+    "URL": "https://www.24vids.com/shorts/google-trend-searches-for-tyler-james-robinson-were-trending-over-100x-times-p-tw-1979286545535242458",
+    "Supports": "Tyler full name Aug.7 DC-WV and Lance June 15 DC-WV claims",
+    "Cautions": "Conflicts with other secondary geography for Lance."
+  },
+  {
+    "Source ID": "S11",
+    "Source": "24vids \u2014 Hunter/George/Beau clip",
+    "Source Type": "Secondary video mirror",
+    "Reliability Tier": "B",
+    "URL": "https://www.24vids.com/video/more-charlie-kirk-bombshells-google-trends-analysis-shows-george-zinn-amp-beau-p-tw-1977044018011029955",
+    "Supports": "Hunter/George/Beau claim summary",
+    "Cautions": "Video mirror."
+  },
+  {
+    "Source ID": "S12",
+    "Source": "Mailstar compilation",
+    "Source Type": "Tertiary compilation",
+    "Reliability Tier": "C",
+    "URL": "https://www.mailstar.net/Kirk-Mossad-Soros.html",
+    "Supports": "Large 2024-2025 claimed list; links screenshot PDFs",
+    "Cautions": "High transcription/context risk."
+  },
+  {
+    "Source ID": "S13",
+    "Source": "SmallPDF names/terms",
+    "Source Type": "Screenshot archive",
+    "Reliability Tier": "C",
+    "URL": "https://smallpdf.com/file#s=ab4f5e21-7f44-4b24-9ca9-7f38d441144e",
+    "Supports": "Claimed screenshots for names/terms",
+    "Cautions": "Not a Google export; link may change."
+  },
+  {
+    "Source ID": "S14",
+    "Source": "SmallPDF address",
+    "Source Type": "Screenshot archive",
+    "Reliability Tier": "C",
+    "URL": "https://smallpdf.com/file#s=335d10e2-874e-4c0d-a002-20bf1d1cb0df",
+    "Supports": "Claimed screenshots for 3419 S River Road",
+    "Cautions": "Not a Google export; link may change."
+  },
+  {
+    "Source ID": "S15",
+    "Source": "Utah DPS case update",
+    "Source Type": "Primary case source",
+    "Reliability Tier": "A",
+    "URL": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+    "Supports": "Shooting date, agencies, Zinn, Qureshi, UVU security",
+    "Cautions": "Authoritative role source."
+  },
+  {
+    "Source ID": "S16",
+    "Source": "FBI Robert Bohls remarks",
+    "Source Type": "Primary case source",
+    "Reliability Tier": "A",
+    "URL": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/remarks-by-sac-robert-bohls-at-press-conference-regarding-shooting-at-utah-valley-university",
+    "Supports": "Bohls SAC and FBI co-led investigation",
+    "Cautions": "Authoritative role source."
+  },
+  {
+    "Source ID": "S17",
+    "Source": "FBI Mehtab Syed remarks",
+    "Source Type": "Primary role source",
+    "Reliability Tier": "A",
+    "URL": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/fbi-salt-lake-city-remarks-at-press-conference-on-search-for-sawade-birdinground",
+    "Supports": "Syed was SAC June 6, 2025",
+    "Cautions": "Authoritative role/date source."
+  },
+  {
+    "Source ID": "S18",
+    "Source": "Utah DPS Beau Mason appointment",
+    "Source Type": "Primary role source",
+    "Reliability Tier": "A",
+    "URL": "https://dps.utah.gov/press-releases/media-advisory-utah-department-of-public-safety-announces-retirement-of-commissioner-jess-l-anderson-and-appointment-of-new-commissioner/",
+    "Supports": "Appointment announced June 19; effective July 17",
+    "Cautions": "Timing context."
+  },
+  {
+    "Source ID": "S19",
+    "Source": "Utah DHHS Deirdre Amaro announcement",
+    "Source Type": "Primary role source",
+    "Reliability Tier": "A",
+    "URL": "https://dhhs.utah.gov/featured-news/utah-department-of-health-and-human-services-dhhs-welcomes-new-medical-examiner/",
+    "Supports": "Appointment announced May 9, 2024",
+    "Cautions": "Timing context."
+  },
+  {
+    "Source ID": "S20",
+    "Source": "Utah judicial vacancy announcement",
+    "Source Type": "Primary role source",
+    "Reliability Tier": "A",
+    "URL": "https://governor.utah.gov/press-release/nominees-announced-for-fourth-district-court-vacancy-2/",
+    "Supports": "Lunnen retirement public Apr.10; Graf nominee",
+    "Cautions": "Timing context."
+  },
+  {
+    "Source ID": "S21",
+    "Source": "Utah Senate Tony Graf appointment",
+    "Source Type": "Primary role source",
+    "Reliability Tier": "A",
+    "URL": "https://senate.utah.gov/utah-senate-requests-public-comment-on-4th-district-appointee/",
+    "Supports": "Graf appointment public May 2, 2025",
+    "Cautions": "Timing context."
+  },
+  {
+    "Source ID": "S22",
+    "Source": "KSL security team account",
+    "Source Type": "Credible case source",
+    "Reliability Tier": "A-",
+    "URL": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+    "Supports": "Harpole, Flood, Davis, Cutler, Turek roles",
+    "Cautions": "Named security/transport personnel."
+  },
+  {
+    "Source ID": "S23",
+    "Source": "UVU Jeffrey Long profile",
+    "Source Type": "Primary institutional role",
+    "Reliability Tier": "A",
+    "URL": "https://www.uvu.edu/news/2024/12/uvu-chief-of-police-jeffrey-long-2024.html",
+    "Supports": "Jeffrey Long as UVU police chief",
+    "Cautions": "Role source."
+  },
+  {
+    "Source ID": "S24",
+    "Source": "Washington Post Hunter Kozak account",
+    "Source Type": "Credible news",
+    "Reliability Tier": "A-",
+    "URL": "https://www.washingtonpost.com/nation/2025/09/11/student-describes-moment-charlie-kirk-was-shot/",
+    "Supports": "Kozak final questioner and prior summit attendance",
+    "Cautions": "May be paywalled."
+  }
+]

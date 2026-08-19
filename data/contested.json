@@ -1,0 +1,1186 @@
+{
+  "principle": "Claims are broken into individually-rated propositions rather than adjudicated as bundles. This matters because the two commonest failures in this material run in opposite directions: treating a source's error on one point as disproof of everything else they said, and treating one authenticated detail as corroboration of an entire narrative. Both are avoided by rating each proposition on its own evidence.",
+  "ratings": {
+    "verified": {
+      "label": "Verified",
+      "color": "#52c7c1",
+      "desc": "Established by primary source or direct demonstration."
+    },
+    "supported": {
+      "label": "Supported",
+      "color": "#8fc75e",
+      "desc": "Good evidence, short of direct proof."
+    },
+    "documented_allegation": {
+      "label": "Documented allegation",
+      "color": "#e8b84b",
+      "desc": "The claim was definitely made; its truth is a separate question."
+    },
+    "unproven": {
+      "label": "Unproven",
+      "color": "#e09a52",
+      "desc": "Checked; evidence insufficient to establish."
+    },
+    "counterevidence": {
+      "label": "Counterevidence exists",
+      "color": "#e05252",
+      "desc": "Affirmative evidence points the other way."
+    },
+    "no_evidence": {
+      "label": "No evidence found",
+      "color": "#9aa1b1",
+      "desc": "Specifically searched; nothing located."
+    }
+  },
+  "disputes": [
+    {
+      "id": "D1",
+      "title": "The Fort Huachuca sighting and the Kolvet 'alibi' photograph",
+      "summary": "Mitch Snow alleged he was at Fort Huachuca — the U.S. Army installation near Sierra Vista, Arizona — on September 8–9, 2025, and believed he saw Erika Kirk at the Candlewood Suites on the evening of September 8, with a separate claimed sighting involving Brian Harpole around September 9. YouTuber Gary Melton (Paramount Tactical) investigated Snow and became one of his strongest critics. During a livestream, Melton read and displayed messages he said came from Andrew Kolvet / TPUSA, including a photograph presented as 'Proof she was with her kids at 8:33am PT.' Melton immediately realized he had shown material apparently not intended for release and apologized on air — the transcript preserves him saying so.",
+      "core_problems": [
+        {
+          "n": 1,
+          "title": "The date does not answer the allegation",
+          "body": "Snow's significant Erika allegation concerns the EVENING OF SEPTEMBER 8. The photograph Melton displayed was dated SEPTEMBER 9, 8:33 a.m. Even if the photograph were fully authentic, correctly timestamped, and actually showed Erika with her children, it would not constitute an alibi for the evening of September 8. At most it addresses the following morning. Melton subsequently acknowledged making a date mistake during the livestream."
+        },
+        {
+          "n": 2,
+          "title": "Erika apparently is not in the photograph",
+          "body": "The photograph apparently depicts children rather than Erika visibly accompanying them. A photo of someone's children at a location does not establish the parent's location. Innocent scenarios abound: a nanny, relative, Charlie, or another caregiver took it; an older photo was forwarded; someone sent Erika a picture of the children. Establishing her presence would require the original file with EXIF, the original device, a Live Photo sequence, GPS metadata, adjacent photographs, cloud upload records, or another person visibly photographed with her."
+        },
+        {
+          "n": 3,
+          "title": "One of the children apparently was not hers",
+          "body": "Melton was challenged because a boy in the photograph appeared substantially older and larger than Erika and Charlie's son, who was reportedly about 16 months old at the time. Melton eventually responded publicly: 'It's not her son, it's her daughter with another child.' That does not make the photograph fake — but it means the original description, 'proof she was with her kids,' was not literally accurate. The claim degraded from 'Erika + her kids' to 'allegedly Erika's daughter + an unrelated child, with Erika not visible.'"
+        },
+        {
+          "n": 4,
+          "title": "What was called 'metadata' was not forensic metadata",
+          "body": "Melton said he would show the image 'with the metadata' and then pointed to a displayed date and time. There is a vast difference between STRONG forensic metadata — an original JPEG/HEIC containing DateTimeOriginal, camera model, GPS, editing history, device information, timezone, pixel dimensions, an Apple Live Photo companion file, cloud provenance and hashes — and WEAK displayed metadata, which is a screenshot of a phone's Photos screen. The latter can be produced from a file whose creation date changed, or a forwarded, exported or manually altered image. A date displayed on someone's phone is not forensic proof of when the underlying scene occurred."
+        },
+        {
+          "n": 5,
+          "title": "The 'AI-generated hand' is not established",
+          "body": "A strange-looking hand is a classic potential AI indicator — and also a classic false positive. Children's hands in compressed photographs can look bizarre due to motion blur, JPEG compression, phone computational photography, HDR frame merging, depth-of-field blur, overlapping fingers, wide-angle distortion or social-media rescaling. Modern AI generators also no longer reliably produce the stereotypical six-finger errors. No original high-resolution copy with sufficient provenance was obtained, so no meaningful forensic examination was possible. Verdict: image deserves forensic examination; AI generation UNPROVEN."
+        },
+        {
+          "n": 6,
+          "title": "The 'at the office all day' detail is imprecise",
+          "body": "The message attributed to Kolvet said Erika was 'at the office with Charlie all day.' Subsequent descriptions of Charlie's September 9 schedule and Erika's own recollections do not obviously establish that they spent the entire workday together. That does not establish Kolvet lied — it may be shorthand, mistaken recollection, or information relayed from someone else. But for something offered as an alibi, precision matters enormously. The original complete message thread is needed rather than fragments read aloud."
+        }
+      ],
+      "separate_question": "There is a question here entirely separate from where Erika was: WHY WAS A SENIOR TPUSA COMMUNICATIONS FIGURE PRIVATELY SUPPLYING PURPORTED ALIBI MATERIAL TO A YOUTUBER? That is not inherently improper — an organization facing an explosive accusation would naturally provide evidence privately to people attempting to verify it. But it becomes worth documenting because Melton was simultaneously conducting a very aggressive public effort to discredit Snow. The chain is: Snow alleges → Kolvet/TPUSA privately supplies material → Melton both publishes the 'alibi' and attacks Snow.",
+      "snow_credibility": "There is substantial counterevidence concerning Snow. Brian Harpole has sued Candace Owens and Snow for defamation; the complaint reportedly alleges Harpole's airline records place him elsewhere when Snow claimed to see him at Fort Huachuca. That could seriously undermine Snow's Harpole identification. But logically, Snow falsely identifying Harpole does not automatically establish that he falsely identified Erika. Each sighting must be evaluated independently. Similarly, allegations about Snow's criminal or family history affect credibility but do not themselves establish where Erika was on September 8. The strongest rebuttal would be objective contemporaneous evidence placing Erika elsewhere — which has not been publicly produced.",
+      "propositions": [
+        {
+          "claim": "Snow was actually around Fort Huachuca",
+          "rating": "supported",
+          "note": "Though this does not validate his identifications."
+        },
+        {
+          "claim": "Snow says he saw Erika Kirk there on September 8",
+          "rating": "documented_allegation",
+          "note": ""
+        },
+        {
+          "claim": "Snow correctly identified Erika Kirk",
+          "rating": "unproven",
+          "note": ""
+        },
+        {
+          "claim": "Snow correctly identified Brian Harpole",
+          "rating": "counterevidence",
+          "note": "Harpole's defamation complaint reportedly cites airline records placing him elsewhere."
+        },
+        {
+          "claim": "Andrew Kolvet communicated privately with Gary Melton",
+          "rating": "verified",
+          "note": "Directly demonstrated on stream."
+        },
+        {
+          "claim": "Kolvet supplied purported location evidence for Erika",
+          "rating": "verified",
+          "note": "Directly demonstrated."
+        },
+        {
+          "claim": "Melton unintentionally displayed and read it",
+          "rating": "verified",
+          "note": "Transcript preserves his on-air apology to Kolvet."
+        },
+        {
+          "claim": "The photo timestamp was displayed as September 9, 8:33 AM",
+          "rating": "verified",
+          "note": "Verified as what was displayed."
+        },
+        {
+          "claim": "That timestamp proves when the photograph was taken",
+          "rating": "unproven",
+          "note": "Not established without the original file."
+        },
+        {
+          "claim": "The photo answers the September 8 Erika sighting",
+          "rating": "counterevidence",
+          "note": "Wrong date — it addresses September 9."
+        },
+        {
+          "claim": "Erika herself appears in the photograph",
+          "rating": "counterevidence",
+          "note": "Apparently not."
+        },
+        {
+          "claim": "Both children in the photo were Erika's",
+          "rating": "counterevidence",
+          "note": "Melton later said one was not her son."
+        },
+        {
+          "claim": "The image is AI generated",
+          "rating": "unproven",
+          "note": "No reliable determination possible without the original file."
+        },
+        {
+          "claim": "The 'weird hand' proves AI generation",
+          "rating": "unproven",
+          "note": "Classic false-positive indicator."
+        },
+        {
+          "claim": "The photograph is a strong alibi for Erika Kirk",
+          "rating": "counterevidence",
+          "note": "On publicly available evidence it is weak evidence."
+        }
+      ],
+      "bottom_line": "The biggest anomaly is not the hand. It is much simpler: the principal allegation concerns September 8, Kolvet supplied something dated September 9, Erika apparently is not visible, one of the supposed 'kids' turns out not to be her son, and what was called metadata has not been demonstrated as original-file forensic metadata. None of that proves Erika went to Fort Huachuca, and it certainly does not prove involvement in the assassination. But the photograph cannot be accepted as a meaningful alibi on the evidence currently available."
+    },
+    {
+      "id": "D2",
+      "title": "Did Gary Melton's position change — and was he influenced?",
+      "summary": "Nate Cornacchia (Valhalla VFT), a retired Green Beret from 1st Special Forces Group, has claimed that Gary Melton originally doubted the official story and is now being influenced to align with TPUSA / Erika Kirk / FBI positions. Nate says he knew Melton on an almost personal level. Both men's Special Forces backgrounds are genuine: material predating the Kirk case identifies Melton as a former 1st Special Forces Group Green Beret, sniper-team leader and veteran of four combat deployments.",
+      "trajectory": {
+        "title": "The documented position change",
+        "steps": [
+          "Melton's early channel material treated the shooting as an unresolved forensic problem — titles include 'The Charlie Kirk Murder, Conspiracy Theories and What The Evidence Says' and 'Charlie Kirk's Autopsy Timeline: Is It A Cover Up?' He was willing to entertain alternative ballistic and operational possibilities.",
+          "He developed a private communication channel with Andrew Kolvet, receiving nonpublic Erika-related rebuttal material — directly demonstrated by the Fort Huachuca livestream incident.",
+          "On December 15 he appeared on The Charlie Kirk Show itself, in an episode structured around why Tyler Robinson was the shooter and 'debunking misconceptions.' Hosts described him as having traveled to UVU and retraced Robinson's alleged route.",
+          "By July 2026, Jeremy Boreing's show promoted him as someone who had spent nine months 'systematically fact-checking Candace Owens' specific claims against the assassination evidence, one by one.'",
+          "His rhetoric became visibly harsher — appearing in programming portraying competing narratives as an 'empire of lies,' and posting openly adversarial content about Nate/Valhalla VFT."
+        ]
+      },
+      "access_mechanism": "The plausible influence mechanism does not require bribery or coercion. A commentator with exclusive access faces a familiar incentive loop: access → exclusive information → audience value → more access. Melton demonstrably received direct responses from Kolvet, unreleased photographs, a TPUSA media appearance, access to Charlie's surviving media staff, and the opportunity to reconstruct UVU evidence. Maintaining that relationship would carry tangible professional value without anyone ever saying 'say this or we cut you off.' This is a real conflict-of-interest issue — he was publicly evaluating allegations about TPUSA and Erika while privately receiving TPUSA's rebuttal material. If that relationship was not transparently disclosed at the outset of his coverage, it is reasonable to ask whether access influenced analysis. But this is an INFERENCE, not proof, and 'he genuinely changed his view after reviewing more evidence' remains equally plausible.",
+      "nuance": "One thing weakens a simplistic 'Gary flipped immediately' narrative: Nate initially DEFENDED Gary after Gary had already begun appearing with TPUSA personnel. A contemporaneous comment in the Green Beret community describes Nate defending Gary despite their disagreement over the caliber, and specifically mentions Gary receiving criticism for appearing with Kolvet. The likelier trajectory: both investigated independently → Gary began cooperating with TPUSA → Nate gave him the benefit of the doubt → interpretations diverged → Gary became hostile toward alternative theories → Nate concluded Gary had changed → relationship ruptured. The Mitch Snow / Fort Huachuca episode appears to have been the major fracture point.",
+      "propositions": [
+        {
+          "claim": "Nate Cornacchia really was a Green Beret",
+          "rating": "supported",
+          "note": "Repeatedly identified as retired 1st Special Forces Group, roughly a decade in Army Special Forces. Not a credential invented for this controversy."
+        },
+        {
+          "claim": "Gary Melton really was a Green Beret",
+          "rating": "supported",
+          "note": "Material predating the Kirk case identifies him as 1st SFG, sniper-team leader, four combat deployments."
+        },
+        {
+          "claim": "They knew each other before the public dispute",
+          "rating": "supported",
+          "note": "Outsiders in the Green Beret community were already describing Nate as Gary's friend."
+        },
+        {
+          "claim": "Nate regarded Gary as a friend",
+          "rating": "supported",
+          "note": "Supported by contemporaneous accounts."
+        },
+        {
+          "claim": "Nate initially defended Gary publicly",
+          "rating": "verified",
+          "note": ""
+        },
+        {
+          "claim": "Gary initially entertained substantial questions about the case",
+          "rating": "supported",
+          "note": "His own early channel titles establish this."
+        },
+        {
+          "claim": "Gary later became much more supportive of the prosecution/TPUSA interpretation",
+          "rating": "supported",
+          "note": "Strongly documented across his 2025–26 output."
+        },
+        {
+          "claim": "Gary developed private communication with Andrew Kolvet",
+          "rating": "verified",
+          "note": "Directly demonstrated on his own livestream."
+        },
+        {
+          "claim": "Kolvet supplied Gary nonpublic Erika-related material",
+          "rating": "verified",
+          "note": "Directly demonstrated."
+        },
+        {
+          "claim": "Gary appeared on TPUSA's Charlie Kirk Show",
+          "rating": "verified",
+          "note": "December 15."
+        },
+        {
+          "claim": "Gary's access created an incentive to maintain TPUSA relations",
+          "rating": "supported",
+          "note": "A reasonable inference from the documented access, not a demonstrated motive."
+        },
+        {
+          "claim": "TPUSA paid Gary to change his position",
+          "rating": "no_evidence",
+          "note": "Searched for consulting fees, travel reimbursement, appearance fees, sponsorships, contracts and direct payments. No public record found. This does not establish he was uncompensated — appearance fees and contractor invoices need not be individually public."
+        },
+        {
+          "claim": "Erika Kirk personally ordered Gary to change his views",
+          "rating": "no_evidence",
+          "note": "The demonstrated chain is Erika-related information → Kolvet → Gary, not Erika → Gary. Do not collapse those propositions absent a message saying so."
+        },
+        {
+          "claim": "The FBI pressured or directed Gary's coverage",
+          "rating": "no_evidence",
+          "note": "Searched for FBI consulting, contracts, private briefings, restricted evidence, payments, and admissions of federal contact. Nothing found. He does have a background including years of tactical instruction for federal personnel — having federal customers is fundamentally different from taking FBI direction."
+        },
+        {
+          "claim": "Gary knowingly lies for TPUSA",
+          "rating": "no_evidence",
+          "note": ""
+        },
+        {
+          "claim": "Gary genuinely changed his view after reviewing more evidence",
+          "rating": "unproven",
+          "note": "Equally plausible and cannot currently be distinguished from the access hypothesis."
+        }
+      ],
+      "bottom_line": "There is enough evidence to take Nate's observation seriously, but not enough to accept the full 'Gary was gotten to' allegation as fact. The strongest non-speculative version: Gary started as a relatively independent former-SOF commentator willing to investigate alternative explanations, developed private access to Kolvet/TPUSA, received nonpublic rebuttal material, appeared on TPUSA's own media operation, increasingly defended the prosecution account, and entered an acrimonious feud with a fellow former Green Beret who had earlier defended him. That is real. What cannot be determined is whether the cause was better evidence, loyalty, access, reputational incentives, money, or some combination.",
+      "next_step": "A date-by-date position-change timeline: every Kirk-related Melton video and post from September 10 forward, coded for what he believed about the shooter, caliber, wound, security, FBI, TPUSA, Erika, Fort Huachuca and Snow. Overlay the dates of his first private Kolvet contact, first TPUSA appearance, UVU trip, and falling-out with Nate. If positions change sharply immediately after particular contacts, that would be substantially more testable than anything currently available."
+    },
+    {
+      "id": "D3",
+      "title": "'Uncompressed' comparison images — second suspect / Twiggs in the escape footage",
+      "summary": "A set of images circulating online (shown to this app directly, not sourced from CharlieFiles.com) purports to show that Candace Owens released 'uncompressed' versions of the official surveillance stills, and that a proper look at them reveals either a different person than the compressed prosecution images show, or a second figure — identified in this thread as Lance Twiggs, Robinson's former roommate — present in the escape imagery. The comparison set includes: the hooded/backpack stairwell figure in both a standard and a blue-tinted 'enhanced' version; a person in a maroon t-shirt and cap in a parking garage and convenience store, compared to a personal reference photo of a young man in a matching shirt; Tyler Robinson's actual jail booking photos (front and profile); a separate reference photo said to depict Twiggs, outdoors against a brick wall; and a shoe-style comparison between the stairwell figure and a person wearing a cat-ear hat holding a rainbow sign.",
+      "core_problems": [
+        {
+          "n": 1,
+          "title": "The 'uncompressed' claim is not demonstrated by what was shown",
+          "body": "The blue-tinted version of the stairwell image is a color/contrast filter applied on top of the same low-resolution still — not recovered resolution. A color filter does not add real detail back into an image; it can make a still LOOK more legible without changing the underlying pixel information. Separately, one of the images shown includes a visible webcam inset of a livestreamer, indicating it is a screenshot taken of a YouTube stream — which adds a full additional generation of video compression on top of whatever the platform already re-encoded. That is the opposite of 'uncompressed.' No original file with metadata was produced for any image in this set."
+        },
+        {
+          "n": 2,
+          "title": "The image sets do not share a common scene, angle, or clothing",
+          "body": "The hooded stairwell figure, the maroon-shirt garage/store figure, and the Twiggs reference photo are three different settings with three different outfits. A meaningful visual comparison requires either the same moment captured differently (e.g., a compressed vs. uncompressed export of the identical frame) or a controlled comparison method (gait, proportions, fixed reference points) — not three unrelated photos laid side by side. The hood in the stairwell image covers all hair, making any hair-based comparison to the Twiggs reference photo impossible from that image alone."
+        },
+        {
+          "n": 3,
+          "title": "Shoe-style matching is circumstantial, not confirmatory",
+          "body": "One comparison circles a similar sneaker style between the stairwell figure and a person in a cat-ear hat holding a rainbow sign. Matching a shoe model between two low-resolution images is a legitimate OSINT starting point, but it identifies a product, not a person — a popular sneaker style is worn by many people. At the resolution shown, even the specific model could not be confirmed as identical, only broadly similar (light-colored sneakers)."
+        },
+        {
+          "n": 4,
+          "title": "The premise that facial clarity is needed for identification doesn't match the actual state's methodology",
+          "body": "The prosecution's own case agent, David Hull, conceded under testimony that 'the video of the person on the roof, as a standalone, was not distinguishable' — no facial identification was ever claimed from the rooftop footage. The identification actually used gait analysis (a documented 'stiff-right-leg gait' tracked across hundreds of hours of multi-camera footage, absent during the rooftop run itself, attributed to adrenaline), footwear consistency, and a documented clothing change in a stairwell (shirt/shorts to dark pants and a long sleeve with an American-flag graphic), corroborated by DNA, the recovered rifle, and vehicle/plate evidence. A demonstration that a compressed public image doesn't show a clear face does not undermine an identification method that was never claimed to rest on a clear face."
+        },
+        {
+          "n": 5,
+          "title": "Perceived height and build across different cameras is not a reliable comparison without a fixed scale reference",
+          "body": "A separate claim raised in this thread is that the person in less-compressed images 'looks taller and bigger overall' than Robinson. Apparent height and bulk in security stills are heavily distorted by camera mounting height, lens angle, distance from the camera, and clothing bulk (a jacket plus backpack materially increases apparent mass). Two different cameras at two different distances will make the same person look different sizes. A reliable comparison requires a shared, fixed reference object (a doorframe, handrail, floor tile, or the subject's own booking-sheet height used as a scale) present in both frames — none was provided here."
+        },
+        {
+          "n": 6,
+          "title": "Familiar recognition (family) is not the same evidentiary category as anonymous facial matching from pixels",
+          "body": "A related argument holds that Robinson's family recognizing him from footage, or Robinson himself knowing to surrender, implies the footage must be facially clear enough for a stranger to independently verify. Neither inference holds. People who know someone well can recognize gait, build, posture, and clothing far more reliably than an outside observer matching an unfamiliar face in a degraded still — that is a different and more reliable recognition channel, not evidence the image itself is facially resolvable. Separately, the Discord/text evidence shows Robinson's own decision to surrender is attributed to already knowing what he had done and watching police close in on his rifle's hiding location, not to recognizing his own image in broadcast footage — see the propositions below."
+        },
+        {
+          "n": 7,
+          "title": "A newer, more specific claim (post-hearing) needs its own accounting: 'horizontally compressed' court footage versus 'uncompressed' images of a 'maroon boy' in a parking garage",
+          "body": "Distinct from the earlier items in this set, Candace Owens has separately claimed (Episode 374 of her show, ~August 2026) that court-shown surveillance footage was horizontally compressed in a way that made the person appear thinner, and that 'uncompressed' stills she obtained show a stockier build, plus a detail about left-handed phone use. This is a materially different claim from the others in this dispute: aspect-ratio and pixel-format distortion is a real, documented video phenomenon and is not inherently implausible the way shape-matching or filtered-color claims are. Checked against this app's own full preliminary-hearing transcript (all five days, 186,789 words, searched directly): zero occurrences of 'aspect ratio,' 'stretch,' 'squeeze,' 'anamorphic,' or 'pixel' in any relevant context. Agent Hull's actual testimony describes the parking garage sequence and states that the only difference between the enhanced compilation (exhibit 12.1) and the clean version (12.4) in that footage was that individuals' faces were blurred — no mention of zooming, stretching or resizing in that segment specifically. IMPORTANT TIMING CORRECTION: this app initially treated the defence's silence on this specific claim during the hearing as meaningful evidence against it. That inference was wrong and has been withdrawn. The preliminary hearing concluded in July 2026; Owens's 'uncompressed' images were not released until after it ended. The defence could not have addressed a claim that did not yet exist or was not yet public. The claim is therefore genuinely untested by the adversarial process, not tested and rejected by it, and should be rated accordingly rather than folded into the same 'unproven' bucket as the earlier, weaker items in this set."
+        }
+      ],
+      "propositions": [
+        {
+          "claim": "The blue-tinted image is a genuinely uncompressed/enhanced version of the surveillance still",
+          "rating": "unproven",
+          "note": "A color filter was applied; no original file or metadata was produced."
+        },
+        {
+          "claim": "Screenshotting a livestream produces 'uncompressed' footage",
+          "rating": "counterevidence",
+          "note": "It adds an additional generation of video compression on top of the platform's own re-encoding."
+        },
+        {
+          "claim": "The maroon-shirt garage/store figure and the hooded stairwell figure are the same person",
+          "rating": "unproven",
+          "note": "No shared scene, angle, or clothing between the two image sets to compare."
+        },
+        {
+          "claim": "The person in the reference photo depicted is Lance Twiggs",
+          "rating": "unproven",
+          "note": "No sourcing or provenance was provided for this image beyond the user's identification of it."
+        },
+        {
+          "claim": "Twiggs appears as a second figure in the stairwell/escape footage",
+          "rating": "unproven",
+          "note": "The stairwell figure's hood covers all hair; no hair-based or facial comparison to the Twiggs reference photo is possible from the image shown."
+        },
+        {
+          "claim": "Matching sneaker styles between two images confirms the same person",
+          "rating": "unproven",
+          "note": "Shoe-style matching identifies a product, not a person; the specific model could not be confirmed identical at the resolution shown."
+        },
+        {
+          "claim": "The rooftop footage is facially clear enough to identify a suspect",
+          "rating": "counterevidence",
+          "note": "The state's own case agent, David Hull, testified the standalone rooftop video 'was not distinguishable.' No facial ID was ever the state's claim."
+        },
+        {
+          "claim": "Therefore, the state's identification of Robinson has no basis",
+          "rating": "counterevidence",
+          "note": "The state's identification methodology rests on gait, footwear, and clothing-change tracking across multi-camera footage, corroborated by DNA, the recovered rifle, and vehicle/plate evidence — not facial clarity."
+        },
+        {
+          "claim": "The person in comparison images looks taller/bigger than Robinson",
+          "rating": "unproven",
+          "note": "No shared, fixed scale reference exists across the compared images; apparent size varies with camera distance, mounting height, and clothing bulk."
+        },
+        {
+          "claim": "Robinson recognizing himself in broadcast footage explains his decision to surrender",
+          "rating": "counterevidence",
+          "note": "Discord messages beginning Sept 11 7:57 PM show he was already aware of what he had done and was tracking police presence near his hidden rifle's location before surrendering roughly an hour later — not reacting to recognizing his own image."
+        },
+        {
+          "claim": "Family recognizing Robinson implies the surveillance footage is facially clear",
+          "rating": "counterevidence",
+          "note": "Recognition by people who know a person's gait, build, and mannerisms is a different and more reliable channel than a stranger matching an unfamiliar face in a degraded still."
+        },
+        {
+          "claim": "Court-shown footage was horizontally compressed and 'uncompressed' images show Robinson's build differently",
+          "rating": "unproven",
+          "note": "Technically plausible in principle (aspect-ratio/pixel-format distortion is real), but no original file or metadata has been produced for the 'uncompressed' images, no shared scene or fixed scale reference exists to compare build across two different photographs, and the claim postdates the preliminary hearing entirely so it has not been tested by cross-examination. This app initially argued the defence's silence during the hearing counted as evidence against the claim; that argument has been withdrawn because the images did not exist publicly at the time of the hearing, so the silence is explained by timing rather than by the claim's merit."
+        }
+      ],
+      "bottom_line": "None of the individual comparisons in this image set survive scrutiny as identification evidence, in either direction. The 'uncompressed' framing is not demonstrated — a color filter and a stream screenshot are being presented as resolution recovery when neither adds real detail. The different image sets share no common scene, angle, or clothing to compare. And the premise underlying the whole exercise — that clear facial identification is necessary and currently missing — misunderstands the state's own identification methodology, which the case agent has already conceded does not rest on facial clarity from the rooftop footage. This is not evidence that Robinson is wrongly identified; it is evidence that a set of unsourced, uncorroborated comparison images does not meaningfully move that question in either direction. One addition from later material (item 7): a more specific, technically plausible claim about horizontal compression distorting apparent build in parking-garage footage was released after the preliminary hearing concluded, which means it has never been tested by cross-examination and should be treated as a genuinely open question rather than one the adversarial process already addressed. This app initially reasoned that the defence's silence on this point during the hearing counted against the claim; that reasoning has been withdrawn as a timing error, preserved here so it is not repeated.",
+      "next_step": "If a specific claim about Twiggs's location during the shooting window matters, the actual testable record already exists: the Discord/text evidence (Exhibit 16) documents his communications with Robinson beginning the evening of September 10, and his own recorded interview statement says he had no advance knowledge. Any image-based claim about his presence at the scene would need to be checked against that record and against a sourced, unaltered original file — not a re-shared comparison graphic with no provenance."
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "X1",
+      "title": "N1098L's location — RESOLVED by re-extracting its full trace",
+      "side_a": {
+        "source": "This app's earlier summary-only extraction",
+        "claim": "N1098L (Bombardier Global 6000/6500, Lasai Aviation II LLC) shows 832 Utah trace points, with its last Utah position at ~1:06 PM MDT over south-central Utah — after the shooting."
+      },
+      "side_b": {
+        "source": "CharlieFiles.com, citing an aviation-OSINT analyst",
+        "claim": "N1098L flew a routine El Paso → Kalispell, MT training run, arriving ~10:38 AM MDT — not over Utah at 12:23 PM."
+      },
+      "why_it_matters": "Both prior claims were partially right and partially wrong. The full re-extracted trace shows N1098L flew a much longer multi-leg day: overnight near El Paso, TX, then a morning transit of Utah northbound (~9:00-9:19 AM MDT, descending to ~4,800 ft near the Wasatch corridor before climbing back to cruise — a terrain transit, not a landing), continuing to Kalispell, MT where it actually landed at ~11:27 AM MDT (not ~10:38 AM as claimed), departing again by noon, then flying south — placing it over SOUTHEASTERN IDAHO, not Utah, at 30,000 ft at the moment closest to the shooting (12:22 PM MDT). It re-entered Utah airspace afterward on a southbound leg around 1:00 PM MDT at 26,600 ft, continuing on to New Mexico, Phoenix, and California by evening. So CharlieFiles' bottom-line conclusion — not over Utah at the moment of the shooting — is correct, even though its Kalispell-landing-time detail was off by nearly an hour. This app's own earlier 'provo_pts: 123' figure reflected two brief high-altitude transits of the Provo corridor, not a landing or extended presence.",
+      "status": "RESOLVED — full trace re-extracted 2026-08-12, see Flight Data tab",
+      "app_reference": "Flight Data tab — flight path visualization, N1098L"
+    },
+    {
+      "id": "X2",
+      "title": "Doorbell-camera witness vs. the prosecution's vehicle description",
+      "side_a": {
+        "source": "A doorbell-camera owner's account",
+        "claim": "Described the person as bald, with three people in the vehicle."
+      },
+      "side_b": {
+        "source": "The prosecution's presentation",
+        "claim": "Described Robinson's vehicle with one individual exiting."
+      },
+      "why_it_matters": "A direct factual conflict between an eyewitness impression and the state's account of the same vehicle. Eyewitness impressions from low-quality surveillance are commonly unreliable, but the conflict itself is real and preserved on the record rather than resolved.",
+      "status": "Unresolved — preserved as an open question rather than explained away",
+      "app_reference": "Assessment tab — anomaly A5"
+    },
+    {
+      "id": "X3",
+      "title": "Three different characterizations of Kirk's private Israel message",
+      "side_a": {
+        "source": "Charlie Kirk (private, September 8, 2025)",
+        "claim": "Wrote 'Just lost another huge Jewish donor. $2 million a year because we won't cancel Tucker' and 'Jewish donors play into all the stereotypes,' concluding he felt bullied by donor pressure and had 'no choice but to leave the pro-Israel cause.' The donor pressure was specifically over Kirk's refusal to disinvite Tucker Carlson from AmericaFest; separate reporting (New York Times) names Zionist tech investor Robert Shillman as having pulled a $2 million pledge over an earlier Carlson TPUSA appearance."
+      },
+      "side_b": {
+        "source": "Josh Hammer (public, after the fact — despite having read the same message)",
+        "claim": "Called the idea that Kirk was 'turning' on Israel an 'egregious lie,' characterizing it as Kirk merely 'blowing off steam.'"
+      },
+      "why_it_matters": "Hammer was in the same chat and had direct access to Kirk's actual language, then publicly offered a categorically cleaner characterization than the private record supports. Andrew Kolvet's public characterization — that Kirk's Israel position had become 'complicated and nuanced' — sits between the two and is closer to the primary document. Three people, three different public accounts of one private message. This message's authenticity is no longer a matter of characterisation alone: TPUSA spokesman Andrew Kolvet has confirmed it directly, on the record, saying 'It is authentic,' and stated he had not shared the screenshot earlier because it was a private exchange. Kolvet also disclosed that he shared the messages with government officials within 33 hours of Kirk's death 'to ensure thorough investigation,' and characterised Kirk's actual position as wanting the Gaza war to end while still supporting Israel — consistent with Hammer's 'blowing off steam' framing rather than a reversal, and closer to the primary text than either public characterisation alone.",
+      "status": "The underlying message is verified AND independently authenticated by TPUSA's own spokesman; the characterizations of what it means genuinely still conflict",
+      "app_reference": "Network tab — Hammer claim-by-claim table"
+    },
+    {
+      "id": "X4",
+      "title": "Netanyahu's public quotation vs. the full letter",
+      "side_a": {
+        "source": "Netanyahu's public tribute (Sept. 11 and Sept. 18, 2025)",
+        "claim": "Quoted Kirk's letter's pro-Israel affirmations and called him 'a once-in-a-generation figure.'"
+      },
+      "side_b": {
+        "source": "The full 7-page letter, once published",
+        "claim": "Also contained Kirk's warning that Israel was 'losing support even in conservative circles' and needed a communications overhaul."
+      },
+      "why_it_matters": "Not a factual contradiction — both quotations are accurate — but a materially incomplete public characterization: quoting the affirming half of a document while omitting the critical half changes what the document appears to say.",
+      "status": "Both quotations verified as accurate; the omission is the issue",
+      "app_reference": "Network tab / Court Record Timeline — May 2, 2025 letter entry"
+    },
+    {
+      "id": "X5",
+      "title": "Gary Melton's own shifting justification for the Fort Huachuca photo",
+      "side_a": {
+        "source": "Gary Melton, initially",
+        "claim": "Presented the September 9 photograph as 'proof she was with her kids at 8:33am PT.'"
+      },
+      "side_b": {
+        "source": "Gary Melton, after the photo's problems were exposed (children misidentified, wrong date)",
+        "claim": "'The fact is we don't know. It hasn't been clarified by Erika, but it doesn't matter' — while maintaining the photo was still evidence against the Fort Huachuca claim."
+      },
+      "why_it_matters": "This is an internal contradiction rather than a two-source conflict: a photo cannot simultaneously be 'proof' of specific content and also have content that 'doesn't matter.' The justification shifted to preserve the conclusion after the specific evidentiary basis for it collapsed.",
+      "status": "Confirmed self-contradiction, on the public record",
+      "app_reference": "Contested Claims tab — dispute D1"
+    },
+    {
+      "id": "X6",
+      "title": "Public narrative on the bullet-to-rifle match vs. the actual sworn testimony",
+      "side_a": {
+        "source": "General public/media shorthand",
+        "claim": "Ballistics matched the fatal bullet to the recovered rifle."
+      },
+      "side_b": {
+        "source": "ATF examiner Samantha Carner, sworn testimony",
+        "claim": "The comparison was INCONCLUSIVE — she explicitly rejected characterizing the result as anything stronger."
+      },
+      "why_it_matters": "Corrects in both directions: 'the bullet didn't match' is also wrong. But the popular shorthand overstates the actual forensic finding, and this gap is one of the more consequential ones in the whole case given how central ballistics usually are to this kind of prosecution.",
+      "status": "Testimony is the controlling fact; popular narrative is inaccurate",
+      "app_reference": "Assessment tab — anomaly A1; Official Conduct — entry C11"
+    },
+    {
+      "id": "X7",
+      "title": "The K9/search sequence, if the strongest version is authenticated",
+      "side_a": {
+        "source": "Circulating allegation (uncorroborated by its own source)",
+        "claim": "Local officers and K9 units searched the area without finding the rifle; only after federal agents redirected another search of the same area did local officers find it."
+      },
+      "side_b": {
+        "source": "FBI's official account",
+        "claim": "The rifle was recovered in a wooded area along the escape route, consistent with surveillance showing Robinson entering it twice."
+      },
+      "why_it_matters": "If the alleged sequence is authenticated exactly as claimed — same coordinates, appropriate detection K9, negative result, then later a positive result — it would be one of the strongest anomalies in the case. It is currently unverified: the allegation's own source labels it uncorroborated with no officer name, report number, timestamp, or K9 record attached.",
+      "status": "Unverified — but unusually resolvable by records that likely exist",
+      "app_reference": "Assessment tab — anomaly A6; Official Conduct — entry C12"
+    },
+    {
+      "id": "X8",
+      "title": "Brian Harpole's specific rooftop-warning claim vs. UVU's general security posture",
+      "side_a": {
+        "source": "Brian Harpole, publicly displayed communications",
+        "claim": "His team specifically discussed rooftop security with UVU police beforehand and received assurances the roofs would be addressed."
+      },
+      "side_b": {
+        "source": "AP's institutional reporting",
+        "claim": "UVU deployed six officers, conducted no bag/metal-detector screening, used no drone to monitor rooftops, and did not coordinate with outside law enforcement."
+      },
+      "why_it_matters": "Both can be true simultaneously — assurances given, then not fulfilled by an under-resourced operation — but the specific claim of a direct prior warning sits in tension with the picture of general institutional under-preparation, and only UVU's still-unreleased internal security review can resolve which describes what actually happened.",
+      "status": "Not mutually exclusive, but unresolved pending UVU's internal review",
+      "app_reference": "Assessment tab — UVU security section"
+    },
+    {
+      "id": "X9",
+      "title": "David Hull's sworn concession vs. the popular assumption about the footage",
+      "side_a": {
+        "source": "Agent David Hull, sworn testimony",
+        "claim": "'The video of the person on the roof, as a standalone, was not [distinguishable]' — no facial identification was available from the rooftop footage."
+      },
+      "side_b": {
+        "source": "Widespread public assumption (both pro-prosecution and conspiracy-oriented commentary)",
+        "claim": "Treats the surveillance footage as if it clearly or definitively shows a recognizable face, either to argue guilt is obvious or to argue a mismatch is obvious."
+      },
+      "why_it_matters": "Both sides of the online debate frequently argue as though facial clarity is available and dispositive one way or the other. The state's own witness has already conceded it isn't there at all — the actual identification rests on gait, footwear, clothing-change tracking, DNA, and the recovered rifle, not a face.",
+      "status": "Testimony is unambiguous on this specific point",
+      "app_reference": "Contested Claims tab — dispute D3"
+    },
+    {
+      "id": "X10",
+      "title": "Reporting conflict on the September 1, 2026 hearing schedule",
+      "side_a": {
+        "source": "Herald Extra",
+        "claim": "The court reconvenes September 1, 2026 for final arguments and a ruling."
+      },
+      "side_b": {
+        "source": "Deseret News",
+        "claim": "Judge Graf granted the defense's request to proceed on written briefs instead of oral argument, with decisions due late July to mid-August 2026."
+      },
+      "why_it_matters": "A checkable scheduling discrepancy between two named outlets covering the same court order — resolvable against the docket, not evidence of concealment on its own.",
+      "status": "Checkable against Utah Court Xchange, case 251403576",
+      "app_reference": "Court Record Timeline — Sept. 1, 2026 entry; Official Conduct — entry C10"
+    },
+    {
+      "id": "X11",
+      "title": "Robinson's defense narrative vs. Robinson's defense litigation posture on UVU security",
+      "side_a": {
+        "source": "The defense's general public posture and the broader online discourse around this case",
+        "claim": "UVU's catastrophic security failure — six officers, no screening, no drone coverage, unaddressed rooftops — supports reasonable doubt and an alternative-explanation narrative, and should be fully exposed."
+      },
+      "side_b": {
+        "source": "Robinson's defense team, in a 12-page letter to Utah's Government Records Office (2026-04/05)",
+        "claim": "The UVU security plan should remain SEALED — the defense itself argued for denying FOX13's public-records request, saying release could taint Robinson's trial and interfere with ongoing investigations."
+      },
+      "why_it_matters": "The party seemingly best positioned to benefit from full public exposure of the security failure is instead actively working to keep the specific planning document sealed. The likely explanation is unremarkable — standard fair-trial and pretrial-publicity protection, and a security-failure narrative can be built at trial from testimony without a public document release beforehand — but it is a genuine, sourced tension against the simpler assumption that the defense wants everything exposed, and it belongs in the record rather than being smoothed over in either direction.",
+      "status": "Not contradictory once fair-trial strategy is accounted for, but worth tracking as a real tension",
+      "app_reference": "Official Conduct — entry C16"
+    },
+    {
+      "id": "X12",
+      "title": "WLT Report's N888KG 'dry run flights' narrative vs. this app's own ADS-B extraction",
+      "side_a": {
+        "source": "WLT Report (2025-09-11)",
+        "claim": "N888KG flew 'dry run' test flights on September 7-8, then TWO separate flights on September 10 — a morning departure at 2:11 PM landing at 2:48 PM, and an evening flight from 6:54 PM to 9:07 PM with the transponder allegedly disabled for about an hour. States the shooting occurred 'around 2:05 PM.'"
+      },
+      "side_b": {
+        "source": "This app's own extraction from the adsb.lol 2025-09-10 archive (raw primary data, not a secondary report)",
+        "claim": "N888KG's actual trace shows a SINGLE round-trip flight: takeoff 1:11 PM MDT, landing 3:04 PM MDT — no second flight, no evening departure, and no gap consistent with a disabled transponder. The shooting occurred at approximately 12:23-12:25 PM MDT, per court testimony and official statements — not 2:05 PM."
+      },
+      "why_it_matters": "This is a direct, checkable conflict between a widely-circulated 'smoking gun' article and the raw archive data itself. WLT Report's stated shooting time is wrong by roughly two hours, which is a strong indicator the rest of its timeline is unreliable rather than merely differently sourced. No 'dry run' flights on September 7-8 could be checked (this app's archive covers only September 10), but the September 10 flight activity WLT describes does not match what the aircraft's own transponder data recorded that day.",
+      "status": "RESOLVED — WLT Report's Sept. 10 flight claims contradicted by primary ADS-B data",
+      "app_reference": "Flight Data tab — N888KG flight profile and phase table"
+    },
+    {
+      "id": "X13",
+      "title": "Panguitch steakhouse sighting vs. the 12:30 AM UVU campus vehicle stop",
+      "side_a": {
+        "source": "Candace Owens, relaying a Panguitch restaurant owner's account and a redacted receipt (first reported January 2026)",
+        "claim": "Robinson dined alone at a Panguitch, Utah steakhouse (~209 miles south of Orem) on the evening of September 10, 2025, paying his bill at approximately 9:47 PM."
+      },
+      "side_b": {
+        "source": "SBI investigator David Hull, sworn preliminary-hearing testimony (July 2026), corroborated by Officer Goforth's plate check",
+        "claim": "Robinson's vehicle had direct contact with a Spanish Fork police officer (Goforth) at Campus Drive and 800 South — on UVU's campus in Orem — at approximately 12:30 AM on September 11. The officer ran the plate and it came back registered to Robinson and his mother."
+      },
+      "why_it_matters": "The driving distance between Panguitch and Orem is 209 miles — a minimum of 3 hours 35 minutes non-stop. If the 9:47 PM payment time is accurate, only 2 hours 43 minutes were available before the Campus Drive stop, a shortfall of at least 52 minutes under ideal non-stop driving conditions with zero allowance for leaving the restaurant, traffic, or the two-lane stretch of US-89 the route requires. The two claims cannot both be true of the same trip. The Campus Drive stop rests on sworn testimony plus an independent officer's plate run — much stronger evidentiary footing than an unverified, partially-redacted receipt relayed by a single commentator, especially since the restaurant's own register camera did not cover the seating area and the FBI has not confirmed the card number matches Robinson's account.",
+      "status": "Unresolved — geographically incompatible as reported; the Panguitch identification is the more likely error given the evidence-quality gap, but no official body has addressed the conflict",
+      "app_reference": "Deep Dives tab — Panguitch Steakhouse Timeline Analysis"
+    },
+    {
+      "id": "X14",
+      "title": "Miranda-rights timestamp vs. the Discord “confession” and surrender call",
+      "side_a": {
+        "source": "Defense motion filed March 30, 2026 (page 70), as reported by The American Prospect and independently by podcaster Baron Coleman",
+        "claim": "A transcript shows Robinson was read his Miranda rights at approximately 6:25—6:26 PM on September 11, 2025, and had already invoked his right to counsel — meaning he was in custody roughly 90 minutes before his Discord “confession” and surrender call."
+      },
+      "side_b": {
+        "source": "Official narrative: Discord messages and retired Sheriff Nate Brooksby's public account",
+        "claim": "Robinson posted his Discord confession (“it was me at UVU yesterday—im surrendering through a sheriff friend”) around 7:57—8:00 PM on September 11 (Baron Coleman's independent review put it at 8:57 PM), Brooksby received a call about the surrender roughly five minutes later, and Robinson arrived at the Washington County Sheriff's Office — voluntarily surrendering — “just before 9 PM.”"
+      },
+      "why_it_matters": "Multiple layers of the official account don't reconcile with each other, independent of the defense's claim. (1) Brooksby's own “just before 9 PM” arrival claim conflicts with a search warrant stating Robinson didn't arrive until “approximately 2226 hours” (10:26 PM) — a 90-minute gap between two official sources. (2) Deputy Attorney Courtney Sinagra's explanation — that the Miranda transcript's date was a “clerical error” and the reading actually happened September 12 in Provo, ~250 miles north — has not been publicly documented or independently verified. (3) Washington County has repeatedly denied public-records requests for surveillance footage that would show Robinson entering their headquarters, citing either a different entrance or destroyed footage. (4) Sheriff Brooksby, the public face of the “peaceful surrender” narrative, resigned in March 2026 amid allegations that included “interference in an investigation” (unspecified which one) and received a $100,000 severance whose terms bar the county from investigating the allegations further. None of this proves the confession was fabricated, but it means the timeline underlying one of the state's central narrative beats — voluntary surrender following a genuine confession — currently rests on contested, internally inconsistent documentation rather than a clean record.",
+      "status": "Unresolved — the state's “clerical error” explanation is unverified, and independent official sources (Brooksby's account vs. the search warrant) already conflict with each other before the defense's claim is even considered",
+      "app_reference": "Deep Dives tab — Miranda Timestamp vs. Discord Confession Timeline Analysis"
+    },
+    {
+      "id": "X15",
+      "title": "FBI Director Patel's “in custody” announcement vs. its retraction vs. two other officials' simultaneous framings",
+      "side_a": {
+        "source": "FBI Director Kash Patel, X/Twitter, 6:21 PM ET, September 10, 2025",
+        "claim": "“The subject for the horrific shooting today that took the life of Charlie Kirk is now in custody.”"
+      },
+      "side_b": {
+        "source": "Patel again, X/Twitter, 7:59 PM ET the same evening; plus DPS Commissioner Beau Mason and Governor Spencer Cox, same-day press statements",
+        "claim": "Patel: “The subject in custody has been released after an interrogation by law enforcement. Our investigation continues.” Simultaneously, Mason described the suspect as still “at large,” while Cox called the person merely a “person of interest.” The individual involved was Zachariah Qureshi, a bystander with no connection to the shooting."
+      },
+      "why_it_matters": "Three senior officials gave three different custody framings on the same evening, about the same wrongly-identified bystander. Patel's own tweet was wrong and retracted within 98 minutes. At a September 16, 2025 Senate Judiciary hearing, Sen. Peter Welch called the tweet a mistake; Patel declined to fully concede it: “I don't see it as a mistake” the search engines cite, adding only that he “could have been more careful in verbiage.” This is a documented factual error from the most senior federal official on the case, followed by a public non-acknowledgment under oath.",
+      "status": "Established — confirmed by the FBI Director's own two tweets, corroborated by CBS News and NPR coverage of his September 16 testimony",
+      "app_reference": "Deep Dives tab — Evolving Official Statements: Custody, Description, and Motive"
+    },
+    {
+      "id": "X16",
+      "title": "The recovered rifle's model number: two official documents, one serial number, different guns named",
+      "side_a": {
+        "source": "Probable cause affidavit, Utah County Attorney Jeffrey Gray, FBI statements, and nearly all press coverage (CNN, Fox News)",
+        "claim": "The rifle is a “Mauser Model 98.”"
+      },
+      "side_b": {
+        "source": "ATF forensic lab report dated September 17, 2025, unsealed via a defense filing and reported April 16, 2026",
+        "claim": "The same serial number (8863) is listed against a “Mauser model 90.”"
+      },
+      "why_it_matters": "This isn't a secondary-source transcription error — it's a conflict between the charging documents/DA/FBI's public description and the ATF's own forensic lab paperwork for the identical serial-numbered weapon. Nobody has publicly reconciled which model designation is correct, and the discrepancy has gone unremarked in mainstream coverage despite the unsealed ATF report being available since April 2026.",
+      "status": "Unresolved — both documents are official case records; the conflict has not been publicly addressed by any party",
+      "app_reference": "Deep Dives tab — Rifle Description, Ownership, and Chain-of-Custody Discrepancies"
+    },
+    {
+      "id": "X17",
+      "title": "Who took custody of Robinson at his surrender — three named-source accounts disagree",
+      "side_a": {
+        "source": "Washington County Sheriff Nate Brooksby, on-record interviews (~September 17, 2025)",
+        "claim": "A retired WCSO detective, who knew the Robinson family “through religious association,” personally drove Robinson and his parents to the Washington County Sheriff's Office, where WCSO plainclothes detectives took custody. No U.S. Marshals appear in this account."
+      },
+      "side_b": {
+        "source": "The probable cause affidavit as reported by ABC News and ABC7 (Sept 12–13, 2025); separately, CBS News citing federal law-enforcement sources",
+        "claim": "The father called “a youth pastor who also is a U.S. Marshals task force officer,” and “U.S. Marshals took him into custody and contacted the FBI.” CBS's version calls the same intermediary “also a court security officer” — a third, distinct title for the same person."
+      },
+      "why_it_matters": "Three named-source chains — the sheriff who personally coordinated the surrender, the probable cause affidavit, and CBS's federal sources — disagree on both the intermediary's official role and which agency physically received Robinson into custody (county sheriff's office vs. federal Marshals). This sits alongside the already-documented Miranda-timing and arrival-time discrepancies (see contradiction X14) as part of a broader pattern: no single, internally consistent account of the surrender exists in the public record.",
+      "status": "Unresolved — the discrepancy has not been addressed by any of the three sourcing chains",
+      "app_reference": "Deep Dives tab — Surrender Custody Chain: Conflicting Named-Source Accounts"
+    },
+    {
+      "id": "X18",
+      "title": "Dispatch audio's suspect description vs. the actual surveillance clothing — never reconciled",
+      "side_a": {
+        "source": "September 10, 2025 dispatch audio, reported by Fox News",
+        "claim": "The shooter was described as wearing “all black, black long gun, black tactical helmet, a black mask, possibly wearing a tactical vest and jeans.”"
+      },
+      "side_b": {
+        "source": "Campus surveillance footage entered at the July 2026 preliminary hearing, per SBI investigator David Hull's testimony",
+        "claim": "Robinson is shown in a maroon T-shirt, light-colored shorts, a black cap, and light-colored shoes on arrival — no tactical gear, helmet, mask, or vest of any kind."
+      },
+      "why_it_matters": "The initial description that went out over dispatch audio during the actual manhunt bears no resemblance to the surveillance-documented clothing later presented at the hearing. This was never explicitly corrected on the record — the tactical-gear description was simply superseded without acknowledgment once the surveillance-based narrative solidified. It's unclear whether the dispatch description came from an actual witness sighting of someone else, a garbled initial report, or something else.",
+      "status": "Established as a discrepancy, unexplained — no source reviewed accounts for why the initial description was so different",
+      "app_reference": "Deep Dives tab — Evolving Official Statements: Custody, Description, and Motive"
+    },
+    {
+      "id": "X19",
+      "title": "Robinson's booking height (5'10”) vs. the 6'2”–6'3” claimed in surveillance-figure comparisons",
+      "side_a": {
+        "source": "Utah County Sheriff's Office booking data, cited in Fox News' July 2026 hearing wrap-up and TMZ's September 20, 2025 report",
+        "claim": "Robinson is listed at 5'10”, approximately 150 lbs."
+      },
+      "side_b": {
+        "source": "Conspiracy-claim framing cited by Fox News itself, and separately by Candace Owens' commentary on the booking photo",
+        "claim": "The rooftop/campus surveillance figure was estimated at 6'2”–6'3” — four to five inches taller than the booking height."
+      },
+      "why_it_matters": "Fox News characterized this claim as having been “dismantled” at the July 2026 preliminary hearing, but no forensic photogrammetry expert or sworn height-analysis testimony appears anywhere in the hearing coverage reviewed. The actual rebuttal traces to independent journalist Tayler Hansen (6'0”) informally walking Robinson's alleged route past the same cameras in September 2025 — ten months before the hearing — and judging himself “slightly taller” than the recorded figure. That is not forensic evidence; it is one person's visual impression, later characterized by media coverage as having been resolved at trial when it was not addressed at trial at all.",
+      "status": "Numeric discrepancy is real and sourced; the widely-reported “resolution” overstates what actually happened — no forensic rebuttal exists in the public record",
+      "app_reference": "Deep Dives tab — Physical Description and Cause-of-Death Evidentiary Gaps"
+    },
+    {
+      "id": "X20",
+      "title": "The rifle as “grandpa's rifle” vs. the DA's actual quote about a gift from the father",
+      "side_a": {
+        "source": "Robinson's own text messages, as widely reported across outlets",
+        "claim": "Robinson refers to the weapon as “grandpa's rifle.”"
+      },
+      "side_b": {
+        "source": "Utah County Attorney Jeff Gray, direct quote, September 16, 2025",
+        "claim": "“Robinson's father believed the description of the rifle... matched a rifle given to Tyler as a gift” — not explicitly naming the grandfather as the giver."
+      },
+      "why_it_matters": "ABC4 itself published the same story under two different headlines — one saying the rifle was a “gift from alleged shooter's father” and another saying “gift from alleged shooter's family” — reflecting the same underlying ambiguity. Robinson's own texts point to a grandfather; the DA's actual quoted language points to the father as the direct gift-giver, with the grandfather's role unstated. Nobody has clarified whether the grandfather originally owned it and passed it to the father, who then gave it to Robinson, or a more direct grandfather-to-grandson transfer.",
+      "status": "Unresolved, low-stakes ambiguity — likely reconcilable (multi-generational gift chain) but never explicitly clarified in any source reviewed",
+      "app_reference": "Deep Dives tab — Rifle Description, Ownership, and Chain-of-Custody Discrepancies"
+    },
+    {
+      "id": "X21",
+      "title": "The confession note is reported in two different tenses that mean opposite things",
+      "side_a": {
+        "source": "ABC4 and ABC News, reporting from unsealed search warrants",
+        "claim": "The note read: “I had the opportunity to take out Charlie Kirk, and I took it. I don't know if I will/have succeeded, but I had hoped to make it home to you.” Past tense — written after the shooting."
+      },
+      "side_b": {
+        "source": "Multiple other outlets covering the same note, including hearing coverage",
+        "claim": "The note read: “I had the opportunity to take out Charlie Kirk and I'm going to take it.” Future tense — written before the shooting."
+      },
+      "why_it_matters": "These are not paraphrases of the same sentence. “I took it” is a confession written after the fact; “I'm going to take it” is a statement of intent written beforehand and is direct premeditation evidence. The two versions place the note's authorship on opposite sides of the murder itself. Compounding the problem, the original note no longer exists (see X22), so the discrepancy cannot be resolved by simply examining the document — it can only be resolved against a photograph, and reporting has not clarified which version derives from the photograph versus from a paraphrase in a filing.",
+      "status": "Unresolved — both versions appear in mainstream reporting; no outlet has acknowledged or reconciled the discrepancy",
+      "app_reference": "Deep Dives tab — The Confession Note: Provenance, Destruction, and Chain of Custody"
+    },
+    {
+      "id": "X22",
+      "title": "The note's evidentiary weight vs. the fact that the physical note was destroyed",
+      "side_a": {
+        "source": "Prosecution's characterization; charging materials referencing the note",
+        "claim": "The handwritten note is treated as significant evidence of Robinson's authorship, intent, and state of mind."
+      },
+      "side_b": {
+        "source": "Preliminary hearing record and reporting on the search warrants",
+        "claim": "Police never recovered an intact note. Lance Twiggs found it, photographed it, and the original was subsequently destroyed — partially burned. Two images appeared briefly on the court's livestream despite a judge's order barring their display: one of the partially burned original, one of the intact photograph stored on Twiggs' phone."
+      },
+      "why_it_matters": "The document underpinning the note evidence no longer exists in usable form. What survives is a photograph taken by the person who then destroyed the original — and that person, Lance Twiggs, received use immunity from both the U.S. Attorney's Office and the Utah County Attorney's Office for his statements. Handwriting analysis, ink/paper dating, fingerprint recovery, and forensic authentication of the physical document are all foreclosed. This does not mean the note is fake, but it means its authenticity rests on the account of a single immunized witness rather than on the document itself.",
+      "status": "Established — the destruction is on the record; its implications for authentication have not been publicly addressed",
+      "app_reference": "Deep Dives tab — The Confession Note: Provenance, Destruction, and Chain of Custody"
+    },
+    {
+      "id": "X23",
+      "title": "The lead investigator learned the crime scene was paved over — from the news",
+      "side_a": {
+        "source": "Reporting and fact-checks defending the paving as routine",
+        "claim": "Site alterations took place only after the perimeter had been formally processed and the scene released; law enforcement handled the scene under standard investigative protocols. Fact-checks placed the start of work around September 15, rebutting social-media claims of paving “the day after.”"
+      },
+      "side_b": {
+        "source": "Lead investigator David Hull's July 2026 preliminary-hearing testimony under defense cross-examination; KUTV contemporaneous reporting; procurement records",
+        "claim": "Hull testified he was not consulted on the courtyard paving decision and learned of it via news reports. KUTV reported grass being pulled up and the first pavers being laid by the evening of September 14 — not September 15. An emergency no-bid paver contract ($6,090.52) was ordered September 11, the day after the shooting, while the manhunt was still active and before the FBI released the scene."
+      },
+      "why_it_matters": "The defense of the paving rests on the premise that investigators were finished with and had signed off on the scene. But the lead investigator says he wasn't consulted and found out from the news, and the purchase order predates the scene's release. Three different start dates circulate (Sept 11 per social media, Sept 14 per KUTV, ~Sept 15 per fact-checks) against an app-documented installation window of Sept 13-16. Even under the most innocent reading — campus administrators racing to reopen — the sequence means irreversible alteration of an assassination scene was commissioned before the investigation had released it, without the lead investigator's knowledge.",
+      "status": "Partially established — Hull's testimony and the contract date are documented; the exact paving start date remains inconsistently reported",
+      "app_reference": "Deep Dives tab — Crime Scene Release, Paving, and Site Alteration"
+    },
+    {
+      "id": "X24",
+      "title": "No spent shell casing at the firing position, and no identifying features in the rooftop footage",
+      "side_a": {
+        "source": "Popular understanding of the rooftop evidence; prosecution's overall characterization of the forensic case as overwhelming",
+        "claim": "The Losee Center roof is established as the firing position, supported by a prone-position impression in the gravel, a shoe impression, and surveillance footage of a figure lying down and then running."
+      },
+      "side_b": {
+        "source": "Officer Tyler Bagley, sworn preliminary-hearing testimony, under cross-examination by defense attorney Kathryn Nester",
+        "claim": "Bagley confirmed he “never recovered a spent shell casing from the roof,” and acknowledged he “could not identify the person's face, clothing or other distinguishing features” in the footage, describing only a “long object” carried by the individual. The spent cartridge was instead recovered from the chamber of the rifle."
+      },
+      "why_it_matters": "RESOLVED IN PART (August 2026). The casing half of this contradiction has a complete mechanical explanation and this app should not have carried it as an anomaly. A bolt-action rifle does not self-eject; the fired case stays in the chamber until the bolt is worked. The recovered rifle held one spent and three unspent rounds, all engraved, so the fired case was accounted for inside the weapon and was never at the firing position to be recovered. Hull's testimony that no casings were found on or near the Losee building is exactly what the mechanism predicts. What remains live in this entry is the separate identification question — that the rooftop footage contains no distinguishing facial features, which Hull conceded, and that no casing therefore exists as an independent forensic link between the position and the weapon. The absence of a casing on the roof is not itself suspicious — a bolt-action rifle retains the spent cartridge until manually cycled, and the chamber recovery is consistent with that. But it removes the single cleanest piece of physical evidence that would tie the roof to the rifle. More significantly: cartridge-case comparison (firing pin impressions, breech-face marks) is generally considered a more reliable individualizing examination than bullet comparison, and the public record centers entirely on the INCONCLUSIVE bullet-to-rifle comparison (see X6). No reviewed source characterizes whether the chamber casing was compared to the rifle or what that comparison found. Combined with Bagley's identification concession, this echoes David Hull's parallel concession about the rooftop footage (see X9).",
+      "status": "Casing element RESOLVED — explained by bolt-action mechanics and the recovered weapon's contents. Identification element remains open.",
+      "app_reference": "Assessment tab — ballistics anomaly; Deep Dives tab — Rifle Description, Ownership, and Chain-of-Custody Discrepancies"
+    },
+    {
+      "id": "X25",
+      "title": "DNA headline framing inverts what the DNA testimony actually established",
+      "side_a": {
+        "source": "Headlines across multiple outlets (OANN, WLT Report, and others), July 2026",
+        "claim": "Framed as “DNA from Tyler Robinson's partner Lance Twiggs found on weapons” and “Lance Twiggs' DNA found on key evidence at Kirk assassination scene” — phrasing that foregrounds Twiggs as implicated by the forensic results."
+      },
+      "side_b": {
+        "source": "FBI forensic analyst Amanda Bakker, sworn testimony at the July 2026 preliminary hearing",
+        "claim": "Robinson was the major contributor on both items: approximately 95% of the towel profile and 89% of the screwdriver profile. Twiggs was the minor contributor on both (approximately 5% and 11% respectively)."
+      },
+      "why_it_matters": "Identical underlying data, opposite impression. The testimony establishes Robinson as the dominant DNA source; the headlines emphasize the roommate's trace presence. Neither is factually false — Twiggs' DNA genuinely is present — but the framing shifts the apparent meaning of the result substantially. Separately, and unaddressed by either framing: no source reviewed explains why the roommate's DNA appears on the towel wrapping the murder weapon at all. Secondary transfer within a shared apartment is the obvious and probably correct explanation, but it has not been stated on the record, leaving an evidentiary question open that a single sentence of testimony could have closed.",
+      "status": "Framing conflict, not a factual conflict — the underlying percentages are consistent across sources; the secondary-transfer question is a genuine unaddressed gap",
+      "app_reference": "Deep Dives tab — DNA Evidence: Contributor Percentages and the Secondary-Transfer Question"
+    },
+    {
+      "id": "X26",
+      "title": "Governor Cox said Robinson planned the attack in Discord messages. Discord says those weren't Discord messages.",
+      "side_a": {
+        "source": "Utah Governor Spencer Cox, public statements, September 2025",
+        "claim": "Robinson's roommate turned over private messages discussing “the need to retrieve a rifle from a drop point, leaving the rifle in a bush, messages related to visually watching the area where a rifle was left, and a message referring to having left the rifle wrapped in a towel.” These were widely reported as Robinson's Discord messages and became the basis for the public understanding that he planned the attack on the platform."
+      },
+      "side_b": {
+        "source": "Discord, official spokesperson statement responding to the reporting",
+        "claim": "“The messages referenced in recent reporting about planning details do not appear to be Discord messages.” Discord said these were communications between the roommate and a friend AFTER the shooting, in which the roommate was recounting the contents of a note Robinson had left elsewhere. Discord's own investigation found no evidence Robinson “planned this incident or promoted violence on Discord.”"
+      },
+      "why_it_matters": "This is the platform that holds the actual server-side data publicly contradicting a sitting governor's characterization of its contents. If Discord is correct, the most widely-circulated “premeditation” evidence in the entire case — the rifle drop point, the bush, the towel — was never Robinson speaking at all. It was the roommate paraphrasing a note to a third party after the fact, which then entered the public record as Robinson's own contemporaneous planning messages. This may also explain the note's tense discrepancy (see X21): a roommate's after-the-fact retelling and the note's original wording would naturally differ, and outlets quoting one as the other would produce exactly the past/future tense split observed. No response from prosecutors or law enforcement to Discord's denial appears in any source reviewed, and the original characterization was never publicly corrected.",
+      "status": "Unresolved and unaddressed — Discord's denial stands unrebutted; no official correction of the original characterization has been issued",
+      "app_reference": "Deep Dives tab — The Note and the Discord Messages: Provenance and Attribution"
+    },
+    {
+      "id": "X27",
+      "title": "Family's public characterization of Robinson as apolitical vs. the mother's account to investigators",
+      "side_a": {
+        "source": "Family members to Daily Mail and other outlets, September 12-13, 2025 (attribution varies between the mother and the grandmother depending on the outlet)",
+        "claim": "Robinson was apolitical and withdrawn — “the shyest person” who “has never, ever spoke politics to me at all.” His grandmother separately told outlets the entire family are Republicans: “I don't know a single Democrat.”"
+      },
+      "side_b": {
+        "source": "Robinson's mother, as relayed by authorities and reported by Fox News; and a family member's account to investigators cited by Gov. Spencer Cox",
+        "claim": "The mother told investigators she watched her son change dramatically in the year before the shooting — becoming more political, leaning left, and supporting pro-gay and trans rights — and described heated ideological arguments between Robinson and his father. A family member told investigators that at a recent family dinner Robinson raised Kirk's upcoming UVU event and they discussed disliking him and his viewpoints."
+      },
+      "why_it_matters": "These accounts are difficult to reconcile as stated, and the tension is worth preserving because the ideological-motive narrative rests partly on the family's account. But this one has a strong innocent explanation and should not be overweighted: different relatives plausibly saw different sides of him, a grandmother would not necessarily hear political conversation that a mother sharing a household would, and family members speaking to tabloids within 48 hours of a relative's arrest are not giving considered testimony. Note also that outlets disagree on whether the “never spoke politics” quote came from the mother or the grandmother, which is itself a small sourcing problem. The more durable point is that this sits alongside the Washington Post's later finding — 21 people interviewed, no perceived violent radicalization — and the defense filing stating that searches of Robinson's apartment, computers and phone produced no additional political-motive evidence.",
+      "status": "Weak contradiction with a plausible innocent explanation — logged for completeness and because the motive narrative partly depends on family accounts, not because it suggests anything improper",
+      "app_reference": "Assessment tab — motive anomaly; Latest Assessment tab — Washington Post 21-interview finding"
+    },
+    {
+      "id": "X28",
+      "title": "Rabbi Yom Tov Glaser's claimed proximity to Netanyahu vs. his verifiable role",
+      "side_a": {
+        "source": "Viral captions accompanying the August 2026 clip, across X, Threads, Facebook, and aggregator sites",
+        "claim": "Glaser is a “top-Rabbi close to Netanyahu” and a “personal advisor to Netanyahu and Knesset” who “just exposed Israel's real plan” for Western nations."
+      },
+      "side_b": {
+        "source": "Aish HaTorah biographical materials, Aish.com author profile, and multiple speaker-platform profiles",
+        "claim": "Glaser is a senior rabbi and lecturer at Aish HaTorah's World Center in Jerusalem, a position he has held since 2000. He is American-born, holds a humanities degree from UC Santa Barbara, surfed professionally for 12 years, founded a personal-development seminar in 2002, and belongs to the Pinsk-Karlin Chasidic community. No official Israeli government, Knesset, or advisory role is documented in any source."
+      },
+      "why_it_matters": "The gap between “seminary lecturer” and “personal advisor to Netanyahu and Knesset” is what converts one teacher's sermon into an apparent disclosure of state policy. The remarks themselves appear authentic and are consistently quoted, so this is not a fabrication claim — it is an authority-inflation claim, and it is the part doing the persuasive work. Logged here because the clip circulates in the same spaces as Kirk-assassination material and the name has begun drifting toward this case despite having no connection to it (see the corresponding Deep Dive). Nothing ties Glaser to Robinson, TPUSA, UVU, or any person or document in this case file.",
+      "status": "Unresolved as to the advisor claim — unsupported by any official source, and unrebutted because no mainstream outlet has fact-checked it. Definitively no Kirk-case connection.",
+      "app_reference": "Deep Dives tab — Rabbi Yom Tov Glaser: Claim Vetting and Case Relevance"
+    },
+    {
+      "id": "X29",
+      "title": "Carlson vs. Shapiro on Chabad and the Iran campaign",
+      "side_a": {
+        "source": "Tucker Carlson, his show, March 5, 2026",
+        "claim": "Chabad “has been pushing in a pretty subtle way, unless you look carefully, for the reconstruction of the Third Temple,” linking the movement to IDF patches bearing Temple imagery and framing the U.S.-Israeli Iran campaign as a religious war driven by messianic zealots."
+      },
+      "side_b": {
+        "source": "Ben Shapiro, responding publicly; plus broad reporting from JTA, Jewish Insider, and others",
+        "claim": "Shapiro rejected the characterization, noting Chabad's stated position that the Third Temple comes through acts of loving kindness rather than military action, and called Carlson's commentary degrading. Coverage described the claim as recycling antisemitic conspiracy framing; President Trump called Carlson “lost” and “not MAGA.”"
+      },
+      "why_it_matters": "Logged for two reasons, neither of which is Kirk-case evidence. First, it is a clean, well-documented instance of the intra-right factional fight over Israel that this app already records as background to Kirk's final months — Kirk himself was reportedly wrestling with Israel, Tucker Carlson, and donor pressure before his death. Second, it illustrates a pattern this app repeatedly encounters: a claim with a true kernel (Chabad does openly promote Noahide observance; the 1991 Congressional resolution is real) wrapped in an unevidenced overlay (secret enforcement, war instigation). Separating those two layers is the analytical work; collapsing them is how the accurate half ends up laundering the fabricated half. Critically, this exchange occurred in March 2026, roughly six months AFTER Kirk was killed, and nothing connects it to Robinson, UVU, or any case document.",
+      "status": "Documented public dispute, resolved against Carlson's framing by mainstream and Jewish-press reporting — and definitively not connected to the Kirk case",
+      "app_reference": "Deep Dives tab — Ben Shapiro and Chabad: Affiliation, the Carlson Dispute, and Case Relevance"
+    },
+    {
+      "id": "X30",
+      "title": "UVU's “no credible threats” analysis vs. Harpole's September 8 roof-access text — with an important scope limit",
+      "side_a": {
+        "source": "UVU spokesperson, public statement after the shooting",
+        "claim": "Campus police “discussed the security with the Kirk security team before the event and the analysis was that there were no credible threats.”"
+      },
+      "side_b": {
+        "source": "Brian Harpole, Kirk's head of security, on the Shawn Ryan Show (November 2025), displaying purported text screenshots",
+        "claim": "On September 8 — two days before the shooting — Harpole texted UVU Police Chief Jeffrey Long about student roof access, requesting controlled access or permission for one of his people to be positioned there. Long allegedly replied: “I got you covered.” Harpole says no one from UVU was assigned to check the roofs or staff the doors, and no one from his team was granted roof access. SCOPE LIMIT: the message Harpole displayed specifically named the SORENSEN CENTER roof. The shot was fired from the LOSEE CENTER roof."
+      },
+      "why_it_matters": "CORRECTION (Aug 15, 2026): an earlier version of this entry described Harpole's warning as covering “the rooftops near where Kirk would be set up,” which overstated it. The text he displayed named the Sorensen Center specifically; the shooter fired from the Losee Center. Broad claims that police explicitly promised to secure the exact firing roof go beyond the document shown. That correction cuts against the strongest version of the claim — but it does not dissolve the conflict. A specific roof-access warning was raised and acknowledged 48 hours before the shooting, which is still difficult to reconcile with an institutional analysis of “no credible threats,” and Harpole's broader operational point — that no one was assigned to check any roof and his team was denied roof access — is unaffected by which building was named. The texts remain publicly displayed but not independently authenticated, UVU has not addressed the specific exchange, and the underlying security plan is sealed (Robinson's own defense argued to keep it that way — see X11).",
+      "status": "Partially corrected and still unresolved — the warning is documented but named a different building than the firing position; the “no credible threats” framing remains unreconciled with a specific acknowledged vulnerability report",
+      "app_reference": "Statement Ledger tab — conflict C011, ground truth GT007/GT008"
+    },
+    {
+      "id": "X31",
+      "title": "Andrew Kolvet vs. Candace Owens — four direct, mutually exclusive factual conflicts",
+      "side_a": {
+        "source": "Candace Owens, on her podcast and X, across multiple episodes 2025-2026",
+        "claim": "(1) Kolvet called her days after the assassination and said “Candace, it was supposed to be you.” (2) Kolvet told her Kirk had been offered financial support for TPUSA. (3) A source in Kolvet's inner circle tipped her that Kolvet, TPUSA's in-house lawyer, and CMO Marina Minas were headed to the White House around Netanyahu's expected visit (posted July 27). (4) The Daily Mail did request comment from TPUSA before publishing on Erika Kirk — she produced screenshots."
+      },
+      "side_b": {
+        "source": "Andrew Kolvet, TPUSA spokesperson, responding publicly on X",
+        "claim": "Kolvet denies the substance of these accounts — he challenged Owens' characterization of their past conversations, denied telling her Kirk was offered financial support, stated he never visited the White House and was not even in Washington D.C., and said TPUSA never received a request for comment from the Daily Mail. He has separately suggested Joe Kent may have been the person who leaked Kirk's private messages to Owens."
+      },
+      "why_it_matters": "These are not interpretive disagreements — each pair is mutually exclusive on a checkable fact. Either a phone call happened or it didn't; either Kolvet was in D.C. or he wasn't; either a comment request was sent or it wasn't. Both parties are named, public, and directly involved with Kirk, which makes this materially different from anonymous claims. But neither has produced dispositive evidence: Owens has not identified her source or produced call records, and Kolvet's denials are assertions rather than documentation. Owens did produce screenshots on the Daily Mail point, which is the only item where one side has offered any artifact. This app takes no position on who is truthful; the entry exists because two of the people closest to Kirk give irreconcilable accounts of basic events, which degrades the reliability of TPUSA-sourced claims generally.",
+      "status": "Unresolved on all four points — competing assertions between two named parties in an acrimonious public feud, with minimal documentary evidence on either side",
+      "app_reference": "Deep Dives tab — TPUSA Post-Shooting Statements: Security, Forensics, and the Owens Dispute"
+    },
+    {
+      "id": "X32",
+      "title": "The evidentiary basis for Erika Kirk's succession as TPUSA CEO",
+      "side_a": {
+        "source": "TPUSA board and subsequent reporting",
+        "claim": "The board voted unanimously to appoint Erika Kirk as CEO eight days after the shooting, citing prior discussions with Charlie Kirk about organizational continuity. Supporting this, Kirk reportedly told a donor at a private TPUSA retreat in Aspen, Colorado in August 2025 — responding to a succession question — “We have a great board and God forbid if something happens, they will figure it out. I appoint my wife...”"
+      },
+      "side_b": {
+        "source": "Candace Owens, publicly questioning the succession",
+        "claim": "Owens has challenged the legitimacy of the evidence that Charlie Kirk personally selected his wife as successor weeks before his death, questioning the provenance and interpretation of the Aspen account."
+      },
+      "why_it_matters": "The Aspen remark, if accurately reported, is a contemporaneous statement of intent from Kirk himself made roughly a month before his death, and it substantially answers the succession question. The dispute is about provenance: the remark was made at a private donor retreat, and the account of it entered public circulation after the succession was already decided. This is a governance dispute rather than a criminal-case issue and carries no implication about the assassination itself — it is logged because succession disputes have been cited in circulating theories as evidence of motive, and the actual evidentiary picture (a reported private remark, contested by one party) should be visible rather than assumed in either direction.",
+      "status": "Contested — the Aspen remark is reported rather than documented; TPUSA has not publicly addressed a timeline for resolving the dispute",
+      "app_reference": "Deep Dives tab — TPUSA Post-Shooting Statements: Security, Forensics, and the Owens Dispute"
+    },
+    {
+      "id": "X33",
+      "title": "The '12 Israeli cell phones' claim vs. its originator's own concession",
+      "side_a": {
+        "source": "Candace Owens, first November 2025, repeated through August 2026",
+        "claim": "12 Israeli-registered cell phones — personal accounts opened in Israel, not VPNs — were detected at Utah Valley University on September 10, 2025. Widely repackaged online as an NSA detection."
+      },
+      "side_b": {
+        "source": "Candace Owens, debate with Andrew Wilson, August 14, 2026; plus the absence of any confirming agency record",
+        "claim": "Asked directly whether she had “any positive evidence whatsoever that Israel killed Charlie Kirk,” Owens produced none, saying “Well, I couldn't say Israel was on the ground and shot and killed Charlie Kirk,” and describing the picture as “a conspiracy building.” No law enforcement or intelligence agency has confirmed the phone claim, and no named investigator originated it."
+      },
+      "why_it_matters": "The claim's originator has conceded it does not establish what it is universally cited to establish. Beyond that, the described data — device location joined to the country where the SIM account was opened — does not exist in any obtainable dataset: commercial location data carries advertising identifiers, not SIM registration country, while carrier and signals-intelligence records that do carry it are not accessible without legal process or telecom-level access. The two most-circulated corroborations are a domain impersonating The Times of London and a Grok (AI) output — the same AI system this app has already documented fabricating a false claim about Erika Kirk's whereabouts in this case. Separately, no baseline for foreign-registered handsets on a US campus has ever been published, leaving the number 12 uninterpretable in the same way this app's Trends analysis shows raw spike values to be.",
+      "status": "Unsupported — unconfirmed by any agency, technically implausible as described, and conceded by its originator to fall short of establishing involvement",
+      "app_reference": "Deep Dives tab — The '12 Israeli Cell Phones at UVU' Claim"
+    },
+    {
+      "id": "X34",
+      "title": "The 'HADES spy plane over Utah Lake' claim vs. the aircraft's own transponder record",
+      "side_a": {
+        "source": "John Cullen video, September 19, 2025, and subsequent circulation",
+        "claim": "A HADES spy plane — a state-of-the-art ISR aircraft with classified capability — was loitering over Utah Lake at the time of the Charlie Kirk assassination. The aircraft is identified as N1098L, reported as an ATHENA/HADES program airframe by an aircraft spotter in December 2024."
+      },
+      "side_b": {
+        "source": "This app's full-trace re-extraction from the adsb.lol primary ADS-B archive for 2025-09-10 (ODbL 1.0)",
+        "claim": "At 12:22 PM MDT — the minute before the shooting — N1098L (ICAO A0299E) broadcast its position as 42.2870 N, -112.4276 W at 30,000 feet: southeastern Idaho, near the I-15 corridor around Arimo/Malad City. That is 144 miles from the UVU campus and 146 miles from Utah Lake, in a different state, at cruise altitude, mid-transit between Kalispell, Montana and points south."
+      },
+      "why_it_matters": "The underlying program is real and the airframe identification is plausible — N1098L is a Bombardier Global 6000/6500, genuinely the platform family used for HADES and the ATHENA prototypes. That is what gives the claim its surface credibility. But the specific allegation, that it was over Utah Lake at the assassination, is contradicted by the aircraft's own broadcast transponder data. It did cross Utah twice that day, including a northbound morning pass around 9:00-9:19 AM that descended to roughly 4,800 feet in the Wasatch corridor before climbing back to cruise, and a southbound afternoon leg around 1:00 PM at 26,600 feet. Neither is the shooting window. The claim circulated in video form for eleven months without anyone consulting the archive, which resolves it in minutes.",
+      "status": "Resolved against the claim — contradicted by primary ADS-B data; the aircraft was 144 miles away in Idaho at the moment of the shooting",
+      "app_reference": "Flight Data tab; Deep Dives tab — Military / ISR Aircraft Claims: HADES, ATHENA, and N1098L"
+    },
+    {
+      "id": "X35",
+      "title": "Joe Kent's Israel-assassination hint vs. the timeline of the war it's tied to",
+      "side_a": {
+        "source": "Joe Kent, Director of the National Counterterrorism Center, on Tucker Carlson's show the evening of his March 18, 2026 resignation",
+        "claim": "“When one of President Trump's closest advisers... is suddenly publicly assassinated and we're not allowed to ask any questions about that, it's a data point” — floating Israeli involvement in Kirk's killing as connected to Israel pressuring the US toward war with Iran, in the same breath as his resignation letter stating “we started this war due to pressure from Israel and its powerful American lobby.”"
+      },
+      "side_b": {
+        "source": "The actual dates of record: Kirk's death (Sept 10, 2025) and the war's start (Feb 28, 2026)",
+        "claim": "The coordinated US-Israeli campaign against Iran — Operation Epic Fury and Operation Roaring Lion — began five and a half months after Kirk died. The White House called Kent's Israel-pressure framing “absurd,” and the administration's own account of the war's trigger is internally inconsistent: Secretary Rubio said Israel's intended strike was the precipitating factor, then said he was misunderstood, while Speaker Johnson reaffirmed the original version."
+      },
+      "why_it_matters": "Kent is a genuinely senior, named national-security official, not an anonymous source, and Kirk's own anti-war record is real and well documented. But the assassination-to-war connection he gestures at requires either specific foreknowledge of a war that would not be launched for another 5.5 months, or a theory of motive untethered from the actual timeline it is presented alongside. Separately, Kent made the claim while under an FBI leak investigation that predates his resignation by several months, and he offered no evidence beyond the juxtaposition itself. The administration's denial is also weaker than a clean rebuttal would be, since its own officials have not agreed among themselves on what triggered the war it is defending.",
+      "status": "Unresolved and unevidenced — a credible official raised the question without supplying an answer; no bridge to Robinson has been shown by any party",
+      "app_reference": "Deep Dives tab — Motive Hypothesis: Israel and the Iran War"
+    },
+    {
+      "id": "X36",
+      "title": "The death-penalty aggravator fight: did the bullet endanger the crowd, or fly over it?",
+      "side_a": {
+        "source": "Defense motion filed ~August 12, 2026 by Kathy Nester, Michael Burt, Richard Novak, and Staci Visser (41 pages)",
+        "claim": "Kirk was Robinson's “only intended target”; only one shot was fired and no one else was struck; “the only evidence presented supports that the bullet traveled above, not through, the crowd”; and prosecutors “failed to establish the aggravating circumstance necessary under the law” — that the shooting knowingly created a great risk of death to a person other than Kirk, the specific statutory aggravator (Utah Code 76-5-202) that makes this a death-penalty-eligible case rather than ordinary aggravated murder."
+      },
+      "side_b": {
+        "source": "Prosecution's response, per reporting from KUER and other outlets",
+        "claim": "Robinson loaded the rifle with four bullets, not one — evidence, prosecutors argue, that he anticipated he might miss Kirk and accepted the risk of firing again, “thereby putting others in danger.” Prosecutors further argue that numerous people were within a “zone of danger” around Kirk at the time of the shot, where a stray or ricocheting round could have struck a bystander regardless of where the fatal bullet's flight path actually terminated."
+      },
+      "why_it_matters": "This is not a rhetorical dispute; it decides whether Robinson remains eligible for the death penalty. The defense's trajectory claim connects directly to this app's own independent ballistics-geometry analysis (Deep Dives — Wound Ballistics Physics): the hearing-derived figures of an 80 ft elevation and a 10.65-degree downward angle over roughly 142 yards describe a shot fired down onto an elevated stage, which is at least geometrically consistent with a flight path passing above general crowd head-height depending on the stage height and crowd's actual standoff distance — neither of which this app has independently verified. The prosecution's four-bullets argument is a different kind of claim entirely: it infers anticipated risk from magazine loading, not from the actual measured trajectory, and does not by itself rebut the defense's specific 'traveled above the crowd' assertion. Neither side's core factual claim (the bullet's exact vertical clearance over the crowd; what loading four rounds demonstrates about Robinson's state of mind) has been show-cased with hearing testimony from a ballistics or trajectory-reconstruction witness in reporting reviewed for this app.",
+      "status": "Unresolved — pending Judge Tony Graf's ruling on whether the death penalty remains available, argued separately from the September 1, 2026 bindover (probable cause) hearing",
+      "app_reference": "Deep Dives tab — Wound Ballistics Physics: Distance, Angle, Bullet Design, and the .300 Blackout Claim; Defense Motions, February-August 2026"
+    },
+    {
+      "id": "X37",
+      "title": "The FBI announced a palm print and forearm imprints; the preliminary hearing showed neither",
+      "side_a": {
+        "source": "FBI Salt Lake City SAC Robert Bohls, September 11, 2025 press conference (verbatim, published on fbi.gov)",
+        "claim": "“Investigators have also collected footwear impression, a palm print, and forearm imprints for analysis.” Announced on the record, on day two, by the senior FBI official in the state, alongside the recovery of the rifle."
+      },
+      "side_b": {
+        "source": "Reviewed coverage of the five-day preliminary hearing, July 6-10, 2026",
+        "claim": "No forensic witness is reported testifying to a palm print identification, and “forearm imprints” do not appear in reviewed hearing coverage in any form. Separately, reporting on the palm print describes it as “blurry,” with no named examiner, no stated matching methodology or confidence level, and no specified surface it was lifted from."
+      },
+      "why_it_matters": "This is not necessarily a contradiction in the strong sense: a preliminary hearing establishes probable cause, the state chooses what to present, and evidence held back is not evidence abandoned. But the gap is real and it runs in a specific direction. Three forensic evidence types were announced with confidence by the FBI within 24 hours, at the peak of public attention, and ten months later the public record contains a named witness for none of them. The palm print in particular was among the most widely repeated early indicators that investigators had strong physical evidence tying a person to the roof — and the roof identification is precisely where the state's case is thinnest, since lead investigator David Hull conceded no shell casings or bullets were recovered there and officers conceded the rooftop figure's face and clothing could not be identified from the footage. Early confident announcements that quietly do not reappear are a documented pattern in this case rather than an isolated instance.",
+      "status": "Unresolved — not contradicted by any party, but not corroborated in court either; awaiting trial-stage disclosure",
+      "app_reference": "Deep Dives tab — Who Actually Led the FBI Side? Bohls, the Vacant Case-Agent Slot, and the Patel Problem; Evidence Authentication Audit"
+    },
+    {
+      "id": "X38",
+      "title": "The limp identifies the shooter — except at the moment of the shooting",
+      "side_a": {
+        "source": "SBI lead investigator David Hull, sworn testimony, July 2026 preliminary hearing",
+        "claim": "A distinctive limp or gait, with the right leg not bending, was one of the physical markers used to follow the individual through hundreds of hours of campus surveillance and to connect the person arriving at 8:30 a.m. to the figure who reached the Losee Center roof."
+      },
+      "side_b": {
+        "source": "The State's own probable cause affidavit, filed September 12, 2025",
+        "claim": "At 12:22 p.m., immediately before the shot, “his limp was noticeably gone.” Investigators attribute the disappearance to the individual no longer concealing the rifle in his clothing."
+      },
+      "why_it_matters": "Both statements come from the prosecution, and they are not strictly contradictory — the state's explanation, that the gait was caused by a concealed rifle and normalized once the rifle was deployed, is internally coherent and may well be correct. The problem is evidentiary rather than logical. The limp is one of only three physical markers the state has offered for identifying the person in footage that, by the lead investigator's own concession, shows no identifiable face and no visible weapon. That marker is absent at the one moment the identification matters most. The explanation for its absence is itself an inference about an unseen object rather than an observation, and it is circular in structure: the gait proves a concealed rifle, and the concealed rifle explains the gait's disappearance. An independent demonstration cited in fact-check coverage also showed that concealing a rifle in a pants leg makes climbing stairs markedly difficult, while Hull testified the individual ascended exterior stairs to reach the roof.",
+      "status": "Unresolved — not disputed by any party, because no party appears to have placed the two statements side by side",
+      "app_reference": "Deep Dives tab — The Other People on Campus: Three Investigated, One Never Explained; What the Surveillance Actually Shows"
+    },
+    {
+      "id": "X39",
+      "title": "An unidentified man was called 'the suspect in this case' in a sworn warrant and never accounted for",
+      "side_a": {
+        "source": "Search warrant filed 3:36 p.m., September 10, 2025, unsealed and reported by stgeorgeutah.com",
+        "claim": "An unidentified man — later described as wearing a dark suit, sunglasses, and a prosthetic arm — was referred to in a sworn warrant as “the suspect in this case.” He was seen near UVU around the time of the shooting and then at Intermountain Health Utah Valley Hospital asking about Kirk's whereabouts, which was the stated basis for obtaining hospital surveillance footage. A second warrant roughly five hours later downgraded him to “likely connected.”"
+      },
+      "side_b": {
+        "source": "The subsequent public record",
+        "claim": "No identification, clearance, or explanation of this individual has been made public. The only account of his disposition is a sergeant's inference that the absence of further warrants “usually means they were able to figure out who he was and eliminate him.”"
+      },
+      "why_it_matters": "The two other individuals investigated that day, George Zinn and Zachariah Qureshi, were named, publicly cleared, and their clearances documented — officials even asked the public to stop harassing them. This third person received none of that. He is the only individual in the case formally labeled the suspect in a sworn document, and he is the one whose resolution rests on a supposition about missing paperwork. The conduct described — appearing near the scene and then appearing at the hospital asking where the victim was — is specific and unusual enough that a documented explanation would ordinarily exist. The most probable explanations are mundane (a federal agent, a security contractor, a journalist, or a bystander), and nothing here implies otherwise. But 'probably mundane' is not the same as resolved, and this app has found no source that closes it. UPDATE (August 2026): one detail materially weakens the suspicious reading. The man was asking after Kirk at Intermountain Health Utah Valley Hospital, but Kirk was taken to Timpanogos Regional Hospital in Orem — a different facility. Enquiring at the wrong hospital is the behaviour of someone trying to establish where he had been taken, not of someone with advance knowledge or operational involvement. His identity and the initial warrant language calling him the suspect both remain unexplained.",
+      "status": "Open as to identity — the suspicious reading of his conduct is weakened by the wrong-hospital detail",
+      "app_reference": "Deep Dives tab — The Other People on Campus: Three Investigated, One Never Explained"
+    },
+    {
+      "id": "X40",
+      "title": "Egyptian aircraft alongside Air Force One: the escort is real, the presidential jet could not have been there",
+      "side_a": {
+        "source": "Video circulating on X, reported to this app as showing Egyptian aircraft beside Air Force One, with a tip that they shared a runway",
+        "claim": "Egyptian aircraft were spotted next to Air Force One, suggesting an unremarked or concealed relationship."
+      },
+      "side_b": {
+        "source": "Contemporaneous reporting, the aircraft's own delivery record, and the President's own remarks",
+        "claim": "Two separate things are being merged. Egyptian Air Force F-16s did escort Air Force One into Egyptian airspace on October 13, 2025, as it arrived at Sharm el-Sheikh for the Gaza peace summit — an ordinary diplomatic honour escort that Trump described from the podium, thanking Egypt and noting “we had three on each side.” But Egypt's presidential Boeing 747-8, SU-EGY, was not in the country: the ex-Lufthansa airframe was still being refitted in Hamburg and did not arrive in Cairo until December 11, 2025, two months after the summit. Any image showing that aircraft beside Air Force One at Sharm el-Sheikh in October 2025 cannot be authentic."
+      },
+      "why_it_matters": "The underlying observation is true and was never hidden — the escort was filmed, broadcast, and narrated by the President himself. Two aircraft sharing a runway or apron at a bilateral summit is also definitionally unremarkable: the host nation's aircraft and the visiting head of state's aircraft use the same airport because that is what a state visit is. The only version of this claim that would be notable — Egypt's presidential jet parked beside Air Force One in October 2025 — is chronologically impossible. A separate and older piece of footage also circulates falsely in this space: a 2023 clip from exercise Bright Star 23 showing a US KC-10 Extender in formation with Egyptian and Pakistani jets, misidentified as Air Force One. Critically for this app, every event here postdates Charlie Kirk's death on September 10, 2025 by at least a month, so none of it bears on the case timeline.",
+      "status": "Resolved — escort verified and routine; presidential-jet version refuted on delivery date; no case relevance",
+      "app_reference": "Flight Data tab; Deep Dives — Military / ISR Aircraft Claims: HADES, ATHENA, and N1098L"
+    },
+    {
+      "id": "X41",
+      "title": "A prosecutor was held in contempt for talking about the case; the case continued unchanged",
+      "side_a": {
+        "source": "Judge Tony Graf's ruling, June 26, 2026",
+        "claim": "Deputy Utah County Attorney Christopher Ballard was held in civil contempt for violating the court's gag order by giving March 2026 interviews to TMZ, USA Today, PolitiFact and Fox News in which he characterised the strength of the state's case against Robinson."
+      },
+      "side_b": {
+        "source": "The same ruling's remedy, and the subsequent posture of the case",
+        "claim": "Graf declined the defence request to strike the death penalty as the sanction, holding it would be grossly disproportionate to the misconduct and was not legally available within a civil contempt framework. The death penalty remained available, the venue remained Utah County, and the prosecution team continued."
+      },
+      "why_it_matters": "This is a documented judicial finding that the state violated a court order in a capital case, and it has had almost no effect on the public understanding of the case because it was reported once and dropped. It matters in both directions and neither side's usual framing survives it intact. For anyone arguing the court is a rubber stamp for the prosecution, the court sanctioned the prosecution. For anyone arguing procedural irregularity is evidence of a broader conspiracy, the sanction was handled openly, on the record, with a reasoned proportionality analysis, and produced no windfall for either party. The substantive question the contempt raises — whether a prosecutor publicly vouching for the strength of the evidence in March prejudiced the jury pool that a change-of-venue motion was simultaneously being denied over — does not appear to have been examined by anyone.",
+      "status": "Resolved as to the finding and the sanction — unexamined as to its interaction with the venue ruling",
+      "app_reference": "Deep Dives tab — Prosecutorial Conduct, Venue, and Who Pays: The Procedural Record Nobody Catalogued"
+    },
+    {
+      "id": "X42",
+      "title": "Prosecutors called Twiggs 'not material' while relying on his conversations to seek death",
+      "side_a": {
+        "source": "The State's opposition to the defence motion to compel Lance Twiggs' live appearance, 2026",
+        "claim": "Twiggs is not a material witness for the preliminary hearing, because his testimony is not likely to change the outcome given the light burden of proof at that stage. On that basis his sworn account was entered as a recorded statement under Utah Rule 1102 rather than through live testimony."
+      },
+      "side_b": {
+        "source": "The defence motion, and the State's own theory of the case",
+        "claim": "The defence argued Twiggs is “central” to the State's case and that the conversations between him and Robinson are the asserted basis for seeking the death penalty. On the record, essentially every incriminating item runs through him: the note he found and photographed, the text thread from his device, and the only reported verbal admission."
+      },
+      "why_it_matters": "The two positions are difficult to hold simultaneously. A witness cannot be immaterial to establishing probable cause while his conversations supply the evidentiary basis for a capital aggravator. The practical result is that the single most important witness in the case has never been cross-examined by anyone, over an explicit defence motion, and the Confrontation Clause objection is preserved rather than resolved. This is legally permissible — Utah preliminary hearings run on a light burden and admit hearsay — which is precisely why the State's materiality argument worked. But it defers rather than answers the question, and reporting that Twiggs is no longer under FBI protection with unclear whereabouts turns his availability at trial into a live risk rather than an assumption.",
+      "status": "Unresolved — deferred to trial with the Confrontation objection preserved",
+      "app_reference": "Deep Dives tab — Lance Twiggs: The State's Most Important Witness, and the One Never Cross-Examined"
+    },
+    {
+      "id": "X43",
+      "title": "The bullet is engineered against the exact failure the evidence shows",
+      "side_a": {
+        "source": "Published design specification and gel performance for the identified load, Remington .30-06 150gr Core-Lokt",
+        "claim": "The bullet is built around a mechanical jacket-to-core lock — a tapered jacket with an internal hourglass cavity — whose stated design purpose is preventing jacket-core separation. Published weight retention is 65-80%, against 50-70% for conventional soft points. In 10 percent ordnance gelatin the 150-grain load penetrates approximately 23 inches while expanding to roughly twice diameter, and it is a medium-to-large game round whose users routinely report exits on deer and elk."
+      },
+      "side_b": {
+        "source": "ATF recovery and testimony of examiner Samantha Carner",
+        "claim": "What was recovered is a jacket separated from its core plus four lead fragments — five pieces — from a neck roughly five to six inches across, with no exit wound. The four lead fragments were unsuitable for comparison, and the single usable jacket fragment produced an inconclusive result, with neither sufficient agreement nor sufficient disagreement to identify or exclude the rifle."
+      },
+      "why_it_matters": "This app previously resolved the no-exit finding by attributing it to bullet design, rating that conclusion supported. That was wrong and has been corrected. The named load is engineered specifically against the behaviour observed, and its designed penetration is roughly four times the width of the structure it allegedly failed to exit. The energy analysis is unaffected and still rules out the most common alternative explanation: at 142-200 yards the round carries 2,000-2,200 ft-lbs, four to seven times what handgun rounds that fail to exit soft tissue carry. A direct cervical-vertebra strike at roughly 2,500 ft/s remains the best single candidate, since expanding bullets can fail catastrophically on bone and gel figures assume soft tissue without it. But the margin is wide, no forensic pathologist has testified to the wound track, and the autopsy is sealed. This does not support any particular alternative theory — several have been separately refuted on their own evidence — it means the terminal ballistics are genuinely unresolved on the public record.",
+      "status": "Open — resolvable only by the sealed autopsy and wound-track testimony at trial",
+      "app_reference": "Deep Dives tab — Wound Ballistics Physics: Distance, Angle, Bullet Design, and the .300 Blackout Claim"
+    },
+    {
+      "id": "X44",
+      "title": "The four-round aggravator inference versus how a scoped Mauser is actually loaded",
+      "side_a": {
+        "source": "Prosecution argument in the death-penalty aggravator dispute, 2026",
+        "claim": "Robinson loaded the rifle with four bullets rather than one, which shows he anticipated he might miss Kirk and accepted the risk of firing again, thereby putting others in danger and satisfying the statutory aggravator of knowingly creating a great risk of death to a person other than the victim."
+      },
+      "side_b": {
+        "source": "The mechanical characteristics of the weapon, corroborated by ATF exhibit photography",
+        "claim": "A Mauser 98 has a five-round internal box magazine and no detachable magazine. A conventionally mounted scope blocks stripper-clip loading entirely, because the clip seats in a guide machined into the rear receiver bridge where a scope base sits. Rounds must therefore be pressed in individually by thumb. Four rounds in a five-round rifle is a stopping point during hand-feeding, not a magazine capacity. Published exhibit photography shows four separately itemised ATF cartridge exhibits, corroborating the count."
+      },
+      "why_it_matters": "The prosecution's inference treats four rounds as a deliberate choice signalling anticipated missing. The mechanical reality is that the rifle was loaded below its own capacity by the only method the weapon permits, one round at a time. That does not refute the aggravator — someone loading four rounds by hand did make four separate decisions — but it removes the implicit comparison to a magazine deliberately filled, and it cuts against reading the number as meaningful in itself. Neither side, on the public record, has addressed how the weapon actually loads, and the argument is currently being conducted as though the round count were self-interpreting.",
+      "status": "Unresolved — pending Judge Graf's ruling on the aggravator; the mechanical point appears unraised by either party",
+      "app_reference": "Deep Dives tab — Scope Placement vs. Bolt-Action Loading; contradiction X36"
+    },
+    {
+      "id": "X45",
+      "title": "Two official record systems give the same vendor two different street addresses",
+      "side_a": {
+        "source": "IRS Form 990, Turning Point Action Inc (EIN 46-4331510), Part VII Section B, TY2021 through TY2024",
+        "claim": "1TEN LLC is reported at 18521 E Queen Creek Rd, Queen Creek, AZ 85142, with no suite or box number, across four consecutive filing years."
+      },
+      "side_b": {
+        "source": "Arizona Secretary of State campaign finance filing, Republican Party of Arizona (Committee #1535), 2022 Post-General (Q4) report",
+        "claim": "The same payee is reported as 1Ten at 18251 E Queen Creek Rd, STE 105-503, Queen Creek, AZ 85142."
+      },
+      "why_it_matters": "The street numbers are transposed — 18521 against 18251 — so at least one official record system carries an incorrect address for the same vendor, and the federal returns additionally omit a suite designation the state filing includes. Transposition is an obvious clerical error and nothing here indicates intent. It is logged because address consistency is the specific thing the shell-company allegation against this vendor turns on, and because it corrects an error in this app: an earlier pass marked the “Suite 105-503” mailbox claim refuted after checking only the IRS filings, which was over-generalising from one document set. The suite designation is real and appears in a primary public filing. Neither the people making the allegation nor those rebutting it appear to have noticed the two systems disagree.",
+      "status": "Documented and unexplained — no party has addressed the discrepancy",
+      "app_reference": "Deep Dives tab — Wolves & Finance vs. TPUSA: Checking the Claims Against the Actual IRS Filings"
+    },
+    {
+      "id": "X46",
+      "title": "UVU commissioned a public review of the shooting due before summer 2026; no report has appeared",
+      "side_a": {
+        "source": "Utah Valley University announcements, September and December 2025",
+        "claim": "An independent third-party review of the assassination and the university's security protocols was commissioned, scheduled to begin the first week of January 2026 and conclude in late spring, before summer 2026, with a report prepared for the public. Its stated scope included interviews with university leaders, law enforcement, emergency management staff, employees and students, plus review of video, emergency plans, training records and incident logs."
+      },
+      "side_b": {
+        "source": "This app's review of the public record, August 2026",
+        "claim": "No published findings from that review have been located, past the stated completion window."
+      },
+      "why_it_matters": "This is the only body in the case tasked with independently adjudicating the security question, and the security failure is the single most firmly established conclusion in this entire app at 96-99% confidence. Its findings bear directly on two logged contradictions: X8 and X30, the dispute between Brian Harpole's account of a specific rooftop-security warning and UVU's position on the threat posture. Those currently sit as a named-individual-versus-institution conflict with no independent arbiter, which is exactly what this review was meant to supply. Context already established: UVU's police chief stated six campus officers worked an event with roughly 3,000 attendees, alongside Kirk's eight-person private detail, and the university subsequently moved to hire eight additional officers and two safety managers against a force of 23. Non-publication may simply reflect delay, and this app has not contacted the university; the absence is logged rather than characterised.",
+      "status": "Overdue and unexplained — worth active monitoring",
+      "app_reference": "Deep Dives tab — Prosecutorial Conduct, Venue, and Who Pays; contradictions X8 and X30"
+    },
+    {
+      "id": "X47",
+      "title": "What Kirk actually wrote about leaving the pro-Israel cause, versus what it became in retelling",
+      "side_a": {
+        "source": "Kirk's own private message, September 8, 2025, released by Candace Owens",
+        "claim": "Kirk wrote that he felt bullied by donor pressure and had “no choice but to leave the pro-Israel cause.” This is a primary document in his own words, and this app has treated it as established since it was released (see contradiction X3)."
+      },
+      "side_b": {
+        "source": "The Grayzone, September 12, 2025, citing an unnamed 'Trump insider and longtime friend', amplified by Press TV, Middle East Monitor and Mondoweiss",
+        "claim": "That Kirk had refused a funding offer connected to Netanyahu and was “frightened” of reprisal by pro-Israel forces before his death, following a private backlash from Netanyahu's allies."
+      },
+      "why_it_matters": "These are two very different evidentiary objects being merged in circulation. The first is a document: Kirk's own text, quoted directly, about donor bullying and his intention to withdraw from the cause. It is real and this app has never disputed it. The second is an anonymous single-source account, published by an outlet with a declared editorial position and amplified largely by outlets sharing it, asserting fear of reprisal and a refused funding offer — neither of which appears in the primary message. In wider retelling the chain escalates one step further again, into claims that Kirk said he feared being killed if he left. That formulation traces to a dated primary post: Harrison H. Smith of Infowars on August 13, 2025, stating he would not name names but had been told by someone close to Kirk that Kirk thought Israel would kill him if he turned against them. The date is significant and cuts in the claim's favour on one point: it precedes the killing by four weeks and precedes Kirk's own September 8 message by three and a half, so it is not a retrospective construction built from the leaked text. It remains an anonymous relay whose author expressly declines to identify his informant, posted as a quote-tweet inside a factional argument about Kirk declining to debate Nick Fuentes, with no document, recording or on-record account from Kirk's circle produced. The distinction matters because the documented version — a man under heavy donor pressure planning to change his public position — is significant on its own terms and requires no embellishment, while the escalated version supplies a motive narrative the underlying evidence does not carry.",
+      "status": "Documented at the base, attenuating but not fabricated at the top — the primary message stands; the fear-of-reprisal claim rests on one anonymous Grayzone source; the fear-of-being-killed formulation is a dated, pre-assassination anonymous relay by Harrison H. Smith and remains uncorroborated",
+      "app_reference": "Deep Dives tab — Claims Surrounding the Kirks: Sourcing Tiers; contradictions X3 and X4"
+    },
+    {
+      "id": "X48",
+      "title": "Owens says the Panguitch owner confirmed the charge; the owner publicly denies the connection",
+      "side_a": {
+        "source": "Candace Owens, public statements on X",
+        "claim": "That she has seen the receipt unredacted, that the bill was paid at 9:47 p.m. by credit card, and that she spoke directly with the restaurant's owner, who recovered the charge and spoke with the FBI. Reporting separately indicates restaurant staff contacted the FBI after seeing photographs of Robinson and that agents interviewed the owner and two servers."
+      },
+      "side_b": {
+        "source": "Owner Ralph Perkins, public statements",
+        "claim": "That there is no connection between his restaurant and the suspect, and that law enforcement cleared the matter. Reporting also indicates the restaurant could not provide full card details or usable security footage, supplying only the last four digits of the payment card."
+      },
+      "why_it_matters": "This is the load-bearing dispute underneath the timeline conflict logged at X13, and this app had only half of it. The 52-minute impossibility between a 9:47 p.m. Panguitch payment and sworn testimony placing Robinson's vehicle at UVU by 12:30 a.m. is arithmetic and does not move. What moves is which side gives way. Earlier revisions here dismissed the sighting as thinly sourced, which was wrong: multiple staff, staff-initiated FBI contact, and a timed transaction are a real evidentiary base. But the named owner publicly contradicts the account attributed to him, and the payment record as described — four digits, no name, no footage — identifies a transaction rather than a diner. The reconciliation that requires nothing else in the record to be false is that staff recognised a resemblance in a face they later saw in saturation coverage. Neither the FBI nor prosecutors have publicly confirmed whether the customer was Robinson, and the owner reports never being told whether the sighting was verified.",
+      "status": "Unresolved — directly conflicting public accounts from named parties, with the underlying identification never publicly confirmed or excluded by investigators",
+      "app_reference": "Deep Dives tab — Panguitch Steakhouse Timeline Analysis; contradiction X13"
+    },
+    {
+      "id": "X49",
+      "title": "Kirk's pastor says he was never afraid; Kirk's own message the day before says he was worried about being killed",
+      "side_a": {
+        "source": "Pastor Rob McCoy, Fox 11 Los Angeles, night of September 10, 2025",
+        "claim": "That Kirk 'had no fear of death', that 'every day he faced death threats from evil, and he was never afraid of that', that he received 'death threats every day, hundreds', and that his heart was secured in Jesus. Asked directly whether Kirk expressed concerns about assassination, McCoy's answer addressed the existence of a security detail and threats rather than any fear on Kirk's part."
+      },
+      "side_b": {
+        "source": "Kirk's own message to his security team, September 9, 2025, read publicly by Andrew Wilson",
+        "claim": "That in reply to a briefing on the next day's coverage, Kirk asked that the team be reminded they were there for one person's security only, 'because I'm somewhat worried the left is trying to kill me.' A first-person statement of concern about being killed, made roughly 24 hours before he was."
+      },
+      "why_it_matters": "These are the two closest available windows into whether Kirk feared for his life, and they point opposite ways. The reconciliation that requires nobody to be lying is that both are true of different registers: McCoy describes a settled theological posture toward death, which is what a pastor would perceive and what Kirk professed publicly, while the September 9 message is an operational instruction to security expressing situational concern. A man can be unafraid of dying and still tell his detail he thinks someone is trying to kill him. But the distinction matters because McCoy's 'never afraid' has been cited as evidence Kirk perceived no specific threat, and the September 9 message is direct first-person evidence that he did — and that he named a source for it. It also bears on the separate claim, raised from other directions, that Kirk privately feared reprisal over Israel: the one documented statement of fear he made names the political left, not anyone else.",
+      "status": "Reconcilable — most likely describing different registers rather than conflicting facts, but frequently cited as though McCoy's account settles the question of Kirk's perceived threat level, which it does not",
+      "app_reference": "Deep Dives tab — 'Mikey McCoy and Pastor Rob McCoy'; 'The September 9 Security-Team Messages'; contradictions X3, X8, X30"
+    },
+    {
+      "id": "X50",
+      "title": "TPUSA gave two mutually exclusive explanations for the SD card removal",
+      "side_a": {
+        "source": "Andrew Kolvet, executive producer of The Charlie Kirk Show, on X (September 2025) and with Tucker Carlson",
+        "claim": "That the individual who took the cards is a longtime staffer, a loyal man and a dear friend, that he made the right call, and — in Kolvet's own words — that he remains stunned the staffer had the presence of mind to ensure no one stole them. Kolvet has separately said the cards were turned over to the FBI. This is an account of spontaneous individual initiative to prevent theft."
+      },
+      "side_b": {
+        "source": "Tyler Bowyer, TPUSA chief operating officer, on X",
+        "claim": "That Farnsworth was commanded by police to take down the cameras. This is an account of compliance with a lawful instruction from law enforcement."
+      },
+      "why_it_matters": "These cannot both be true, and the conflict is now internal to TPUSA rather than between TPUSA and its critics — which is what changes the status of this item. Kolvet's formulation does not merely differ from Bowyer's, it actively excludes it: one does not express astonishment at a man's presence of mind for obeying a police order, and praise for initiative is incompatible with a claim of instruction. Kolvet's version is documented in his own words on his own account, so it is not a characterisation by an opponent. Candace Owens, who raised the discrepancy, adds an argument that stands on its own logic irrespective of her record elsewhere in this case: if the motive were preventing theft, removing an SD card worth around fifteen dollars while leaving the camera body on the table is backwards. The evidentiary consequence is unchanged either way — original media left the scene in private hands before investigators took possession, which is what produced Judge Graf's ruling requiring the state to produce original unaltered footage after the defence objected to TPUSA authenticating its own video. What has changed is that the police-direction account, previously the most exculpatory available explanation, is now contradicted from inside the organisation that offered it.",
+      "status": "Upgraded — no longer merely disputed. Two incompatible TPUSA accounts exist, one of them in the speaker's own published words. Still unresolved: no incident report, radio log or officer identification has been produced by anyone, which would settle it in either direction.",
+      "app_reference": "Deep Dives tab — 'Terryl Farnsworth, the SD Card, and the Chain of Custody the Judge Broke Off'; anomaly A4"
+    },
+    {
+      "id": "X51",
+      "title": "Four published times for the shot — RESOLVED at 12:23:28 by the hearing transcript",
+      "side_a": {
+        "source": "UVU official post (Sept 10, same day) and one Fox News route account",
+        "claim": "UVU posted that at about 12:10 a shot was fired at the visiting speaker. A Fox News reconstruction of Robinson's path gives 12:20 p.m. for the single shot fired from the Losee Center rooftop."
+      },
+      "side_b": {
+        "source": "CBS News and preliminary-hearing coverage (Fox News, East Idaho News)",
+        "claim": "CBS reported a single gunshot heard in the quad at 12:23 p.m. The Day 2 preliminary-hearing transcript resolves this definitively: Agent Hull, testifying under oath and reading video timestamps, states that the reported shot was fired at 12:23:28, and that the figure jumped from the roof at 12:24:42."
+      },
+      "why_it_matters": "RESOLVED. The shot was fired at 12:23:28 p.m. UVU's same-day 12:10 was approximate, and the 12:20 and 12:28 figures carried in post-hearing reporting are errors. This app's working figure of 12:23 was correct. The resolution also fixes the two intervals that actually matter and that were previously unanswerable: the figure was on the roof roughly eight and a half minutes before firing, having reached the exterior staircase about 12:15, and 74 seconds elapsed between the shot and leaving the roof. That second number independently strengthens this app's rejection of the second-shooter malfunction hypothesis, which turned on whether an operator clearing a stoppage in two to four seconds would still have had a firing opportunity. It records a further point worth keeping: four values for the most basic fact in the case continued circulating in mainstream reporting after a public transcript had fixed it to the second, and nobody checked.",
+      "status": "Resolved — 12:23:28 p.m., per sworn testimony reading the video timestamp",
+      "app_reference": "Deep Dives tab — 'Tracing Robinson's Path: Measured Distances, Walking Pace, and a 21-Minute Surplus'"
+    }
+  ],
+  "trends_methodology": {
+    "title": "Why the Israel search-spike cluster is weaker than it looks",
+    "lede": "Circulated analyses claim pre-September 10, 2025 Israeli search interest not merely in Charlie Kirk but in names including Tyler Robinson, Lance Twiggs, Brian Harpole, Deirdre Amaro, Hunter Kozak and Robert Bohls, plus locations later connected to the case. Ranked by likelihood, here is what most probably explains that.",
+    "explanations": [
+      {
+        "rank": 1,
+        "title": "Statistical noise plus normalization",
+        "body": "Google explicitly warns that low-volume terms can produce random one-off spikes from statistical noise, and says those spikes should not be interpreted as evidence that individual searches actually occurred. Trends is based on a sample, not the entire search database."
+      },
+      {
+        "rank": 2,
+        "title": "The look-elsewhere effect",
+        "body": "Investigators began with hundreds of names, places, buildings, doctors, security personnel, law-enforcement officials, judges and aircraft AFTER knowing the case. Search enough combinations of terms × countries × dates and some apparently remarkable pre-event matches will occur by chance. The striking matches get published; the hundreds of terms producing nothing rarely do. This is the single biggest methodological problem with treating the collection as a probability calculation."
+      },
+      {
+        "rank": 3,
+        "title": "The numbers are being misinterpreted",
+        "body": "One article says Trends showed '94 searches' for a name and then '100 searches.' That is not what those numbers mean. Google states Explore values are normalized relative-interest scores from 0–100, with 100 representing the peak within that query — not a count of searches. This substantially weakens any argument built on supposed search counts."
+      },
+      {
+        "rank": 4,
+        "title": "Unrelated people with the same names",
+        "body": "'Tyler Robinson' is not necessarily the same Tyler Robinson every time the string appears. Trends records the query string or categorized topic, not the searcher's intended identity. This explanation weakens for highly distinctive combinations — an uncommon full name plus a specific obscure Utah facility."
+      },
+      {
+        "rank": 5,
+        "title": "Geographic attribution is not IP attribution",
+        "body": "The public Trends interface reports aggregated geographical interest. It does not provide a list of IP addresses or identify individual searchers. 'Israel' means the Trends geographic bucket — not verified government workstations. Even sites sympathetic to investigating these anomalies acknowledge VPN exits as one possible explanation."
+      },
+      {
+        "rank": 6,
+        "title": "Real but innocent searches",
+        "body": "Journalists, cybersecurity researchers, security professionals, political researchers, Israelis connected to American conservative organizations and expatriate Americans can create a surprisingly large relative score for an obscure term. Because Trends divides searches by total search activity in the geographic and time bucket before scaling, a region need not generate the greatest absolute number of searches to look disproportionately prominent."
+      },
+      {
+        "rank": 7,
+        "title": "Automated or irregular search activity",
+        "body": "Google acknowledges that automated or otherwise irregular searches can occasionally survive its filtering and appear in Trends — particularly relevant when dozens of obscure terms appear to behave strangely."
+      },
+      {
+        "rank": 8,
+        "title": "Actual pre-event foreknowledge",
+        "body": "Possible in principle, but currently unsupported. Not zero probability. If several genuinely unique people with no publicly discoverable pre-September 10 relationship repeatedly appeared from the same geography in reproducible, sufficiently high-volume data, in a meaningful chronological sequence, that would be a legitimate investigative anomaly. The public Trends evidence found so far does not establish that."
+      }
+    ],
+    "core_distinction": "'Google Trends produced a historical point associated with Israel' is NOT equivalent to 'someone in Israel searched this name before the murder.' Google itself effectively says that distinction matters for obscure queries: low-volume one-off historical spikes can literally be statistical noise rather than actual search behavior.",
+    "what_would_change_it": [
+      "Original CSV exports made BEFORE the controversy, rather than screenshots generated afterward",
+      "Repeated exports or API pulls returning essentially the same dates and geographies",
+      "A control study running several hundred similarly obscure Utah names unrelated to the shooting, to measure how often Israel/DC/random countries produce historical spikes",
+      "Exact quoted query strings rather than broad Google 'Topics'",
+      "Evidence that the same terms appear in another independent search dataset",
+      "A chronological sequence that makes operational sense — location → security employee → hospital → named physician → suspect — rather than scattered dates",
+      "Actual search volumes large enough to overwhelm the statistical-noise problem",
+      "Most importantly: subpoenaed or authenticated Google records establishing genuine queries, timestamps and geography. That would be completely different evidence from Google Trends."
+    ],
+    "proposed_experiment": "Build a master table of every claimed pre-shooting Trends anomaly connected to the case — Israel, Washington DC, Alabama, Utah — and statistically test them against hundreds of matched control names and places. That would establish whether this dataset is genuinely extraordinary or whether Trends routinely produces this kind of apparent 'foreknowledge' when searching backward through obscure terms. Far more probative than arguing from individual screenshots."
+  }
+}

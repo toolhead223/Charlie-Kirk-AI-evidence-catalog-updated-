@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Charlie Kirk Case — Evidence & Claims Explorer</title>
+<meta http-equiv="Cache-Control" content="no-store" />
+<link rel="stylesheet" href="styles.css?v=140" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="pin">📌</span>
+      <div>
+        <h1>Charlie Kirk Case — Evidence &amp; Claims Explorer</h1>
+        <p class="subtitle">A sourced case map, plus an honest tracker for the circulating Google Trends claims.</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab-btn active" data-tab="map">Verified Case Map</button>
+      <button class="tab-btn" data-tab="assessment">Assessment</button>
+      <button class="tab-btn" data-tab="timeline">Court Record Timeline</button>
+      <button class="tab-btn" data-tab="conduct">Official Conduct</button>
+      <button class="tab-btn" data-tab="network">Network &amp; Backgrounds</button>
+      <button class="tab-btn" data-tab="contested">Contested Claims</button>
+      <button class="tab-btn" data-tab="contradictions">Contradictions</button>
+      <button class="tab-btn" data-tab="factcheck">External Fact-Check</button>
+      <button class="tab-btn" data-tab="persontime">48-Hour Window</button>
+      <button class="tab-btn" data-tab="claims">Trends Claims Tracker</button>
+      <button class="tab-btn" data-tab="flight">Flight Data</button>
+      <button class="tab-btn" data-tab="simulation">Scene Simulation</button>
+      <button class="tab-btn" data-tab="ledger">Statement Ledger</button>
+      <button class="tab-btn" data-tab="deepdives">Deep Dives</button>
+      <button class="tab-btn" data-tab="priorities">Investigation Priorities</button>
+      <button class="tab-btn" data-tab="vehicles">Vehicle Analysis</button>
+      <button class="tab-btn" data-tab="latest">Latest Assessment</button>
+      <button class="tab-btn" data-tab="sources">Sources &amp; Methodology</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- TAB 1: VERIFIED CASE MAP -->
+    <section id="tab-map" class="tab-panel active">
+      <div class="panel-intro">
+        <strong>Every line on this board is backed by an official or credible named source</strong>
+        (police/FBI statements, court filings, named local reporting) — listed in the Sources tab.
+        No Google Trends claims are drawn here. Drag nodes, click one for details and sourcing.
+      </div>
+      <div class="map-layout">
+        <div class="graph-wrap">
+          <svg id="graph"></svg>
+        </div>
+        <aside class="detail-card" id="map-detail">
+          <p class="placeholder">Click a node to see its role, verification status, and source.</p>
+        </aside>
+      </div>
+      <div class="legend" id="map-legend"></div>
+    </section>
+
+    <!-- TAB: ASSESSMENT -->
+    <section id="tab-assessment" class="tab-panel">
+      <div id="assessment-root"></div>
+    </section>
+
+    <!-- TAB: NETWORK & BACKGROUNDS -->
+    <section id="tab-network" class="tab-panel">
+      <div id="network-root"></div>
+    </section>
+
+    <!-- TAB: CONTESTED CLAIMS -->
+    <section id="tab-contested" class="tab-panel">
+      <div id="contested-root"></div>
+    </section>
+
+    <!-- TAB: CONTRADICTIONS -->
+    <section id="tab-contradictions" class="tab-panel">
+      <div id="contradictions-root"></div>
+    </section>
+
+    <!-- TAB: EXTERNAL FACT-CHECK -->
+    <section id="tab-factcheck" class="tab-panel">
+      <div id="factcheck-root"></div>
+    </section>
+
+    <!-- TAB: 48-HOUR WINDOW -->
+    <section id="tab-persontime" class="tab-panel">
+      <div id="persontime-root"></div>
+    </section>
+
+    <!-- TAB: COURT RECORD TIMELINE -->
+    <section id="tab-timeline" class="tab-panel">
+      <div class="case-header" id="case-header"></div>
+
+      <div class="panel-intro">
+        Built <strong>only from filed court documents and named reporting on the proceedings</strong>. Every entry
+        carries a provenance tag. Where outlets conflict, the entry is marked <em>disputed</em> rather than resolved
+        in either direction. Nothing from the Trends claim set is plotted here.
+      </div>
+
+      <div class="evidence-callout" id="evidence-callout"></div>
+
+      <div class="timeline-filters">
+        <label class="chk"><input type="checkbox" class="track-filter" value="institutional" checked /> Institutional context</label>
+        <label class="chk"><input type="checkbox" class="track-filter" value="day_of" checked /> Day of shooting</label>
+        <label class="chk"><input type="checkbox" class="track-filter" value="investigation" checked /> Investigation</label>
+        <label class="chk"><input type="checkbox" class="track-filter" value="legal" checked /> Legal process</label>
+        <label class="chk"><input type="checkbox" class="track-filter" value="evidence" checked /> Evidence &amp; challenges</label>
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+
+      <div class="panel-intro" id="overlay-note"></div>
+    </section>
+
+    <!-- TAB 2: TRENDS CLAIMS TRACKER -->
+    <section id="tab-claims" class="tab-panel">
+      <div class="panel-intro warn">
+        <strong>None of these 139 records are Evidence Grade A</strong> (an original, reproducible Google Trends export).
+        40 are Grade B (archived secondary screenshots/transcripts). 99 are Grade C (tertiary re-posted compilations,
+        overwhelmingly from one site). Google's own documentation says a region shown in Trends indicates relative
+        search interest from that geography — <em>it does not identify an IP address, person, agency, or government.</em>
+        Treat everything below as an unverified claim log, not evidence of foreknowledge or involvement.
+      </div>
+
+      <div class="stat-row" id="claims-stats"></div>
+
+      <!-- NORMALIZATION DEMO -->
+      <details class="demo-block" id="normalization-demo" open>
+        <summary><span class="demo-icon">🔬</span> Why this signal is weak — interactive demo</summary>
+        <div class="demo-body">
+          <p class="demo-lede">
+            Google Trends does <strong>not</strong> show how many people searched something. It rescales every
+            result so the highest point in your window becomes <strong>100</strong>. That means the y-axis has
+            no fixed meaning — it is relative to whatever the peak happened to be.
+          </p>
+
+          <div class="demo-interactive">
+            <label for="volume-slider">
+              Actual searches at the peak week:
+              <output id="volume-readout">1</output>
+            </label>
+            <input type="range" id="volume-slider" min="0" max="4" step="1" value="0" />
+            <div class="slider-ticks">
+              <span>1</span><span>12</span><span>340</span><span>8,900</span><span>210,000</span>
+            </div>
+
+            <div class="demo-charts">
+              <div class="demo-chart-card">
+                <h4>What Google Trends shows you</h4>
+                <svg id="demo-chart-normalized" viewBox="0 0 320 130"></svg>
+                <p class="chart-note" id="normalized-note"></p>
+              </div>
+              <div class="demo-chart-card">
+                <h4>The actual underlying search volume</h4>
+                <svg id="demo-chart-raw" viewBox="0 0 320 130"></svg>
+                <p class="chart-note" id="raw-note"></p>
+              </div>
+            </div>
+
+            <div class="demo-punchline" id="demo-punchline"></div>
+          </div>
+
+          <div class="demo-explainer" id="demo-explainer"></div>
+        </div>
+      </details>
+
+      <div class="claims-controls">
+        <input type="text" id="claims-search" placeholder="Search subject, query, or source..." />
+        <select id="filter-grade">
+          <option value="">All evidence grades</option>
+          <option value="A">Grade A</option>
+          <option value="B">Grade B</option>
+          <option value="C">Grade C</option>
+          <option value="D">Grade D</option>
+        </select>
+        <select id="filter-region">
+          <option value="">All regions</option>
+        </select>
+        <label class="chk"><input type="checkbox" id="filter-controls-only" /> Show matched controls comparison</label>
+      </div>
+
+      <div class="claims-grid" id="claims-grid"></div>
+
+      <div id="controls-panel" class="controls-panel hidden">
+        <h3>Control-group comparison</h3>
+        <p class="panel-intro">
+          These are people whose case role is comparable (security staff, investigators, associates) but who were
+          <em>deliberately tested the same way</em> as a baseline. If unusual "Israel" search spikes were a real signal
+          of foreknowledge, matched controls should mostly come back clean. They do.
+        </p>
+        <table class="controls-table" id="controls-table"></table>
+      </div>
+    </section>
+
+    <!-- TAB: OFFICIAL CONDUCT -->
+    <section id="tab-conduct" class="tab-panel">
+      <div class="case-header" id="conduct-case-header"></div>
+
+      <div class="panel-intro" id="conduct-principle"></div>
+
+      <div class="stat-row" id="conduct-stats"></div>
+
+      <div class="conduct-filters">
+        <label class="chk"><input type="checkbox" class="cat-filter" value="sanctioned" checked /> Sanctioned</label>
+        <label class="chk"><input type="checkbox" class="cat-filter" value="evidence_gap" checked /> Evidence gaps</label>
+        <label class="chk"><input type="checkbox" class="cat-filter" value="contested" checked /> Contested</label>
+        <label class="chk"><input type="checkbox" class="cat-filter" value="transparency" checked /> Transparency</label>
+        <label class="chk"><input type="checkbox" class="cat-filter" value="unresolved" checked /> Unresolved</label>
+      </div>
+
+      <div id="conduct-list"></div>
+
+      <div class="panel-intro" id="conduct-access"></div>
+    </section>
+
+    <!-- TAB: FLIGHT DATA METHODS -->
+    <section id="tab-flight" class="tab-panel">
+      <div class="panel-intro">
+        <strong>No aircraft are plotted here, and no ownership is alleged.</strong> This panel covers how
+        ADS-B data actually behaves, so a claim about flight tracks can be evaluated rather than accepted.
+        It ends with tools to check any such claim yourself.
+      </div>
+
+      <div id="aviation-tracker"></div>
+
+      <div class="demo-block" id="adsb-demo">
+        <div class="demo-body" style="padding-top:14px">
+          <p class="demo-lede" id="adsb-intro"></p>
+
+          <div class="demo-interactive">
+            <div class="cause-buttons" id="cause-buttons"></div>
+
+            <div class="adsb-stage">
+              <svg id="adsb-track" viewBox="0 0 640 240"></svg>
+            </div>
+
+            <div class="adsb-verdict" id="adsb-verdict"></div>
+          </div>
+
+          <div class="adsb-detail" id="adsb-detail"></div>
+        </div>
+      </div>
+
+      <div class="baserate-block" id="baserate-block"></div>
+
+      <div class="registry-block" id="registry-block"></div>
+    </section>
+
+    <!-- TAB: SCENE SIMULATION -->
+    <section id="tab-simulation" class="tab-panel">
+      <div id="simulation-root"></div>
+    </section>
+
+    <!-- TAB: STATEMENT LEDGER -->
+    <section id="tab-ledger" class="tab-panel">
+      <div id="ledger-root"></div>
+    </section>
+
+    <!-- TAB: DEEP DIVES -->
+    <section id="tab-deepdives" class="tab-panel">
+      <div id="deepdives-root"></div>
+    </section>
+
+    <!-- TAB: INVESTIGATION PRIORITIES -->
+    <section id="tab-priorities" class="tab-panel">
+      <div id="priorities-root"></div>
+    </section>
+
+    <!-- TAB: VEHICLE ANALYSIS -->
+    <section id="tab-vehicles" class="tab-panel">
+      <div id="vehicles-root"></div>
+    </section>
+
+    <!-- TAB: LATEST ASSESSMENT -->
+    <section id="tab-latest" class="tab-panel">
+      <div id="latest-root"></div>
+    </section>
+
+    <!-- TAB 3: SOURCES & METHODOLOGY -->
+    <section id="tab-sources" class="tab-panel">
+      <div class="panel-intro">
+        Reliability tiers as recorded in the source dataset. A = primary/official. B = secondary (archived, credible
+        but not original). C = tertiary (reposted compilations, weak provenance). Use this to weigh every claim above.
+      </div>
+      <table class="sources-table" id="sources-table"></table>
+
+      <h3>Methodology notes (from the underlying dataset)</h3>
+      <table class="methodology-table" id="methodology-table"></table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built from locally supplied case files. No claim here should be read as proof of any individual's or agency's
+      involvement absent a Grade A / Tier A primary source.</p>
+  </footer>
+
+  <script src="app.js?v=145"></script>
+</body>
+</html>

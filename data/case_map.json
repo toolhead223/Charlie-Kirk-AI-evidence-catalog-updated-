@@ -1,0 +1,918 @@
+{
+  "nodes": [
+    {
+      "id": "kirk",
+      "label": "Charlie Kirk",
+      "kind": "hub",
+      "category": "victim",
+      "role": "Victim; TPUSA founder",
+      "summary": "Central case figure.",
+      "verified": "Yes",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/"
+    },
+    {
+      "id": "robinson",
+      "label": "Tyler James Robinson",
+      "kind": "hub",
+      "category": "defendant",
+      "role": "Accused defendant",
+      "summary": "Surveillance reportedly shows contact with unidentified TPUSA reps the morning of the shooting; no verified earlier personal contact with Kirk, Shapiro, or named security established.",
+      "verified": "Yes",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/"
+    },
+    {
+      "id": "justice",
+      "label": "Law Enforcement &\nProsecution",
+      "kind": "hub",
+      "category": "system",
+      "role": "Investigation / judiciary / prosecution apparatus",
+      "summary": "Aggregated official case apparatus.",
+      "verified": "Yes",
+      "source": null
+    },
+    {
+      "id": "lance_twiggs",
+      "label": "Lance Twiggs",
+      "kind": "person",
+      "category": "witness",
+      "role": "Robinson roommate/partner; later witness",
+      "summary": "No verified pre-shooting meeting/communication with Kirk, Shapiro, or named security team found.",
+      "verified": "Yes",
+      "crossover": "None verified",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "ben_shapiro",
+      "label": "Ben Shapiro",
+      "kind": "person",
+      "category": "associate",
+      "role": "Public commentator; comparison target",
+      "summary": "No verified Tyler/Lance contact or security-team crossover found so far.",
+      "verified": "No direct case role",
+      "crossover": "None verified",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "hunter_kozak",
+      "label": "Hunter Kozak",
+      "kind": "person",
+      "category": "associate",
+      "role": "Asked final question immediately before shot",
+      "summary": "Prior attendance at a Kirk/TPUSA summit reported; no evidence this alone implies personal relationship.",
+      "verified": "Yes",
+      "crossover": "Crossed broader TPUSA event environment",
+      "source": "https://www.washingtonpost.com/nation/2025/09/11/student-describes-moment-charlie-kirk-was-shot/",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "george_zinn",
+      "label": "George Zinn",
+      "kind": "person",
+      "category": "witness",
+      "role": "Initially detained, later cleared of shooting tie",
+      "summary": "Official DPS confirms detention/release.",
+      "verified": "Yes",
+      "crossover": "At scene / immediate aftermath",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "zachariah_qureshi",
+      "label": "Zachariah Qureshi",
+      "kind": "person",
+      "category": "witness",
+      "role": "Second person detained and released",
+      "summary": "Official DPS says no current ties to shooting.",
+      "verified": "Yes",
+      "crossover": "At/near scene",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "brian_harpole",
+      "label": "Brian Harpole",
+      "kind": "person",
+      "category": "security",
+      "role": "Kirk security chief",
+      "summary": "HEAD OF SECURITY for Kirk's American Comeback Tour. Publicly displayed what he said were communications showing his team discussed ROOFTOP SECURITY with UVU police beforehand, alleging assurances were given. Has sued Candace Owens and Mitch Snow for defamation.",
+      "verified": "Yes",
+      "crossover": "Direct security team",
+      "source": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "dan_flood",
+      "label": "Dan Flood",
+      "kind": "person",
+      "category": "security",
+      "role": "TPUSA security director",
+      "summary": "TURNING POINT USA SECURITY DIRECTOR (upgraded from traveling aide). Rode in the evacuation SUV handling navigation. Potentially knows who controlled event security, how UVU/TPUSA divided responsibilities, and whether elevated positions were discussed in advance.",
+      "verified": "Yes",
+      "crossover": "Direct security team",
+      "source": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "justin_davis",
+      "label": "Justin Davis",
+      "kind": "person",
+      "category": "security",
+      "role": "Trained emergency driver",
+      "summary": "Named by KSL account.",
+      "verified": "Yes",
+      "crossover": "Direct security/transport team",
+      "source": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+      "collision_risk": "High"
+    },
+    {
+      "id": "rick_cutler",
+      "label": "Rick Cutler",
+      "kind": "person",
+      "category": "security",
+      "role": "Private security operator",
+      "summary": "Named by KSL account.",
+      "verified": "Yes",
+      "crossover": "Direct security team",
+      "source": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "frank_turek",
+      "label": "Frank Turek",
+      "kind": "person",
+      "category": "security",
+      "role": "Kirk associate present during emergency transport",
+      "summary": "Named by KSL account; not primarily security.",
+      "verified": "Yes",
+      "crossover": "Immediate entourage",
+      "source": "https://www.ksl.com/article/news/utah/security-chief-recounts-charlie-kirk-shot/51588629",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "jeffrey_long",
+      "label": "Jeffrey Long",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "UVU Police Chief",
+      "summary": "UVU police leadership; campus police provided event officers.",
+      "verified": "Yes",
+      "crossover": "Law enforcement/event security",
+      "source": "https://www.uvu.edu/news/2024/12/uvu-chief-of-police-jeffrey-long-2024.html",
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "chris_bagley",
+      "label": "Chris Bagley",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "UVU police officer / later witness",
+      "summary": "Reported as event officer/witness in later proceedings.",
+      "verified": "Yes",
+      "crossover": "Law enforcement/event security",
+      "source": null,
+      "collision_risk": "High"
+    },
+    {
+      "id": "beau_mason",
+      "label": "Beau Mason",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "Utah DPS Commissioner",
+      "summary": "DPS co-led incident; appointment announced June 19, effective July 17.",
+      "verified": "Yes",
+      "crossover": "Law enforcement leadership",
+      "source": "https://dps.utah.gov/press-releases/media-advisory-utah-department-of-public-safety-announces-retirement-of-commissioner-jess-l-anderson-and-appointment-of-new-commissioner/",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "mehtab_d_syed",
+      "label": "Mehtab D. Syed",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "Former FBI Salt Lake City SAC",
+      "summary": "Official FBI source confirms she was SAC June 6, 2025.",
+      "verified": "Yes",
+      "crossover": "Predecessor FBI leadership",
+      "source": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/fbi-salt-lake-city-remarks-at-press-conference-on-search-for-sawade-birdinground",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "robert_bohls",
+      "label": "Robert Bohls",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "FBI Salt Lake City SAC",
+      "summary": "Official FBI source confirms he co-led investigation on shooting day.",
+      "verified": "Yes",
+      "crossover": "Law enforcement leadership",
+      "source": "https://www.fbi.gov/contact-us/field-offices/saltlakecity/news/remarks-by-sac-robert-bohls-at-press-conference-regarding-shooting-at-utah-valley-university",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "mike_smith",
+      "label": "Mike Smith",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "Utah County Sheriff",
+      "summary": "Utah County Sheriff's Office was among agencies participating.",
+      "verified": "Yes",
+      "crossover": "Law enforcement leadership",
+      "source": "https://dps.utah.gov/press-releases/updates-on-charlie-kirk-shooting-at-uvu/",
+      "collision_risk": "High"
+    },
+    {
+      "id": "david_hull",
+      "label": "David Hull",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "Utah DPS/SBI investigator",
+      "summary": "LEAD INVESTIGATOR for the Utah State Bureau of Investigation (not a generic investigator). Testified to the surveillance reconstruction, the wooded-area entries preceding the rifle recovery, and the 12:30 a.m. September 11 campus checkpoint stop of Robinson.",
+      "verified": "Yes",
+      "crossover": "Investigator",
+      "source": null,
+      "collision_risk": "High"
+    },
+    {
+      "id": "brian_davis",
+      "label": "Brian Davis",
+      "kind": "person",
+      "category": "investigator",
+      "role": "Utah SBI investigator",
+      "summary": "CO-LEAD INVESTIGATOR in the Kirk shooting (upgraded from generic 'SBI investigator'). Testified he was sent to St. George after Robinson surrendered and described surveillance obtained from the Washington County Sheriff's Office.",
+      "verified": "Yes",
+      "crossover": "Investigator",
+      "source": null,
+      "collision_risk": "High"
+    },
+    {
+      "id": "jennifer_faumuina",
+      "label": "Jennifer Faumuina",
+      "kind": "person",
+      "category": "investigator",
+      "role": "Utah SBI / evidence-related witness",
+      "summary": "Utah DPS/SBI SERGEANT who oversaw evidence collection at UVU on September 10 and handled FBI DNA-report evidence involving the towel and screwdriver.",
+      "verified": "Yes",
+      "crossover": "Investigator/evidence",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "nate_brooksby",
+      "label": "Nate Brooksby",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "Washington County Sheriff",
+      "summary": "Connected to Robinson surrender.",
+      "verified": "Yes",
+      "crossover": "Law enforcement / surrender",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "deirdre_amaro",
+      "label": "Deirdre Amaro",
+      "kind": "person",
+      "category": "judiciary_medical",
+      "role": "Utah chief medical examiner",
+      "summary": "Appointment publicly announced May 9, 2024; began in-person July 1.",
+      "verified": "Yes",
+      "crossover": "Medical examiner",
+      "source": "https://dhhs.utah.gov/featured-news/utah-department-of-health-and-human-services-dhhs-welcomes-new-medical-examiner/",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "tony_f_graf",
+      "label": "Tony F. Graf Jr.",
+      "kind": "person",
+      "category": "judiciary_medical",
+      "role": "Fourth District judge; later presided over Robinson case",
+      "summary": "Appointment was public May 2, 2025.",
+      "verified": "Yes",
+      "crossover": "Judiciary",
+      "source": "https://senate.utah.gov/utah-senate-requests-public-comment-on-4th-district-appointee/",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "robert_lunnen",
+      "label": "Robert Lunnen",
+      "kind": "person",
+      "category": "judiciary_medical",
+      "role": "Fourth District judge whose retirement created vacancy",
+      "summary": "Retirement/vacancy public April 10, 2025.",
+      "verified": "Yes",
+      "crossover": "Judiciary",
+      "source": "https://governor.utah.gov/press-release/nominees-announced-for-fourth-district-court-vacancy-2/",
+      "collision_risk": "Low"
+    },
+    {
+      "id": "kathryn_kathy_nester",
+      "label": "Kathryn 'Kathy' Nester",
+      "kind": "person",
+      "category": "defense",
+      "role": "Later lead defense attorney",
+      "summary": "Case role was post-shooting.",
+      "verified": "Yes",
+      "crossover": "Defense",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "jeffrey_s_gray",
+      "label": "Jeffrey S. Gray",
+      "kind": "person",
+      "category": "prosecution",
+      "role": "Utah County Attorney / prosecution leadership",
+      "summary": "Case prosecution role.",
+      "verified": "Yes",
+      "crossover": "Prosecution",
+      "source": null,
+      "collision_risk": "High for 'Jeff Gray'"
+    },
+    {
+      "id": "chad_grunander",
+      "label": "Chad Grunander",
+      "kind": "person",
+      "category": "prosecution",
+      "role": "Prosecution team",
+      "summary": "Named in case materials.",
+      "verified": "Yes",
+      "crossover": "Prosecution",
+      "source": null,
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "ryan_mcbride",
+      "label": "Ryan McBride",
+      "kind": "person",
+      "category": "prosecution",
+      "role": "Prosecution team",
+      "summary": "Named in case materials.",
+      "verified": "Yes",
+      "crossover": "Prosecution",
+      "source": null,
+      "collision_risk": "High"
+    },
+    {
+      "id": "lauren_hunt",
+      "label": "Lauren Hunt",
+      "kind": "person",
+      "category": "prosecution",
+      "role": "Prosecution team",
+      "summary": "Named in case materials.",
+      "verified": "Yes",
+      "crossover": "Prosecution",
+      "source": null,
+      "collision_risk": "High"
+    },
+    {
+      "id": "christopher_ballard",
+      "label": "Christopher Ballard",
+      "kind": "person",
+      "category": "prosecution",
+      "role": "Prosecution team",
+      "summary": "Named in case materials.",
+      "verified": "Yes",
+      "crossover": "Prosecution",
+      "source": null,
+      "collision_risk": "High"
+    },
+    {
+      "id": "andrew_kolvet",
+      "label": "Andrew Kolvet",
+      "kind": "person",
+      "category": "associate",
+      "role": "TPUSA/Kirk associate",
+      "summary": "No convincing pre-event Trends anomaly in current record.",
+      "verified": "Yes",
+      "crossover": "TPUSA associate",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "david_engelhardt",
+      "label": "David Engelhardt",
+      "kind": "person",
+      "category": "associate",
+      "role": "TPUSA board/associate",
+      "summary": "No convincing pre-event Trends anomaly in current record.",
+      "verified": "Yes",
+      "crossover": "TPUSA associate",
+      "source": null,
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "jeb_jacobi",
+      "label": "Jeb Jacobi",
+      "kind": "person",
+      "category": "associate",
+      "role": "UVU/TPUSA event participant/witness",
+      "summary": "Useful control: genuinely case-related, no convincing pre-event anomaly found.",
+      "verified": "Yes",
+      "crossover": "Witness/event participant",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "skyler_baird",
+      "label": "Skyler Baird",
+      "kind": "person",
+      "category": "witness",
+      "role": "Eyewitness",
+      "summary": "Useful control / methodological example.",
+      "verified": "Yes",
+      "crossover": "Witness",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "shaner_broderick",
+      "label": "Shaner Broderick",
+      "kind": "person",
+      "category": "witness",
+      "role": "Case-adjacent witness/neighborhood account",
+      "summary": "Connection is weaker than direct witnesses.",
+      "verified": "Partly",
+      "crossover": "Case-adjacent",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "phil_lyman",
+      "label": "Phil Lyman",
+      "kind": "person",
+      "category": "witness",
+      "role": "Utah political figure / case-adjacent reporting",
+      "summary": "Connection requires careful contextualization.",
+      "verified": "Unclear",
+      "crossover": "Case-adjacent",
+      "source": null,
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "josh_hammer",
+      "label": "Josh Hammer",
+      "kind": "person",
+      "category": "associate",
+      "role": "Political commentator / Kirk associate",
+      "summary": "Public figure; baseline search interest expected.",
+      "verified": "Yes",
+      "crossover": "Associate/public commentator",
+      "source": null,
+      "collision_risk": "Medium"
+    },
+    {
+      "id": "jeremy_boreing",
+      "label": "Jeremy Boreing",
+      "kind": "person",
+      "category": "associate",
+      "role": "Daily Wire co-founder / Shapiro associate",
+      "summary": "No verified Tyler/Lance contact; control candidate.",
+      "verified": "No direct case role",
+      "crossover": "None found",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "matt_walsh",
+      "label": "Matt Walsh",
+      "kind": "person",
+      "category": "associate",
+      "role": "Daily Wire personality / Shapiro associate",
+      "summary": "No verified Tyler/Lance contact; control candidate.",
+      "verified": "No direct case role",
+      "crossover": "None found",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "michael_knowles",
+      "label": "Michael Knowles",
+      "kind": "person",
+      "category": "associate",
+      "role": "Daily Wire personality / Shapiro associate",
+      "summary": "No verified Tyler/Lance contact; control candidate.",
+      "verified": "No direct case role",
+      "crossover": "None found",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "andrew_klavan",
+      "label": "Andrew Klavan",
+      "kind": "person",
+      "category": "associate",
+      "role": "Daily Wire personality / Shapiro associate",
+      "summary": "No verified Tyler/Lance contact; control candidate.",
+      "verified": "No direct case role",
+      "crossover": "None found",
+      "source": null,
+      "collision_risk": "Low"
+    },
+    {
+      "id": "amanda_bakker",
+      "label": "Amanda Bakker",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "FBI forensic examiner, Quantico",
+      "summary": "Authored FBI DNA testing involving the screwdriver and towel recovered near the alleged firing position. Robinson's defense called her and questioned her for roughly three hours about the DNA analysis. Publicly identified July 7, 2026.",
+      "verified": "Yes",
+      "crossover": "None \u2014 post-shooting forensic role only",
+      "source": "https://apnews.com/",
+      "collision_risk": "Low \u2014 distinctive full name"
+    },
+    {
+      "id": "caitlin_oliver",
+      "label": "Caitlin Oliver",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "ATF forensic biologist",
+      "summary": "Testified July 10, 2026 about DNA testing on the rifle and ammunition. AP reports her analysis strongly supported Robinson as the major DNA contributor on multiple items.",
+      "verified": "Yes",
+      "crossover": "None \u2014 post-shooting forensic role only",
+      "source": "https://apnews.com/",
+      "collision_risk": "Low \u2014 relatively uncommon full name"
+    },
+    {
+      "id": "samantha_karner",
+      "label": "Samantha Karner",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "ATF firearms/forensic examiner",
+      "summary": "Publicly identified July 10, 2026 during testimony concerning ballistics analysis of the bullet fragment recovered from Kirk. She testified the firearm comparison result should be characterized as INCONCLUSIVE and rejected stronger characterizations. This is the single most consequential forensic testimony in the hearing.",
+      "verified": "Yes",
+      "crossover": "None \u2014 post-shooting forensic role only",
+      "source": "https://apnews.com/",
+      "collision_risk": "Low \u2014 distinctive full name"
+    },
+    {
+      "id": "michael_burt",
+      "label": "Michael Burt",
+      "kind": "person",
+      "category": "defense",
+      "role": "Robinson defense attorney",
+      "summary": "Conducted the extensive cross-examination of FBI examiner Amanda Bakker on July 7, 2026 and later challenged the ballistics evidence.",
+      "verified": "Yes",
+      "crossover": "None established",
+      "source": "https://apnews.com/",
+      "collision_risk": "HIGH \u2014 common name. Use 'Michael Burt Tyler Robinson' or 'Michael Burt Utah attorney'"
+    },
+    {
+      "id": "richard_novak",
+      "label": "Richard Novak",
+      "kind": "person",
+      "category": "defense",
+      "role": "Robinson defense attorney",
+      "summary": "Challenged the relevance of David Engelhardt's TPUSA statement and cross-examined ATF forensic biologist Caitlin Oliver during the July 7-10, 2026 hearing.",
+      "verified": "Yes",
+      "crossover": "None established",
+      "source": "https://apnews.com/",
+      "collision_risk": "Medium \u2014 some reporting renders the surname 'Novack'; test both spellings"
+    },
+    {
+      "id": "jeffrey_neiman",
+      "label": "Jeffrey Neiman",
+      "kind": "person",
+      "category": "associate",
+      "role": "Attorney representing the Kirk family",
+      "summary": "Formally represented Erika Kirk and Kirk's parents in disputes over access to preliminary-hearing exhibits, July 8-10, 2026, and successfully pushed for the family to see enhanced surveillance evidence.",
+      "verified": "Yes",
+      "crossover": "None established",
+      "source": "https://apnews.com/",
+      "collision_risk": "Medium \u2014 search both 'Jeff Neiman' and 'Jeffrey Neiman'"
+    },
+    {
+      "id": "chris_palmer",
+      "label": "Chris Palmer",
+      "kind": "person",
+      "category": "security",
+      "role": "Utah State Courts Court Security Director",
+      "summary": "Newly identified security-related official. Responsible for courthouse security procedures during the high-profile hearing; publicly discussed rules protecting the Kirk and Robinson families. Identified July 10, 2026.",
+      "verified": "Yes",
+      "crossover": "None \u2014 court security role, post-shooting",
+      "source": "https://apnews.com/",
+      "collision_risk": "HIGH \u2014 very common name. Use 'Chris Palmer Utah Courts'"
+    },
+    {
+      "id": "unidentified_\u2014_campus_checkpoint_officer",
+      "label": "UNIDENTIFIED \u2014 campus checkpoint officer",
+      "kind": "person",
+      "category": "law_enforcement",
+      "role": "IDENTITY TO RECOVER \u2014 high priority",
+      "summary": "David Hull testified that at approximately 12:30 a.m. on September 11, 2025, an officer at a campus checkpoint STOPPED Robinson as he was driving away. The officer reportedly became suspicious and wrote down a partial plate number later matched to Robinson's vehicle. The officer's name was not given in available reporting. This person had direct contact with Robinson only hours after the shooting.",
+      "verified": "Yes \u2014 testimony establishes the contact; identity unrecovered",
+      "crossover": "Post-shooting direct contact with the defendant",
+      "source": "https://apnews.com/",
+      "collision_risk": "N/A \u2014 identity unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "kirk",
+      "target": "robinson",
+      "label": "shooting, Sept. 10, 2025",
+      "verified": true
+    },
+    {
+      "source": "robinson",
+      "target": "justice",
+      "label": "charged / prosecuted",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "justice",
+      "label": "protected by / investigated for",
+      "verified": true
+    },
+    {
+      "source": "robinson",
+      "target": "lance_twiggs",
+      "label": "roommate / partner",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "ben_shapiro",
+      "label": "public commentator (no verified contact w/ Robinson)",
+      "verified": false
+    },
+    {
+      "source": "kirk",
+      "target": "hunter_kozak",
+      "label": "attendee, asked final question",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "george_zinn",
+      "label": "detained at scene, later cleared",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "zachariah_qureshi",
+      "label": "detained at scene, later cleared",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "brian_harpole",
+      "label": "security chief",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "dan_flood",
+      "label": "TPUSA security director",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "justin_davis",
+      "label": "emergency driver, security team",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "rick_cutler",
+      "label": "private security operator",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "frank_turek",
+      "label": "associate, emergency transport",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "jeffrey_long",
+      "label": "UVU police chief",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "chris_bagley",
+      "label": "UVU police officer / witness",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "beau_mason",
+      "label": "Utah DPS Commissioner",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "mehtab_d_syed",
+      "label": "former FBI Salt Lake City SAC",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "robert_bohls",
+      "label": "FBI Salt Lake City SAC",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "mike_smith",
+      "label": "Utah County Sheriff",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "david_hull",
+      "label": "Utah SBI LEAD investigator",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "brian_davis",
+      "label": "Utah SBI CO-LEAD investigator",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "jennifer_faumuina",
+      "label": "Utah SBI / evidence witness",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "nate_brooksby",
+      "label": "Washington County Sheriff, surrender",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "deirdre_amaro",
+      "label": "Utah chief medical examiner",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "tony_f_graf",
+      "label": "presiding judge",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "robert_lunnen",
+      "label": "predecessor judge (vacancy)",
+      "verified": true
+    },
+    {
+      "source": "robinson",
+      "target": "kathryn_kathy_nester",
+      "label": "lead defense attorney",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "jeffrey_s_gray",
+      "label": "Utah County Attorney / prosecution",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "chad_grunander",
+      "label": "prosecution team",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "ryan_mcbride",
+      "label": "prosecution team",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "lauren_hunt",
+      "label": "prosecution team",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "christopher_ballard",
+      "label": "prosecution team",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "andrew_kolvet",
+      "label": "TPUSA / Kirk associate",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "david_engelhardt",
+      "label": "TPUSA board / associate",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "jeb_jacobi",
+      "label": "UVU/TPUSA event participant, witness",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "skyler_baird",
+      "label": "eyewitness",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "shaner_broderick",
+      "label": "case-adjacent witness",
+      "verified": false
+    },
+    {
+      "source": "kirk",
+      "target": "phil_lyman",
+      "label": "case-adjacent, Utah political figure",
+      "verified": false
+    },
+    {
+      "source": "kirk",
+      "target": "josh_hammer",
+      "label": "political commentator / associate",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "jeremy_boreing",
+      "label": "Shapiro/Daily Wire associate (no verified contact)",
+      "verified": false
+    },
+    {
+      "source": "kirk",
+      "target": "matt_walsh",
+      "label": "Shapiro/Daily Wire associate (no verified contact)",
+      "verified": false
+    },
+    {
+      "source": "kirk",
+      "target": "michael_knowles",
+      "label": "Shapiro/Daily Wire associate (no verified contact)",
+      "verified": false
+    },
+    {
+      "source": "kirk",
+      "target": "andrew_klavan",
+      "label": "Shapiro/Daily Wire associate (no verified contact)",
+      "verified": false
+    },
+    {
+      "source": "justice",
+      "target": "amanda_bakker",
+      "label": "FBI forensic examiner (DNA), Quantico",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "caitlin_oliver",
+      "label": "ATF forensic biologist (DNA)",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "samantha_karner",
+      "label": "ATF firearms examiner \u2014 INCONCLUSIVE ballistics",
+      "verified": true
+    },
+    {
+      "source": "robinson",
+      "target": "michael_burt",
+      "label": "defense attorney",
+      "verified": true
+    },
+    {
+      "source": "robinson",
+      "target": "richard_novak",
+      "label": "defense attorney",
+      "verified": true
+    },
+    {
+      "source": "kirk",
+      "target": "jeffrey_neiman",
+      "label": "attorney for the Kirk family",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "chris_palmer",
+      "label": "Utah State Courts security director",
+      "verified": true
+    },
+    {
+      "source": "justice",
+      "target": "unidentified_\u2014_campus_checkpoint_officer",
+      "label": "stopped Robinson 12:30am Sept 11 \u2014 IDENTITY UNRECOVERED",
+      "verified": false
+    }
+  ]
+}

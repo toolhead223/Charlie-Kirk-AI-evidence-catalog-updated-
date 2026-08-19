@@ -1,0 +1,152 @@
+[
+  {
+    "Control Name": "Justin Davis",
+    "Type": "Person",
+    "Query Variants": "Justin Davis; Justin Davis security TPUSA",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Matched security-team control."
+  },
+  {
+    "Control Name": "Chris Bagley",
+    "Type": "Person",
+    "Query Variants": "Chris Bagley UVU; Christopher Bagley UVU",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Matched event-police control."
+  },
+  {
+    "Control Name": "David Hull",
+    "Type": "Person",
+    "Query Variants": "David Hull Utah DPS; David Hull SBI Utah",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Matched investigator control."
+  },
+  {
+    "Control Name": "Brian Davis",
+    "Type": "Person",
+    "Query Variants": "Brian Davis Utah SBI",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Matched investigator control."
+  },
+  {
+    "Control Name": "Jennifer Faumuina",
+    "Type": "Person",
+    "Query Variants": "Jennifer Faumuina",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Unusual surname makes useful control."
+  },
+  {
+    "Control Name": "Nate Brooksby",
+    "Type": "Person",
+    "Query Variants": "Nate Brooksby",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Unusual surname; surrender-related control."
+  },
+  {
+    "Control Name": "Zachariah Qureshi",
+    "Type": "Person",
+    "Query Variants": "Zachariah Qureshi",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Scene/detention control."
+  },
+  {
+    "Control Name": "Jeb Jacobi",
+    "Type": "Person",
+    "Query Variants": "Jeb Jacobi",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "High",
+    "Control Rationale": "Event participant/witness control."
+  },
+  {
+    "Control Name": "Andrew Kolvet",
+    "Type": "Person",
+    "Query Variants": "Andrew Kolvet",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "Medium",
+    "Control Rationale": "TPUSA inner-circle control."
+  },
+  {
+    "Control Name": "David Engelhardt",
+    "Type": "Person",
+    "Query Variants": "David Engelhardt TPUSA",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No convincing anomaly found",
+    "Priority": "Medium",
+    "Control Rationale": "TPUSA board/associate control."
+  },
+  {
+    "Control Name": "Ben Shapiro",
+    "Type": "Person",
+    "Query Variants": "Ben Shapiro",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No case-specific anomaly established",
+    "Priority": "Medium",
+    "Control Rationale": "Public-figure baseline control."
+  },
+  {
+    "Control Name": "Jeremy Boreing",
+    "Type": "Person",
+    "Query Variants": "Jeremy Boreing",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No anomaly found",
+    "Priority": "Medium",
+    "Control Rationale": "Shapiro/Daily Wire associate control."
+  },
+  {
+    "Control Name": "Matt Walsh",
+    "Type": "Person",
+    "Query Variants": "Matt Walsh",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No case-specific anomaly established",
+    "Priority": "Low",
+    "Control Rationale": "High public baseline; weak obscurity match."
+  },
+  {
+    "Control Name": "Michael Knowles",
+    "Type": "Person",
+    "Query Variants": "Michael Knowles",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No case-specific anomaly established",
+    "Priority": "Low",
+    "Control Rationale": "Public baseline."
+  },
+  {
+    "Control Name": "Andrew Klavan",
+    "Type": "Person",
+    "Query Variants": "Andrew Klavan",
+    "Regions": "Israel; Washington, D.C.; Utah; Worldwide",
+    "Period": "2024-01-01 to 2025-09-09",
+    "Current Anomaly Status": "No case-specific anomaly established",
+    "Priority": "Low",
+    "Control Rationale": "Public baseline."
+  }
+]

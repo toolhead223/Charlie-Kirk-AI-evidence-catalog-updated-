@@ -1,0 +1,299 @@
+{
+  "framing": {
+    "standard": "This assessment was done the way it would be done if the goal were to determine what probably happened — not to defend either the prosecution or a conspiracy theory.",
+    "central_finding": "The public evidence still makes it substantially more likely than not that Tyler Robinson was the person on the roof who fired the shot, and independent acoustic analysis now corroborates that a single supersonic rifle round was fired from approximately the position alleged. What has weakened is not the mechanism but the identification chain: the autopsy entered the record through an investigator rather than its author, a fingerprint examiner excluded Robinson from latent prints at the scene, and the surveillance stream now carries three documented integrity problems including original media leaving the scene in private hands. Meanwhile every proposed mechanism for a directed killing tested this cycle failed, most of them on public records nobody had troubled to retrieve.",
+    "the_missing_bridge": "No evidence sufficient to conclude that TPUSA insiders, Israeli interests, a donor network, or a U.S./foreign intelligence service arranged the assassination. There are real and sometimes quite unusual relationships surrounding Kirk — particularly concerning Israel, donors and Tucker Carlson. But after deliberately looking for the missing OPERATIONAL BRIDGE — communication with Robinson, payments, tasking, logistics, advance knowledge tied to the attack, a second firing position, or forensic evidence of another weapon — it is not in the credible public evidence. That distinction is the central finding.",
+    "as_of": "2026-08-18"
+  },
+  "reconstruction": "Robinson most likely planned the attack himself for roughly a week, traveled to UVU, conducted some degree of reconnaissance, exploited an almost absurdly vulnerable rooftop environment, fired one carefully aimed shot, escaped over the roof and into the wooded area, cached or abandoned the rifle, and initially tried to get away with it before deciding to surrender after his identity began closing in around him.",
+  "convergence": {
+    "title": "Why the identity case holds — convergence, not a single stream",
+    "note": "This is not simply accepting the charging document. Substantial weight rests on Robinson being the shooter because several largely independent evidence streams converge.",
+    "streams": [
+      {
+        "stream": "Surveillance sequence",
+        "detail": "Footage presented in court allegedly traces a person associated by investigators with Robinson through multiple campus appearances, onto the roof, into the firing position and away immediately after the shot.",
+        "weakness": "The actual rooftop footage is not facially definitive — the lead investigator conceded it contains no distinguishing facial features. Some witnesses initially thought the rooftop figure was a security officer doing overwatch."
+      },
+      {
+        "stream": "Vehicle, clothing and movements",
+        "detail": "Prosecutors combined the broader surveillance sequence with vehicle identification, clothing and shoes, and movement patterns.",
+        "weakness": ""
+      },
+      {
+        "stream": "The recovered rifle",
+        "detail": "Recovered along the escape route in a wooded area, wrapped in a towel. An older .30-06 Mauser.",
+        "weakness": "See the ballistics anomaly below — the fatal-projectile comparison was inconclusive."
+      },
+      {
+        "stream": "DNA",
+        "detail": "Government analysts testified to DNA linking Robinson to the suspected weapon and related items. ATF forensic biologist Caitlin Oliver's analysis reportedly strongly supported Robinson as the major DNA contributor on multiple items.",
+        "weakness": "The defense exposed possibilities including mixtures and secondary transfer, and challenged the methodology."
+      },
+      {
+        "stream": "The alleged note",
+        "detail": "Referenced in the charging materials.",
+        "weakness": ""
+      },
+      {
+        "stream": "Contemporaneous communications",
+        "detail": "Alleged messages discussing the rifle, its drop location, engraved ammunition, and efforts to retrieve it. If trial authentication establishes Robinson authored those messages contemporaneously, that is much more probative than a later generalized confession.",
+        "weakness": "Authentication has not yet been established at trial."
+      },
+      {
+        "stream": "Roommate testimony",
+        "detail": "According to a recorded interview played in court, Robinson allegedly admitted the shooting in messages and then, asked face-to-face the following morning, confirmed it and expressed regret. Especially difficult to explain under a pure-framing theory.",
+        "weakness": "The roommate received immunity for cooperation, which absolutely matters when evaluating credibility. But this testimony exists alongside — not instead of — the physical and surveillance evidence."
+      }
+    ],
+    "defense_posture": "AP reported that the defense challenged those components extensively at the preliminary hearing but did not present an alternative account of who killed Kirk. Reuters reports the defense has suggested investigators insufficiently examined whether someone else could have been involved — but it has not produced a competing perpetrator theory."
+  },
+  "anomalies": [
+    {
+      "id": "A1",
+      "title": "The fatal projectile comparison was INCONCLUSIVE",
+      "severity": 2,
+      "finding": "ATF firearms examiner Samantha Carner, of the ATF forensic laboratory in Washington, testified that comparison of the bullet jacket fragment recovered at autopsy with the suspected murder rifle produced neither sufficient agreement nor sufficient disagreement to reach a conclusion. Some areas resembled a match; the evidence was not overwhelming, principally because of damage to the projectile. The result was formally inconclusive. The finding entered public view through a defense motion filed March 27, 2026 seeking to vacate or delay the preliminary hearing by at least six months, which stated that the ATF had been unable to identify the bullet recovered at autopsy to the rifle.",
+      "why_it_matters": "This cuts both ways and both corrections matter. 'The bullet didn't match the rifle' is wrong — Carner testified she could not say the fragment was fired from another weapon, and inconclusive is not exclusion; Snopes and other fact-checkers have specifically corrected the no-match framing of the defense filing. But it is equally wrong to claim ballistics positively proved this rifle fired the fatal round. No such link exists, and the state's identity case rests on the casing, DNA, communications, surveillance and roommate testimony rather than on projectile comparison. What has changed since this anomaly was first logged is that the inconclusive result now has a documented and physically expected cause rather than being unexplained. Law enforcement sources stated the bullet struck bone and broke apart on impact, and the forensic pathologist recovered fragments rather than an intact projectile. That is precisely what this app's own ballistics work predicts: the round was a modern expanding hunting bullet designed to deform on impact with large game, and an expanding projectile that fragments against bone loses the continuous rifling engraving on which toolmark comparison depends. Inconclusive is the predicted outcome of this round type striking this anatomy, not an anomaly requiring a further explanation. Critically, the separate and stronger physical link is intact: the spent shell casing recovered at the scene was positively identified to the suspected rifle by firing pin impression. Severity is therefore reduced from 3 to 2 — it remains a genuine gap in the evidentiary chain, because the most direct possible link between weapon and victim is absent, but it is no longer anomalous.",
+      "status": "Established in sworn testimony; cause of the inconclusive result now documented"
+    },
+    {
+      "id": "A2",
+      "title": "Uncollected pistol holster at the scene",
+      "severity": 2,
+      "finding": "An empty pistol holster was left at the scene. A responding officer noticed it but did not collect it, and could not say whether it had ever been fingerprinted.",
+      "why_it_matters": "Given Utah's permissive firearm laws it may have belonged to an attendee and ultimately mean nothing. But failing to preserve an unexplained firearm-related object at an assassination scene is legitimately poor evidence handling.",
+      "status": "Established"
+    },
+    {
+      "id": "A3",
+      "title": "Prosecutor held in civil contempt",
+      "severity": 3,
+      "finding": "A judge found prosecutor Christopher Ballard in civil contempt for violating court restrictions by publicly expressing Robinson's presumed guilt — while controversy over the inconclusive bullet examination was underway. The judge imposed corrective measures but declined the defense's request to bar prosecutors from seeking the death penalty.",
+      "why_it_matters": "A genuine prosecutorial misconduct finding by a court. This is not conspiracy speculation — it is a formal judicial finding of a violation.",
+      "status": "Court finding"
+    },
+    {
+      "id": "A4",
+      "title": "Enhanced surveillance compilation, made by the county attorney's office, admitted for the judge only",
+      "severity": 2,
+      "finding": "UVU's own surveillance footage was custodied by Curtis Olsen, UVU's director responsible for the camera system. The county attorney's office compiled a version from multiple sources adding red circles/highlights around individuals of interest, zoomed sections (specifically the Losee rooftop), and blurring some faces (exhibit 12.1). On Day 1 the defence objected that no one who made those alterations had testified to authenticate them; the court agreed there was a missing evidentiary link. On Day 2 the state cured it: Olsen reviewed 12.1 against the raw footage and gave a written statement (exhibit 12.3) confirming the only differences were the zooms and highlights. On that foundation the enhanced version (12.1) was admitted into evidence for the court's own review in the probable cause determination, but the judge ruled it did not need to be replayed publicly since it added nothing to the content. An unmarked, non-zoomed version (12.4) is what was actually published to the courtroom and the livestream.",
+      "why_it_matters": "This is not evidence the underlying surveillance was fabricated, and the adversarial process is what surfaced and resolved the authentication gap. It establishes a specific chain worth keeping straight: the raw footage is UVU's, its custodian is Olsen, the enhanced compilation was prosecution work product rather than UVU's or TPUSA's, and the enhanced version was never released to the public at all — the court reviewed it privately while a clean version was what the public and press actually saw. It also establishes a methodological rule for anyone analysing footage in this case: original camera files, prosecution-annotated derivatives, and TPUSA-sourced video are three distinct chains, and claims about alteration need to specify which one they mean.",
+      "status": "Court ruling — corrected against the Day 1 and Day 2 preliminary-hearing transcripts"
+    },
+    {
+      "id": "A5",
+      "title": "Conflicting witness observation — bald man, three occupants",
+      "severity": 1,
+      "finding": "A doorbell-camera owner thought a person was bald and that three people were in a vehicle, while the prosecution presentation described Robinson's vehicle with one individual exiting.",
+      "why_it_matters": "Deserves preservation rather than being explained away — although eyewitness impressions from low-quality surveillance are not unusual and conflicts of this kind are common.",
+      "status": "Reported testimony"
+    },
+    {
+      "id": "A6",
+      "title": "The K9 / rifle discovery sequence",
+      "severity": 2,
+      "finding": "The FBI announced on September 11 that the rifle had been recovered in a wooded area along the escape route. At the July 2026 preliminary hearing, former Utah SBI agent David Hull testified that surveillance showed Robinson entering that wooded area twice and that investigators subsequently recovered the rifle there. A more specific story now circulating alleges local officers performed a line search without finding it, K9s then searched without finding it, and only after federal agents directed another search of the same area did junior local officers find it.",
+      "why_it_matters": "IMPORTANCE IF VERIFIED: HIGH. CURRENT VERIFICATION: LOW/UNRESOLVED. The allegation was found reproduced on an investigative website that ITSELF labels it uncorroborated and notes its underlying list provides no officer name, report number, timestamp, K9 record or primary source. So it cannot yet be stated as fact that the FBI had already searched the exact location with dogs.\n\nOrdinary explanations exist: dogs are not infallible, and whether a dog SHOULD have detected the rifle depends on its specialty — a patrol/tracking dog searching for a fleeing human performs a fundamentally different task from an explosives/firearms-detection dog trained to alert on gunpowder odor. Dense vegetation, wind, handler direction, search boundaries and the rifle being wrapped in a towel all matter. Humans routinely miss objects during initial searches. There is also a real distinction between 'the FBI searched the area' and 'the area had previously been searched' — multiple agencies were operating there.\n\nBut this anomaly is unusually valuable because unlike most strange coincidences in this case, it could be resolved OBJECTIVELY by contemporaneous records.",
+      "status": "Unresolved — records obtainable",
+      "records_needed": [
+        "K9 handler's report and K9 certification/specialty",
+        "GPS/search track if recorded",
+        "Bodycam footage from the first search and the discovery",
+        "Search-team logs and scene perimeter log",
+        "Exact rifle coordinates and photographs before anybody touched it",
+        "First-recovery timestamp, evidence packaging and chain-of-custody documentation"
+      ]
+    },
+    {
+      "id": "A7",
+      "title": "Motive evidence is thinner than the public narrative",
+      "severity": 3,
+      "finding": "The prosecution portrays the assassination as politically motivated, pointing to an alleged message saying Robinson had 'enough of [Kirk's] hatred.' But a defense filing says searches of Robinson's apartment, computers and phone failed to produce additional evidence establishing that political motive beyond that statement.",
+      "why_it_matters": "That is surprising. The Washington Post interviewed 21 people who knew Robinson and reviewed years of communications, finding a much messier picture than the immediate 'radical-left assassin' characterization: friends generally had not perceived violent radicalization, his politics had often been heterogeneous or anti-partisan, and there was no publicly known manifesto. Yet prosecutors allege he criticized Kirk before the event and later said he began planning about a week beforehand.\n\n'Robinson probably shot Kirk' is substantially better supported than 'we fully understand why Robinson shot Kirk.' A personal grievance against Kirk's rhetoric is plausible. LGBTQ-related resentment is plausible. Political motivation generally is plausible. But the tidy ideological profile presented publicly immediately after the arrest remains inadequately demonstrated. This is one place to keep digging very aggressively.",
+      "status": "Open — the largest gap in the state's narrative"
+    },
+    {
+      "id": "A8",
+      "title": "Autopsy report admitted without the medical examiner",
+      "severity": 2,
+      "finding": "The Utah State Medical Examiner's autopsy report was entered at the preliminary hearing without the medical examiner testifying. State Bureau of Investigation Agent David Hull, an investigator rather than a pathologist, relayed its findings — cause of death gunshot wound to the neck, manner homicide, five bullet fragments recovered from the body, and the wound path through C2-C7 into the thorax and cranium. Defence counsel Kathryn Nester objected that this was an expert report without an expert present, leaving no foundation and no cross-examination. Judge Graf overruled every hearsay objection except the one to the edited video compilation.",
+      "why_it_matters": "It is procedurally normal — Utah permits reliable hearsay at preliminary hearings, where the standard is probable cause — and will very likely be cured at trial, since Melendez-Diaz and Bullcoming together require the analyst who performed a forensic examination rather than a surrogate. But it is worth logging because of what currently follows from it. The autopsy is the only evidence establishing the internal wound path and the recovery of fragments from the body, it is the evidence that most directly refutes the competing injury theories, the report is not a public document under Utah law, its author has never been questioned under oath, and the chain of custody from autopsy to the ATF laboratory has not been publicly described. By contrast the casing-to-rifle firing pin identification and the characterisation of the fragments as bullet material both come from ATF examiner Samantha Carner, who testified live and was cross-examined. Those two links are frequently cited together as though equally established. They are not.",
+      "status": "Court record — objection overruled under the preliminary-hearing hearsay allowance"
+    },
+    {
+      "id": "A9",
+      "title": "Robinson excluded as the source of latent prints recovered at the scene",
+      "severity": 2,
+      "finding": "A fingerprint examiner testified at the preliminary hearing that Tyler Robinson was excluded as the source of latent fingerprints and a smeared palm print lifted from a window on the Losee Center. Crime scene investigator Sergeant Jennifer Faumuina's testimony is consistent: the palm print on the glass was not matched to him. Separately, other reporting describes prints attributed to Robinson found near the rooftop, so these appear to be two distinct sets from two surfaces, which headline coverage has conflated.",
+      "why_it_matters": "It is a defence-favourable forensic result delivered by the state's own witnesses, and it belongs on the record as such. Its weight should not be overstated — a window on a public university building accumulates impressions from many people and no time of deposition is established. But unidentified latent prints exist at a processed scene in a capital case, and no public account states whether they were searched against any database beyond Robinson himself. Combined with the uncollected pistol holster and the adjacent roof excluded from the crime scene on an explanation the lead investigator could not fully recall, it forms a modest pattern of scene processing that was neither negligible nor complete.",
+      "status": "Established in sworn testimony by state witnesses"
+    }
+  ],
+  "security": {
+    "title": "The UVU security failure is the strangest institutional aspect",
+    "lede": "This is where suspicion remains highest — not necessarily of conspiracy, but of institutional failure so bad that it understandably produces conspiracy theories.",
+    "facts": [
+      "Approximately 3,000 people attended an open-air appearance by a nationally prominent and routinely threatened political figure.",
+      "AP found UVU deployed six officers.",
+      "No bag screening and no metal detectors.",
+      "No drone was used to monitor surrounding rooftops.",
+      "No coordination with outside law enforcement to secure the event.",
+      "The courtyard was ringed by elevated buildings offering obvious firing positions."
+    ],
+    "harpole_warning": "Kirk's security chief Brian Harpole later publicly displayed what he said were communications showing his team had specifically discussed ROOFTOP SECURITY with UVU police beforehand. The Salt Lake Tribune reported his allegation that assurances had been given that the roofs would be addressed. If authenticated, this moves the failure from oversight to a specific unmet assurance.",
+    "counterweight": "Reporting indicates the student organization's event paperwork badly understated the nature and risk of the event, indicating that controversial subjects were not expected, and that UVU policies themselves gave inadequate guidance for evaluating high-risk speakers.",
+    "accounting": "UVU's independent security review — announced shortly after the killing — still has not provided the public accounting that would resolve many of these questions.",
+    "conclusion": "If future evidence changes the overall view of this case, the security-planning records are one of the places it would be expected to come from."
+  },
+  "butler": {
+    "title": "The Butler control case",
+    "body": "On July 13, 2024, a shooter was allowed onto an obvious elevated firing position overlooking a Donald Trump rally despite one of the largest protective organizations on Earth being involved. The subsequent bipartisan House investigation concluded the attack was preventable, identified failures across advance planning, execution and leadership, and specifically identified the failure to secure the known high-risk AGR building and grounds. More recent DHS inspector-general work likewise found inadequate coordination around the AGR roof.",
+    "why_it_matters": "This destroys one otherwise tempting argument: 'nobody could accidentally leave such an obvious rooftop unsecured.' Unfortunately, yes they can. If the Secret Service ecosystem can do it around a presidential candidate after extensive advance planning, a lightly staffed university police operation certainly can.\n\nTherefore UVU's rooftop failure is EXTRAORDINARY EVIDENCE OF NEGLIGENCE. It is not, by itself, extraordinary evidence of deliberate facilitation."
+  },
+  "jfk": {
+    "title": "What JFK actually teaches here",
+    "differences": [
+      "Oswald never received a trial — Jack Ruby killed him during a police transfer, eliminating adversarial testing of the assassination evidence in a criminal court. Robinson is being tried.",
+      "The Warren Commission nevertheless had substantial physical evidence: ownership and possession evidence surrounding the Mannlicher-Carcano, a palmprint on the rifle, and firearms examinations identifying the recovered cartridge cases, stretcher bullet and major fragments with the rifle. Note the contrast with the INCONCLUSIVE Kirk ballistics.",
+      "The House Select Committee on Assassinations later found shortcomings in the original conspiracy investigations, discovered associations the Warren Commission had not fully pursued, and concluded Kennedy was probably killed as the result of a conspiracy — yet could not identify a second gunman or the conspiracy's scope.",
+      "Then the acoustic evidence underpinning that conclusion was reexamined by the National Research Council, which found the alleged gunshot impulses occurred approximately one minute AFTER Kennedy had already been shot. Reliable acoustic evidence therefore did not support a second gunman."
+    ],
+    "rule": "Don't dismiss anomalies — but don't promote anomalies into actors.",
+    "elaboration": "JFK shows that agencies can investigate badly, witnesses can conflict, forensic conclusions can change, government reports can disagree, and associations can deserve investigation. It also shows why 'Person A knew Person B who disliked the victim' is nowhere near sufficient to establish conspiracy. The HSCA itself stated that principle: association is insufficient; conspiracy requires knowing assistance or agreement toward the criminal objective. That is the standard applied to every name in the Network tab."
+  },
+  "confidence": [
+    {
+      "proposition": "Robinson was the actual shooter / direct principal",
+      "low": 79,
+      "high": 92,
+      "note": "LOWERED marginally from 80-93%, and the move is small because the evidence genuinely offsets. Strengthening this cycle: acoustic analysis by Rob Maher of Montana State University identified the crack-and-pop signature of a single supersonic rifle shot with roughly 240 milliseconds between ballistic shock wave and muzzle blast, implying a source near 153 metres and independently corroborating both the mechanism and the firing position without relying on any contested institutional chain. The spent casing was positively identified to the recovered rifle by firing pin impression, and the recovered fragments were determined to be .30 calibre, consistent at class level with that weapon. The Day 2 transcript fixed the shot at 12:23:28 and the route checks out against measured campus distances at ordinary walking pace. Weakening, and specifically on identity rather than mechanism: the autopsy reached the record through an investigator relaying a report the medical examiner never spoke to, over defence objection and under a preliminary-hearing hearsay allowance; a fingerprint examiner excluded Robinson as the source of latent prints and a smeared palm print recovered from a Losee Center window, leaving unidentified impressions at a processed scene; and the video stream now carries three separate integrity problems — the excluded enhanced compilation, the judge's order requiring original unaltered footage, and original media leaving the scene in private hands with two mutually exclusive TPUSA explanations for why. Acoustics establish that a rifle was fired from about the right place. They do not establish who was holding it, and it is the identification chain that accumulated defects this cycle."
+    },
+    {
+      "proposition": "Major preventable security failure occurred",
+      "low": 96,
+      "high": 99,
+      "note": "RAISED slightly from 95-99%. UVU's police chief confirmed only six campus officers worked an event with roughly 3,000 attendees, alongside Kirk's eight-person private detail. UVU subsequently moved to hire eight additional officers and two safety managers against an existing force of 23, which functions as an institutional concession. An independent third-party review was commissioned and its public report, due before summer 2026, has not been located as of August 2026."
+    },
+    {
+      "proposition": "The shooter operated alone at the firing scene",
+      "low": 82,
+      "high": 92,
+      "note": "RAISED from 78-90% on two independent grounds. First, the acoustic analysis found a single supersonic shot: one crack-and-pop pair, not several. That is direct physical evidence against a second firing position and does not depend on any witness, agency or chain of custody. Second, the preliminary-hearing transcript fixed the interval between the shot at 12:23:28 and the figure leaving the roof at 12:24:42 — 74 seconds. This app had previously rejected the proposed second-shooter malfunction scenario by arguing that clearing a stoppage takes a trained operator two to four seconds while the escape took appreciably longer, without knowing the actual figure. It is 74 seconds of standing, running across a roof and dropping to open ground. A cleared weapon would have had more than a minute of opportunity. The residual uncertainty is the unidentified latent prints and the thinly documented exclusion of the adjacent roof from the crime scene, neither of which suggests a second shooter but both of which remain unresolved."
+    },
+    {
+      "proposition": "Self-directed planning rather than external tasking",
+      "low": 85,
+      "high": 93,
+      "note": "RAISED from 83-92%. Every external-direction mechanism tested this cycle failed, and several failed on public data that nobody on either side had bothered to pull. The Egyptian aircraft thread resolves to a maintenance itinerary: Provo Municipal Airport hosts a $50 million Duncan Aviation MRO offering full nose-to-tail support on Dassault airframes, SU-BTT is a Dassault Falcon 7X, and its onward leg went to Wilmington, Delaware, site of Dassault's own Falcon heavy service centre — with a third fleet aircraft, SU-BTU, making an earlier visit consistent with an ongoing customer relationship. The Tennessee explosives-plant theory fails on the regulator's own findings: Tennessee OSHA cited nearly 100 violations and over $3 million in penalties for willful and serious failures, there were survivors contrary to the claim, the company's entire $82 million federal portfolio consists of exactly this product class and is publicly searchable, and an ADS-B archive scan of the blast window found 84 aircraft within 40 kilometres and none below 5,000 feet. The exploding-microphone theory fails on acoustics and on five bullet fragments recovered from the body. Set against that, no mechanism succeeded."
+    },
+    {
+      "proposition": "The prosecution's exact ideological explanation is correct",
+      "low": 45,
+      "high": 68,
+      "note": "LOWERED from 50-70%. Prosecutors narrowed their theory on July 29, 2026 from generic “political” to Kirk's opposition to gay marriage and transgender rights specifically, which is a more demanding claim to prove. The engraved casing text is meme-laden and internet-referential, and the attributed messages themselves describe the engravings as mostly a joke. One attributed line — about having had enough of Kirk's hatred and hate that cannot be negotiated out — is genuinely ideological in character, but it is general rather than matching the prosecution's specific formulation, and it rests on the same unauthenticated message set. Motive remains the weakest-supported element of the state's case."
+    },
+    {
+      "proposition": "A deliberate TPUSA / donor / Israeli / intelligence-directed assassination",
+      "low": 0,
+      "high": 5,
+      "note": "HELD at 0-5%. The range is at its floor and further tightening would be false precision, but the failure rate this cycle is worth recording because it is total. Tested and failed: the microphone device theory, on independent acoustic evidence of a supersonic projectile in flight; the Tennessee plant as evidence-destruction, on the regulator's citation history, the existence of survivors, public procurement records and flight data; the Egyptian aircraft, on the identity of the maintenance facilities at both ends of the route; and the Sharm El-Sheikh sighting, which confirms only that an Egyptian government aircraft attended an Egyptian government summit. A separate result belongs here because it bears on how such claims should be weighted at all: tracing three of them — the Farnsworth-Burt family claim, the leaked SUV photographs, and the Egyptian plane thread — returns the same unverified social media account as origin, and a fourth was found to consist of assertions absent from the primary source it credited, amplified twenty-five fold. The residual range covers what outside analysis cannot exclude. It is not a measure of evidence for the proposition, of which there remains none.",
+      "inverted": true
+    }
+  ],
+  "would_change": [
+    "Authenticated location data placing Robinson somewhere incompatible with the surveillance reconstruction.",
+    "Proof the alleged admissions were not authored by him.",
+    "A fatal-projectile examination EXCLUDING — rather than merely failing to identify — the recovered rifle.",
+    "Forensic evidence establishing another firing direction or another weapon.",
+    "Authenticated pre-shooting communications or payments linking Robinson to another actor.",
+    "Evidence that someone deliberately ordered the vulnerable roof left unprotected.",
+    "Evidence that somebody had specific advance knowledge of the planned attack that could not reasonably be explained by coincidence."
+  ],
+  "would_not_change": {
+    "title": "What cannot substitute for the operational bridge",
+    "items": [
+      "Google Trends spikes",
+      "Oddly timed tweets",
+      "Political affiliations",
+      "Israeli connections",
+      "People behaving strangely after a traumatic assassination",
+      "Apparent image compression artifacts",
+      "Shared conference attendance",
+      "Somebody having a military or government résumé"
+    ],
+    "note": "All of these can identify LEADS. None can substitute for authenticated communications, money, tasking, logistics, or advance knowledge tied to the attack. Applying the same controls used elsewhere in this app is the reason the purported pre-shooting Trends searches are not counted as confirmed foreknowledge evidence."
+  },
+  "institutional_distrust": {
+    "title": "On institutional distrust as an evidentiary tool",
+    "body": "Institutional distrust is a legitimate reason to demand independent corroboration. It is not, by itself, evidence that a particular alternative explanation is true. If the FBI says X, that does not warrant assigning X a confidence of 100%. But 'the FBI has previously misled the public' cannot logically turn an unverified lead into a verified one.\n\nThe correct handling is symmetric: give FBI and prosecution claims no special presumption, and give anti-FBI or foreign-involvement theories no special presumption either. Make each side survive the same evidentiary tests. For Butler specifically, even the FBI's own public account acknowledges it never established a definitive motive — which is a reason to test its conclusions against congressional evidence, Secret Service records, local police records, telecom/digital evidence and witnesses, rather than either accepting or inverting them reflexively.",
+    "evidentiary_ladder": {
+      "title": "Worked example — the Epstein/Israel question, by evidentiary level",
+      "note": "This ladder is included because it demonstrates the method, not because it bears on the Kirk case. Each rung is a genuinely different claim requiring genuinely different evidence.",
+      "rungs": [
+        {
+          "level": "Documented",
+          "claim": "Epstein had extraordinarily significant relationships with powerful Israelis, including former prime minister Ehud Barak."
+        },
+        {
+          "level": "Alleged by source(s)",
+          "claim": "Epstein had an Israeli intelligence relationship — reporting describes an FBI-source allegation."
+        },
+        {
+          "level": "Plausible hypothesis",
+          "claim": "Epstein's operation could have generated kompromat useful for blackmail."
+        },
+        {
+          "level": "Much stronger claim",
+          "claim": "Mossad controlled Epstein's operation.",
+          "unproven": true
+        },
+        {
+          "level": "Stronger still",
+          "claim": "Israel possesses compromising material on a specific U.S. official.",
+          "unproven": true
+        },
+        {
+          "level": "Strongest",
+          "claim": "Israel is using that material to dictate U.S. foreign policy.",
+          "unproven": true
+        }
+      ],
+      "closing": "The last three have not been publicly proven. A blackmail hypothesis also has to explain behavior BETTER than the alternatives — evangelical Christian Zionist constituencies, major pro-Israel donors, Republican voter preferences, defense and security politics, Iran policy, and longstanding personal worldview — not merely be compatible with it. The prediction that would make it substantially stronger is specific: communications amounting to 'do X or we release Y', testimony from someone in the chain, authenticated intelligence reporting describing the operation, possession of compromising recordings by foreign officials, payments or tasking, or a demonstrable abrupt policy reversal following a threat."
+    },
+    "better_question": "The productive research question is not 'can we prove Israel is behind everything?' It is: WHERE DOES ORDINARY ALLIED-STATE INFLUENCE END AND COVERT INFLUENCE, UNDISCLOSED FOREIGN DIRECTION, INTELLIGENCE ACTIVITY, COERCION OR BLACKMAIL BEGIN? That is testable. And it actually makes the Kirk investigation stronger: the Israel365/MirYam affiliations, the Kolvet Friends-of-Zion PR work, the donor dispute, Shillman's financial relationship with TPUSA, Hammer's later Shillman Fellowship, the Wolicki/Hammer conversation immediately before Kirk's death, the Netanyahu correspondence, and Kirk's increasingly conflicted private comments are all real evidence of an INFLUENCE ENVIRONMENT. What is still missing is: that environment → Robinson."
+  },
+  "precedent": {
+    "title": "Historical precedent — speakers shot before large audiences",
+    "question": "Are there other instances in the last 75 years of a speaker shot before a large audience, where the motive involved stopping that person from preventing a war?",
+    "answer": "No case matches every element. Three come close, in descending order of fit.",
+    "cases": [
+      {
+        "name": "Yitzhak Rabin",
+        "year": "1995",
+        "fit": "Closest",
+        "detail": "Israel's prime minister had just addressed a large peace rally in Tel Aviv in support of the Oslo Accords. He was shot and killed by Yigal Amir, an Israeli right-wing extremist, while leaving. Amir explicitly stated he wanted to stop the peace process."
+      },
+      {
+        "name": "Anwar Sadat",
+        "year": "1981",
+        "fit": "Strong on motive, weak on setting",
+        "detail": "Egypt's president was assassinated during a military parade in Cairo — a large state event, though he was not giving a speech at the moment. The assassins were Islamist militants explicitly seeking to reverse Egypt's peace treaty with Israel and reject the Camp David framework."
+      },
+      {
+        "name": "Robert F. Kennedy",
+        "year": "1968",
+        "fit": "Partial — legal motive differs from popular reading",
+        "detail": "RFK was shot immediately after delivering a victory speech to a large crowd at the Ambassador Hotel. He was a presidential candidate running partly on ending the Vietnam War. Sirhan Sirhan's official motive concerned RFK's support for Israel, not prolonging Vietnam — so the legal motive differs from the common historical interpretation."
+      }
+    ],
+    "non_matches": "Malcolm X (1965) was shot while about to speak, but the motive was internal to the Nation of Islam. Martin Luther King Jr. (1968) was a leading anti-war voice but was not speaking when shot, and the convicted motive was racial. George Wallace (1972), Ronald Reagan (1981) and Shinzo Abe (2022) were all shot around public events, but their shooters had notoriety-driven, personal or grievance motives unrelated to preventing a war.",
+    "caution": "The legally established motive in political assassinations frequently differs from the popular or conspiratorial interpretation. Both should be recorded separately."
+  },
+  "bottom_line": "Robinson remains by a wide margin the most likely person to have fired the shot, now rated 79-92% after a marginal reduction that reflects accumulating problems in the identification evidence rather than any exculpatory discovery. The mechanism is better established than ever: a single supersonic rifle shot, acoustically fixed at roughly 153 metres, a casing positively identified to the recovered weapon, and a timeline settled to the second at 12:23:28. The identity chain is the softer half — an autopsy relayed by someone who did not perform it, unidentified latent prints, and video evidence a judge has now ruled against twice. Operating alone at the scene rises to 82-92% on the single-shot acoustic finding and the 74-second escape interval. Self-directed planning rises to 85-93% as four separate external-direction theories collapsed. Security failure stays at 96-99%, still the best-supported finding here and still the one the responsible institution has disclosed least about. The methodological result of this cycle is the one worth carrying forward: nearly every claim that survived scrutiny did so because someone pulled a primary record — a court transcript, a procurement database, a flight archive, a company's own website — and nearly every claim that failed did so because nobody had.",
+  "next_milestone": {
+    "date": "2026-09-01",
+    "event": "Final preliminary-hearing argument (probable-cause argument)",
+    "why": "Likely to be particularly useful because it will produce the defense's best INTEGRATED explanation of why the discrepancies matter, rather than isolated cross-examination points. It is also the next major personnel-disclosure opportunity."
+  }
+}

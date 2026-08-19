@@ -1,0 +1,16 @@
+﻿Control Name,Type,Query Variants,Regions,Period,Current Anomaly Status,Priority,Control Rationale
+Justin Davis,Person,Justin Davis; Justin Davis security TPUSA,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Matched security-team control.
+Chris Bagley,Person,Chris Bagley UVU; Christopher Bagley UVU,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Matched event-police control.
+David Hull,Person,David Hull Utah DPS; David Hull SBI Utah,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Matched investigator control.
+Brian Davis,Person,Brian Davis Utah SBI,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Matched investigator control.
+Jennifer Faumuina,Person,Jennifer Faumuina,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Unusual surname makes useful control.
+Nate Brooksby,Person,Nate Brooksby,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Unusual surname; surrender-related control.
+Zachariah Qureshi,Person,Zachariah Qureshi,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Scene/detention control.
+Jeb Jacobi,Person,Jeb Jacobi,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,High,Event participant/witness control.
+Andrew Kolvet,Person,Andrew Kolvet,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,Medium,TPUSA inner-circle control.
+David Engelhardt,Person,David Engelhardt TPUSA,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No convincing anomaly found,Medium,TPUSA board/associate control.
+Ben Shapiro,Person,Ben Shapiro,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No case-specific anomaly established,Medium,Public-figure baseline control.
+Jeremy Boreing,Person,Jeremy Boreing,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No anomaly found,Medium,Shapiro/Daily Wire associate control.
+Matt Walsh,Person,Matt Walsh,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No case-specific anomaly established,Low,High public baseline; weak obscurity match.
+Michael Knowles,Person,Michael Knowles,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No case-specific anomaly established,Low,Public baseline.
+Andrew Klavan,Person,Andrew Klavan,"Israel; Washington, D.C.; Utah; Worldwide",2024-01-01 to 2025-09-09,No case-specific anomaly established,Low,Public baseline.

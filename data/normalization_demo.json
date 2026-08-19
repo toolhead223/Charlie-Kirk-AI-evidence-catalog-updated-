@@ -1,0 +1,40 @@
+{
+  "title": "How Google Trends Normalization Works",
+  "what_it_is": "Google Trends normalizes all search volume to 0\u2013100 relative to the PEAK in your chosen time window and geography. It does not show absolute search counts.",
+  "why_it_matters": "A score of 100 for an obscure name like 'Jennifer Faumuina' might represent a single search in a region of millions of people. That same 100 means something very different if it's for 'Taylor Swift' or 'Donald Trump.'",
+  "low_volume_problem": "For niche terms (names, local references, compound queries), noise and data artifacts dominate the signal. One person searching, one bot scanning, one typo correction \u2014 all render as 100.",
+  "scenarios": [
+    {
+      "name": "High-volume term (e.g., 'Charlie Kirk')",
+      "description": "Millions of searches across a time window. Spikes are real movements in aggregate interest.",
+      "example_interpretation": "A spike to 100 reflects genuine increase in search activity among large population.",
+      "reliability": "Higher \u2014 noise is diluted by volume."
+    },
+    {
+      "name": "Medium-volume name (e.g., 'Tyler Robinson' or 'Lance Twiggs')",
+      "description": "Hundreds or low thousands of searches. Spikes can reflect news cycles, trial dates, media coverage.",
+      "example_interpretation": "A spike might reflect news coverage or a hearing, but also might be search-engine bots, data artifacts, or regional population fluctuations.",
+      "reliability": "Moderate \u2014 requires context and control groups."
+    },
+    {
+      "name": "Low-volume name (e.g., 'Jennifer Faumuina', 'Shaner Broderick', 'Rick Cutler')",
+      "description": "Tens or low hundreds of searches total in a large region. A single search renders as 100 if it's the peak.",
+      "example_interpretation": "A score of 100 for 'Jennifer Faumuina' in 'Israel' likely represents one person, one bot, one misclick. Treat as hypothesis, not signal.",
+      "reliability": "Very low \u2014 noise dominates."
+    }
+  ],
+  "control_group_principle": "Test matched names the same way as your targets. If targets are uniquely spiking and controls are clean, you have a signal. If controls also spike identically, the method itself is unreliable for the data you're working with.",
+  "why_controls_matter_here": "In this dataset, matched controls (Justin Davis, Chris Bagley, Brian Davis, Jennifer Faumuina, etc.) were searched the same way in the same regions. Result: 'No convincing anomaly found' on every one. That means either: (1) the method is too noisy for names this obscure, or (2) the spikes in the main dataset are data artifacts, not foreknowledge signals. The control result suggests (1) and (2).",
+  "this_dataset": {
+    "grade_a_records": 0,
+    "grade_b_records": 40,
+    "grade_c_records": 99,
+    "israel_tagged": 123,
+    "interpretation": "Zero primary Google exports. 89% of records come from two secondary sources (one Threadreader thread, one screenshot compilation), with all records tagged 'Israel' and drawn from names that are mostly low-volume. Without control group testing, this looks like a pattern. With it, the pattern disappears."
+  },
+  "sources": [
+    "Google Trends FAQ: https://support.google.com/trends/answer/4365533",
+    "Your own dataset methodology notes",
+    "Your own controls.json showing matched baseline testing"
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "principle": "Association is not conspiracy. The House Select Committee on Assassinations stated the standard directly: conspiracy requires knowing assistance or agreement toward the criminal objective, not mere association. Every edge below is classified by TYPE \u2014 employment, funding, government, military, advocacy, communication, event attendance, or unverified allegation \u2014 precisely so that a dense graph is not mistaken for a proven one.",
+  "tiers": {
+    "service": {
+      "label": "Direct service",
+      "desc": "Actually served in a military, intelligence, or government body.",
+      "color": "#e05252"
+    },
+    "appointment": {
+      "label": "Gov't appointment",
+      "desc": "Formal government advisory or oversight appointment. Civilian overseer, not personnel.",
+      "color": "#e8b84b"
+    },
+    "adjacent": {
+      "label": "Gov't-adjacent work",
+      "desc": "Paid professional work for a government body without being employed by it.",
+      "color": "#e09a52"
+    },
+    "advocacy": {
+      "label": "Advocacy / alignment",
+      "desc": "Political or ideological alignment with a state. NOT evidence of employment by it.",
+      "color": "#6ea8e0"
+    },
+    "none_found": {
+      "label": "None established",
+      "desc": "Specifically checked. No military, intelligence, or government service found.",
+      "color": "#52c7c1"
+    },
+    "unverified": {
+      "label": "Unverified claim",
+      "desc": "Claim circulates publicly but primary documentation was not located. Not treated as fact.",
+      "color": "#9a6ee0"
+    }
+  },
+  "people": [
+    {
+      "name": "Erika Kirk",
+      "group": "board",
+      "role": "CEO & Board Chair, TPUSA / Turning Point Action. Charlie Kirk's widow.",
+      "gov_mil": "appointment",
+      "finding": "Presidential appointee to the U.S. Air Force Academy Board of Visitors \u2014 a body established under Title 10 that examines Academy morale, discipline, curriculum, equipment, fiscal affairs and academic methods. Charlie Kirk held essentially the same appointment (March 2025) before her; she was appointed to his seat in March 2026.",
+      "detail": "Separately, and predating Charlie entirely: in December 2012 the 161st Air Refueling Wing of the Arizona Air National Guard published an official article naming Erika Frantzve as a participant in a Joint Boss Lift organized by Employer Support of the Guard and Reserve (ESGR), a Department of Defense organization. Participants observed aerial-refueling operations, toured the destroyer USS Sterett, visited a Navy helicopter combat squadron, and attended a Marine Corps ceremony. Her nonprofit Everyday Heroes Like You also partnered with the U.S. Marine Corps on an orphanage project in Constan\u021ba, Romania. Educational background is political science and international relations (ASU).",
+      "significance": "This is a real, documented, pre-Charlie relationship with a DoD program \u2014 not merely attending a patriotic event. It is not intelligence work or military service. The USAFA appointment is a substantive statutory oversight role, not an honorary title.",
+      "not_established": "No intelligence agency service. No evidence she knew Shapiro, Hammer, Shillman, Kolvet, Neff, Wolicki or the McCoys before meeting Charlie in 2018."
+    },
+    {
+      "name": "David Engelhardt",
+      "group": "board",
+      "role": "TPUSA director since 2020. Attorney; pastor of Kings' Church.",
+      "gov_mil": "adjacent",
+      "finding": "Professional record lists work on a 'Commander's Quick Reference Guide' for the U.S. Coast Guard in 2013 \u2014 a procedural/legal reference in the military legal field.",
+      "detail": "Documented career is predominantly entrepreneurship, branding/communications, church and nonprofit leadership, and charitable work.",
+      "significance": "Government/military-adjacent professional work. This is NOT evidence that he served in the Coast Guard or any military branch.",
+      "not_established": "No record of actual military or intelligence service."
+    },
+    {
+      "name": "Doug DeGroote",
+      "group": "board",
+      "role": "TPUSA director. Investment/wealth-management executive (Crowell Weedon, United Capital).",
+      "gov_mil": "none_found",
+      "finding": "No convincing evidence of service in the military, an intelligence agency, federal law enforcement, or a foreign government.",
+      "detail": "",
+      "significance": "",
+      "not_established": "Checked; nothing established."
+    },
+    {
+      "name": "Mike Miller",
+      "group": "board",
+      "role": "TPUSA director. Pharmacist turned jeweler/businessman.",
+      "gov_mil": "none_found",
+      "finding": "No reliable military, intelligence, or government-service record located.",
+      "detail": "",
+      "significance": "",
+      "not_established": "NAME COLLISION WARNING: there are unrelated government officials named Michael/Mike Miller. No basis was found to identify any of them as TPUSA's Miller."
+    },
+    {
+      "name": "Tom Sodeika",
+      "group": "board",
+      "role": "TPUSA director. President/CEO and owner of Precision Payroll of America.",
+      "gov_mil": "none_found",
+      "finding": "No credible indication of military or intelligence service.",
+      "detail": "",
+      "significance": "",
+      "not_established": "Checked; nothing established."
+    },
+    {
+      "name": "Andrew Kolvet",
+      "group": "media",
+      "role": "TPUSA national spokesperson; executive producer of The Charlie Kirk Show. Not a board member.",
+      "gov_mil": "advocacy",
+      "finding": "A 2017 announcement for the Jerusalem Prayer Team identifies 'Andrew Kolvet \u2014 The KAIROS Company \u2014 Glendale, California' as media contact. The release describes the Jerusalem Prayer Team as an international initiative created by the Friends of Zion Heritage Center in Jerusalem, focused on Christian support for Israel and opposition to BDS. Mike Evans is identified as leader of the affiliated organizations operating in the U.S., Netherlands and Israel.",
+      "detail": "University of Washington Foster School of Business, roughly 2002\u20132006. Extensive work in communications, publicity, crisis communications, reputation management and media strategy; associated with ATK Media Inc. Developed the podcast operation with Charlie Kirk beginning around 2019. Described in one public profile as Charlie's best friend.",
+      "significance": "This is a verified professional pro-Israel/Christian-Zionist communications relationship that predates the current controversy by years. Kolvet's real importance, though, is INFORMATIONAL: he sat at the intersection of Kirk, TPUSA leadership, the broadcasting operation, and crisis communications. He had extremely high access to Kirk's schedule, communications, travel plans and internal reactions. That makes him a high-value witness node \u2014 not evidence of wrongdoing.",
+      "not_established": "The progression 'Kairos PR work \u2192 Israeli government \u2192 IDF/Mossad/intelligence asset' could NOT be substantiated. No evidence of employment by the Israeli government, IDF, Mossad, Shin Bet, U.S. military, CIA, FBI, or any intelligence organization. Claims linking his Kairos work through Friends of Zion to the Adelsons were not documented strongly enough to state that the Adelsons employed or directed him. People sharing the Kolvet surname appear in military/government employment databases; nothing reliably establishes they are relatives."
+    },
+    {
+      "name": "Blake Neff",
+      "group": "media",
+      "role": "Writer/producer in the Charlie Kirk media operation; podcast co-host. Former Tucker Carlson Tonight writer.",
+      "gov_mil": "adjacent",
+      "finding": "Paid outside subject-matter expert for MARINE CORPS WAR COLLEGE WARGAMING beginning around October 2016. Participated more than a dozen times and received approximately $14,000 from a pool used to compensate outside experts and guest speakers. His wargame audiences included field-grade officers \u2014 colonels and lieutenant colonels.",
+      "detail": "Trajectory: South Dakota \u2192 Dartmouth (history and government) \u2192 political journalism \u2192 Daily Caller \u2192 Tucker Carlson/Fox \u2192 Charlie Kirk media operation. Fox confirmed he was a Tucker Carlson writer and resigned in July 2020 after the discovery of racist, sexist and otherwise offensive anonymous internet posts. Note: an academic major in government is not government employment.",
+      "significance": "This is the single most concrete military-institution connection in the TPUSA media orbit \u2014 substantially more than having attended a conference with military officials. The Marine Corps specifically indicated Neff was NOT a Marine Corps employee and that his role was to assist with wargaming rather than instruct on strategy. Worth deeper document research: contracting/payment records, which specific wargames, sponsoring offices, other participants, and whether his role involved scenario design or only facilitation.",
+      "not_established": "Not a Marine, not a federal employee. No CIA/NSA/DIA/State Department/Israeli service found."
+    },
+    {
+      "name": "Ben Shapiro",
+      "group": "media",
+      "role": "Founder/editor of The Daily Wire. Frequent TPUSA/AmFest speaker and media ally. NOT a TPUSA board member.",
+      "gov_mil": "advocacy",
+      "finding": "Extensive political advocacy favorable to Israel, including reported assistance with lobbying/outreach toward the Trump political orbit during the Israeli hostage campaign. Documented career is conventional civilian law/media: UCLA political science \u2192 Harvard Law \u2192 attorney at Goodwin Procter \u2192 legal consulting \u2192 media \u2192 The Daily Wire.",
+      "detail": "THE KEY HISTORICAL FINDING: in 2013\u20132015 Shapiro was formally inside the David Horowitz Freedom Center at the same time as Robert Shillman. DHFC's IRS records list Shillman as a director and Shapiro as Vice President of Operations; the 2014 Form 990 reports roughly $190,791 in compensation to Shapiro. During that period Shapiro edited TruthRevolt, a DHFC project whose 2013 launch coverage identified Shillman among its funders. Shapiro left in 2015; he and Jeremy Boreing then built The Daily Wire with initial financing of about $4.7 million from Farris Wilks. After Charlie Kirk's death, Shapiro announced The Daily Wire would donate $1 million to TPUSA.",
+      "significance": "The Shillman relationship is far stronger than 'donated to an organization Shapiro once spoke at' \u2014 they were simultaneously officer and director of the same organization, and Shillman helped fund the project Shapiro ran. This matters because it establishes that Shillman did not suddenly appear around TPUSA in 2025; his institutional relationship with influential conservative media figures reaches back to at least the early 2010s.",
+      "not_established": "No IDF service. No Mossad or Israeli intelligence relationship. No Israeli government office. No U.S. military or intelligence service. No evidence Shillman invested in The Daily Wire itself \u2014 that seed financing came principally from the Wilks family. SEARCH TRAP: results for Pennsylvania governor Josh Shapiro contaminate searches for 'Ben Shapiro' + government service. Unrelated people."
+    },
+    {
+      "name": "Josh Hammer",
+      "group": "media",
+      "role": "Senior Counsel, Article III Project; Newsweek senior editor-at-large; Salem Media host. Former Daily Wire editor.",
+      "gov_mil": "service",
+      "finding": "Genuine U.S. federal government experience: law clerk on the U.S. SENATE JUDICIARY COMMITTEE staff of Senator Mike Lee, and law clerk to FIFTH CIRCUIT Judge James C. Ho. Duke B.S. economics; University of Chicago J.D.; Kirkland & Ellis; Ted Cruz delegate candidate; Claremont John Marshall Fellow. The University of Chicago independently confirms the Lee and Ho clerkships.",
+      "detail": "Currently Senior Counsel for the Article III Project (Mike Davis's judicial-nomination advocacy organization) and the Internet Accountability Project. A3P states that during Pete Hegseth's Secretary of Defense nomination, Hammer and other A3P figures produced material distributed to senators and participated in the confirmation campaign. ISRAEL-FACING INSTITUTIONAL ROLES: publishing contributor at the MirYam Institute (2021); delegate candidate on Israel365 Action's slate for the 2025 World Zionist Congress election; Advisory Board Member of the United Jewish Gun Coalition; and since January 2026, a SHILLMAN FELLOW at the David Horowitz Freedom Center.",
+      "significance": "Hammer is deeply plugged into the federal conservative legal pipeline \u2014 that is different from being an intelligence officer. His Israel connections are institutional rather than merely ideological: formal Zionist organizations, an Israel-centered book, MirYam affiliation, and participation in an actual organizational election process. He belongs in the analysis as a major node, not a side character.",
+      "not_established": "No Israeli government employment, IDF, Mossad or Shin Bet. No U.S. intelligence or military service. Not a registered Israeli foreign agent \u2014 his name appears in FARA-related records only because registered foreign representatives contacted him in his capacity as a Newsweek journalist, which does NOT make him the registered agent. No evidence of assassination foreknowledge."
+    },
+    {
+      "name": "Foster Friess",
+      "group": "donor",
+      "role": "One of TPUSA's earliest major financial patrons (deceased). First reported gift ~$10,000, with continued support.",
+      "gov_mil": "service",
+      "finding": "ROTC \u2192 active-duty U.S. Army. Infantry platoon-leader training and an INTELLIGENCE OFFICER assignment with the First Guided Missile Brigade at Fort Bliss.",
+      "detail": "TPUSA's own history and subsequent financial reporting place Friess among the people who made Charlie Kirk's early rise financially possible.",
+      "significance": "This is a real military intelligence connection at the origin point of TPUSA's funding. It does not, by itself, establish any intelligence relationship involving Kirk or TPUSA.",
+      "not_established": "No evidence connecting his service to TPUSA's operations or to the assassination."
+    },
+    {
+      "name": "Isaac 'Ike' Perlmutter",
+      "group": "donor",
+      "role": "Associated foundation identified among billionaire-linked TPUSA funders.",
+      "gov_mil": "service",
+      "finding": "Served in the ISRAELI MILITARY. Separately became one of the informal Mar-a-Lago associates who exerted influence over U.S. Veterans Affairs policy despite holding no formal U.S. government position.",
+      "detail": "",
+      "significance": "The only major identified TPUSA funder with foreign military service. The VA influence episode is independently documented and represents unusual informal access to U.S. government policy.",
+      "not_established": "No evidence of a relationship to the assassination or of intelligence work."
+    },
+    {
+      "name": "Charles B. Johnson",
+      "group": "donor",
+      "role": "Charles B. & Ann Johnson \u2014 approximately $4.6M in TPUSA giving identified by Forbes. Longtime Franklin Resources/Franklin Templeton executive.",
+      "gov_mil": "service",
+      "finding": "ROTC cadet at Yale; subsequently served approximately three years as a U.S. ARMY LIEUTENANT stationed in Germany.",
+      "detail": "Franklin Templeton's corporate history confirms Johnson became CEO in 1957 and led the company for decades.",
+      "significance": "Conventional military service \u2014 not evidence of intelligence work.",
+      "not_established": "No intelligence connection."
+    },
+    {
+      "name": "William Dunn",
+      "group": "donor",
+      "role": "Associated funding of approximately $4.5M to TPUSA.",
+      "gov_mil": "adjacent",
+      "finding": "After earning his PhD, worked as a CONTRACTOR for the Navy, Marine Corps, Coast Guard and JOINT CHIEFS OF STAFF, performing cost-benefit analysis during the McNamara era.",
+      "detail": "",
+      "significance": "Genuine multi-service and Joint Chiefs work, albeit as a civilian contractor decades ago.",
+      "not_established": "Civilian contractor, not uniformed service or intelligence."
+    },
+    {
+      "name": "Dean Buntrock",
+      "group": "donor",
+      "role": "Associated funding of approximately $4.1M to TPUSA.",
+      "gov_mil": "service",
+      "finding": "U.S. Army service during the Korean War period.",
+      "detail": "",
+      "significance": "Conventional military service.",
+      "not_established": "No intelligence connection."
+    },
+    {
+      "name": "A. Jerrold Perenchio",
+      "group": "donor",
+      "role": "Associated funding identified among billionaire-linked TPUSA funders.",
+      "gov_mil": "service",
+      "finding": "Served three years in the U.S. AIR FORCE and earned pilot wings.",
+      "detail": "",
+      "significance": "Conventional military service.",
+      "not_established": "No intelligence connection."
+    },
+    {
+      "name": "Wayne Duddlesten",
+      "group": "donor",
+      "role": "Wayne Duddlesten Foundation \u2014 approximately $13.1M, the largest single identified TPUSA donor.",
+      "gov_mil": "appointment",
+      "finding": "Served on the Texas Transportation Commission, 1989\u20131991 \u2014 a gubernatorial/state-government appointment.",
+      "detail": "",
+      "significance": "State government appointment; no military or intelligence dimension.",
+      "not_established": "No military service found."
+    },
+    {
+      "name": "Robert Shillman",
+      "group": "donor",
+      "role": "Cognex founder. Reportedly the ~$2M/year TPUSA donor who withdrew support over Tucker Carlson.",
+      "gov_mil": "advocacy",
+      "finding": "Director of the Zionist Organization of America and director of the David Horowitz Freedom Center. Foundation filings document more than $400,000 to Christians United for Israel (2013\u20132015) and approximately $1 million to FRIENDS OF THE ISRAEL DEFENSE FORCES (2014\u20132015), plus funding to CAMERA, Technion, the American Israel Education Foundation, FDD, MEMRI, Middle East Forum, UN Watch and the Jewish National Fund.",
+      "detail": "The New Yorker described Shillman as a major TPUSA donor who withdrew funding because TPUSA platformed figures such as Tucker Carlson who were not regarded as reliably pro-Israel. JTA reported that the donor referenced in Kirk's leaked messages \u2014 the one providing roughly $2 million annually \u2014 was identified by the New York Times as Shillman. He also underwrites the Shillman Fellows program at DHFC, which since January 2026 includes Josh Hammer.",
+      "significance": "Shillman is the connective tissue across a decade: he funded the DHFC project Ben Shapiro ran in 2013\u20132015, he was TPUSA's reported $2M/year donor until the Carlson dispute, and he underwrites the fellowship Hammer joined in January 2026. That is two independent routes from Shillman to Hammer \u2014 one historical through Shapiro, one current and direct.",
+      "not_established": "No TPUSA public tax filing says 'Robert Shillman \u2014 $2,000,000'; charities do not disclose donor identities on publicly released Schedule B. No Form 990-PF showing funds specifically designated to pay Josh Hammer. No evidence Shillman personally selected or instructed Hammer, communicated with him concerning Kirk, or had any role in the assassination."
+    },
+    {
+      "name": "Lori Frantzve",
+      "group": "family",
+      "role": "Erika Kirk's mother. Erika was principally raised by her following her parents' divorce.",
+      "gov_mil": "adjacent",
+      "finding": "An official Arizona House of Representatives record from March 19, 2014 identifies 'Lori Frantzve, CEO, GTEC Industries' appearing before the ARIZONA HOUSE COMMITTEE ON PUBLIC SAFETY, MILITARY AND REGULATORY AFFAIRS regarding ELECTROMAGNETIC-PULSE (EMP) preparedness. Introduced by Senator David Farnsworth. The same hearing involved or referenced Congressman Trent Franks, former U.S. Senator Jon Kyl, and Travis Schulte, legislative liaison for the Arizona Department of Emergency and Military Affairs.",
+      "detail": "Reportedly spent nearly two decades at General Electric before founding or running multiple network/security technology companies. Separately, AP reporting on TPUSA's finances found that former TPUSA COO Tyler Bowyer became chairman of Superfeed Technologies while Lori Frantzve also sat on that company's board. Kolvet told AP that TPUSA officials and Kirk's mother-in-law had not made money from the company.",
+      "significance": "A documented interface between a cyber/network-security executive and a state legislative process dealing with emergency management, military affairs and EMP/nuclear-event preparedness \u2014 predating Erika meeting Charlie. Plus a direct TPUSA-network overlap through Superfeed Technologies and Tyler Bowyer.",
+      "not_established": "NOT a government employee or military officer. Secondary material associates her with AZ-Tech/IMET, GTEC/Gtek and E3TEK and claims federal security-technology work, and one secondary source points to a DHS record referencing 'iMet Laboratories \u2014 Frantzve, Lori' involving biological/chemical detection. The underlying procurement record could NOT be established from USASpending/FPDS/DHS primary material. 'Verified defense contractor' is therefore NOT supported \u2014 it remains a plausible lead requiring the actual contract record."
+    },
+    {
+      "name": "Kent Frantzve",
+      "group": "family",
+      "role": "Erika Kirk's father. Businessman/investor.",
+      "gov_mil": "unverified",
+      "finding": "Publicly associated with AZ-Tech International in a program-research role. Erika has spoken publicly about target shooting with her father and described his interest in emergency preparedness.",
+      "detail": "",
+      "significance": "",
+      "not_established": "STRONGER CLAIMS CIRCULATING ONLINE \u2014 that Kent Frantzve worked for Raytheon Israel, was chairman of Raytheon Israel, was involved in Iron Dome, or conducted major Israeli arms work \u2014 could NOT be substantiated with reliable corporate, government, defense-industry or contemporary records. Additional effort was spent specifically because these claims would be highly relevant if true. Classify as UNVERIFIED INTERNET ATTRIBUTION, not established fact. This is not a finding that the claims are false; it is a finding that the evidence to use them as a premise does not currently exist. This is exactly where online family-tree research tends to outrun the evidence."
+    },
+    {
+      "name": "JT Massey",
+      "group": "family",
+      "role": "Erika Kirk's documented pre-Charlie boyfriend.",
+      "gov_mil": "none_found",
+      "finding": "A 2014 Arizona Foothills profile directly quoted Erika referring to JT Massey as her boyfriend. A 2014 Amazing Race audition tape depicts them presenting as a couple.",
+      "detail": "The strongest documented former romantic relationship located.",
+      "significance": "This branch appears isolated from the later political network.",
+      "not_established": "No military, intelligence or government role. No defensible connection to Shapiro, Hammer, Shillman, Kolvet, Neff, Wolicki or the McCoys."
+    },
+    {
+      "name": "Brian Harpole",
+      "group": "security",
+      "role": "Head of Charlie Kirk's security for the American Comeback Tour. Rode in the evacuation SUV.",
+      "gov_mil": "none_found",
+      "finding": "Publicly displayed what he said were communications showing his team had specifically discussed ROOFTOP SECURITY with UVU police beforehand. The Salt Lake Tribune reported his allegation that assurances had been given that the roofs would be addressed.",
+      "detail": "Has sued Candace Owens and Mitch Snow for defamation; the complaint reportedly alleges airline records place him elsewhere when Snow claimed to see him at Fort Huachuca.",
+      "significance": "Potentially one of the highest-value witnesses in the entire case. He can address pre-event threat assessment, roof coverage, security planning, emergency extraction and personnel assignments. The claimed pre-event rooftop warning is a central unresolved question.",
+      "not_established": "Background details not established in the sources reviewed."
+    },
+    {
+      "name": "Dan Flood",
+      "group": "security",
+      "role": "TPUSA's SECURITY DIRECTOR \u2014 not merely a traveling aide. In the evacuation SUV, handling navigation.",
+      "gov_mil": "none_found",
+      "finding": "KSL and Deseret identify Flood as Turning Point USA's security director.",
+      "detail": "",
+      "significance": "This identification materially changes his significance. He potentially knows who controlled event security, how UVU/TPUSA divided responsibilities, whether elevated positions had been discussed, and how the emergency plan was designed. Very high priority for reconstruction.",
+      "not_established": "Background not established in the sources reviewed."
+    },
+    {
+      "name": "Mikey (Michael) McCoy",
+      "group": "security",
+      "role": "Kirk's former assistant and TPUSA chief of staff. Son of Pastor Rob McCoy.",
+      "gov_mil": "none_found",
+      "finding": "TPUSA identifies him as Kirk's former assistant and chief of staff. He says he spent six years working closely under Kirk and traveled with him to 48 states and six countries. Erika Kirk later said it was McCoy who called her immediately after the shooting, telling her Kirk had been shot and to get the children and security.",
+      "detail": "Reporting describes him variously as Kirk's former chief of staff and subsequently TPUSA chief of staff \u2014 probably different periods rather than deception, but exact employment dates would remove ambiguity about what authority he held on September 10.",
+      "significance": "He belonged to Kirk's innermost professional circle with unusually broad knowledge of Kirk's schedule and operations, and he is established as part of the immediate crisis communications chain. An excellent potential source for Kirk's precise travel plans, schedule changes, and who knew the UVU itinerary.",
+      "not_established": "No direct Hammer\u2013Mikey McCoy relationship established. CAUTION: Rob McCoy and Mikey McCoy are easily collapsed. Hammer definitely shared a private group chat with Pastor ROB McCoy; that does not establish Mikey was in the same group."
+    },
+    {
+      "name": "Frank Turek",
+      "group": "security",
+      "role": "Christian apologist. Present at UVU; rode in the evacuation SUV to Timpanogos Regional Hospital.",
+      "gov_mil": "none_found",
+      "finding": "Not a distant mentor \u2014 he was physically present, immediately joined the evacuation vehicle, and rode with Kirk and four members of the security/operations group. He described Kirk as effectively a fourth son.",
+      "detail": "Turek identified the SUV occupants only by first names: Justin driving, Dan navigating, Rick holding Kirk's head, Brian near Kirk's legs, Turek entering from the rear. Later reporting independently identified Brian as Brian Harpole and Dan as Dan Flood. Secondary material identifies the driver as Justin Davis and 'Rick' as Rick Cutler \u2014 those two identifications are less authoritative.",
+      "significance": "This puts him inside the very small group with firsthand knowledge of the minutes immediately after the shooting, making his account far more evidentially important than ordinary memorial testimony. The SUV manifest should be treated as an evidentiary object. CORRECTION TO CIRCULATING CLAIMS: theories that Turek behaved oddly based on hand gestures have an enormous evidentiary problem \u2014 he stayed with the victim, entered the evacuation vehicle, assisted during transport, and has repeatedly submitted to extensive public questioning. Independent reporting corroborates he was in that SUV.",
+      "not_established": "Important witness, not a presently suspicious actor."
+    },
+    {
+      "name": "Victor Marx",
+      "group": "security",
+      "role": "Founder of All Things Possible Ministries; self-described 'high-risk humanitarian'. Documented TPUSA associate predating the shooting.",
+      "gov_mil": "service",
+      "finding": "A Marine veteran \u2014 Axios reports his actual three-year military service can be documented.",
+      "detail": "TPUSA Faith hosted Marx material including programming in which he appeared with Kirk, so claims that he appeared out of nowhere after the assassination are inaccurate. His political prominence accelerated dramatically after Kirk's killing and he later entered Colorado politics.",
+      "significance": "CREDIBILITY FLAG. Axios' August 10, 2026 profile documents his three-year service while reporting that several far more dramatic biographical claims \u2014 rescues overseas, killings, calling in an airstrike against ISIS \u2014 have been difficult to substantiate, and some have been corrected or retracted. This yields an objective working rule: DO NOT USE VICTOR MARX AS THE SOLE SOURCE FOR EXTRAORDINARY FACTS ABOUT VICTOR MARX. Claims of secret operations, threats, violent encounters, security warnings or special access require independent documentary corroboration before entering the evidence model.",
+      "not_established": "Nothing ties him to planning or facilitating the attack. The credibility problem is real but is not murder evidence."
+    },
+    {
+      "name": "Pesach Wolicki",
+      "group": "media",
+      "role": "Rabbi; prominent Israel365 Action figure. Participated in Kirk's final Israel-focused Zoom on September 9, 2025.",
+      "gov_mil": "advocacy",
+      "finding": "Stated he held an approximately hour-long Zoom call with Kirk on the night of Tuesday, September 9, 2025, before Kirk traveled to the first stop of his college tour, describing it as preparation for Israel-related challenges Kirk expected on campus. He later said the meeting had been scheduled for weeks and that Kirk himself initiated it.",
+      "detail": "Regularly represents Israel365 Action on U.S.\u2013Israel issues. Was advertised alongside Josh Hammer, Knesset member Ohad Tal, Steve Bannon and Rabbi Tuly Weisz at Israel365 Action's World Zionist Congress election rally in March 2025.",
+      "significance": "The Hammer\u2013Wolicki pairing on the September 9 call was not random: both were already institutionally connected through Israel365 Action's World Zionist Congress effort. That the call was pre-scheduled weakens any 'emergency meeting' reading, but strengthens a different point \u2014 Hammer and Wolicki were part of an established Israel-advice channel available to Kirk before campus appearances.",
+      "not_established": "No evidence of foreknowledge or involvement. The complete attendee list for the September 9 Zoom remains unestablished."
+    }
+  ],
+  "edge_types": {
+    "employment": "#e05252",
+    "funding": "#e8b84b",
+    "government": "#e09a52",
+    "advocacy": "#6ea8e0",
+    "communication": "#52c7c1",
+    "family": "#c77dc7",
+    "unverified": "#9a6ee0"
+  },
+  "edges": [
+    {
+      "from": "Robert Shillman",
+      "to": "Ben Shapiro",
+      "type": "employment",
+      "strength": "Very strong",
+      "detail": "Simultaneously DHFC director (Shillman) and DHFC Vice President of Operations (Shapiro), 2013\u20132015. Shillman-funded TruthRevolt was run by Shapiro. 2014 Form 990 reports ~$190,791 compensation to Shapiro."
+    },
+    {
+      "from": "Ben Shapiro",
+      "to": "Josh Hammer",
+      "type": "employment",
+      "strength": "Very strong",
+      "detail": "Hammer worked as a Daily Wire editor/writer (2017\u20132020), repeatedly citing and endorsing Shapiro's arguments. Shapiro personally promoted Hammer's work publicly."
+    },
+    {
+      "from": "Robert Shillman",
+      "to": "Josh Hammer",
+      "type": "funding",
+      "strength": "Very strong",
+      "detail": "Hammer became a Shillman Fellow at the David Horowitz Freedom Center in January 2026. DHFC states the Shillman journalism fellowships are 'underwritten by board member Dr. Robert Shillman.' Past filings show such fellowships can be compensated positions (one prior fellow listed at ~$114,035), but Hammer's individual compensation is not isolated in accessible filings."
+    },
+    {
+      "from": "Robert Shillman",
+      "to": "Charlie Kirk",
+      "type": "funding",
+      "strength": "Strong (reported)",
+      "detail": "Reportedly the ~$2M/year TPUSA donor who withdrew support over Tucker Carlson being platformed. Kirk privately complained about losing this donor. NYT identification reported via JTA/Times of Israel."
+    },
+    {
+      "from": "Josh Hammer",
+      "to": "Charlie Kirk",
+      "type": "communication",
+      "strength": "Very strong",
+      "detail": "Hammer was in Kirk's private WhatsApp Israel conversation (authenticity confirmed by Kolvet) AND participated in Kirk's final Israel-strategy Zoom on September 9, 2025 \u2014 confirmed by Hammer himself: 'I was also part of this meeting the night before the assassination.'"
+    },
+    {
+      "from": "Pesach Wolicki",
+      "to": "Charlie Kirk",
+      "type": "communication",
+      "strength": "Very strong",
+      "detail": "Held an ~hour-long Israel-focused Zoom with Kirk the night of September 9, 2025. Said the meeting had been scheduled for weeks and that Kirk initiated it."
+    },
+    {
+      "from": "Josh Hammer",
+      "to": "Pesach Wolicki",
+      "type": "advocacy",
+      "strength": "Very strong",
+      "detail": "Both connected through Israel365 Action's World Zionist Congress campaign \u2014 Hammer as a delegate candidate on its slate, Wolicki as a prominent public figure for the organization. Both then on Kirk's final Israel Zoom."
+    },
+    {
+      "from": "Josh Hammer",
+      "to": "Andrew Kolvet",
+      "type": "communication",
+      "strength": "Strong",
+      "detail": "Both handled the same confidential Kirk communications from different positions \u2014 Hammer as chat participant, Kolvet as the TPUSA executive who publicly authenticated them. Later aligned in publicly defending Hammer against foreknowledge accusations, then friction: Hammer indicated he felt betrayed by Kolvet's disclosure."
+    },
+    {
+      "from": "Josh Hammer",
+      "to": "Blake Neff",
+      "type": "communication",
+      "strength": "Moderate/strong",
+      "detail": "Neff publicly described Hammer as a 'longtime friend of Charlie' and forcefully defended him against foreknowledge claims, calling the allegation absurd and malicious. In March 2026 Neff and Kolvet jointly defended Hammer against Buckley Carlson's accusation."
+    },
+    {
+      "from": "Josh Hammer",
+      "to": "Erika Kirk",
+      "type": "communication",
+      "strength": "Weak/indirect",
+      "detail": "NEGATIVE FINDING. No evidence Hammer worked for her, partnered with her, received money from her, served on a board with her, or had a documented close friendship before Charlie's death. The path is Hammer \u2192 Charlie \u2192 Erika, not an independent edge."
+    },
+    {
+      "from": "Josh Hammer",
+      "to": "Mikey (Michael) McCoy",
+      "type": "unverified",
+      "strength": "Unestablished",
+      "detail": "NEGATIVE FINDING. No employment, joint business, shared board, fellowship, correspondence or repeated joint appearances found. Only proximity through Kirk's inner circle. Note Hammer DID share the private chat with Pastor Rob McCoy \u2014 a different person."
+    },
+    {
+      "from": "Lori Frantzve",
+      "to": "Erika Kirk",
+      "type": "family",
+      "strength": "Very strong",
+      "detail": "Mother. Erika was principally raised by her after her parents' divorce."
+    },
+    {
+      "from": "Lori Frantzve",
+      "to": "Charlie Kirk",
+      "type": "funding",
+      "strength": "Documented",
+      "detail": "AP reporting found former TPUSA COO Tyler Bowyer became chairman of Superfeed Technologies while Lori Frantzve also sat on that board. Kolvet said neither TPUSA officials nor Kirk's mother-in-law made money from the company."
+    },
+    {
+      "from": "Andrew Kolvet",
+      "to": "Charlie Kirk",
+      "type": "employment",
+      "strength": "Very strong",
+      "detail": "Executive producer of The Charlie Kirk Show and TPUSA spokesperson; developed the podcast operation with Kirk from ~2019. Described as Charlie's best friend. Kirk reportedly told Kolvet before his death that Erika could handle taking over TPUSA."
+    },
+    {
+      "from": "Andrew Kolvet",
+      "to": "Erika Kirk",
+      "type": "communication",
+      "strength": "Strong (post-2018)",
+      "detail": "No pre-Charlie relationship found. After Charlie's death Kolvet has spoken publicly for Erika and TPUSA, acting as an institutional bridge between the Kirk marriage and TPUSA's executive/media structure. Online claims of a romantic relationship are NOT supported by credible evidence."
+    },
+    {
+      "from": "Blake Neff",
+      "to": "Charlie Kirk",
+      "type": "employment",
+      "strength": "Strong",
+      "detail": "Writer/producer and podcast co-host in the Charlie Kirk media operation after leaving Tucker Carlson Tonight in July 2020."
+    },
+    {
+      "from": "Foster Friess",
+      "to": "Charlie Kirk",
+      "type": "funding",
+      "strength": "Very strong (historical)",
+      "detail": "One of the earliest major financial patrons whose support made Kirk's early rise possible. Friess was a former U.S. Army intelligence officer."
+    },
+    {
+      "from": "Ben Shapiro",
+      "to": "Erika Kirk",
+      "type": "advocacy",
+      "strength": "Post-2025 only",
+      "detail": "No pre-2018 evidence. After Charlie's death Shapiro publicly defended Erika against assassination allegations and spoke immediately after her at TPUSA's December 2025 AmericaFest. Daily Wire donated $1M to TPUSA."
+    }
+  ],
+  "shillman_chronology": {
+    "title": "The Shillman \u2192 Shapiro \u2192 Hammer institutional continuity",
+    "why": "Every individual piece has an innocent explanation. What makes the sequence worth document-driven investigation is that the same relatively small group appears repeatedly at the intersection of funding, Israel advocacy, access to Kirk, and posthumous narrative management. That is a legitimate OSINT finding. It is NOT a criminal finding.",
+    "steps": [
+      {
+        "date": "2013",
+        "event": "TruthRevolt launches as a David Horowitz Freedom Center project with Ben Shapiro as editor. Contemporary coverage identifies Robert Shillman among its funders."
+      },
+      {
+        "date": "2014",
+        "event": "DHFC Form 990 lists Robert Shillman as Director and Ben Shapiro as Vice President of Operations (~$190,791 compensation)."
+      },
+      {
+        "date": "2015",
+        "event": "Shapiro leaves DHFC/TruthRevolt. He and Jeremy Boreing establish The Daily Wire with ~$4.7M initial financing from Farris Wilks."
+      },
+      {
+        "date": "2017\u20132020",
+        "event": "Josh Hammer works as a Daily Wire writer/editor under the organization Shapiro founded and editorially led."
+      },
+      {
+        "date": "2025 (pre-Sept)",
+        "event": "Shillman is reportedly a ~$2M/year TPUSA donor and objects strongly to Tucker Carlson being platformed; he withdraws support."
+      },
+      {
+        "date": "2025-09-08",
+        "event": "Kirk privately writes that a ~$2M/year donor has left over Carlson, that he feels bullied, and that donor pressure is pushing him toward leaving the pro-Israel cause. Hammer is in that chat.",
+        "flag": true
+      },
+      {
+        "date": "2025-09-09",
+        "event": "Hammer and Wolicki participate in Kirk's final Israel-strategy Zoom, the night before the shooting.",
+        "flag": true
+      },
+      {
+        "date": "2025-09-10",
+        "event": "Charlie Kirk is shot at UVU.",
+        "flag": true
+      },
+      {
+        "date": "2025-09-14",
+        "event": "Hammer publicly emphasizes his participation in Kirk's final Israel meeting and argues against claims that Kirk was moving away from Israel, calling such claims an 'egregious lie.'"
+      },
+      {
+        "date": "2026-01-07",
+        "event": "Hammer publicly announces he has become a Shillman Fellow at the David Horowitz Freedom Center \u2014 the fellowship program Shillman explicitly underwrites.",
+        "flag": true
+      }
+    ],
+    "key_question": "The question is NOT 'did Shillman order Hammer to attack Tucker?' \u2014 there is no evidence for that. The testable question is: WHEN did Hammer first establish a financial or professional relationship with Shillman or DHFC relative to the TPUSA donor dispute? If fellowship negotiations began before September 2025, that would be far more relevant than the January 2026 public announcement.",
+    "records_needed": [
+      "DHFC/Shillman Foundation records establishing exactly when Hammer's fellowship was negotiated or offered",
+      "The complete September 9 Zoom invitation and participant metadata",
+      "The original WhatsApp export rather than screenshots \u2014 including who created the group and who added each participant"
+    ]
+  },
+  "hammer_claims": [
+    {
+      "claim": "Hammer posted an old Trump/public-execution tweet the night before Kirk's murder",
+      "finding": "The chronology appears real. But contemporaneous news on September 9 was heavily focused on the murder of Iryna Zarutska and demands for severe punishment; Hammer later explicitly said his death-penalty post concerned Zarutska's accused killer. Recovered X indexing shows he posted frequently that day (11:36am, 11:40am, 1:29pm, 9:59pm) \u2014 the execution repost was not his only post.",
+      "verdict": "Timing verified; foreknowledge inference UNSUPPORTED",
+      "rating": "low"
+    },
+    {
+      "claim": "Hammer was in Kirk's private Israel WhatsApp chat",
+      "finding": "Yes \u2014 Hammer confirmed it himself. Kirk complained about losing a $2M/year donor and wrote that donor pressure was pushing him toward leaving the pro-Israel cause. TPUSA's Andrew Kolvet confirmed the messages' authenticity.",
+      "verdict": "VERIFIED \u2014 important",
+      "rating": "high"
+    },
+    {
+      "claim": "Hammer publicly claimed Kirk wasn't shifting while knowing what Kirk said privately",
+      "finding": "Essentially yes, though 'lied' is harder to prove. Hammer characterized Kirk as merely 'blowing off steam' and called claims that Kirk was 'turning' an 'egregious lie,' despite having seen Kirk's much stronger private language. Kolvet's characterization \u2014 that Kirk's Israel attitude had become 'complicated and nuanced' \u2014 is more consistent with the documentary record.",
+      "verdict": "Real contradiction / selective framing",
+      "rating": "high"
+    },
+    {
+      "claim": "Hammer knew about Kirk's Netanyahu letter beforehand",
+      "finding": "Definitely. Hammer himself wrote: 'I was given access to this letter a few months ago. I read it at that time.'",
+      "verdict": "VERIFIED",
+      "rating": "high"
+    },
+    {
+      "claim": "The Netanyahu letter proves Kirk was abandoning Israel",
+      "finding": "No. The actual May 2 letter is strongly pro-Israel but highly critical of Israel's communications strategy, warning Netanyahu that Israel was rapidly losing younger American conservatives and that declining opinion would eventually mean declining U.S. political and military support.",
+      "verdict": "Claim OVERSTATES the document",
+      "rating": "low"
+    },
+    {
+      "claim": "Hammer was involved in Kirk's last Israel meeting",
+      "finding": "Yes. Hammer says Kirk sought his group's advice on communicating the Israel issue to Gen Z; Wolicki independently described an hour-long Israel-focused Zoom the night before the shooting.",
+      "verdict": "VERIFIED and worth examining",
+      "rating": "high"
+    },
+    {
+      "claim": "Hammer's 'public execution' posts show he knew Kirk would be murdered",
+      "finding": "Nothing establishing this was found.",
+      "verdict": "UNSUPPORTED",
+      "rating": "none"
+    },
+    {
+      "claim": "Hammer's anti-Tucker rhetoric indicates violent intent",
+      "finding": "Hammer has used exceptionally hostile rhetoric against Carlson, but the documented objective he advocates is excluding and marginalizing Carlson politically and institutionally \u2014 not physically harming him.",
+      "verdict": "Rhetoric is real; violent inference NOT supported",
+      "rating": "low"
+    }
+  ],
+  "not_established": [
+    "Andrew Kolvet worked for U.S. or Israeli intelligence.",
+    "Blake Neff worked for U.S. or Israeli intelligence, or was a Marine or federal employee.",
+    "Ben Shapiro worked for Mossad, the IDF, or Israeli intelligence.",
+    "Erika Kirk served in an intelligence agency.",
+    "Lori Frantzve served in an intelligence agency, or her companies definitely received major classified/DoD contracts.",
+    "Kent Frantzve was a Raytheon Israel / Iron Dome executive.",
+    "Erika Kirk's confirmed former romantic contacts were intelligence officers.",
+    "TPUSA was created or controlled by a U.S. intelligence agency.",
+    "TPUSA was created or controlled by Israel.",
+    "Any of the documented government/military connections above had anything to do with Charlie Kirk's assassination."
+  ],
+  "donor_transparency": {
+    "title": "Why a complete TPUSA donor list cannot be built",
+    "body": "TPUSA is a 501(c)(3); its tax return does not publicly identify contributors. Investigators reconstruct the network through OTHER foundations' filings. Forbes calculated roughly $389 million raised from TPUSA's founding through mid-2023. But money routed through donor-advised funds \u2014 DonorsTrust, the Bradley Impact Fund, Fidelity Charitable, National Christian Foundation-type vehicles \u2014 obscures the original individual source. The Bradley Impact Fund alone reportedly passed approximately $23.6 million to TPUSA since 2014 (one aggregation puts it at $33.7 million across 2021\u201324), and the individual donor behind a donor-advised contribution generally is not visible. Any claim to possess a complete TPUSA donor network is therefore false. The 2025\u201326 influx following Charlie Kirk's death compounds this: much of that money will not surface in nonprofit tax filings until later filings become public."
+  },
+  "next_steps": [
+    {
+      "priority": 1,
+      "lead": "Blake Neff \u2194 Marine Corps War College",
+      "why": "An actual paid wargaming relationship. Records may exist showing exercise dates, contracts and payments, scenarios, sponsoring offices and other participants."
+    },
+    {
+      "priority": 2,
+      "lead": "Andrew Kolvet \u2194 Kairos \u2194 Friends of Zion / Jerusalem Prayer Team",
+      "why": "Verified professional relationship predating the current controversy. Worth reconstructing Kairos' full client history and corporate records rather than relying on social-media claims."
+    },
+    {
+      "priority": 3,
+      "lead": "When was Hammer's Shillman Fellowship negotiated?",
+      "why": "The single highest-value unresolved question in the network. If negotiations began before September 2025, the relationship reads very differently than a January 2026 announcement."
+    },
+    {
+      "priority": 4,
+      "lead": "Lori Frantzve's companies \u2014 FPDS / USASpending / SAM.gov / DHS procurement records",
+      "why": "The security/defense-contract angle is the most incompletely resolved factual question in the family network. Retrieve corporate registrations, patents, principals and customers."
+    },
+    {
+      "priority": 5,
+      "lead": "Erika Kirk's 2011\u20132014 Marine Corps / Everyday Heroes relationship",
+      "why": "Identifying the exact Marine unit and individual officers or NCOs who worked with her would reveal whether this was Toys-for-Tots-style humanitarian cooperation or a more durable institutional relationship."
+    },
+    {
+      "priority": 6,
+      "lead": "Complete September 9 Zoom attendee list and WhatsApp group membership",
+      "why": "Confirmed participants are Kirk, Hammer and Wolicki. Additional participants exist but are not publicly verified. Who created the group, who added each participant, and when it was created are all unknown \u2014 and are excellent discovery questions if the export ever appears in court material."
+    },
+    {
+      "priority": 7,
+      "lead": "Cross-reference every identifiable TPUSA donor above $100,000",
+      "why": "Against military service, intelligence employment, federal appointments, defense contractors, foreign-agent registrations, Israeli corporations/nonprofits and federal procurement."
+    }
+  ],
+  "bottom_line": "There is a real military/government footprint in the extended TPUSA network. It is not imaginary. Among major donors alone: former U.S. Army personnel, an Army intelligence officer, an Air Force pilot, an Israeli military veteran, a defense contractor who worked for the Joint Chiefs, and a state-government appointee. In the media operation, Blake Neff's paid Marine Corps War College wargaming. In current leadership, Erika Kirk's Air Force Academy oversight appointment. But the evidence supports a network CONTAINING numerous people with defense/government backgrounds \u2014 not the stronger conclusion that TPUSA is a U.S. or Israeli intelligence operation. No credible public record ties Tyler Robinson before September 10 to any of these people through communications, money, travel, employment or logistical assistance. That missing edge is the whole question."
+}

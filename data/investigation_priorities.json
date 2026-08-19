@@ -1,0 +1,1641 @@
+{
+  "case": "Charlie Kirk assassination investigation",
+  "generated": "2026-08-13",
+  "total_items": 150,
+  "tiers": [
+    {
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "item_count": 20
+    },
+    {
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "item_count": 18
+    },
+    {
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "item_count": 13
+    },
+    {
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "item_count": 17
+    },
+    {
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "item_count": 10
+    },
+    {
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "item_count": 12
+    },
+    {
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "item_count": 10
+    },
+    {
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "item_count": 15
+    },
+    {
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "item_count": 10
+    },
+    {
+      "tier": 10,
+      "tier_name": "Motive",
+      "item_count": 7
+    },
+    {
+      "tier": 11,
+      "tier_name": "Environmental",
+      "item_count": 8
+    },
+    {
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "item_count": 10
+    }
+  ],
+  "top_five": [
+    {
+      "rank": 1,
+      "title": "Camera clock/timebase audit (12:44 vs 12:23 discrepancy)",
+      "related_item_id": 1,
+      "rationale": "Resolving the clock discrepancy is the foundation for every other timeline-dependent finding in the case; until every camera's timebase is calibrated to a common reference, no cross-camera identification or sequencing claim can be considered reliable."
+    },
+    {
+      "rank": 2,
+      "title": "Early-morning UVU visit reconstruction",
+      "related_item_id": 3,
+      "rationale": "A verified early-morning campus visit, if established, would be the strongest evidence of reconnaissance or pre-positioning, and its route and dwell points could reveal equipment staging locations not otherwise documented."
+    },
+    {
+      "rank": 3,
+      "title": "Raw surveillance continuity analysis",
+      "related_item_id": 9,
+      "rationale": "Continuous, unedited coverage across the full camera ecosystem is what makes it possible to assert that the morning subject, rooftop subject, and fleeing subject are the same person; any undocumented gap undermines that chain."
+    },
+    {
+      "rank": 4,
+      "title": "Native digital-message evidence and note provenance",
+      "related_item_id": 52,
+      "rationale": "Native, forensically extracted messages and a fully authenticated handwritten note are far more probative than screenshots or summaries, and their provenance directly bears on both identification and motive."
+    },
+    {
+      "rank": 5,
+      "title": "Physical correlation matrix",
+      "related_item_id": 15,
+      "rationale": "Cross-referencing DNA, fibers, footwear, palm print, and tool marks across every recovered item into a single matrix is the clearest way to test whether the physical evidence points consistently to one individual or contains unexplained outliers."
+    }
+  ],
+  "biometric_control": {
+    "concept": "Use the early-morning UVU footage as an internal biometric control",
+    "description": "Because the early-morning campus visit, the later daytime sighting, the rooftop subject, and the fleeing subject were all potentially captured on the same camera ecosystem within the same day, the morning footage can serve as an internal biometric 'control' sample. Rather than relying on external reference photos or documents, each subsequent sighting can be measured directly against the morning-visit subject using the same cameras, lighting conditions, and lens geometry, minimizing cross-source calibration error.",
+    "comparison_chain": [
+      {
+        "step": 1,
+        "subject": "morning subject",
+        "description": "Baseline biometric reference captured during the early-morning UVU visit."
+      },
+      {
+        "step": 2,
+        "subject": "later subject",
+        "description": "Daytime sighting compared against the morning baseline for height, build, and gait."
+      },
+      {
+        "step": 3,
+        "subject": "rooftop subject",
+        "description": "Subject captured at the firing position compared against the morning baseline and later sighting."
+      },
+      {
+        "step": 4,
+        "subject": "fleeing subject",
+        "description": "Subject captured departing the scene compared against all prior sightings to close the identity chain."
+      }
+    ],
+    "methods": [
+      "photogrammetric height and build estimation",
+      "gait analysis",
+      "clothing and equipment continuity tracking",
+      "camera-consistent lighting/color calibration"
+    ],
+    "value": "If the same camera ecosystem and same-day conditions hold across all four sightings, this comparison chain removes most of the cross-source variability that normally weakens photo/video identification, making it one of the highest-value analytical opportunities in the case.",
+    "related_item_ids": [
+      1,
+      3,
+      4,
+      12,
+      13
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Camera clock/timebase audit (12:44 vs 12:23 discrepancy)",
+      "detail": "Audit the internal clocks and timebases of every camera system that captured relevant footage to resolve the reported 12:44 vs 12:23 timestamp discrepancy, establishing a single authoritative timeline for the day's events.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 2,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Cross-camera clock synchronization and NTP/DVR drift verification",
+      "detail": "Verify NTP synchronization status and DVR/NVR clock drift for every camera system involved (campus, retail, municipal, private) to determine how far each system's displayed timestamp deviates from true time.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 3,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Early-morning UVU visit — arrival and route reconstruction",
+      "detail": "Reconstruct the subject's arrival at Utah Valley University in the early morning hours, including vehicle/foot route taken, entry points used, and cameras that captured the approach.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 4,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Early-morning UVU visit — dwell-point and duration analysis",
+      "detail": "Map every location the subject stopped or lingered at during the early-morning campus visit, with duration at each point, to identify reconnaissance behavior or equipment staging.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 5,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Backpack first-appearance and chain-of-custody tracking",
+      "detail": "Trace the first camera appearance of the backpack associated with the subject and track its custody/handling across every subsequent frame in which it appears, including any hand-offs or changes in who is carrying it.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 6,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Backpack contents and carry-posture inference across frames",
+      "detail": "Analyze carrying posture, sag, and silhouette of the backpack across available frames to infer approximate contents, weight distribution, and whether contents changed between sightings.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 7,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Chick-fil-A purchase record cross-reference",
+      "detail": "Obtain and cross-reference point-of-sale/purchase records from the Chick-fil-A location tied to the timeline against the subject's claimed movements to corroborate or contradict the established schedule.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 8,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Chick-fil-A drive-thru camera acquisition and clock audit",
+      "detail": "Acquire raw drive-thru and lot camera footage from the Chick-fil-A location and audit its internal clock against the master timeline established in the camera clock/timebase audit.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 9,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Surveillance continuity and coverage-gap analysis",
+      "detail": "Map every camera's field of view along the subject's reconstructed path to identify continuous coverage versus blind spots, flagging any gap during which the subject could have altered appearance, equipment, or route undetected.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 10,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Surveillance camera-to-camera handoff verification",
+      "detail": "Verify that the subject identified exiting one camera's field of view is the same subject entering the next camera's field of view at each handoff point, closing any identity-continuity gaps.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 11,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Original/unenhanced footage acquisition request",
+      "detail": "Formally request the original, unenhanced, uncompressed source files for all released footage, since publicly circulated clips are often re-encoded, cropped, or frame-rate-converted in ways that can distort timestamps and detail.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 12,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Footage chain-of-custody audit — released versus original",
+      "detail": "Compare every publicly released or discovery-produced clip against the original source file to document any cropping, transcoding, frame drops, or metadata stripping introduced during processing.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 13,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Photogrammetry-based height and build estimation",
+      "detail": "Apply photogrammetric analysis using known fixed reference points in each camera's frame to estimate the height, build, and stride length of the subject captured on the morning, rooftop, and fleeing footage.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 14,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Gait analysis — morning, rooftop, and fleeing subject comparison",
+      "detail": "Conduct a comparative gait analysis across the morning-visit subject, the rooftop subject, and the fleeing subject captured on the same camera ecosystem to test whether all three represent a single consistent individual.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 15,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Timestamp discrepancy resolution across agency releases",
+      "detail": "Reconcile conflicting timestamps between footage and documents released by different agencies (campus police, local PD, FBI) to produce one internally consistent master chronology.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 16,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Spanish Fork encounter reconstruction",
+      "detail": "Reconstruct the reported Spanish Fork encounter in detail, including precise location, time, parties involved, and how it connects to the broader movement timeline of the day.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 17,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Vehicle telematics, infotainment, and GPS data extraction",
+      "detail": "Extract infotainment system logs, telematics data, and GPS history from any vehicle tied to the subject to independently corroborate the movement timeline.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 18,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "ALPR hit analysis along travel corridors",
+      "detail": "Pull automated license plate reader (ALPR) hits along all plausible travel corridors for the day to independently verify vehicle location and timing against the camera-based timeline.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 19,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Gas station purchase and fuel receipt timeline",
+      "detail": "Collect fuel purchase receipts and associated station camera footage to place the vehicle at specific times and locations throughout the day.",
+      "priority": "low",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 20,
+      "tier": 1,
+      "tier_name": "Camera/Surveillance Timeline",
+      "title": "Odometer and mileage reconciliation",
+      "detail": "Reconcile the vehicle's odometer readings against the claimed travel distances and route to check for consistency with the reconstructed timeline.",
+      "priority": "low",
+      "status": "not_started",
+      "category": "camera_audit"
+    },
+    {
+      "id": 21,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Palm print recovery and comparison analysis",
+      "detail": "Analyze the recovered palm print for quality, completeness, and comparison methodology used to match it to the suspect, including an independent review of the point-of-comparison chart.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 22,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Palm print substrate and surface suitability audit",
+      "detail": "Assess whether the surface the palm print was recovered from was forensically suitable for reliable print development and whether alternate light source or chemical processing was properly documented.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 23,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Sniper pad (shooting mat/rest) material and origin analysis",
+      "detail": "Analyze the material composition, manufacturer, and likely point of origin of the shooting pad/mat recovered at the firing position.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 24,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Sniper pad fiber and trace comparison to suspect's belongings",
+      "detail": "Compare fibers and trace material recovered from the shooting pad against fibers from clothing and belongings attributed to the suspect.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 25,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Roof substrate disturbance mapping",
+      "detail": "Map disturbances to the gravel, membrane, or other roof substrate at the firing position to reconstruct shooter positioning, movement, and dwell time.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 26,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Roof substrate trace evidence collection audit",
+      "detail": "Audit how trace evidence (fibers, residue, prints) was collected from the roof substrate, including whether the full firing-position area was processed or only a limited zone.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 27,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Footwear impression comparison",
+      "detail": "Compare footwear impressions recovered at the scene against shoes attributed to the suspect, including tread pattern, size, and wear-pattern analysis.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 28,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Footwear-to-shoe-collection database cross-reference",
+      "detail": "Cross-reference the recovered footwear impression against manufacturer tread databases to independently verify brand/model identification claims.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 29,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Landing/jump biomechanics reconstruction (roof egress)",
+      "detail": "Reconstruct the biomechanics of the shooter's egress from the roof, including estimated jump/drop height, landing point, and resulting impact forces.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 30,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Landing-point trauma correlation with rooftop height",
+      "detail": "Correlate any injuries attributed to the suspect with the estimated rooftop egress height to test physical plausibility of the claimed escape method.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 31,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Medical history review — biomechanics-relevant prior injuries",
+      "detail": "Review the suspect's medical history for prior injuries that would affect gait, jump capability, or physical performance relevant to the reconstructed events.",
+      "priority": "low",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 32,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Medical and psychiatric history relevant to capability determination",
+      "detail": "Review available medical and psychiatric history relevant to assessing physical and mental capability to plan and execute the events described.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 33,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Rifle make, model, and serial provenance",
+      "detail": "Trace the full ownership and possession chain of the recovered rifle by serial number, from manufacture through point of sale to recovery.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 34,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Scope/optic calibration and mounting analysis",
+      "detail": "Analyze the scope or optic recovered with the rifle for calibration accuracy, mounting integrity, and consistency with the claimed firing position and target distance.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 35,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "DNA matrix — full profile comparison across all recovered items",
+      "detail": "Build a full DNA comparison matrix across every item recovered from the scene, rifle, pad, clothing, and vehicle to map whose DNA appears where.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 36,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "DNA matrix — mixture and partial profile statistical analysis",
+      "detail": "Independently review the statistical methodology used to interpret any mixed or partial DNA profiles recovered from key items.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 37,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Evidence collection procedure and technician log audit",
+      "detail": "Audit scene technician logs and evidence collection procedures for completeness, sequencing, and adherence to protocol at each stage of processing.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 38,
+      "tier": 2,
+      "tier_name": "Physical Evidence",
+      "title": "Screwdriver/rotary tool provenance and tool-mark analysis",
+      "detail": "Trace the provenance of the screwdriver or rotary tool recovered in connection with the case and conduct tool-mark analysis against any tool marks found at the scene.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "physical"
+    },
+    {
+      "id": 39,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Cartridge case vs. recovered bullet consistency analysis",
+      "detail": "Independently verify that the recovered cartridge cases are consistent with the recovered bullet(s) in caliber, rifling characteristics, and firing sequence.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 40,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Cartridge case headstamp and manufacturer identification",
+      "detail": "Identify the headstamp markings on recovered cartridge cases to confirm manufacturer, caliber, and likely production batch.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 41,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "ATF firearms/toolmark examiner worksheet review",
+      "detail": "Obtain and independently review the ATF firearms and toolmark examiner's bench worksheets underlying the official ballistics conclusions.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 42,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "ATF NIBIN entry and correlation check",
+      "detail": "Check whether the recovered cartridge cases were entered into NIBIN and review any correlation hits against other cases or firearms.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 43,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "3D microscopic toolmark comparison — breech face and firing pin",
+      "detail": "Commission an independent 3D microscopic comparison of breech-face and firing-pin impressions to verify the match to the recovered rifle.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 44,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "3D comparison of rifling and land-and-groove characteristics",
+      "detail": "Conduct an independent 3D land-and-groove comparison between the recovered bullet and test-fired rounds from the rifle.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 45,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Ammunition lot number tracing to point of sale",
+      "detail": "Trace the ammunition lot number on recovered and unfired rounds to distributor and retail point-of-sale records.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 46,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Ammunition lot — unfired round comparison",
+      "detail": "Compare unfired rounds recovered from the scene or suspect's possession against the fired cartridge cases for lot consistency.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 47,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Engraving/inscription analysis on unfired cartridges",
+      "detail": "Document and analyze any engravings or inscriptions found on unfired cartridges, including method of engraving and tool used.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 48,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Engraving translation and symbolic-meaning assessment",
+      "detail": "Obtain independent expert translation and cultural/subcultural context analysis for any engraved text or symbols found on cartridges.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 49,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Bullet path/trajectory rod reconstruction at scene",
+      "detail": "Independently review the trajectory-rod reconstruction performed at the scene, including angle measurements and reference points used.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 50,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Bullet path — angle-of-incidence vs. rooftop position modeling",
+      "detail": "Model the angle of incidence of the fatal shot against the geometry of the claimed rooftop firing position to test physical consistency.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 51,
+      "tier": 3,
+      "tier_name": "Ballistics and Trajectory",
+      "title": "Acoustic gunshot localization via audio/video sync triangulation",
+      "detail": "Use synchronized audio tracks from multiple video sources to triangulate the origin point of the gunshot(s) independent of the visually identified firing position.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "ballistics"
+    },
+    {
+      "id": 52,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Native/unaltered text and SMS message extraction and metadata audit",
+      "detail": "Obtain native, forensically extracted text/SMS messages (not screenshots or summaries) along with full metadata to verify authenticity, sender/recipient, and timestamps.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 53,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "iMessage/encrypted chat provenance verification",
+      "detail": "Verify the extraction methodology and provenance chain for any iMessage or encrypted chat content introduced as evidence.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 54,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Discord direct-message records acquisition",
+      "detail": "Obtain Discord's own server-side records of direct messages attributed to the suspect, rather than relying solely on client-side screenshots.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 55,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Discord server/channel activity history",
+      "detail": "Pull complete server and channel activity history for any Discord accounts attributed to the suspect, including message edit/delete logs.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 56,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Discord account creation and login IP history",
+      "detail": "Obtain account creation records and login IP history for the Discord account(s) in question to verify ownership and usage patterns.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 57,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Handwritten note — handwriting exemplar comparison",
+      "detail": "Commission an independent forensic handwriting comparison between the note in evidence and verified exemplars of the suspect's handwriting.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 58,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Handwritten note — paper and ink forensic analysis",
+      "detail": "Conduct forensic analysis of the paper stock and ink used on the handwritten note to establish likely source and age.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 59,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Handwritten note — chain of custody and discovery-location documentation",
+      "detail": "Document the precise location, condition, and discovery circumstances of the handwritten note, and audit its chain of custody from discovery to analysis.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 60,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Browser history extraction — search queries and visited URLs",
+      "detail": "Extract full browser history, including search queries and visited URLs, from all devices attributed to the suspect.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 61,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Search history — pre-incident research pattern analysis",
+      "detail": "Analyze the pattern and timing of pre-incident search activity to assess planning, research, or reconnaissance behavior.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 62,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Cellular tower/cell-site location chronology",
+      "detail": "Build a cell-site location chronology from carrier records to independently corroborate the suspect's movements throughout the relevant period.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 63,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Cellular — call detail record (CDR) timeline",
+      "detail": "Obtain and analyze call detail records to build a timeline of calls, durations, and contacted parties around the incident.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 64,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Cellular — device provisioning and carrier account history",
+      "detail": "Review device provisioning records and carrier account history to verify device ownership and continuity of use.",
+      "priority": "low",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 65,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Wi-Fi access-point association log analysis",
+      "detail": "Analyze Wi-Fi access-point association logs from relevant venues and networks to place devices at specific locations and times.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 66,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Wi-Fi probe request history for device presence timeline",
+      "detail": "Use Wi-Fi probe request logs, where available, to establish a device presence timeline even when the device did not fully connect to a network.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 67,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Bluetooth pairing/proximity log analysis",
+      "detail": "Analyze Bluetooth pairing and proximity logs from relevant devices to establish device-to-device contact and location history.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 68,
+      "tier": 4,
+      "tier_name": "Digital Evidence",
+      "title": "Bluetooth device-to-device contact history cross-reference",
+      "detail": "Cross-reference Bluetooth contact history against the reconstructed movement timeline to identify corroborating or contradicting device encounters.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "digital"
+    },
+    {
+      "id": 69,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Clothing item identification — rooftop subject vs. later subject",
+      "detail": "Compare clothing items worn by the rooftop subject against clothing worn by the subject captured in later footage to test whether they are the same garments.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 70,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Clothing identification — color/pattern frame-by-frame comparison",
+      "detail": "Conduct a frame-by-frame color and pattern comparison of clothing across all camera sightings, accounting for lighting variation between cameras.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 71,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Retail purchase history for identified clothing items",
+      "detail": "Trace retail purchase records for the specific clothing items identified, including store, date, and payment method.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 72,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Retail purchase history — payment method and receipt tracing",
+      "detail": "Trace the payment method used for identified clothing purchases back to the account holder and cross-reference with financial records.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 73,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Fabric weave/material comparison analysis",
+      "detail": "Conduct a forensic fabric weave and material composition comparison between recovered clothing and items purchased or attributed to the suspect.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 74,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Fabric trace-fiber transfer comparison to recovered items",
+      "detail": "Compare trace fibers recovered from the rifle, pad, and scene against the fabric composition of clothing attributed to the suspect.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 75,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Rifle-in-pants concealment reenactment (feasibility test)",
+      "detail": "Conduct a physical reenactment to test the feasibility of concealing the recovered rifle in the manner alleged, including fit, weight, and visibility.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 76,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Rifle-in-pants — gait/movement impact assessment",
+      "detail": "Assess how concealing the rifle as alleged would affect gait and movement, and compare that predicted gait signature against the gait analysis from Tier 1.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 77,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Disguise/appearance-change timeline across camera sightings",
+      "detail": "Build a timeline of any appearance changes (clothing, headwear, accessories) across all camera sightings of the subject throughout the day.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 78,
+      "tier": 5,
+      "tier_name": "Clothing and Disguise",
+      "title": "Clothing change location and disposal-site analysis",
+      "detail": "Identify the likely location(s) where clothing changes occurred and analyze any associated disposal site for discarded items.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "clothing"
+    },
+    {
+      "id": 79,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Scene access log — full roster of personnel entering perimeter",
+      "detail": "Obtain the complete roster of every individual who entered the scene perimeter, with entry and exit times, from first responder arrival forward.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 80,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Scene access log — timestamp cross-check against camera footage",
+      "detail": "Cross-check the scene access log against available camera footage to verify accuracy and identify any undocumented entries.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 81,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Rifle discovery — precise location and discovery-method documentation",
+      "detail": "Document the precise location, position, and method by which the rifle was discovered, including who found it and under what circumstances.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 82,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Rifle discovery — discovering officer's report and body-cam review",
+      "detail": "Review the discovering officer's written report and any body-worn camera footage covering the moment of discovery for consistency with the official account.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 83,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Evidence chain-of-custody — item-by-item tracking log",
+      "detail": "Build an item-by-item chain-of-custody log for every piece of physical evidence from collection through final disposition.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 84,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Evidence chain-of-custody — gap/anomaly identification",
+      "detail": "Identify any gaps, unexplained delays, or handling anomalies in the chain-of-custody records for key evidence items.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 85,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Unrelated firearm recovered at scene — provenance and relevance assessment",
+      "detail": "Assess the provenance and relevance of any additional, seemingly unrelated firearm recovered at or near the scene.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 86,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Unrelated firearm — exclusion/inclusion ballistics testing",
+      "detail": "Conduct ballistics testing on any unrelated firearm to formally exclude or include it from the ballistics picture.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 87,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Unrelated bullet/fragment — origin and relevance assessment",
+      "detail": "Assess the origin and forensic relevance of any bullet or fragment recovered that does not match the primary ballistics narrative.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 88,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Unrelated bullet — trajectory exclusion analysis",
+      "detail": "Conduct trajectory analysis on any unrelated bullet/fragment to determine whether it can be formally excluded from the incident.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 89,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Maintenance/facilities rooftop access authorization log",
+      "detail": "Obtain the facilities/maintenance authorization log for rooftop access, including who was authorized to be on the roof and when.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 90,
+      "tier": 6,
+      "tier_name": "Crime-Scene Integrity",
+      "title": "Maintenance access — key/badge audit trail for roof-access points",
+      "detail": "Audit the key or badge-access trail for all roof-access points to determine who physically accessed the roof in the relevant time window.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "crime_scene"
+    },
+    {
+      "id": 91,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Witness location mapping",
+      "detail": "Map the precise physical location of every identified witness relative to the scene at the time of the incident.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 92,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Witness sightline/visibility analysis from mapped positions",
+      "detail": "Analyze the sightline and visibility each mapped witness would have had to the firing position and subject, accounting for obstructions and distance.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 93,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Early witness statements — first-report content audit",
+      "detail": "Audit the content of the earliest witness statements taken, before any potential cross-contamination from media coverage or other witnesses.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 94,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Early statements — comparison to later/revised statements",
+      "detail": "Compare each witness's earliest statement against any later or revised statements to identify shifts, additions, or inconsistencies.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 95,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Blind description matrix — physical description consistency",
+      "detail": "Build a matrix comparing physical descriptions given independently by each witness before descriptions were shared or publicized, to test consistency.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 96,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Blind description matrix — clothing description consistency",
+      "detail": "Build a matrix comparing clothing descriptions given independently by each witness before public release of clothing details.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 97,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Witness statement — law-enforcement interview timing log",
+      "detail": "Document the timing of each witness's formal law-enforcement interview relative to the incident and to any public information releases.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 98,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Witness credibility — vantage point and distance assessment",
+      "detail": "Assess each witness's vantage point, distance, and environmental conditions at the time of observation as a credibility factor.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 99,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "911 call transcript and timeline cross-reference",
+      "detail": "Obtain 911 call transcripts and cross-reference their timestamps and content against the master incident timeline.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 100,
+      "tier": 7,
+      "tier_name": "Witness Evidence",
+      "title": "Witness statement — media interview vs. official statement comparison",
+      "detail": "Compare statements witnesses gave to media outlets against their official law-enforcement statements for consistency.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "witness"
+    },
+    {
+      "id": 101,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "TPUSA event advance packet acquisition",
+      "detail": "Obtain the full event advance packet prepared by or for Turning Point USA ahead of the event, including venue logistics and security planning documents.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 102,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Advance packet — security recommendations vs. implementation gap analysis",
+      "detail": "Compare the security recommendations documented in the advance packet against what was actually implemented on event day to identify gaps.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 103,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Advance packet — venue diagram and rooftop coverage assessment",
+      "detail": "Review venue diagrams included in the advance packet to assess whether the rooftop firing position was identified as a vulnerability during planning.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 104,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Security walk-through report — pre-event inspection findings",
+      "detail": "Obtain the pre-event security walk-through report and review its findings against the eventual firing position.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 105,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Security walk-through — rooftop/elevated-position assessment",
+      "detail": "Determine whether the pre-event walk-through specifically assessed rooftop or other elevated positions overlooking the venue.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 106,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Security walk-through — sign-off and approval chain",
+      "detail": "Trace the sign-off and approval chain for the security plan to identify who approved the final security posture.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 107,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Staffing map — assigned personnel positions at event time",
+      "detail": "Obtain the staffing map showing exactly where each assigned security and law-enforcement person was positioned at the time of the incident.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 108,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Staffing map — rooftop/perimeter coverage staffing levels",
+      "detail": "Assess staffing levels assigned to rooftop and perimeter coverage relative to the overall security plan.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 109,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Staffing map — private security vs. law-enforcement jurisdiction boundaries",
+      "detail": "Document jurisdictional boundaries between private security and law enforcement as reflected in the staffing map.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 110,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Event vendor and credentialing list cross-reference",
+      "detail": "Cross-reference the event vendor and credentialing list against individuals identified in scene-access logs and camera footage.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 111,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Pre-event threat assessment documentation",
+      "detail": "Obtain any pre-event threat assessment documentation prepared by event organizers or law enforcement.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 112,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Communications plan — radio channel and coordination log",
+      "detail": "Obtain the event-day communications plan and radio traffic log to reconstruct real-time coordination during the incident.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 113,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Metal detector/screening checkpoint coverage map",
+      "detail": "Map the coverage and staffing of metal-detector and screening checkpoints relative to all venue entry points.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 114,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Rooftop access control — event-day authorization list",
+      "detail": "Obtain the event-day authorization list specifically governing who could access the rooftop area.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 115,
+      "tier": 8,
+      "tier_name": "Security and Event Preparation",
+      "title": "Post-event after-action report review",
+      "detail": "Review the post-event after-action report prepared by security or law enforcement for findings on what failed and why.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "security"
+    },
+    {
+      "id": 116,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Autopsy report — full findings review",
+      "detail": "Obtain and independently review the complete autopsy report, including all findings, not just the summary cause-of-death statement.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 117,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Autopsy — cause and manner of death documentation audit",
+      "detail": "Audit the documentation supporting the stated cause and manner of death for completeness and internal consistency.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 118,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Wound angle/trajectory analysis",
+      "detail": "Independently analyze the wound angle documented in the autopsy to determine the trajectory of the projectile through the body.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 119,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Wound angle — consistency with claimed shooter position",
+      "detail": "Test whether the documented wound angle is geometrically consistent with the claimed rooftop shooter position and victim posture.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 120,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Victim posture at time of impact — reconstruction",
+      "detail": "Reconstruct the victim's body posture and orientation at the moment of impact using video, witness, and forensic evidence.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 121,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Posture reconstruction — stage/platform height correlation",
+      "detail": "Correlate the reconstructed victim posture with the stage or platform height and position at the time of the shot.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 122,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Fragment pattern analysis — bullet/bone fragment dispersal",
+      "detail": "Analyze the dispersal pattern of bullet and bone fragments to corroborate or challenge the reconstructed trajectory.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 123,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Fragment pattern — recovery location mapping",
+      "detail": "Map the precise recovery location of every fragment collected as evidence relative to the victim's position.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 124,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Entrance/exit wound characteristic documentation",
+      "detail": "Document entrance and exit wound characteristics in detail, including size, shape, and stippling, to support independent trajectory analysis.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 125,
+      "tier": 9,
+      "tier_name": "Medical and Trajectory",
+      "title": "Medical examiner testimony cross-reference with ballistics findings",
+      "detail": "Cross-reference medical examiner testimony and reports against the independent ballistics and trajectory findings for consistency.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "medical"
+    },
+    {
+      "id": 126,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Digital chronology — comprehensive pre-incident activity timeline",
+      "detail": "Build a comprehensive pre-incident digital activity timeline spanning messaging, browsing, and social media across all identified accounts and devices.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 127,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Digital chronology — ideology exposure timeline",
+      "detail": "Map the timeline of the suspect's exposure to relevant ideological or political content across platforms in the lead-up to the incident.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 128,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Political motive test — statements and affiliations review",
+      "detail": "Review documented statements, affiliations, and associations attributed to the suspect to test the strength of the claimed political motive.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 129,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Political motive test — alternative motive hypothesis testing",
+      "detail": "Systematically test alternative motive hypotheses (personal, financial, psychological, coerced) against the same evidence base used to support the political motive.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 130,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Inscription analysis — cartridge engraving meaning and context",
+      "detail": "Analyze the meaning and context of any engraved text or symbols on cartridges in connection with the asserted motive.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 131,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Inscription analysis — cross-reference to online communities and subculture",
+      "detail": "Cross-reference engraved phrases or symbols against known online communities, memes, or subcultures to establish likely origin and intended audience.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 132,
+      "tier": 10,
+      "tier_name": "Motive",
+      "title": "Motive — relationship and personal history review",
+      "detail": "Review the suspect's personal relationships and history for factors that could independently explain or contribute to motive.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "motive"
+    },
+    {
+      "id": 133,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Weather conditions at time of incident",
+      "detail": "Document precise weather conditions (visibility, precipitation, lighting) at the incident time and location using meteorological records.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 134,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Weather — wind effect on trajectory modeling",
+      "detail": "Incorporate wind speed and direction data into the independent trajectory modeling to assess its effect on the bullet's path.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 135,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Sun position/glare analysis for shooter sightline",
+      "detail": "Calculate sun position at the time of the incident and analyze potential glare effects on the shooter's sightline from the rooftop position.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 136,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Sun position — camera exposure and visibility impact assessment",
+      "detail": "Assess how sun position and resulting camera exposure conditions affected the visibility and identifiability of subjects in the footage.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 137,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Shadow analysis for subject identification timing",
+      "detail": "Use shadow length and direction visible in footage to independently verify the time of day for key frames.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 138,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Shadow-length time-of-day cross-verification",
+      "detail": "Cross-verify shadow-length-derived timestamps against the camera clock/timebase audit findings from Tier 1 to check for consistency.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 139,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Ambient sound analysis — gunshot acoustic signature",
+      "detail": "Analyze the acoustic signature of the gunshot(s) captured on ambient audio to assess consistency with the claimed firearm and distance.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 140,
+      "tier": 11,
+      "tier_name": "Environmental",
+      "title": "Ambient sound — crowd noise and reaction timing correlation",
+      "detail": "Correlate the timing of crowd noise and reaction captured on ambient audio with the moment of the shot to refine the master timeline.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "environmental"
+    },
+    {
+      "id": 141,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Master exhibit inventory — complete evidence catalog",
+      "detail": "Compile a complete master inventory of every exhibit and piece of evidence generated in the case, cross-referenced to its source report.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 142,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Exhibit inventory — chain-of-custody cross-check",
+      "detail": "Cross-check every exhibit in the master inventory against its chain-of-custody documentation to confirm unbroken tracking.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 143,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Exhibit inventory — missing/unaccounted item audit",
+      "detail": "Audit the master inventory for any evidence items referenced in reports but not accounted for in the physical or digital exhibit record.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 144,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Disclosure anomalies — discovery timeline versus production log",
+      "detail": "Compare the discovery/disclosure timeline against the actual production log of documents and evidence to identify delays or irregular sequencing.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 145,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Disclosure anomalies — redaction pattern review",
+      "detail": "Review redaction patterns across produced documents to identify what categories of information have been consistently withheld.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 146,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Disclosure anomalies — withheld exhibit identification",
+      "detail": "Identify exhibits referenced in reports or testimony that have not been produced, and document the basis given for withholding them.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 147,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Cross-examination index — witness inconsistency catalog",
+      "detail": "Build an index cataloging every identified inconsistency across witness statements for use in cross-examination preparation.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 148,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Cross-examination index — expert testimony vulnerability mapping",
+      "detail": "Map potential vulnerabilities in each expert witness's methodology and conclusions for cross-examination preparation.",
+      "priority": "medium",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 149,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Cross-examination index — timeline contradiction index",
+      "detail": "Build an index of every identified contradiction in the official timeline, cross-referenced to its supporting source document.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "preservation"
+    },
+    {
+      "id": 150,
+      "tier": 12,
+      "tier_name": "Evidence Preservation",
+      "title": "Preservation order compliance audit",
+      "detail": "Audit compliance with any evidence preservation order, including verification that all relevant original digital and physical evidence has been preserved unaltered.",
+      "priority": "high",
+      "status": "not_started",
+      "category": "preservation"
+    }
+  ]
+}
